@@ -45,7 +45,7 @@ const List = styled("ul", {
 const Logo = styled("h1", {
   margin: "0",
   flex: "1",
-  color: "$primary"
+  color: "$fg"
 });
 
 export default function Header() {

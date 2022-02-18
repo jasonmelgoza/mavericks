@@ -9,7 +9,7 @@ const Header = styled("h1", {
   fontFamily: "$sans",
   fontSize: "64px",
   lineHeight: "1.25",
-  color: "$bg",
+  color: "$fg",
   backgroundColor: "$primary16"
 });
 
