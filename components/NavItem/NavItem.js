@@ -11,7 +11,7 @@ const StyledContent = styled(TooltipPrimitive.Content, {
   padding: "10px 16px",
   fontSize: "14px",
   lineHeight: 1,
-  color: "black",
+  color: "$bg",
   backgroundColor: "$primary",
   borderRadius: "6px",
   boxShadow:
@@ -49,11 +49,16 @@ const NavIcon = styled("div", {
     alignItems: "center",
     height: "100%",
     width: "100%",
-    color: "$primary",
+    color: "$fg",
     backgroundColor: "transparent",
     borderRadius: "6px",
 
-    "&:hover": { backgroundColor: "$primary16" }
+    transition: "color 0.15s ease, background-color 0.15s ease",
+
+    "&:hover": {
+      color: "$primary",
+      backgroundColor: "$primary16"
+    }
   }
 });
 

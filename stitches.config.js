@@ -23,6 +23,26 @@ export const { css, globalCss, styled, keyframes } = createStitches({
     },
     fonts: {
       sans: "'Satoshi', sans-serif"
+    },
+    fontSizes: {
+      huge: "4rem"
+    },
+    fontWeights: {
+      normal: "400",
+      medium: "500",
+      semibold: "600",
+      bold: "700",
+      black: "900"
+    },
+    letterSpacings: {
+      tight: "0.025em",
+      tighter: "-0.05em"
+    },
+    lineHeights: {
+      none: "1",
+      tight: "1.25",
+      snug: "1.375",
+      normal: "1.5"
     }
   }
 });
