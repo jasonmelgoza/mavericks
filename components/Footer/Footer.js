@@ -1,19 +1,40 @@
-import Image from "next/image";
 import { styled } from "../../stitches.config";
 
+import Icon from "../Icon";
+
 const Box = styled("footer", {
-  display: "flex",
   maxWidth: "900px",
   margin: "0 auto",
   paddingBottom: "96px"
 });
 
 const Content = styled("div", {
-  display: "flex",
   paddingLeft: "calc(env(safe-area-inset-left) + 96px)",
   paddingRight: "calc(env(safe-area-inset-right) + 96px)",
-  alignItems: "center",
   width: "100%"
+});
+
+const List = styled("ul", {
+  display: "inline-flex",
+  alignItems: "center",
+  gap: "$2",
+  height: "100%",
+  margin: "0",
+  padding: "0",
+  listStyle: "none",
+
+  "& li": {
+    display: "flex",
+    height: "36px",
+    width: "40px"
+  }
+});
+
+const Year = styled("div", {
+  marginTop: "1rem",
+  fontSize: "$small",
+  fontWeight: "$medium",
+  color: "$fg64"
 });
 
 export default function Footer() {
@@ -21,21 +42,42 @@ export default function Footer() {
     <>
       <Box>
         <Content>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{" "}
-            <span>
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                width={72}
-                height={16}
-              />
-            </span>
-          </a>
+          <List>
+            <li>
+              <a
+                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>
+                  <Icon name="twitter" />
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>
+                  <Icon name="instagram" />
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>
+                  <Icon name="dribbble" />
+                </span>
+              </a>
+            </li>
+          </List>
+          <Year>&copy; 2022</Year>
         </Content>
       </Box>
     </>

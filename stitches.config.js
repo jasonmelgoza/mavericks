@@ -4,6 +4,7 @@ export const { css, globalCss, styled, keyframes } = createStitches({
   theme: {
     colors: {
       fg: "hsla(213, 18%, 10%, 1)",
+      fg64: "hsla(213, 18%, 10%, 0.64)",
       bg: "hsla(210, 25%, 98%, 1)",
       bg16: "hsla(210, 25%, 98%, .16)",
       primary: "hsla(359, 86%, 67%, 1)",
@@ -27,6 +28,8 @@ export const { css, globalCss, styled, keyframes } = createStitches({
     fontSizes: {
       huge: "4rem",
       large: "2.5rem",
+      normal: "1rem",
+      small: "0.75rem"
     },
     fontWeights: {
       normal: "400",
