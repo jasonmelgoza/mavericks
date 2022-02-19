@@ -5,7 +5,20 @@ import Header from "../Header";
 import Footer from "../Footer";
 
 const globalStyles = globalCss({
-  fontFamily: "$sans"
+  "*": { margin: 0, padding: 0 },
+
+  "body, html": {
+    height: "100%",
+    padding: "0",
+    margin: "0"
+  },
+
+  body: {
+    fontFamily: "$sans",
+    lineHeight: "1.5",
+    textSizeAdjust: "100%",
+    "-webkit-font-smoothing": "antialiased"
+  }
 });
 
 export default function Layout({ children }) {
