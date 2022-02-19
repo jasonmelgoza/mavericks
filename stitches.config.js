@@ -25,7 +25,8 @@ export const { css, globalCss, styled, keyframes } = createStitches({
       sans: "'Satoshi', sans-serif"
     },
     fontSizes: {
-      huge: "4rem"
+      huge: "4rem",
+      large: "2.5rem",
     },
     fontWeights: {
       normal: "400",

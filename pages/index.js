@@ -5,13 +5,7 @@ import { Layout } from "../components";
 import styles from "../styles/Home.module.css";
 
 const Main = styled("main", {
-  minHeight: "100vh",
   padding: "$9 0",
-  flex: "1 1",
-  display: "flex",
-  flexDirection: "column",
-  justifyContent: "center",
-  alignItems: "center"
 });
 
 const Box = styled("div", {
@@ -37,6 +31,21 @@ const Header = styled("h1", {
   color: "$fg"
 });
 
+const Body = styled("div", {
+  padding: "$9 0",
+  maxWidth: "35rem",
+
+  p: {
+    fontSize: "large",
+    fontWeight: "$medium",
+    lineHeight: "$normal",
+
+    "&:not(:last-child)": {
+      marginBottom: "1rem"
+    }
+  }
+});
+
 export default function Home() {
   return (
     <Layout>
@@ -50,47 +59,23 @@ export default function Home() {
                 I'm Jason Melgoza
               </Header>
 
-              <p className={styles.description}>
-                Get started by editing{" "}
-                <code className={styles.code}>pages/index.js</code>
-              </p>
-
-              <div className={styles.grid}>
-                <a href="https://nextjs.org/docs" className={styles.card}>
-                  <h2>Documentation &rarr;</h2>
-                  <p>
-                    Find in-depth information about Next.js features and API.
-                  </p>
-                </a>
-
-                <a href="https://nextjs.org/learn" className={styles.card}>
-                  <h2>Learn &rarr;</h2>
-                  <p>
-                    Learn about Next.js in an interactive course with quizzes!
-                  </p>
-                </a>
-
-                <a
-                  href="https://github.com/vercel/next.js/tree/master/examples"
-                  className={styles.card}
-                >
-                  <h2>Examples &rarr;</h2>
-                  <p>
-                    Discover and deploy boilerplate example Next.js projects.
-                  </p>
-                </a>
-
-                <a
-                  href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                  className={styles.card}
-                >
-                  <h2>Deploy &rarr;</h2>
-                  <p>
-                    Instantly deploy your Next.js site to a public URL with
-                    Vercel.
-                  </p>
-                </a>
-              </div>
+              <Body>
+                <p>
+                  I'm an interface designer who is passionate about turning
+                  complex problems into simple and elegant solutions.
+                </p>
+                <p>
+                  I specialize in product design for the web and thrive in 0 → 1
+                  work. My focus is on visual design, user experience, and
+                  design systems. I also code for the web with a focus on React,
+                  CSS architecture, and component systems.
+                </p>
+                <p>
+                  Currently, I’m working at SecureDocs with an incredible
+                  cross-functional team, centering on building easy-to-use
+                  browser-based software.
+                </p>
+              </Body>
             </Content>
           </Box>
         </Main>

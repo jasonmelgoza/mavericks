@@ -10,7 +10,8 @@ const slideDownAndFade = keyframes({
 const StyledContent = styled(TooltipPrimitive.Content, {
   padding: "10px 16px",
   fontSize: "14px",
-  lineHeight: 1,
+  fontWeight: "$medium",
+  lineHeight: "$none",
   color: "$bg",
   backgroundColor: "$primary",
   borderRadius: "6px",
