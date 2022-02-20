@@ -1,11 +1,11 @@
 import { styled } from "../stitches.config.js";
 
-import { Layout } from "../components";
+import { Layout, Icon } from "../components";
 
 import styles from "../styles/Home.module.css";
 
 const Main = styled("main", {
-  padding: "$9 0",
+  padding: "$9 0"
 });
 
 const Box = styled("div", {
@@ -31,6 +31,18 @@ const Header = styled("h1", {
   color: "$fg"
 });
 
+const SubHeader = styled("div", {
+  display: "flex",
+  marginBottom: "$4",
+  flexDirection: "row",
+  alignItems: "center",
+  gap: "$1",
+  justifyContent: "flex-start",
+  fontSize: "20px",
+  fontWeight: "$medium",
+  lineHeight: "$normal"
+});
+
 const Body = styled("div", {
   padding: "$9 0",
   maxWidth: "40rem",
@@ -53,6 +65,11 @@ export default function Home() {
         <Main>
           <Box>
             <Content>
+              <SubHeader>
+                <Icon name="pin" />
+                Santa Maria, California
+              </SubHeader>
+
               <Header>
                 Hi there,
                 <br />
@@ -65,10 +82,10 @@ export default function Home() {
                   complex problems into simple and elegant solutions.
                 </p>
                 <p>
-                  I specialize in product design for the web and thrive in 0 <span>&rarr;</span> 1
-                  work. My focus is on visual design, user experience, and
-                  design systems. I also code for the web with a focus on React,
-                  CSS architecture, and component systems.
+                  I specialize in product design for the web and thrive in 0{" "}
+                  <span>&rarr;</span> 1 work. My focus is on visual design, user
+                  experience, and design systems. I also code for the web with a
+                  focus on React, CSS architecture, and component systems.
                 </p>
                 <p>
                   Currently, I'm working at SecureDocs, Inc. with an incredible
