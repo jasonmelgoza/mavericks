@@ -43,9 +43,22 @@ const List = styled("ul", {
 });
 
 const Logo = styled("h1", {
+  display: "flex",
+  flexDirection: "row",
+  alignItems: "center",
+  justifyContent: "flex-start",
   margin: "0",
   flex: "1",
-  color: "$fg"
+  color: "$fg",
+
+  a: {
+    display: "inline-block",
+    transition: "color 0.15s ease",
+
+    "&:hover": {
+      color: "$primary"
+    }
+  }
 });
 
 export default function Header() {

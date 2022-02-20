@@ -23,14 +23,22 @@ const List = styled("ul", {
   padding: "0",
   listStyle: "none",
 
-  "& li": {
+  li: {
     display: "flex",
     height: "36px",
     width: "40px"
+  },
+
+  a: {
+    transition: "color 0.15s ease",
+
+    "&:hover": {
+      color: "$primary"
+    }
   }
 });
 
-const Year = styled("div", {
+const Copy = styled("div", {
   marginTop: "1rem",
   fontSize: "$small",
   fontWeight: "$medium",
@@ -45,7 +53,7 @@ export default function Footer() {
           <List>
             <li>
               <a
-                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                href="https://twitter.com/jasonmelgoza"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -77,7 +85,7 @@ export default function Footer() {
               </a>
             </li>
           </List>
-          <Year>&copy; 2022</Year>
+          <Copy>&copy; 2022</Copy>
         </Content>
       </Box>
     </>

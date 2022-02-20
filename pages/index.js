@@ -33,7 +33,7 @@ const Header = styled("h1", {
 
 const Body = styled("div", {
   padding: "$9 0",
-  maxWidth: "35rem",
+  maxWidth: "40rem",
 
   p: {
     fontSize: "large",
@@ -65,13 +65,13 @@ export default function Home() {
                   complex problems into simple and elegant solutions.
                 </p>
                 <p>
-                  I specialize in product design for the web and thrive in 0 → 1
+                  I specialize in product design for the web and thrive in 0 <span>&rarr;</span> 1
                   work. My focus is on visual design, user experience, and
                   design systems. I also code for the web with a focus on React,
                   CSS architecture, and component systems.
                 </p>
                 <p>
-                  Currently, I’m working at SecureDocs with an incredible
+                  Currently, I'm working at SecureDocs, Inc. with an incredible
                   cross-functional team, centering on building easy-to-use
                   browser-based software.
                 </p>
