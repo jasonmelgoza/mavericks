@@ -88,9 +88,12 @@ export default function Home() {
                   focus on React, CSS architecture, and component systems.
                 </p>
                 <p>
-                  Currently, I'm working at SecureDocs, Inc. with an incredible
-                  cross-functional team, centering on building easy-to-use
-                  browser-based software.
+                  Currently, I'm working at{" "}
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    SecureDocs, Inc
+                  </a>{" "}
+                  with an incredible cross-functional team, centering on
+                  building easy-to-use browser-based software.
                 </p>
               </Body>
             </Content>
