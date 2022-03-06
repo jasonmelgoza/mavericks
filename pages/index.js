@@ -2,8 +2,6 @@ import { styled } from "../stitches.config.js";
 
 import { Layout, Icon } from "../components";
 
-import styles from "../styles/Home.module.css";
-
 const Main = styled("main", {
   padding: "$9 0"
 });
@@ -11,20 +9,20 @@ const Main = styled("main", {
 const Box = styled("div", {
   display: "flex",
   flexDirection: "column",
-  maxWidth: "900px",
+  maxWidth: "54rem",
   margin: "0 auto"
 });
 
 const Content = styled("div", {
-  paddingLeft: "calc(env(safe-area-inset-left) + 96px)",
-  paddingRight: "calc(env(safe-area-inset-right) + 96px)",
+  paddingLeft: "calc(env(safe-area-inset-left) + 64px)",
+  paddingRight: "calc(env(safe-area-inset-right) + 64px)",
   width: "100%"
 });
 
 const Header = styled("h1", {
   textAlign: "left",
   fontFamily: "$sans",
-  fontSize: "$huge",
+  fontSize: "min(max($large, 9vw), $huge)",
   fontWeight: "$black",
   lineHeight: "$none",
   letterSpacing: "$tighter",
@@ -61,45 +59,43 @@ const Body = styled("div", {
 export default function Home() {
   return (
     <Layout>
-      <div className={styles.container}>
-        <Main>
-          <Box>
-            <Content>
-              <SubHeader>
-                <Icon name="pin" />
-                Santa Maria, California
-              </SubHeader>
+      <Main>
+        <Box>
+          <Content>
+            <SubHeader>
+              <Icon name="pin" />
+              Santa Maria, California
+            </SubHeader>
 
-              <Header>
-                Hi there,
-                <br />
-                I'm Jason Melgoza
-              </Header>
+            <Header>
+              Hi there,
+              <br />
+              I'm Jason Melgoza
+            </Header>
 
-              <Body>
-                <p>
-                  I'm an interface designer who is passionate about turning
-                  complex problems into simple and elegant solutions.
-                </p>
-                <p>
-                  I specialize in product design for the web and thrive in 0{" "}
-                  <span>&rarr;</span> 1 work. My focus is on visual design, user
-                  experience, and design systems. I also code for the web with a
-                  focus on React, CSS architecture, and component systems.
-                </p>
-                <p>
-                  Currently, I'm working at{" "}
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    SecureDocs, Inc
-                  </a>{" "}
-                  with an incredible cross-functional team, centering on
-                  building easy-to-use browser-based software.
-                </p>
-              </Body>
-            </Content>
-          </Box>
-        </Main>
-      </div>
+            <Body>
+              <p>
+                I'm an interface designer who is passionate about turning
+                complex problems into simple and elegant solutions.
+              </p>
+              <p>
+                I specialize in product design for the web and thrive in 0{" "}
+                <span>&rarr;</span> 1 work. My focus is on visual design, user
+                experience, and design systems. I also code for the web with a
+                focus on React, CSS architecture, and component systems.
+              </p>
+              <p>
+                Currently, I'm working at{" "}
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  SecureDocs, Inc
+                </a>{" "}
+                with an incredible cross-functional team, centering on building
+                easy-to-use browser-based software.
+              </p>
+            </Body>
+          </Content>
+        </Box>
+      </Main>
     </Layout>
   );
 }

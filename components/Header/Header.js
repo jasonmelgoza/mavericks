@@ -7,15 +7,15 @@ import NavItem from "../NavItem";
 
 const Box = styled("header", {
   display: "flex",
-  maxWidth: "900px",
+  maxWidth: "54rem",
   margin: "0 auto",
   paddingTop: "96px"
 });
 
 const Content = styled("div", {
   display: "flex",
-  paddingLeft: "calc(env(safe-area-inset-left) + 96px)",
-  paddingRight: "calc(env(safe-area-inset-right) + 96px)",
+  paddingLeft: "calc(env(safe-area-inset-left) + 64px)",
+  paddingRight: "calc(env(safe-area-inset-right) + 64px)",
   alignItems: "center",
   width: "100%"
 });
