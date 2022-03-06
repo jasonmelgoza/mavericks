@@ -28,6 +28,7 @@ export const { css, globalCss, styled, keyframes } = createStitches({
     fontSizes: {
       huge: "4rem",
       large: "2.5rem",
+      medium: "1.5rem",
       normal: "1rem",
       small: "0.75rem"
     },
@@ -48,5 +49,10 @@ export const { css, globalCss, styled, keyframes } = createStitches({
       snug: "1.375",
       normal: "1.5"
     }
+  },
+  media: {
+    bp1: "(max-width: 640px)",
+    bp2: "(max-width: 768px)",
+    bp3: "(max-width: 1440px)"
   }
 });

@@ -22,11 +22,15 @@ const Content = styled("div", {
 const Header = styled("h1", {
   textAlign: "left",
   fontFamily: "$sans",
-  fontSize: "min(max($large, 9vw), $huge)",
+  fontSize: "$huge",
   fontWeight: "$black",
   lineHeight: "$none",
   letterSpacing: "$tighter",
-  color: "$fg"
+  color: "$fg",
+
+  '@bp1': {
+    fontSize: "$large",
+  },
 });
 
 const SubHeader = styled("div", {
@@ -38,21 +42,33 @@ const SubHeader = styled("div", {
   justifyContent: "flex-start",
   fontSize: "20px",
   fontWeight: "$medium",
-  lineHeight: "$normal"
+  lineHeight: "$normal",
+
+  '@bp1': {
+    fontSize: "$normal",
+  },
 });
 
 const Body = styled("div", {
   padding: "$9 0",
   maxWidth: "40rem",
 
+  '@bp1': {
+    padding: "$7 0",
+  },
+
   p: {
-    fontSize: "large",
+    fontSize: "$medium",
     fontWeight: "$medium",
     lineHeight: "$normal",
 
     "&:not(:last-child)": {
       marginBottom: "1rem"
-    }
+    },
+
+    '@bp1': {
+      fontSize: "$normal",
+    },
   }
 });
 
