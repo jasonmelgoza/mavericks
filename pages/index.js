@@ -3,7 +3,11 @@ import { styled } from "../stitches.config.js";
 import { Layout, Icon } from "../components";
 
 const Main = styled("main", {
-  padding: "$9 0"
+  padding: "$9 0",
+
+  "@bp1": {
+    padding: "$6 0"
+  }
 });
 
 const Box = styled("div", {
@@ -16,7 +20,12 @@ const Box = styled("div", {
 const Content = styled("div", {
   paddingLeft: "calc(env(safe-area-inset-left) + 64px)",
   paddingRight: "calc(env(safe-area-inset-right) + 64px)",
-  width: "100%"
+  width: "100%",
+
+  "@bp1": {
+    paddingLeft: "calc(env(safe-area-inset-left) + 48px)",
+    paddingRight: "calc(env(safe-area-inset-right) + 48px)"
+  }
 });
 
 const Header = styled("h1", {
@@ -28,9 +37,9 @@ const Header = styled("h1", {
   letterSpacing: "$tighter",
   color: "$fg",
 
-  '@bp1': {
-    fontSize: "$large",
-  },
+  "@bp1": {
+    fontSize: "2rem"
+  }
 });
 
 const SubHeader = styled("div", {
@@ -44,17 +53,17 @@ const SubHeader = styled("div", {
   fontWeight: "$medium",
   lineHeight: "$normal",
 
-  '@bp1': {
-    fontSize: "$normal",
-  },
+  "@bp1": {
+    fontSize: "$normal"
+  }
 });
 
 const Body = styled("div", {
   padding: "$9 0",
   maxWidth: "40rem",
 
-  '@bp1': {
-    padding: "$7 0",
+  "@bp1": {
+    padding: "$6 0"
   },
 
   p: {
@@ -66,9 +75,9 @@ const Body = styled("div", {
       marginBottom: "1rem"
     },
 
-    '@bp1': {
-      fontSize: "$normal",
-    },
+    "@bp1": {
+      fontSize: "$normal"
+    }
   }
 });
 

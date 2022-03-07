@@ -9,7 +9,11 @@ const Box = styled("header", {
   display: "flex",
   maxWidth: "54rem",
   margin: "0 auto",
-  paddingTop: "96px"
+  paddingTop: "$11",
+
+  "@bp1": {
+    paddingTop: "$10"
+  }
 });
 
 const Content = styled("div", {
@@ -17,7 +21,12 @@ const Content = styled("div", {
   paddingLeft: "calc(env(safe-area-inset-left) + 64px)",
   paddingRight: "calc(env(safe-area-inset-right) + 64px)",
   alignItems: "center",
-  width: "100%"
+  width: "100%",
+
+  "@bp1": {
+    paddingLeft: "calc(env(safe-area-inset-left) + 48px)",
+    paddingRight: "calc(env(safe-area-inset-right) + 48px)"
+  }
 });
 
 const Nav = styled("nav", {

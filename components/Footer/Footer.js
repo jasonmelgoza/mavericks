@@ -11,7 +11,12 @@ const Box = styled("footer", {
 const Content = styled("div", {
   paddingLeft: "calc(env(safe-area-inset-left) + 64px)",
   paddingRight: "calc(env(safe-area-inset-right) + 64px)",
-  width: "100%"
+  width: "100%",
+
+  "@bp1": {
+    paddingLeft: "calc(env(safe-area-inset-left) + 48px)",
+    paddingRight: "calc(env(safe-area-inset-right) + 48px)"
+  }
 });
 
 const List = styled("ul", {

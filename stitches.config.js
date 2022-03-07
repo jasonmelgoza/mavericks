@@ -16,11 +16,12 @@ export const { css, globalCss, styled, keyframes } = createStitches({
       3: "1rem",
       4: "1.5rem",
       5: "2rem",
-      6: "2.5",
+      6: "2.5rem",
       7: "3rem",
       8: "3.5rem",
       9: "4rem",
-      10: "5rem"
+      10: "5rem",
+      11: "6rem"
     },
     fonts: {
       sans: "'Satoshi', sans-serif"
