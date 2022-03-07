@@ -7,7 +7,7 @@ import NavItem from "../NavItem";
 
 const Box = styled("header", {
   display: "flex",
-  maxWidth: "54rem",
+  maxWidth: "50rem",
   margin: "0 auto",
   paddingTop: "$11",
 
@@ -66,6 +66,14 @@ const Logo = styled("h1", {
 
     "&:hover": {
       color: "$primary"
+    }
+  },
+
+  svg: {
+    transform: "scale(1)",
+
+    "@bp1": {
+      transform: "scale(.85)"
     }
   }
 });

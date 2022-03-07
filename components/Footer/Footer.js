@@ -3,7 +3,7 @@ import { styled } from "../../stitches.config";
 import Icon from "../Icon";
 
 const Box = styled("footer", {
-  maxWidth: "54rem",
+  maxWidth: "50rem",
   margin: "0 auto",
   paddingBottom: "96px"
 });

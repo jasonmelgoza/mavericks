@@ -13,7 +13,7 @@ const Main = styled("main", {
 const Box = styled("div", {
   display: "flex",
   flexDirection: "column",
-  maxWidth: "54rem",
+  maxWidth: "50rem",
   margin: "0 auto"
 });
 
@@ -77,6 +77,34 @@ const Body = styled("div", {
 
     "@bp1": {
       fontSize: "$normal"
+    }
+  },
+
+  a: {
+    position: "relative",
+    color: "$primary",
+    transition: "color 0.15s ease-in",
+
+    "&:before": {
+      content: "",
+      position: "absolute",
+      bottom: "-4px",
+      left: "0",
+      right: "0",
+      height: "2px",
+      backgroundColor: "$primary",
+      transformOrigin: "bottom right",
+      transform: "scaleX(0)",
+      transition: "transform 0.5s ease"
+    },
+
+    "&:hover": {
+      color: "$primary",
+
+      "&:before": {
+        transformOrigin: "bottom left",
+        transform: "scaleX(1)"
+      }
     }
   }
 });
