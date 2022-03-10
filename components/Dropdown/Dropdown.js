@@ -1,7 +1,6 @@
-import { styled, keyframes } from "../../stitches.config";
 import Link from "next/link";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
-
+import { styled, keyframes } from "../../stitches.config";
 import { Icon } from "../";
 
 const NavButton = styled("button", {
@@ -24,17 +23,33 @@ const NavButton = styled("button", {
   "&:focus": { boxShadow: `0 0 0 2px black` },
 });
 
-const scaleIn = keyframes({
-  "0%": { opacity: 0, transform: "translateY(2px)" },
+const scaleOut = keyframes({
+  "0%": { opacity: 0, transform: "translateY(-3px)" },
   "100%": { opacity: 1, transform: "translateY(0)" },
 });
 
 const StyledContent = styled(DropdownMenu.Content, {
+  padding: "$1 0 $1 0",
   transformOrigin: "var(--radix-dropdown-menu-content-transform-origin)",
-  animation: `${scaleIn} 0.5s ease-out forwards`,
+  animation: `${scaleOut} 250ms cubic-bezier(0.4, 0, 0.2, 1) forwards`,
   borderRadius: "6px",
-  boxShadow: `0 0 0 2px black`,
-  padding: "12px",
+  backgroundColor: "$bg",
+  border: "1px solid $fg16",
+  boxShadow: `$huge`,
+});
+
+const StyledItem = styled(DropdownMenu.Item, {
+  padding: "$1 $3",
+
+  "& a": {
+    lineHight: "$tight",
+    fontSize: "1.25rem",
+    color: "$fg",
+
+    "&:hover": {
+      color: "$primary",
+    },
+  },
 });
 
 export default () => (
@@ -45,22 +60,22 @@ export default () => (
       </NavButton>
     </DropdownMenu.Trigger>
 
-    <StyledContent>
-      <DropdownMenu.Item>
+    <StyledContent align="end">
+      <StyledItem>
         <Link href="/about">
           <a>Work</a>
         </Link>
-      </DropdownMenu.Item>
-      <DropdownMenu.Item>
+      </StyledItem>
+      <StyledItem>
         <Link href="/about">
           <a>Projects</a>
         </Link>
-      </DropdownMenu.Item>
-      <DropdownMenu.Item>
+      </StyledItem>
+      <StyledItem>
         <Link href="/about">
           <a>About Me</a>
         </Link>
-      </DropdownMenu.Item>
+      </StyledItem>
     </StyledContent>
   </DropdownMenu.Root>
 );

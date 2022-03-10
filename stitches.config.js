@@ -4,6 +4,7 @@ export const { css, globalCss, styled, keyframes } = createStitches({
   theme: {
     colors: {
       fg: "hsla(213, 18%, 10%, 1)",
+      fg16: "hsla(213, 18%, 10%, 0.16)",
       fg64: "hsla(213, 18%, 10%, 0.64)",
       bg: "hsla(210, 25%, 98%, 1)",
       bg16: "hsla(210, 25%, 98%, .16)",
@@ -49,6 +50,9 @@ export const { css, globalCss, styled, keyframes } = createStitches({
       tight: "1.25",
       snug: "1.375",
       normal: "1.5"
+    },
+    shadows: {
+      huge: "0 50px 100px -20px rgba(50,50,93,0.25), 0 30px 60px -30px rgba(0,0,0,0.3)"
     }
   },
   media: {
