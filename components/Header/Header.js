@@ -4,6 +4,7 @@ import { styled } from "../../stitches.config";
 
 import Icon from "../Icon";
 import NavItem from "../NavItem";
+import Dropdown from "../Dropdown";
 
 const Box = styled("header", {
   display: "flex",
@@ -12,8 +13,8 @@ const Box = styled("header", {
   paddingTop: "$11",
 
   "@bp1": {
-    paddingTop: "$10"
-  }
+    paddingTop: "$10",
+  },
 });
 
 const Content = styled("div", {
@@ -25,14 +26,18 @@ const Content = styled("div", {
 
   "@bp1": {
     paddingLeft: "calc(env(safe-area-inset-left) + 48px)",
-    paddingRight: "calc(env(safe-area-inset-right) + 48px)"
-  }
+    paddingRight: "calc(env(safe-area-inset-right) + 48px)",
+  },
 });
 
 const Nav = styled("nav", {
   display: "flex",
   alignItems: "center",
-  height: "100%"
+  height: "100%",
+
+  "@bp1": {
+    display: "none",
+  },
 });
 
 const List = styled("ul", {
@@ -47,8 +52,16 @@ const List = styled("ul", {
   "& li": {
     display: "flex",
     height: "36px",
-    width: "40px"
-  }
+    width: "40px",
+  },
+});
+
+const MobileNav = styled("nav", {
+  display: "none",
+
+  "@bp1": {
+    display: "block",
+  },
 });
 
 const Logo = styled("h1", {
@@ -65,17 +78,17 @@ const Logo = styled("h1", {
     transition: "color 0.15s ease",
 
     "&:hover": {
-      color: "$primary"
-    }
+      color: "$primary",
+    },
   },
 
   svg: {
     transform: "scale(1)",
 
     "@bp1": {
-      transform: "scale(.85)"
-    }
-  }
+      transform: "scale(.85)",
+    },
+  },
 });
 
 export default function Header() {
@@ -131,6 +144,10 @@ export default function Header() {
               </li>
             </List>
           </Nav>
+
+          <MobileNav>
+            <Dropdown />
+          </MobileNav>
         </Content>
       </Box>
     </>

@@ -3,14 +3,15 @@ import cx from "clsx";
 
 import {
   Blog,
+  Dribbble,
+  Instagram,
   Logo,
+  Menu,
   Pin,
-  User,
-  Work,
   Project,
   Twitter,
-  Dribbble,
-  Instagram
+  User,
+  Work,
 } from "./src";
 
 const IconMap = {
@@ -18,11 +19,12 @@ const IconMap = {
   dribbble: Dribbble,
   instagram: Instagram,
   logo: Logo,
+  menu: Menu,
   pin: Pin,
   project: Project,
   twitter: Twitter,
   user: User,
-  work: Work
+  work: Work,
 };
 
 export default function Icon({ className, name, ...props }) {
