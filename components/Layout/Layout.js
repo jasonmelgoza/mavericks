@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { globalCss } from "../../stitches.config";
+import { globalCss, styled } from "../../stitches.config";
 
 import Header from "../Header";
 import Footer from "../Footer";
@@ -21,6 +21,32 @@ const globalStyles = globalCss({
   }
 });
 
+const Main = styled("main", {
+  paddingTop: "$9",
+
+  "@bp1": {
+    paddingTop: "$6"
+  }
+});
+
+const Box = styled("div", {
+  display: "flex",
+  flexDirection: "column",
+  maxWidth: "50rem",
+  margin: "0 auto"
+});
+
+const Content = styled("div", {
+  paddingLeft: "calc(env(safe-area-inset-left) + 64px)",
+  paddingRight: "calc(env(safe-area-inset-right) + 64px)",
+  width: "100%",
+
+  "@bp1": {
+    paddingLeft: "calc(env(safe-area-inset-left) + 48px)",
+    paddingRight: "calc(env(safe-area-inset-right) + 48px)"
+  }
+});
+
 export default function Layout({ children }) {
   globalStyles();
   return (
@@ -32,7 +58,11 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main>{children}</main>
+      <Main>
+        <Box>
+          <Content>{children}</Content>
+        </Box>
+      </Main>
       <Footer />
     </>
   );

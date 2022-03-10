@@ -86,15 +86,9 @@ const Body = styled("div", {
 export default function Home() {
   return (
     <Layout>
-      <SubHeader>
-        <Icon name="pin" />
-        Santa Maria, California
-      </SubHeader>
 
       <Header>
-        Hi there,
-        <br />
-        I'm Jason Melgoza
+        About Me
       </Header>
 
       <Body>
