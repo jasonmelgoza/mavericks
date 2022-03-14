@@ -13,7 +13,7 @@ const Box = styled("header", {
   paddingTop: "$11",
 
   "@bp1": {
-    paddingTop: "$10",
+    paddingTop: "$9",
   },
 });
 

@@ -68,12 +68,17 @@ export default () => (
       </StyledItem>
       <StyledItem>
         <Link href="/about">
-          <a>Projects</a>
+          <a>Blog</a>
         </Link>
       </StyledItem>
       <StyledItem>
         <Link href="/about">
           <a>About Me</a>
+        </Link>
+      </StyledItem>
+      <StyledItem>
+        <Link href="/about">
+          <a>Current Projects</a>
         </Link>
       </StyledItem>
     </StyledContent>
