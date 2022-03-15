@@ -108,8 +108,8 @@ export default function Header() {
             <List>
               <li>
                 <NavItem tooltip="Work">
-                  <Link href="/about">
-                    <a className={router.pathname == "/about" ? "active" : ""}>
+                  <Link href="/work">
+                    <a className={router.pathname == "/work" ? "active" : ""}>
                       <Icon name="work" />
                     </a>
                   </Link>
@@ -126,8 +126,8 @@ export default function Header() {
               </li>
               <li>
                 <NavItem tooltip="Current Projects">
-                  <Link href="/about">
-                    <a className={router.pathname == "/about" ? "active" : ""}>
+                  <Link href="/projects">
+                    <a className={router.pathname == "/projects" ? "active" : ""}>
                       <Icon name="project" />
                     </a>
                   </Link>

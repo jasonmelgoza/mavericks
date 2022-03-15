@@ -1,6 +1,6 @@
 import { styled } from "../stitches.config.js";
 
-import { Layout, Icon } from "../components";
+import { Layout } from "../components";
 
 const Header = styled("h1", {
   textAlign: "left",
@@ -83,36 +83,44 @@ const Body = styled("div", {
   }
 });
 
-export default function Home() {
+export default function About() {
   return (
     <Layout>
+      <SubHeader>Origin Story</SubHeader>
 
-      <Header>
-        About Me
-      </Header>
+      <Header>A Little About Me</Header>
 
       <Body>
         <p>
-          I'm an interface designer who is passionate about turning complex
-          problems into simple and elegant solutions.
+          Hi. I'm Jason Melgoza, an outcome-driven designer focused on creating
+          simple solutions for complex problems. I enjoy collaborating with
+          teams and embracing the intricacies that make your business
+          successful. With over 12 years of SaaS and Enterprise product design
+          experience, I understand the connections between strategy, development
+          teams, and business goals.
         </p>
         <p>
-          I specialize in product design for the web and thrive in 0{" "}
-          <span>&rarr;</span> 1 work. My focus is on visual design, user
-          experience, and design systems. I also code for the web with a focus
-          on React, CSS architecture, and component systems.
+          Currently, I am working as a freelance designer on a variety of
+          projects with some exciting clients. Until the Spring of 2020, I
+          worked for an app design agency where I led product design and
+          branding projects across Android, iOS, and desktop. Before agency
+          work, I served as Creative Director at Creative Market, where I helped
+          launch their core product. My primary responsibility was to oversee
+          product design and brand development. During my time there, I had the
+          opportunity to lead the pre-launch effort along with the development
+          team. This resulted in nearly 70,000 new user sign-ups in just under
+          nine months. Creative Market went on to be acquired by Autodesk.
         </p>
         <p>
-          Currently, I'm working at{" "}
-          <a
-            href="https://www.securedocs.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            SecureDocs, Inc
-          </a>{" "}
-          with an incredible cross-functional team, centering on building
-          easy-to-use browser-based software.
+          Additionally, I have helped design for companies like OpenTable,
+          Expedia, Microsoft, ESPN, Fidelity Investments, AT&T, and Blue Cross
+          Blue Shield.
+        </p>
+        <p>
+          <strong>
+            In case you would like to know more about me, my work or have any
+            questions, feel free to send me an email anytime.
+          </strong>
         </p>
       </Body>
     </Layout>
