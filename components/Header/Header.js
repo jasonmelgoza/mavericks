@@ -117,8 +117,8 @@ export default function Header() {
               </li>
               <li>
                 <NavItem tooltip="Blog">
-                  <Link href="/about">
-                    <a className={router.pathname == "/about" ? "active" : ""}>
+                  <Link href="/blog">
+                    <a className={router.pathname == "/blog" ? "active" : ""}>
                       <Icon name="blog" />
                     </a>
                   </Link>

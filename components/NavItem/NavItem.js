@@ -59,6 +59,11 @@ const NavIcon = styled("div", {
     "&:hover": {
       color: "$primary",
       backgroundColor: "$primary16"
+    },
+
+    "&.active": {
+      color: "$primary",
+      backgroundColor: "$primary16"
     }
   }
 });

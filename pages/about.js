@@ -86,35 +86,23 @@ const Body = styled("div", {
 export default function About() {
   return (
     <Layout>
-      <SubHeader>Origin Story</SubHeader>
-
       <Header>A Little About Me</Header>
 
       <Body>
         <p>
-          Hi. I'm Jason Melgoza, an outcome-driven designer focused on creating
-          simple solutions for complex problems. I enjoy collaborating with
-          teams and embracing the intricacies that make your business
-          successful. With over 12 years of SaaS and Enterprise product design
-          experience, I understand the connections between strategy, development
-          teams, and business goals.
+          <strong>Hello There.</strong> I'm Jason Melgoza, a UI designer focused on
+          creating simple solutions for complex problems. With over 12 years of
+          SaaS and Enterprise product design experience, I understand the
+          connections between strategy, development teams, and business goals blah blah.
         </p>
         <p>
-          Currently, I am working as a freelance designer on a variety of
+          Currently, I am working as a lead product designer on a variety of
           projects with some exciting clients. Until the Spring of 2020, I
           worked for an app design agency where I led product design and
-          branding projects across Android, iOS, and desktop. Before agency
-          work, I served as Creative Director at Creative Market, where I helped
-          launch their core product. My primary responsibility was to oversee
-          product design and brand development. During my time there, I had the
-          opportunity to lead the pre-launch effort along with the development
-          team. This resulted in nearly 70,000 new user sign-ups in just under
-          nine months. Creative Market went on to be acquired by Autodesk.
+          branding projects across Android, blah blah blah.
         </p>
         <p>
-          Additionally, I have helped design for companies like OpenTable,
-          Expedia, Microsoft, ESPN, Fidelity Investments, AT&T, and Blue Cross
-          Blue Shield.
+          I'm based in Santa Maria, California with my lovely wife, Alejandra, our kids, Diego and Sofia, and our four dogs. When I'm not working I love spending time with them.
         </p>
         <p>
           <strong>
