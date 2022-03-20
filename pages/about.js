@@ -1,6 +1,6 @@
 import { styled } from "../stitches.config.js";
 
-import { Layout, Icon } from "../components";
+import { Layout } from "../components";
 
 const Header = styled("h1", {
   textAlign: "left",
@@ -83,36 +83,32 @@ const Body = styled("div", {
   }
 });
 
-export default function Home() {
+export default function About() {
   return (
     <Layout>
-
-      <Header>
-        About Me
-      </Header>
+      <Header>A Little About Me</Header>
 
       <Body>
         <p>
-          I'm an interface designer who is passionate about turning complex
-          problems into simple and elegant solutions.
+          <strong>Hello There.</strong> I'm Jason Melgoza, a UI designer focused on
+          creating simple solutions for complex problems. With over 12 years of
+          SaaS and Enterprise product design experience, I understand the
+          connections between strategy, development teams, and business goals blah blah.
         </p>
         <p>
-          I specialize in product design for the web and thrive in 0{" "}
-          <span>&rarr;</span> 1 work. My focus is on visual design, user
-          experience, and design systems. I also code for the web with a focus
-          on React, CSS architecture, and component systems.
+          Currently, I am working as a lead product designer on a variety of
+          projects with some exciting clients. Until the Spring of 2020, I
+          worked for an app design agency where I led product design and
+          branding projects across Android, blah blah blah.
         </p>
         <p>
-          Currently, I'm working at{" "}
-          <a
-            href="https://www.securedocs.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            SecureDocs, Inc
-          </a>{" "}
-          with an incredible cross-functional team, centering on building
-          easy-to-use browser-based software.
+          I'm based in Santa Maria, California with my lovely wife, Alejandra, our kids, Diego and Sofia, and our four dogs. When I'm not working I love spending time with them.
+        </p>
+        <p>
+          <strong>
+            In case you would like to know more about me, my work or have any
+            questions, feel free to send me an email anytime.
+          </strong>
         </p>
       </Body>
     </Layout>
