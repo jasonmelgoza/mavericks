@@ -34,7 +34,6 @@ const StyledContent = styled(DropdownMenu.Content, {
   animation: `${scaleOut} 250ms cubic-bezier(0.4, 0, 0.2, 1) forwards`,
   borderRadius: "6px",
   backgroundColor: "$bg",
-  border: "1px solid $fg16",
   boxShadow: `$huge`
 });
 
@@ -69,11 +68,6 @@ export default () => (
       <StyledItem>
         <Link href="/blog">
           <a>Blog</a>
-        </Link>
-      </StyledItem>
-      <StyledItem>
-        <Link href="/about">
-          <a>About Me</a>
         </Link>
       </StyledItem>
       <StyledItem>
