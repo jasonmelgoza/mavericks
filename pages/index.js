@@ -1,6 +1,6 @@
 import { styled } from "../stitches.config.js";
 
-import { Layout, Icon } from "../components";
+import { Icon } from "../components";
 
 const Header = styled("h1", {
   textAlign: "left",
@@ -85,7 +85,7 @@ const Body = styled("div", {
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <SubHeader>
         <Icon name="pin" />
         Santa Maria, California
@@ -121,6 +121,6 @@ export default function Home() {
           easy-to-use browser-based software.
         </p>
       </Body>
-    </Layout>
+    </>
   );
 }

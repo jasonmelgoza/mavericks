@@ -1,7 +1,5 @@
 import { styled } from "../stitches.config.js";
 
-import { Layout } from "../components";
-
 const Header = styled("h1", {
   textAlign: "left",
   fontFamily: "$sans",
@@ -69,7 +67,7 @@ const Body = styled("div", {
 
 export default function Blog() {
   return (
-    <Layout>
+    <>
       <Header>Blog</Header>
 
       <Body>
@@ -96,6 +94,6 @@ export default function Blog() {
           easy-to-use browser-based software.
         </p>
       </Body>
-    </Layout>
+    </>
   );
 }
