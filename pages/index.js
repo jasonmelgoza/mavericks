@@ -4,7 +4,6 @@ import { Icon } from "../components";
 const Header = styled("h1", {
   marginBottom: "$9",
   textAlign: "left",
-  fontFamily: "$sans",
   fontSize: "$huge",
   fontWeight: "$black",
   lineHeight: "$none",

@@ -1,9 +1,9 @@
-import { styled } from "../stitches.config.js";
 import { MDXProvider } from "@mdx-js/react";
 import Image from "next/image";
 
 import "../styles/global.css";
-
+import "../styles/fonts.css";
+import { styled } from "../stitches.config.js";
 import { Layout } from "../components";
 
 const StyledImage = (props) => (
@@ -13,7 +13,6 @@ const StyledImage = (props) => (
 const StyledHeading = styled("h1", {
   marginBottom: "$9",
   textAlign: "left",
-  fontFamily: "$sans",
   fontSize: "$huge",
   fontWeight: "$black",
   lineHeight: "$none",
