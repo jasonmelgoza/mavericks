@@ -74,7 +74,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                href="https://www.instagram.com/jmelgoza/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -85,7 +85,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                href="https://dribbble.com/jasonmelgoza"
                 target="_blank"
                 rel="noopener noreferrer"
               >
