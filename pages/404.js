@@ -79,7 +79,7 @@ export default function Custom404() {
         Page Not Found
       </Header>
       <Body>
-        <Image src="hello-there.webp" />
+        <Image alt="Hello There!" src="hello-there.webp" />
         <p>The page you are looking for does not exist or has been moved.</p>
       </Body>
     </>

@@ -84,19 +84,20 @@ export default function Home() {
     <>
       <SubHeader>
         <Icon name="pin" />
-        Santa Maria, California
+        <span>
+          Santa Maria<span>&#44;</span> California
+        </span>
       </SubHeader>
 
       <Header>
-        Hi there,
-        <br />
-        I'm Jason Melgoza
+        Hi there<span>&#44;</span>
+        <br />I<span>&#39;</span>m Jason Melgoza
       </Header>
 
       <Body>
         <p>
-          I'm an interface designer who is passionate about turning complex
-          problems into simple and elegant solutions.
+          I<span>&#39;</span>m an interface designer who is passionate about
+          turning complex problems into simple and elegant solutions.
         </p>
         <p>
           I specialize in product design for the web and thrive in 0{" "}
@@ -105,13 +106,13 @@ export default function Home() {
           on React, CSS architecture, and component systems.
         </p>
         <p>
-          Currently, I'm working at{" "}
+          Currently, I<span>&#39;</span>m working at{" "}
           <a
             href="https://www.securedocs.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            SecureDocs, Inc
+            SecureDocs<span>&#44;</span> Inc
           </a>{" "}
           with an incredible cross-functional team, centering on building
           easy-to-use browser-based software.
