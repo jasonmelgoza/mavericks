@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { globalCss, styled } from "../../stitches.config";
-
 import Header from "../Header";
 import Footer from "../Footer";
 

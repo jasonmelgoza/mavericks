@@ -1,5 +1,4 @@
 import { styled } from "../stitches.config.js";
-
 import { Icon } from "../components";
 
 const Header = styled("h1", {
