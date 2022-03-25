@@ -52,9 +52,12 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Jason Melgoza</title>
-        <meta name="description" content="Jason Melgoza" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <title>Jason Melgoza</title>
+        <meta
+          name="description"
+          content="I'm product designer focusing on visual design and design systems"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
