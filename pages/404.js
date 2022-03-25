@@ -2,7 +2,6 @@ import { styled } from "../stitches.config.js";
 
 const Header = styled("h1", {
   textAlign: "left",
-  fontFamily: "$sans",
   fontSize: "$huge",
   fontWeight: "$black",
   lineHeight: "$none",
