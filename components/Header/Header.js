@@ -3,8 +3,6 @@ import { useRouter } from "next/router";
 import { styled } from "../../stitches.config";
 
 import Icon from "../Icon";
-import NavItem from "../NavItem";
-import Dropdown from "../Dropdown";
 
 const Box = styled("header", {
   display: "flex",
@@ -27,40 +25,6 @@ const Content = styled("div", {
   "@bp1": {
     paddingLeft: "calc(env(safe-area-inset-left) + 48px)",
     paddingRight: "calc(env(safe-area-inset-right) + 48px)"
-  }
-});
-
-const Nav = styled("nav", {
-  display: "flex",
-  alignItems: "center",
-  height: "100%",
-
-  "@bp1": {
-    display: "none"
-  }
-});
-
-const List = styled("ul", {
-  display: "inline-flex",
-  alignItems: "center",
-  gap: "$2",
-  height: "100%",
-  margin: "0",
-  padding: "0",
-  listStyle: "none",
-
-  "& li": {
-    display: "flex",
-    height: "36px",
-    width: "40px"
-  }
-});
-
-const MobileNav = styled("nav", {
-  display: "none",
-
-  "@bp1": {
-    display: "block"
   }
 });
 
@@ -104,43 +68,6 @@ export default function Header() {
               </a>
             </Link>
           </Logo>
-          <Nav>
-            <List>
-              <li>
-                <NavItem tooltip="Work">
-                  <Link href="/work">
-                    <a className={router.pathname == "/work" ? "active" : ""}>
-                      <Icon name="work" />
-                    </a>
-                  </Link>
-                </NavItem>
-              </li>
-              <li>
-                <NavItem tooltip="Blog">
-                  <Link href="/blog">
-                    <a className={router.pathname == "/blog" ? "active" : ""}>
-                      <Icon name="blog" />
-                    </a>
-                  </Link>
-                </NavItem>
-              </li>
-              <li>
-                <NavItem tooltip="Current Projects">
-                  <Link href="/projects">
-                    <a
-                      className={router.pathname == "/projects" ? "active" : ""}
-                    >
-                      <Icon name="project" />
-                    </a>
-                  </Link>
-                </NavItem>
-              </li>
-            </List>
-          </Nav>
-
-          <MobileNav>
-            <Dropdown />
-          </MobileNav>
         </Content>
       </Box>
     </>

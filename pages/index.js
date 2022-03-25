@@ -1,8 +1,9 @@
 import { styled } from "../stitches.config.js";
 
-import { Layout, Icon } from "../components";
+import { Icon } from "../components";
 
 const Header = styled("h1", {
+  marginBottom: "$9",
   textAlign: "left",
   fontFamily: "$sans",
   fontSize: "$huge",
@@ -12,6 +13,7 @@ const Header = styled("h1", {
   color: "$fg",
 
   "@bp1": {
+    marginBottom: "$6",
     fontSize: "2rem"
   }
 });
@@ -33,12 +35,7 @@ const SubHeader = styled("div", {
 });
 
 const Body = styled("div", {
-  padding: "$9 0",
   maxWidth: "40rem",
-
-  "@bp1": {
-    padding: "$6 0"
-  },
 
   p: {
     fontSize: "$medium",
@@ -85,7 +82,7 @@ const Body = styled("div", {
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <SubHeader>
         <Icon name="pin" />
         Santa Maria, California
@@ -121,6 +118,6 @@ export default function Home() {
           easy-to-use browser-based software.
         </p>
       </Body>
-    </Layout>
+    </>
   );
 }
