@@ -5,7 +5,12 @@ import Icon from "../Icon";
 const Box = styled("footer", {
   maxWidth: "50rem",
   margin: "0 auto",
-  paddingBottom: "96px"
+  paddingBottom: "96px",
+  paddingTop: "$9",
+
+  "@bp1": {
+    paddingTop: "$6"
+  }
 });
 
 const Content = styled("div", {

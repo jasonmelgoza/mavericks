@@ -3,6 +3,7 @@ import { styled } from "../stitches.config.js";
 import { Icon } from "../components";
 
 const Header = styled("h1", {
+  marginBottom: "$9",
   textAlign: "left",
   fontFamily: "$sans",
   fontSize: "$huge",
@@ -12,6 +13,7 @@ const Header = styled("h1", {
   color: "$fg",
 
   "@bp1": {
+    marginBottom: "$6",
     fontSize: "2rem"
   }
 });
@@ -33,12 +35,7 @@ const SubHeader = styled("div", {
 });
 
 const Body = styled("div", {
-  padding: "$9 0",
   maxWidth: "40rem",
-
-  "@bp1": {
-    padding: "$6 0"
-  },
 
   p: {
     fontSize: "$medium",
