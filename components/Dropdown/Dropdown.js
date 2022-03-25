@@ -51,30 +51,32 @@ const StyledItem = styled(DropdownMenu.Item, {
   }
 });
 
-export default () => (
-  <DropdownMenu.Root>
-    <DropdownMenu.Trigger asChild>
-      <NavButton>
-        <Icon name="menu" />
-      </NavButton>
-    </DropdownMenu.Trigger>
+export default function Dropdown() {
+  return (
+    <DropdownMenu.Root>
+      <DropdownMenu.Trigger asChild>
+        <NavButton>
+          <Icon name="menu" />
+        </NavButton>
+      </DropdownMenu.Trigger>
 
-    <StyledContent side="bottom" sideOffset={8}>
-      <StyledItem>
-        <Link href="/about">
-          <a>Work</a>
-        </Link>
-      </StyledItem>
-      <StyledItem>
-        <Link href="/blog">
-          <a>Blog</a>
-        </Link>
-      </StyledItem>
-      <StyledItem>
-        <Link href="/about">
-          <a>Current Projects</a>
-        </Link>
-      </StyledItem>
-    </StyledContent>
-  </DropdownMenu.Root>
-);
+      <StyledContent side="bottom" sideOffset={8}>
+        <StyledItem>
+          <Link href="/about">
+            <a>Work</a>
+          </Link>
+        </StyledItem>
+        <StyledItem>
+          <Link href="/blog">
+            <a>Blog</a>
+          </Link>
+        </StyledItem>
+        <StyledItem>
+          <Link href="/about">
+            <a>Current Projects</a>
+          </Link>
+        </StyledItem>
+      </StyledContent>
+    </DropdownMenu.Root>
+  );
+}
