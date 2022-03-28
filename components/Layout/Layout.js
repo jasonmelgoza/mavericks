@@ -58,6 +58,24 @@ export default function Layout({ children }) {
           content="I'm product designer focusing on visual design and design systems"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="preload"
+          href="/fonts/Satoshi-Regular.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Satoshi-Medium.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Satoshi-Black.ttf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
       <Header />
       <Main>

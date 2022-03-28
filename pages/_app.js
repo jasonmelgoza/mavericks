@@ -1,10 +1,9 @@
 import { MDXProvider } from "@mdx-js/react";
 import Image from "next/image";
-
-import "../styles/global.css";
-import "../styles/fonts.css";
 import { styled } from "../stitches.config.js";
 import { Layout } from "../components";
+import "../styles/fonts.css";
+import "../styles/global.css";
 
 const StyledImage = (props) => (
   <Image alt={props.alt} layout="responsive" {...props} />
