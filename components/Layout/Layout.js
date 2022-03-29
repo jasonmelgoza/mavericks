@@ -1,24 +1,7 @@
 import Head from "next/head";
-import { globalCss, styled } from "../../stitches.config";
+import { styled } from "../../stitches.config";
 import Header from "../Header";
 import Footer from "../Footer";
-
-const globalStyles = globalCss({
-  "*": { margin: 0, padding: 0 },
-
-  "body, html": {
-    height: "100%",
-    padding: "0",
-    margin: "0"
-  },
-
-  body: {
-    fontFamily: "$sans",
-    lineHeight: "1.5",
-    textSizeAdjust: "100%",
-    "-webkit-font-smoothing": "antialiased"
-  }
-});
 
 const Main = styled("main", {
   paddingTop: "$9",
@@ -36,18 +19,17 @@ const Box = styled("div", {
 });
 
 const Content = styled("div", {
-  paddingLeft: "calc(env(safe-area-inset-left) + 64px)",
-  paddingRight: "calc(env(safe-area-inset-right) + 64px)",
+  paddingLeft: "64px",
+  paddingRight: "64px",
   width: "100%",
 
   "@bp1": {
-    paddingLeft: "calc(env(safe-area-inset-left) + 48px)",
-    paddingRight: "calc(env(safe-area-inset-right) + 48px)"
+    paddingLeft: "48px",
+    paddingRight: "48px"
   }
 });
 
 export default function Layout({ children }) {
-  globalStyles();
   return (
     <>
       <Head>

@@ -1,9 +1,53 @@
 import { MDXProvider } from "@mdx-js/react";
 import Image from "next/image";
-import { styled } from "../stitches.config.js";
+import { globalCss, styled } from "../stitches.config.js";
 import { Layout } from "../components";
 import "../styles/fonts.css";
-import "../styles/global.css";
+
+const globalStyles = globalCss({
+  "*": { margin: 0, padding: 0 },
+
+  "*, *::before, *::after": {
+    boxSizing: "border-box"
+  },
+
+  "html, body": {
+    height: "100%",
+    padding: "0",
+    margin: "0",
+    fontFamily:
+      "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif"
+  },
+
+  body: {
+    fontFamily: "$sans",
+    lineHeight: "1.5",
+    textSizeAdjust: "100%",
+    "-webkit-font-smoothing": "antialiased"
+  },
+
+  "img, picture, video, canvas, svg": {
+    display: "block",
+    maxWidth: "100%"
+  },
+
+  "input, button, textarea, select": {
+    font: "inherit"
+  },
+
+  "p, h1, h2, h3, h4, h5, h6": {
+    overflowWrap: "break-word"
+  },
+
+  a: {
+    color: "inherit",
+    textDecoration: "none"
+  },
+
+  "#root, #__next": {
+    isolation: "isolate"
+  }
+});
 
 const StyledImage = (props) => (
   <Image alt={props.alt} layout="responsive" {...props} />
@@ -90,6 +134,7 @@ const components = {
 };
 
 export default function MyApp({ Component, pageProps }) {
+  globalStyles();
   return (
     <Layout>
       <MDXProvider components={components}>
