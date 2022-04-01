@@ -66,6 +66,7 @@ export default function Footer() {
                 href="https://twitter.com/jasonmelgoza"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Jason Melgoza on Twitter"
               >
                 <span>
                   <Icon name="twitter" />
@@ -77,6 +78,7 @@ export default function Footer() {
                 href="https://www.instagram.com/jmelgoza/"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Jason Melgoza on Instagram"
               >
                 <span>
                   <Icon name="instagram" />
@@ -88,6 +90,7 @@ export default function Footer() {
                 href="https://dribbble.com/jasonmelgoza"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Jason Melgoza on Instagram"
               >
                 <span>
                   <Icon name="dribbble" />
