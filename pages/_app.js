@@ -46,6 +46,16 @@ const globalStyles = globalCss({
 
   "#root, #__next": {
     isolation: "isolate"
+  },
+
+  ".visually-hidden:not(:focus):not(:active)": {
+    clip: "rect(0 0 0 0)",
+    clipPath: "inset(100%)",
+    height: "1px",
+    overflow: "hidden",
+    position: "absolute",
+    whiteSpace: "nowrap",
+    width: "1px"
   }
 });
 
