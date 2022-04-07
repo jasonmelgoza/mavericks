@@ -90,7 +90,7 @@ export default function Footer() {
                 href="https://dribbble.com/jasonmelgoza"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Jason Melgoza on Instagram"
+                title="Jason Melgoza on Dribbble"
               >
                 <span>
                   <Icon name="dribbble" />
