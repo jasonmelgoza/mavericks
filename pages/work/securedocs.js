@@ -124,7 +124,7 @@ export default function Page() {
             into a simple four-step workflow. That made it easier to use and
             removed the need to constantly re-train users in completing this
             task. I also designed this as a full-screen experience so users can
-            stay focused on what they're building.
+            stay focused on what they&apos;re building.
           </p>
           <Figure caption="E-Signature Builder - Adding Documents Step">
             <Image
@@ -151,7 +151,10 @@ export default function Page() {
         </Box>
         <Divider />
         <Box as="section">
-          <p>In 2022 SecureDocs was successfully acquired by Onit, Inc. to complement their legal-related products and services.</p>
+          <p>
+            In 2022 SecureDocs was successfully acquired by Onit, Inc. to
+            complement their legal-related products and services.
+          </p>
         </Box>
         <Box as="footer">
           <Pagination>

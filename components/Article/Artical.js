@@ -1,7 +1,6 @@
 import { styled } from "../../stitches.config";
 
 const Body = styled("article", {
-
   "@bp1": {
     padding: "$5 0 0 0"
   },
@@ -50,5 +49,9 @@ const Body = styled("article", {
 });
 
 export default function Artical({ children, ...props }) {
-  return <Body children={children} {...props} />;
+  return (
+    <Body {...props}>
+      {children}
+    </Body>
+  );
 }

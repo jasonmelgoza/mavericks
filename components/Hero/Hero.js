@@ -52,7 +52,7 @@ export default function Hero({ caption, children, ...props }) {
     <>
       <StyledHero {...props}>
         <HeroCaption>{caption}</HeroCaption>
-        <HeroContainer children={children} />
+        <HeroContainer>{children}</HeroContainer>
       </StyledHero>
     </>
   );
