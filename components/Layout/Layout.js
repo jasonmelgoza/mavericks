@@ -16,7 +16,8 @@ const globalStyles = globalCss({
     fontFamily: "$sans",
     lineHeight: "1.5",
     textSizeAdjust: "100%",
-    "-webkit-font-smoothing": "antialiased"
+    "-webkit-font-smoothing": "antialiased",
+    backgroundColor: "$bg"
   }
 });
 
@@ -25,24 +26,6 @@ const Main = styled("main", {
 
   "@bp1": {
     paddingTop: "$6"
-  }
-});
-
-const Box = styled("div", {
-  display: "flex",
-  flexDirection: "column",
-  maxWidth: "50rem",
-  margin: "0 auto"
-});
-
-const Content = styled("div", {
-  paddingLeft: "calc(env(safe-area-inset-left) + 64px)",
-  paddingRight: "calc(env(safe-area-inset-right) + 64px)",
-  width: "100%",
-
-  "@bp1": {
-    paddingLeft: "calc(env(safe-area-inset-left) + 48px)",
-    paddingRight: "calc(env(safe-area-inset-right) + 48px)"
   }
 });
 
@@ -60,11 +43,7 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Main>
-        <Box>
-          <Content>{children}</Content>
-        </Box>
-      </Main>
+      <Main>{children}</Main>
       <Footer />
     </>
   );

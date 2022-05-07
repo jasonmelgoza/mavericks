@@ -2,6 +2,8 @@ import * as React from "react";
 import cx from "clsx";
 
 import {
+  ArrowLeft,
+  ArrowRight,
   Blog,
   Dribbble,
   Instagram,
@@ -11,10 +13,12 @@ import {
   Project,
   Twitter,
   User,
-  Work,
+  Work
 } from "./src";
 
 const IconMap = {
+  "arrow left": ArrowLeft,
+  "arrow right": ArrowRight,
   blog: Blog,
   dribbble: Dribbble,
   instagram: Instagram,
@@ -24,7 +28,7 @@ const IconMap = {
   project: Project,
   twitter: Twitter,
   user: User,
-  work: Work,
+  work: Work
 };
 
 export default function Icon({ className, name, ...props }) {

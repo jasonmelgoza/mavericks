@@ -1,5 +1,7 @@
-import { styled } from "../stitches.config.js";
-import { Icon } from "../components";
+import Link from "next/link";
+import { styled } from "../stitches.config";
+
+import { Divider, Icon, Box } from "../components";
 
 const Header = styled("h1", {
   marginBottom: "$9",
@@ -36,11 +38,11 @@ const Body = styled("div", {
   maxWidth: "40rem",
 
   p: {
-    fontSize: "$medium",
+    fontSize: "$large",
     fontWeight: "$medium",
     lineHeight: "$normal",
 
-    "&:not(:last-child)": {
+    "&:not(:last-of-type)": {
       marginBottom: "1rem"
     },
 
@@ -78,9 +80,81 @@ const Body = styled("div", {
   }
 });
 
+const List = styled("div", {
+  display: "flex",
+  flexDirection: "column",
+  gap: "$4"
+});
+
+const ListItem = styled("div", {
+  display: "block",
+
+  a: {
+    display: "inline-flex",
+    flexDirection: "column"
+  }
+});
+
+const ListItemHeading = styled("div", {
+  display: "block",
+  fontSize: "$medium",
+  fontWeight: "$bold",
+  lineHeight: "$snug",
+
+  "@bp1": {
+    fontSize: "$normal"
+  }
+});
+
+const ListItemContent = styled("div", {
+  display: "block",
+  fontSize: "$medium",
+  lineHeight: "$snug",
+
+  "@bp1": {
+    fontSize: "$normal"
+  }
+});
+
+const ListFooter = styled("div", {
+  display: "block",
+  fontSize: "$normal",
+  fontWeight: "$medium",
+
+  a: {
+    position: "relative",
+    color: "$primary",
+    transition: "color 0.15s ease-in",
+
+    "&:before": {
+      content: "",
+      position: "absolute",
+      bottom: "-4px",
+      left: "0",
+      right: "0",
+      height: "2px",
+      backgroundColor: "$primary",
+      transformOrigin: "bottom right",
+      transform: "scaleX(0)",
+      transition: "transform 0.5s ease"
+    },
+
+    "&:hover": {
+      color: "$primary",
+
+      "&:before": {
+        transformOrigin: "bottom left",
+        transform: "scaleX(1)"
+      }
+    }
+  }
+});
+
 export default function Home() {
   return (
     <>
+      <Box>
+
       <SubHeader>
         <Icon name="pin" />
         <span>
@@ -117,6 +191,46 @@ export default function Home() {
           easy-to-use browser-based software.
         </p>
       </Body>
+
+      <Divider />
+
+      <SubHeader>
+        <Icon name="work" />
+        <span>Recent Experience</span>
+      </SubHeader>
+
+      <List>
+        <ListItem>
+          <Link href="/work/securedocs">
+            <a>
+              <ListItemHeading>SecureDocs, Inc.</ListItemHeading>
+              <ListItemContent>
+                Senior UI/UX Designer (2018 - Present)
+              </ListItemContent>
+            </a>
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link href="/work/rightscale">
+            <a>
+              <ListItemHeading>RightScale</ListItemHeading>
+              <ListItemContent>
+                Senior UI Designer (2012 - 2018)
+              </ListItemContent>
+            </a>
+          </Link>
+        </ListItem>
+        <ListFooter>
+          <a
+            href="https://www.linkedin.com/in/jasonmelgoza/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin Profile <span>&rarr;</span>
+          </a>
+        </ListFooter>
+      </List>
+      </Box>
     </>
   );
 }
