@@ -63,7 +63,7 @@ export default function Header() {
         <Content>
           <Logo>
             <Link href="/">
-              <a>
+              <a title="jmelgoza.com">
                 <Icon name="logo" />
               </a>
             </Link>

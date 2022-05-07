@@ -57,10 +57,5 @@ export const { css, globalCss, styled, keyframes } = createStitches({
     shadows: {
       huge: "0 50px 100px -20px rgba(50,50,93,0.25), 0 30px 60px -30px rgba(0,0,0,0.3)"
     }
-  },
-  media: {
-    bp1: "(max-width: 640px)",
-    bp2: "(max-width: 768px)",
-    bp3: "(max-width: 1440px)"
   }
-});
+);
