@@ -49,5 +49,9 @@ const Body = styled("article", {
 });
 
 export default function Article({ children, ...props }) {
-  return <Body children={children} {...props} />;
+  return (
+    <>
+      <Body {...props}>{children}</Body>
+    </>
+  );
 }

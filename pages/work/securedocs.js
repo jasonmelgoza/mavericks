@@ -123,7 +123,7 @@ export default function Page() {
             into a simple four-step workflow. That made it easier to use and
             removed the need to constantly re-train users in completing this
             task. I also designed this as a full-screen experience so users can
-            stay focused on what they're building.
+            stay focused on what they<span>&#39;</span>re building.
           </p>
           <Figure caption="E-Signature Builder - Adding Documents Step">
             <Image
