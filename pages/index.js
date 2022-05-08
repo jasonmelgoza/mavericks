@@ -90,7 +90,11 @@ const ListItem = styled("div", {
 
   a: {
     display: "inline-flex",
-    flexDirection: "column"
+    flexDirection: "column",
+
+    "&:hover": {
+      color: "$primary"
+    }
   }
 });
 
@@ -99,6 +103,7 @@ const ListItemHeading = styled("div", {
   fontSize: "$medium",
   fontWeight: "$bold",
   lineHeight: "$snug",
+  textDecoration: "underline",
 
   "@bp1": {
     fontSize: "$normal"
