@@ -1,4 +1,5 @@
 import { styled } from "../stitches.config.js";
+import { Container } from "../components";
 
 const Header = styled("h1", {
   textAlign: "left",
@@ -72,15 +73,17 @@ const Image = styled("img", {
 export default function Custom404() {
   return (
     <>
-      <Header>
-        404
-        <br />
-        Page Not Found
-      </Header>
-      <Body>
-        <Image alt="Hello There!" src="hello-there.webp" />
-        <p>The page you are looking for does not exist or has been moved.</p>
-      </Body>
+      <Container>
+        <Header>
+          404
+          <br />
+          Page Not Found
+        </Header>
+        <Body>
+          <Image alt="Hello There!" src="hello-there.webp" />
+          <p>The page you are looking for does not exist or has been moved.</p>
+        </Body>
+      </Container>
     </>
   );
 }
