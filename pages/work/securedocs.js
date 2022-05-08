@@ -12,11 +12,12 @@ import {
   Icon
 } from "../../components";
 
-import Hero1 from "../../public/images/hero-rightscale-1.png";
-import Image2 from "../../public/images/shot-rightscale-2.png";
-import Image3 from "../../public/images/shot-rightscale-3.png";
-import Image4 from "../../public/images/shot-rightscale-4.png";
-import Image5 from "../../public/images/shot-rightscale-5.png";
+import Hero1 from "../../public/images/hero-securedocs-1.png";
+import Image2 from "../../public/images/shot-securedocs-1.gif";
+import Image3 from "../../public/images/shot-securedocs-2.png";
+import Image4 from "../../public/images/shot-securedocs-3.png";
+import Image5 from "../../public/images/shot-securedocs-4.png";
+import Image6 from "../../public/images/shot-securedocs-5.png";
 
 const Pagination = styled("div", {
   display: "flex",
@@ -49,96 +50,118 @@ export default function Page() {
       <Article>
         <Container as="header">
           <Heading as="h1" size="huge">
-            Design at RightScale
+            Design at SecureDocs
           </Heading>
         </Container>
         <Container as="section">
           <p>
-            In 2012 I joined the product team at RightScale as a UX Developer.
-            My primary mission was to help design an efficient and clean-looking
-            customer experience across a growing product line.
+            In 2018 I joined the engineering team at SecureDocs as their first
+            UI Designer. My primary goal was to provide a design process to
+            answer the needs of a growing cross-functional team.
           </p>
           <p>
-            While there, I was fortunate to be mentored by a fantastic group of
-            people who helped me sharpen my skills as an interface designer and
-            a front-end developer.
+            That process included building prototypes for product development
+            and helping produce a rich component library to assist our engineers
+            in building new features.
           </p>
         </Container>
-        <Hero caption="Screenshots from the Design Kit Project">
-          <Image src={Hero1} alt="Design Kit Landing Page" placeholder="blur" />
+        <Hero caption="Screenshots From My Work at SecureDocs">
+          <Image src={Hero1} alt="SecureDocs Filebrowser" placeholder="blur" />
         </Hero>
         <Container as="section">
           <Heading as="h2" size="large">
             Selected Projects
           </Heading>
           <Heading as="h3" size="big">
-            Design Kit
+            The Filebrowser
           </Heading>
           <p>
-            By 2013 RightScale was growing fast. Different teams were working on
-            projects in isolation. As a design team, we saw the need to
-            consolidate our processes and provide a single source of truth for
-            product design.
+            One of the first major projects I worked on was revamping the design
+            of the Filebrowser interface. It was a collaborative effort and an
+            important milestone for our small cross-functional team.
           </p>
-          <Figure caption="Branding Assets Page">
-            <Image
-              src={Image2}
-              alt="Design Kit Branding Page"
-              placeholder="blur"
-            />
+          <Figure caption="The Filebrowser UI">
+            <Image src={Image2} alt="Filebrowser Page" />
           </Figure>
+          <Heading as="h3" size="medium">
+            The Challenge
+          </Heading>
           <p>
-            What started as a shared color palette in a Sketch file ultimately
-            grew into a design system we called “Design Kit.” It included
-            branding assets, color guidelines, an icon library, and a few
-            selected UX patterns.
+            Currently, the SecureDocs product supports three different markets,
+            each with its own set of features and branding. A big challenge was
+            to produce a design language that worked in this ecosystem.
           </p>
-          <Figure caption="Product Color Guidelines">
+          <p>
+            For this, the team implemented a small color-theming system across a
+            select set of UI elements. This theming system allowed us to provide
+            a unique look for each SecureDocs product.
+          </p>
+          <Figure caption="Themeing displayed across the 'Sidebar' component">
             <Image
               src={Image3}
-              alt="Design Kit Product Color Guidelines"
+              alt="Design Kit Product Icon Library"
               placeholder="blur"
             />
           </Figure>
-          <Figure caption="Product Icon Library">
+        </Container>
+
+        <Divider />
+
+        <Container as="section">
+          <Heading as="h2" size="big">
+            The E-Signature Builder
+          </Heading>
+          <p>
+            In 2019 we assembled a small team and implemented a design sprint to
+            focus on improving our e-signature experience. After many cups of
+            coffee and hundreds of sticky notes later, we produced a small
+            prototype and gathered feedback that would later guide us through
+            the product development process.
+          </p>
+          <p>
+            That prototype included consolidating the e-signature experience
+            into a simple four-step workflow. That made it easier to use and
+            removed the need to constantly re-train users in completing this
+            task. I also designed this as a full-screen experience so users can
+            stay focused on what they're building.
+          </p>
+          <Figure caption="E-Signature Builder - Adding Documents Step">
             <Image
               src={Image4}
               alt="Design Kit Product Icon Library"
               placeholder="blur"
             />
           </Figure>
+          <Figure caption="E-Signature Builder - Adding Fields">
+            <Image src={Image5} alt="Adding Fields" placeholder="blur" />
+          </Figure>
           <p>
-            The team also included coded component examples that contained all
-            the necessary markup and style for a given component. These pages
-            were easy to share and made an excellent reference tool for
-            front-end devs.
+            Along with the e-signature builder, the team also updated the
+            e-signature dashboard, making it easier for users to track the items
+            they send out.
           </p>
-          <Figure caption="Component Snippets">
+          <Figure caption="E-Signature Dashboard">
             <Image
-              src={Image5}
-              alt="Design Kit Component Snippets"
+              src={Image6}
+              alt="Design Kit Product Icon Library"
               placeholder="blur"
             />
           </Figure>
         </Container>
         <Divider />
         <Container as="section">
-          <p>
-            Building this system and sharing this knowledge was a priceless
-            learning experience that would aid me in my next role. In 2019
-            RightScale was acquired, which marked the end of my adventure there.
-          </p>
+          <p>In 2022 SecureDocs was successfully acquired by Onit, Inc. to complement their legal-related products and services.</p>
         </Container>
         <Container as="footer">
           <Pagination>
-            <Link href="/work/securedocs">
-              <a>
-                <Icon ariaLabel="Previous" name="arrow left" />
-              </a>
-            </Link>
             <Link href="#">
               <a style={{ opacity: "50%", pointerEvents: "none" }}>
-                <Icon name="arrow right" />
+                <Icon name="arrow left" />
+              </a>
+            </Link>
+            <Link href="/work/rightscale">
+              <a>
+                <Icon ariaLabel="Next" name="arrow right" />
               </a>
             </Link>
           </Pagination>
