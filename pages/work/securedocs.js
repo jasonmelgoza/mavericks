@@ -113,17 +113,17 @@ export default function Page() {
           </Heading>
           <p>
             In 2019 we assembled a small team and implemented a design sprint to
-            focus on improving our e-signature experience. After many cups of
-            coffee and hundreds of sticky notes later, we produced a small
+            focus on improving our e-signature experience. After multiple cups
+            of coffee and hundreds of sticky notes later, we produced a small
             prototype and gathered feedback that would later guide us through
             the product development process.
           </p>
           <p>
-            That prototype included consolidating the e-signature experience
-            into a simple four-step workflow. That made it easier to use and
-            removed the need to constantly re-train users in completing this
-            task. I also designed this as a full-screen experience so users can
-            stay focused on what they<span>&#39;</span>re building.
+            The prototype included consolidating the e-signature experience into
+            a simple four-step workflow, which made it easier to use and removed
+            the need to constantly re-train users in completing e-signature
+            tasks. I also designed this as a full-screen experience, so users
+            can stay focused on what they<span>&#39;</span>re building.
           </p>
           <Figure caption="E-Signature Builder - Adding Documents Step">
             <Image
@@ -150,18 +150,21 @@ export default function Page() {
         </Container>
         <Divider />
         <Container as="section">
-          <p>In 2022 SecureDocs was successfully acquired by Onit, Inc. to complement their legal-related products and services.</p>
+          <p>
+            In 2022 SecureDocs was successfully acquired by Onit, Inc. to
+            complement their legal-related products and services.
+          </p>
         </Container>
         <Container as="footer">
           <Pagination>
             <Link href="#">
               <a style={{ opacity: "50%", pointerEvents: "none" }}>
-                <Icon name="arrow left" />
+                <Icon aria-label="Previous" name="arrow left" />
               </a>
             </Link>
             <Link href="/work/rightscale">
               <a>
-                <Icon ariaLabel="Next" name="arrow right" />
+                <Icon aria-label="Next" name="arrow right" />
               </a>
             </Link>
           </Pagination>

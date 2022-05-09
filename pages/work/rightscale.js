@@ -125,20 +125,21 @@ export default function Page() {
         <Container as="section">
           <p>
             Building this system and sharing this knowledge was a priceless
-            learning experience that would aid me in my next role. In 2019
-            RightScale was acquired, which marked the end of my adventure there.
+            learning experience that would eventually direct me to my next role.
+            In 2019 RightScale was acquired, which marked the end of my
+            adventure there.
           </p>
         </Container>
         <Container as="footer">
           <Pagination>
             <Link href="/work/securedocs">
               <a>
-                <Icon ariaLabel="Previous" name="arrow left" />
+                <Icon aria-label="Previous" name="arrow left" />
               </a>
             </Link>
             <Link href="#">
               <a style={{ opacity: "50%", pointerEvents: "none" }}>
-                <Icon name="arrow right" />
+                <Icon aria-label="Next" name="arrow right" />
               </a>
             </Link>
           </Pagination>
