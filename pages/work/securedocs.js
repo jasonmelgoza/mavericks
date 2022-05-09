@@ -99,7 +99,7 @@ export default function Page() {
           <Figure caption="Themeing displayed across the 'Sidebar' component">
             <Image
               src={Image3}
-              alt="Design Kit Product Icon Library"
+              alt="Example of themeing used across Securedocs"
               placeholder="blur"
             />
           </Figure>
@@ -128,7 +128,7 @@ export default function Page() {
           <Figure caption="E-Signature Builder - Adding Documents Step">
             <Image
               src={Image4}
-              alt="Design Kit Product Icon Library"
+              alt="Adding Documents Step"
               placeholder="blur"
             />
           </Figure>
@@ -143,7 +143,7 @@ export default function Page() {
           <Figure caption="E-Signature Dashboard">
             <Image
               src={Image6}
-              alt="Design Kit Product Icon Library"
+              alt="E-Signature Dashboard"
               placeholder="blur"
             />
           </Figure>

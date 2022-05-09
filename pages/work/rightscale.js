@@ -83,7 +83,7 @@ export default function Page() {
           <Figure caption="Branding Assets Page">
             <Image
               src={Image2}
-              alt="Design Kit Branding Page"
+              alt="Design Kit Branding Assets Page"
               placeholder="blur"
             />
           </Figure>
