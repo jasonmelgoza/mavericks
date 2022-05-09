@@ -6,7 +6,7 @@ import Icon from "../Icon";
 
 const Box = styled("header", {
   display: "flex",
-  maxWidth: "50rem",
+  maxWidth: "60rem",
   margin: "0 auto",
   paddingTop: "$11",
 

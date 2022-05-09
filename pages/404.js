@@ -1,4 +1,9 @@
+import Image from "next/image";
 import { styled } from "../stitches.config.js";
+
+import { Container } from "../components";
+
+import Image1 from "../public/hello-there.webp";
 
 const Header = styled("h1", {
   textAlign: "left",
@@ -64,23 +69,20 @@ const Body = styled("div", {
   }
 });
 
-const Image = styled("img", {
-  width: "100%",
-  marginBottom: "$4"
-});
-
 export default function Custom404() {
   return (
     <>
-      <Header>
-        404
-        <br />
-        Page Not Found
-      </Header>
-      <Body>
-        <Image alt="Hello There!" src="hello-there.webp" />
-        <p>The page you are looking for does not exist or has been moved.</p>
-      </Body>
+      <Container>
+        <Header>
+          404
+          <br />
+          Page Not Found
+        </Header>
+        <Body>
+          <Image alt="Hello There!" src={Image1} />
+          <p>The page you are looking for does not exist or has been moved.</p>
+        </Body>
+      </Container>
     </>
   );
 }

@@ -11,24 +11,6 @@ const Main = styled("main", {
   }
 });
 
-const Box = styled("div", {
-  display: "flex",
-  flexDirection: "column",
-  maxWidth: "50rem",
-  margin: "0 auto"
-});
-
-const Content = styled("div", {
-  paddingLeft: "64px",
-  paddingRight: "64px",
-  width: "100%",
-
-  "@bp1": {
-    paddingLeft: "48px",
-    paddingRight: "48px"
-  }
-});
-
 export default function Layout({ children }) {
   return (
     <>
@@ -60,11 +42,7 @@ export default function Layout({ children }) {
         />
       </Head>
       <Header />
-      <Main>
-        <Box>
-          <Content>{children}</Content>
-        </Box>
-      </Main>
+      <Main>{children}</Main>
       <Footer />
     </>
   );
