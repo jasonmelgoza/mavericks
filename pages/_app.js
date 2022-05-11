@@ -1,3 +1,4 @@
+import splitbee from '@splitbee/web';
 import { globalCss } from "../stitches.config";
 import { Layout } from "../components";
 import "../styles/fonts.css";
@@ -56,6 +57,7 @@ const globalStyles = globalCss({
 });
 
 export default function MyApp({ Component, pageProps }) {
+  splitbee.init();
   globalStyles();
   return (
     <Layout>
