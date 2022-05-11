@@ -1,5 +1,6 @@
-import Link from "next/link";
+import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 import { styled } from "../../stitches.config";
 import {
@@ -47,6 +48,9 @@ const Pagination = styled("div", {
 export default function Page() {
   return (
     <>
+      <Head>
+        <title>Jason Melgoza - Design at SecureDocs</title>
+      </Head>
       <Article>
         <Container as="header">
           <Heading as="h1" size="huge">
