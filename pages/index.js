@@ -225,11 +225,10 @@ export default function Home() {
           </ListItem>
           <ListFooter>
             <a
-              href="https://www.linkedin.com/in/jasonmelgoza/"
+              href="/resume-jasonmelgoza.pdf"
               target="_blank"
-              rel="noopener noreferrer"
             >
-              Linkedin Profile <span>&rarr;</span>
+              View Resume <span>&rarr;</span>
             </a>
           </ListFooter>
         </List>
