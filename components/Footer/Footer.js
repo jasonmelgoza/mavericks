@@ -56,6 +56,10 @@ const Copy = styled("div", {
 });
 
 export default function Footer() {
+  const getCurrentYear = () => {
+    return new Date().getFullYear();
+  };
+
   return (
     <>
       <Box>
@@ -63,13 +67,25 @@ export default function Footer() {
           <List>
             <li>
               <a
-                href="https://twitter.com/jasonmelgoza"
+                href="https://dribbble.com/jasonmelgoza"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Jason Melgoza on Twitter"
+                title="Jason Melgoza on Dribbble"
               >
                 <span>
-                  <Icon name="twitter" />
+                  <Icon name="dribbble" />
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/jasonmelgoza"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Jason Melgoza on Linkedin"
+              >
+                <span>
+                  <Icon name="linkedin" />
                 </span>
               </a>
             </li>
@@ -87,18 +103,18 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://dribbble.com/jasonmelgoza"
+                href="https://twitter.com/jasonmelgoza"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Jason Melgoza on Dribbble"
+                title="Jason Melgoza on Twitter"
               >
                 <span>
-                  <Icon name="dribbble" />
+                  <Icon name="twitter" />
                 </span>
               </a>
             </li>
           </List>
-          <Copy>&copy; 2022</Copy>
+          <Copy>&copy; {getCurrentYear()}</Copy>
         </Content>
       </Box>
     </>
