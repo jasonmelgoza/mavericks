@@ -17,6 +17,33 @@ export default function Layout({ children }) {
       <Head>
         <meta charset="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="author" content="Jason Melgoza" />
+        <meta
+          name="description"
+          content="I'm product designer focusing on visual design, design systems, and iconography"
+        />
+        <meta
+          name="keywords"
+          content="product designer, designer, interface, ui design, ux design, design systems, minimal, jasonmelgoza, jason melgoza"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.jmelgoza.com/" />
+        <meta
+          property="og:site_name"
+          content="Jason Melgoza — Interface Designer"
+        />
+        <meta
+          property="og:title"
+          content="Jason Melgoza — Interface Designer"
+        />
+        <meta
+          property="og:description"
+          content="I'm product designer focusing on visual design, design systems, and iconography"
+        />
+        <meta
+          property="og:image"
+          content="https://www.jmelgoza.com/images/me.png"
+        />
         <title>Jason Melgoza</title>
         <link rel="icon" href="/favicon.ico" />
         <link
@@ -36,33 +63,6 @@ export default function Layout({ children }) {
           href="/fonts/Satoshi-Black.ttf"
           as="font"
           crossOrigin=""
-        />
-        <meta
-          content="Jason Melgoza — I'm product designer focusing on visual design and design systems"
-          name="description"
-        />
-        <meta name="author" content="Jason Melgoza" />
-        <meta content="website" property="og:type" />
-        <meta content="https://www.jmelgoza.com/" property="og:url" />
-        <meta
-          content="Jason Melgoza — Interface Designer"
-          property="og:site_name"
-        />
-        <meta
-          content="Jason Melgoza — Interface Designer"
-          property="og:title"
-        />
-        <meta
-          content="Jason Melgoza — I'm product designer focusing on visual design and design systems"
-          property="og:description"
-        />
-        <meta
-          content="product designer, designer, interface, ui design, ux design, design systems, minimal, jasonmelgoza, jason melgoza"
-          name="keywords"
-        />
-        <meta
-          content="https://www.jmelgoza.com/images/me.png"
-          property="og:image"
         />
       </Head>
       <Header />
