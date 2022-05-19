@@ -60,6 +60,10 @@ export default function Layout({ children }) {
           content="product designer, designer, interface, ui design, ux design, design systems, minimal, jasonmelgoza, jason melgoza"
           name="keywords"
         />
+        <meta
+          content="https://www.jmelgoza.com/images/me.png"
+          property="og:image"
+        />
       </Head>
       <Header />
       <Main>{children}</Main>
