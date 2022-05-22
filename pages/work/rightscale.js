@@ -5,6 +5,7 @@ import Link from "next/link";
 import { styled } from "../../stitches.config";
 import {
   Article,
+  Box,
   Container,
   Divider,
   Figure,
@@ -124,6 +125,35 @@ export default function Page() {
               placeholder="blur"
             />
           </Figure>
+
+          <Box
+            css={{
+              backgroundColor: "$primary16",
+              borderRadius: "0.875rem",
+              padding: "$4"
+            }}
+          >
+            <Box
+              as="p"
+              css={{
+                fontSize: "1.25rem",
+                fontWeight: "400",
+                lineHeight: "1.5"
+              }}
+            >
+              <Heading
+                css={{
+                  textTransform: "uppercase",
+                  fontSize: "1.125rem",
+                  marginBottom: "0.25em"
+                }}
+              >
+                <a href="#">Design kit Demo</a>
+              </Heading>
+              This project is no longer in use, but I've got an archived version
+              of the site for demo purposes.
+            </Box>
+          </Box>
         </Container>
         <Divider />
         <Container as="section">
