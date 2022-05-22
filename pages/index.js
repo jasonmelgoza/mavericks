@@ -80,7 +80,7 @@ const Body = styled("div", {
 });
 
 const List = styled("div", {
-  display: "flex",
+  display: "inline-flex",
   flexDirection: "column",
   gap: "$4"
 });
@@ -89,11 +89,31 @@ const ListItem = styled("div", {
   display: "block",
 
   a: {
-    display: "inline-flex",
+    position: "relative",
+    display: "flex",
     flexDirection: "column",
 
+    "&::before": {
+      backgroundColor: "$primary16",
+      content: "",
+      borderRadius: "$3",
+      display: "block",
+      position: "absolute",
+      zIndex: -1,
+      inset: "calc($2 * -1) calc($3 * -1) calc($2 * -1) calc($3 * -1)",
+      opacity: 0,
+      transform: "scale(0.9)",
+      transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
+      transitionDuration: "300ms"
+    },
+
     "&:hover": {
-      color: "$primary"
+
+      "&::before": {
+        transition: "all 333ms",
+        transform: "scale(1)",
+        opacity: 1
+      }
     }
   }
 });
@@ -224,10 +244,7 @@ export default function Home() {
             </Link>
           </ListItem>
           <ListFooter>
-            <a
-              href="/resume-jasonmelgoza.pdf"
-              target="_blank"
-            >
+            <a href="/resume-jasonmelgoza.pdf" target="_blank">
               View Resume <span>&rarr;</span>
             </a>
           </ListFooter>
