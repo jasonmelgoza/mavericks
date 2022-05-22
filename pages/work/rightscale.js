@@ -29,7 +29,7 @@ const Pagination = styled("div", {
 
   a: {
     padding: "$4",
-    borderRadius: "0.875rem",
+    borderRadius: "$3",
     backgroundColor: "$fg8",
     color: "$fg",
     transition: "color 0.15s ease, background-color 0.15s ease",
@@ -129,29 +129,37 @@ export default function Page() {
           <Box
             css={{
               backgroundColor: "$primary16",
-              borderRadius: "0.875rem",
+              borderRadius: "$3",
               padding: "$4"
             }}
           >
+            <Heading
+              css={{
+                textTransform: "uppercase",
+                fontSize: "1.125rem",
+                marginBottom: "0.25em",
+
+                "@bp1": {
+                  fontSize: "1rem"
+                }
+              }}
+            >
+              <a href="#">Design kit Demo</a>
+            </Heading>
             <Box
               as="p"
               css={{
                 fontSize: "1.25rem",
                 fontWeight: "400",
-                lineHeight: "1.5"
+                lineHeight: "1.5",
+
+                "@bp1": {
+                  fontSize: "1rem"
+                }
               }}
             >
-              <Heading
-                css={{
-                  textTransform: "uppercase",
-                  fontSize: "1.125rem",
-                  marginBottom: "0.25em"
-                }}
-              >
-                <a href="#">Design kit Demo</a>
-              </Heading>
-              This project is no longer in use, but I've got an archived version
-              of the site for demo purposes.
+              This project is no longer in use, but I've got an{" "}
+              <a href="#"> archived version</a> of the site for demo purposes.
             </Box>
           </Box>
         </Container>

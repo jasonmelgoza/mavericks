@@ -55,6 +55,11 @@ export const { css, getCssText, globalCss, keyframes, styled } = createStitches(
         snug: "1.375",
         normal: "1.5"
       },
+      radii: {
+        1: "0.375rem",
+        2: "0.5rem",
+        3: "0.875rem",
+      },
       shadows: {
         medium: "0 8px 30px rgba(0, 0, 0, 0.12)",
         large: "0 30px 60px rgba(0, 0, 0, 0.12)",
