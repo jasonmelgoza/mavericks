@@ -20,6 +20,18 @@ import Image3 from "../../public/images/shot-rightscale-3.png";
 import Image4 from "../../public/images/shot-rightscale-4.png";
 import Image5 from "../../public/images/shot-rightscale-5.png";
 
+const SvgShare = (props) => (
+  <svg width={24} height={24} fill="none" {...props}>
+    <path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="M9.25 4.75h-2.5a2 2 0 0 0-2 2v10.5a2 2 0 0 0 2 2h10.5a2 2 0 0 0 2-2v-2.5M19.25 9.25v-4.5h-4.5M19 5l-7.25 7.25"
+    />
+  </svg>
+);
+
 const Pagination = styled("div", {
   display: "flex",
   flexDirection: "row",
@@ -135,16 +147,28 @@ export default function Page() {
           >
             <Heading
               css={{
-                textTransform: "uppercase",
+                alignItems: "center",
+                color: "$primary",
+                display: "flex",
+                flexDirection: "row",
                 fontSize: "1.125rem",
+                gap: "$1",
                 marginBottom: "0.25em",
+                textTransform: "uppercase",
 
                 "@bp1": {
                   fontSize: "1rem"
                 }
               }}
             >
-              <a href="#">Design kit Demo</a>
+              <a
+                href="https://unequaled-garden.surge.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Design kit Demo
+              </a>
+              <SvgShare />
             </Heading>
             <Box
               as="p"
@@ -159,7 +183,15 @@ export default function Page() {
               }}
             >
               This project is no longer in use, but I've got an{" "}
-              <a href="#"> archived version</a> of the site for demo purposes.
+              <a
+                href="https://unequaled-garden.surge.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                archived version
+              </a>{" "}
+              of the site for demo purposes.
             </Box>
           </Box>
         </Container>
