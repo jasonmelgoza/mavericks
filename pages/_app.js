@@ -41,6 +41,20 @@ const globalStyles = globalCss({
     textDecoration: "none"
   },
 
+  p: {
+    fontSize: "$medium",
+    fontWeight: "$medium",
+    lineHeight: "$normal",
+
+    "&:not(:last-child)": {
+      marginBottom: "calc(1em / 0.75)"
+    },
+
+    "@bp1": {
+      fontSize: "$normal"
+    }
+  },
+
   "#root, #__next": {
     isolation: "isolate"
   },

@@ -5,20 +5,6 @@ const Body = styled("article", {
     padding: "$5 0 0 0"
   },
 
-  p: {
-    fontSize: "$medium",
-    fontWeight: "$medium",
-    lineHeight: "$normal",
-
-    "&:not(:last-child)": {
-      marginBottom: "calc(1em / 0.75)"
-    },
-
-    "@bp1": {
-      fontSize: "$normal"
-    }
-  },
-
   a: {
     position: "relative",
     color: "$primary",

@@ -1,4 +1,5 @@
 export { default as Article } from "./Article";
+export { default as Box } from "./Box";
 export { default as Container } from "./Container";
 export { default as Divider } from "./Divider";
 export { default as Dropdown } from "./Dropdown"

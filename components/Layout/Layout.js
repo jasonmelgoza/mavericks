@@ -15,7 +15,6 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <meta charset="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="author" content="Jason Melgoza" />
         <meta

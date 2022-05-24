@@ -10,8 +10,8 @@ export const { css, getCssText, globalCss, keyframes, styled } = createStitches(
         fg8: "hsla(213, 18%, 10%, 0.08)",
         bg: "hsla(210, 25%, 98%, 1)",
         bg16: "hsla(210, 25%, 98%, .16)",
-        primary: "hsla(359, 86%, 67%, 1)",
-        primary16: "hsla(359, 86%, 67%, 0.16)"
+        primary: "hsla(5, 100%, 64%, 1)",
+        primary16: "hsla(5, 100%, 64%, 0.16)"
       },
       space: {
         1: "0.25rem",
@@ -55,8 +55,14 @@ export const { css, getCssText, globalCss, keyframes, styled } = createStitches(
         snug: "1.375",
         normal: "1.5"
       },
+      radii: {
+        1: "0.375rem",
+        2: "0.5rem",
+        3: "0.875rem",
+      },
       shadows: {
-        huge: "0 50px 100px -20px rgba(50,50,93,0.25), 0 30px 60px -30px rgba(0,0,0,0.3)"
+        medium: "0 8px 30px rgba(0, 0, 0, 0.12)",
+        large: "0 30px 60px rgba(0, 0, 0, 0.12)",
       }
     },
     media: {
