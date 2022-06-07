@@ -182,7 +182,7 @@ export default function Page() {
                 }
               }}
             >
-              This project is no longer in use, but I<span>&#39;</span>ve got an{" "}
+              This project is no longer in use but I<span>&#39;</span>ve got an{" "}
               <a
                 href="https://unequaled-garden.surge.sh/"
                 target="_blank"
