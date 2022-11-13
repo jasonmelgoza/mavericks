@@ -48,72 +48,84 @@ const List = styled("ul", {
   }
 });
 
-const Copy = styled("div", {
-  marginTop: "1rem",
-  fontSize: "$small",
-  fontWeight: "$medium",
-  color: "$fg64"
+const Copy = styled('div', {
+  marginTop: '$4',
+  fontSize: '$small',
+  fontWeight: '$medium',
+  color: '$gray6',
 });
+
+const NavLink = styled('a', {
+  display: 'flex',
+  height: 32,
+  width: 32,
+  alignItems: 'center',
+  justifyContent: 'center',
+  borderRadius: '$2',
+  transition: 'all 0.15s ease',
+
+  '&:hover': {
+    backgroundColor: '$primary16',
+    color: '$cta',
+  },
+});
+
+const items = [
+  {
+    id: 1,
+    name: 'dribbble',
+    link: 'https://dribbble.com/jasonmelgoza',
+    title: 'Jason Melgoza on Dribbble',
+  },
+  {
+    id: 2,
+    name: 'linkedin',
+    link: 'https://linkedin.com/in/jasonmelgoza',
+    title: 'Jason Melgoza on Linkedin',
+  },
+  {
+    id: 3,
+    name: 'github',
+    link: 'https://github.com/jasonmelgoza',
+    title: 'Jason Melgoza on Github',
+  },
+  {
+    id: 4,
+    name: 'twitter',
+    link: 'https://twitter.com/jasonmelgoza',
+    title: 'Jason Melgoza on Twitter',
+  },
+  {
+    id: 5,
+    name: 'instagram',
+    link: 'https://www.instagram.com/jmelgoza',
+    title: 'Jason Melgoza on Instagram',
+  },
+]
 
 export default function Footer() {
   const getCurrentYear = () => {
-    return new Date().getFullYear();
+    return new Date().getFullYear()
   };
+
+  const listItems = items.map((item) => (
+    <li key={item.id}>
+      <NavLink
+        href={item.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        title={item.title}
+      >
+        <Icon name={item.name} />
+      </NavLink>
+    </li>
+  ))
 
   return (
     <>
       <Box>
         <Content>
-          <List>
-            <li>
-              <a
-                href="https://dribbble.com/jasonmelgoza"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Jason Melgoza on Dribbble"
-              >
-                <span>
-                  <Icon name="dribbble" />
-                </span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://linkedin.com/in/jasonmelgoza"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Jason Melgoza on Linkedin"
-              >
-                <span>
-                  <Icon name="linkedin" />
-                </span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/jmelgoza/"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Jason Melgoza on Instagram"
-              >
-                <span>
-                  <Icon name="instagram" />
-                </span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com/jasonmelgoza"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Jason Melgoza on Twitter"
-              >
-                <span>
-                  <Icon name="twitter" />
-                </span>
-              </a>
-            </li>
-          </List>
+          <List>{listItems}</List>
           <Copy>&copy; {getCurrentYear()}</Copy>
         </Content>
       </Box>

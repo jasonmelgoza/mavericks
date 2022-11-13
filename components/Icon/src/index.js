@@ -2,6 +2,7 @@ export { default as ArrowLeft } from "./ArrowLeft";
 export { default as ArrowRight } from "./ArrowRight";
 export { default as Blog } from "./Blog";
 export { default as Dribbble } from "./Dribbble";
+export { default as Github } from "./Github";
 export { default as Instagram } from "./Instagram";
 export { default as Linkedin } from "./Linkedin";
 export { default as Logo } from "./Logo";
