@@ -32,6 +32,7 @@ const List = styled("ul", {
   margin: "0",
   padding: "0",
   listStyle: "none",
+  transform: "translateX(-4px)",
 
   li: {
     display: "flex",
