@@ -125,10 +125,7 @@ export default function Page() {
             />
           </Figure>
           <p>
-            The team also included coded component examples that contained all
-            the necessary markup and style for a given component. These pages
-            were easy to share and made an excellent reference tool for
-            front-end devs.
+            Along with a style guide, I designed and built component example pages that contained all the necessary markup and style for a given component. These pages were easy to share and were an excellent reference tool for front-end devs.
           </p>
           <Figure caption="Component Snippets">
             <Image
