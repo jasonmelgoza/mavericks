@@ -6,6 +6,7 @@ import {
   ArrowRight,
   Blog,
   Dribbble,
+  Github,
   Instagram,
   Linkedin,
   Logo,
@@ -22,6 +23,7 @@ const IconMap = {
   "arrow right": ArrowRight,
   blog: Blog,
   dribbble: Dribbble,
+  github: Github,
   instagram: Instagram,
   linkedin: Linkedin,
   logo: Logo,
@@ -30,7 +32,7 @@ const IconMap = {
   project: Project,
   twitter: Twitter,
   user: User,
-  work: Work
+  work: Work,
 };
 
 export default function Icon({ className, name, ...props }) {

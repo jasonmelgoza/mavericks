@@ -35,6 +35,7 @@ const SubHeader = styled("div", {
 
 const Body = styled("div", {
   maxWidth: "40rem",
+  marginBottom: "$11",
 
   p: {
     fontSize: "$medium",
@@ -214,8 +215,6 @@ export default function Home() {
             easy-to-use browser-based software.
           </p>
         </Body>
-
-        <Divider />
 
         <SubHeader>
           <Icon name="work" />
