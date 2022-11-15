@@ -35,7 +35,7 @@ const SubHeader = styled("div", {
 
 const Body = styled("div", {
   maxWidth: "40rem",
-  marginBottom: "$11",
+  marginBottom: "$9",
 
   p: {
     fontSize: "$medium",
