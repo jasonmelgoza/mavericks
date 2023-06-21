@@ -1,4 +1,4 @@
-# Mavericks
+# Mavericks 🌊
 
 v0.1.0
 
