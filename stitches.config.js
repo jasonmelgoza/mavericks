@@ -16,6 +16,9 @@ export const {
       loContrast: "#555",
       bg: "white",
       secondaryBg: "#eee"
+    },
+    fonts: {
+      sans: "system-ui, sans-serif"
     }
   },
   media: {
@@ -78,7 +81,7 @@ const globalStyles = globalCss({
   },
 
   body: {
-    fontFamily: "system-ui, sans-serif",
+    fontFamily: "$sans",
     color: "$hiContrast",
     backgroundColor: "$bg"
   }
