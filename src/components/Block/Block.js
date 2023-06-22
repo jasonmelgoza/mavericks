@@ -10,8 +10,7 @@ export default function Block({ as, children, className }) {
         backgroundColor: "$bg",
 
         "&.content-block": {
-          margin: "0 auto",
-          maxWidth: "656px"
+          margin: "0 auto"
         }
       }}
     >
