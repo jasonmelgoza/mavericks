@@ -12,10 +12,10 @@ export const {
 } = createStitches({
   theme: {
     colors: {
-      hiContrast: "#000",
-      loContrast: "#555",
+      hiContrast: "#111827",
+      loContrast: "#6b7280",
       bg: "white",
-      secondaryBg: "#eee"
+      secondaryBg: "#f3f4f6"
     },
     fonts: {
       sans: "system-ui, sans-serif"
@@ -41,7 +41,8 @@ const globalStyles = globalCss({
 
   body: {
     lineHeight: 1.5,
-    "-webkit-font-smoothing": "antialiased"
+    "-webkit-font-smoothing": "antialiased",
+    "-moz-osx-font-smoothing": "grayscale"
   },
 
   "img, picture, video, canvas, svg": {
@@ -63,9 +64,9 @@ const globalStyles = globalCss({
   },
 
   p: {
-    fontSize: "$normal",
-    fontWeight: "$1",
-    lineHeight: "$2",
+    fontSize: "16px",
+    fontWeight: "400",
+    lineHeight: 1.5,
 
     "&:not(:last-child)": {
       marginBottom: "calc(1em / 0.75)"
@@ -84,6 +85,15 @@ const globalStyles = globalCss({
     fontFamily: "$sans",
     color: "$hiContrast",
     backgroundColor: "$bg"
+  },
+
+  a: {
+    color: "blue",
+    textDecoration: "none",
+
+    "&:hover": {
+      textDecoration: "underline"
+    }
   }
 });
 

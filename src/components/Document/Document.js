@@ -20,14 +20,6 @@ const Box = styled("article", {
     "&:not(:last-child)": {
       marginBottom: "1rem"
     }
-  },
-  a: {
-    color: "blue",
-    textDecoration: "none",
-
-    "&:hover": {
-      textDecoration: "underline"
-    }
   }
 });
 
