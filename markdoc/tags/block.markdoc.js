@@ -1,4 +1,4 @@
-import { Block } from "../../src/components/Block";
+import { Block } from "../../src/components";
 
 export default {
   render: Block,
