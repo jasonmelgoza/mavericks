@@ -4,7 +4,10 @@ description: I'm an interface designer who is passionate about turning complex p
 ---
 
 {% block className="content-block" as="section" %}
-# {% $markdoc.frontmatter.title %}
+
+{% heading %}
+{% $markdoc.frontmatter.title %}
+{% /heading %}
 
 ## {% $markdoc.frontmatter.description %}
 

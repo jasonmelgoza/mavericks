@@ -4,7 +4,10 @@ description: Product designer at SecureDocs Inc. interface tinkerer, icon illust
 ---
 
 {% block className="content-block" as="section" %}
-# {% $markdoc.frontmatter.title %}
+
+{% heading %}
+{% $markdoc.frontmatter.title %}
+{% /heading %}
 
 {% $markdoc.frontmatter.description %}
 
