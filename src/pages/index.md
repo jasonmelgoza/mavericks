@@ -1,16 +1,14 @@
 ---
 title: Jason Melgoza
-description: I'm an interface designer who is passionate about turning complex problems into simple and elegant solutions.
+description: Product designer at SecureDocs Inc. interface tinkerer, icon illustrator, and defender of the universe.
 ---
 
 {% block className="content-block" as="section" %}
 # {% $markdoc.frontmatter.title %}
 
-## {% $markdoc.frontmatter.description %}
+{% $markdoc.frontmatter.description %}
 
-With a background in UI design and a focus on creating user-friendly interfaces, I am proud to be part of the SecureDocs team. In my personal life, I am a loving husband and father, and I enjoy nothing more than defending the universe alongside my family.
-
-I specialize in product design for the web and thrive in 0 → 1 work. My focus is on visual design, user experience, and design systems. I also code for the web with a focus on React, CSS architecture, and component systems.
-
+[Projects](/about)
+[Work](/about)
 [About](/about)
 {% /block %}
