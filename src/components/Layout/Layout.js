@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Box from "../Box";
 
-export default function Layout({ children }) {
+export default function Layout({ children, className }) {
   return (
     <Box
+      className={className}
       css={{
         padding: "6rem 0"
       }}
