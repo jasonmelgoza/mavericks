@@ -7,14 +7,14 @@ description: Product designer at SecureDocs Inc. interface tinkerer, icon illust
 # {% $markdoc.frontmatter.title %}
 {% /block %}
 
-{% block className="content-block" as="section" %}
+{% block className="hero-block" as="section" %}
 {% $markdoc.frontmatter.description %}
 {% /block %}
 
 {% block className="nav-block" as="nav" %}
 
-- [Projects](/about)
-- [Work](/about)
+- [Projects](/projects)
+- [Work](/work)
 - [About](/about)
 
 {% /block %}

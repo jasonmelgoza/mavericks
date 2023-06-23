@@ -6,11 +6,11 @@ export default function Block({ as, children, className }) {
       as={as}
       className={className}
       css={{
-        marginBottom: "1rem",
+        margin: "0 0 1rem 0",
         backgroundColor: "$bg",
 
         "&.header-block": {
-          margin: "0 auto 3rem auto",
+          marginBottom: "3rem",
 
           "& h1": {
             color: "$fg",
@@ -21,13 +21,20 @@ export default function Block({ as, children, className }) {
           }
         },
 
+        "&.hero-block": {
+          marginBottom: "3rem",
+
+          "& p": {
+            fontSize: "1.5rem"
+          }
+        },
+
         "&.content-block": {
-          margin: "0 auto"
+          marginBottom: "3rem"
         },
 
         "&.nav-block": {
-          marginBottom: "0",
-          marginTop: "3rem",
+          marginBottom: "3rem",
 
           "& ul": {
             margin: "0px",
