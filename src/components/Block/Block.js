@@ -30,7 +30,31 @@ export default function Block({ as, children, className }) {
         },
 
         "&.content-block": {
-          marginBottom: "3rem"
+          marginBottom: "3rem",
+
+          "& p": {
+            fontSize: "1rem",
+            lineHeight: "1.5",
+            marginBottom: "1rem"
+          },
+
+          "& h1": {
+            fontSize: "2.25rem",
+            lineHeight: "1.2",
+            marginBottom: "1rem"
+          },
+
+          "& h2": {
+            fontSize: "1.875rem",
+            lineHeight: "1.2",
+            marginBottom: "1rem"
+          },
+
+          "& h3": {
+            fontSize: "1.25rem",
+            lineHeight: "1.2",
+            marginBottom: "0.75rem"
+          }
         },
 
         "&.nav-block": {
