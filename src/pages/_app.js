@@ -15,12 +15,12 @@ const satoshiFont = localFont({
     },
     {
       path: "./fonts/Satoshi-Medium.woff2",
-      weight: "400",
+      weight: "500",
       style: "normal"
     },
     {
       path: "./fonts/Satoshi-MediumItalic.woff2",
-      weight: "400",
+      weight: "500",
       style: "italic"
     },
     {

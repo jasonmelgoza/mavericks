@@ -64,16 +64,12 @@ const globalStyles = globalCss({
   },
 
   p: {
-    fontSize: "16px",
+    fontSize: "1rem",
     fontWeight: "400",
     lineHeight: 1.5,
 
     "&:not(:last-child)": {
       marginBottom: "calc(1em / 0.75)"
-    },
-
-    "@bp1": {
-      fontSize: "$medium"
     }
   },
 
