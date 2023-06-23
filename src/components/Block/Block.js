@@ -39,6 +39,8 @@ export default function Block({ as, children, className }) {
           },
 
           "& a": {
+            fontSize: "1.125rem",
+            lineHeight: "1.5",
             color: "$fg"
           }
         }
