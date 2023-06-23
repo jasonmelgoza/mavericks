@@ -12,10 +12,10 @@ export const {
 } = createStitches({
   theme: {
     colors: {
-      hiContrast: "#ededed",
-      loContrast: "#949494",
-      bg: "#282828",
-      secondaryBg: "#f3f4f6"
+      hiContrast: "rgba(255, 255, 255, .9)",
+      loContrast: "rgba(255, 255, 255, .65)",
+      bg: "#121212",
+      secondaryBg: "#313131"
     },
     fonts: {
       sans: "system-ui, sans-serif"
