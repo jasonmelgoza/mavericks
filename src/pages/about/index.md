@@ -3,9 +3,9 @@ title: About
 description: I'm an interface designer who is passionate about turning complex problems into simple and elegant solutions.
 ---
 
-{% header className="header-block" %}
+{% block className="header-block" as="header" %}
 # {% $markdoc.frontmatter.title %}
-{% /header %}
+{% /block %}
 
 {% block className="content-block" as="section" %}
 

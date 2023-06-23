@@ -36,6 +36,10 @@ export default function Block({ as, children, className }) {
             display: "flex",
             flexDirection: "column",
             gap: "8px"
+          },
+
+          "& a": {
+            color: "$fg"
           }
         }
       }}
