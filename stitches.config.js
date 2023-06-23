@@ -12,9 +12,9 @@ export const {
 } = createStitches({
   theme: {
     colors: {
-      hiContrast: "#111827",
-      loContrast: "#6b7280",
-      bg: "white",
+      hiContrast: "#ededed",
+      loContrast: "#949494",
+      bg: "#282828",
       secondaryBg: "#f3f4f6"
     },
     fonts: {

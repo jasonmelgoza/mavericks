@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <Box
       css={{
-        padding: "3rem 0"
+        padding: "6rem 0"
       }}
     >
       <Head>

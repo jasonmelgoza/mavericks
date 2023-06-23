@@ -1,7 +1,7 @@
-import { Heading } from "../../src/components";
+import { Header } from "../../src/components";
 
 export default {
-  render: Heading,
+  render: Header,
   attributes: {
     className: { type: String }
   }

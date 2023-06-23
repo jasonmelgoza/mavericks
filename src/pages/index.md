@@ -3,10 +3,11 @@ title: Jason Melgoza
 description: Product designer at SecureDocs Inc. interface tinkerer, icon illustrator, and defender of the universe.
 ---
 
-{% partial file="header.md" /%}
+{% header className="header-block" %}
+# {% $markdoc.frontmatter.title %}
+{% /header %}
 
 {% block className="content-block" as="section" %}
-
 {% $markdoc.frontmatter.description %}
 
 [Projects](/about)
