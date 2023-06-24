@@ -72,7 +72,15 @@ export default function Block({ as, children, className }) {
           "& a": {
             fontSize: "1.125rem",
             lineHeight: "1.5",
-            color: "$fg"
+            color: "$hiContrast",
+            transitionProperty: "all",
+            transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
+            transitionDuration: "150ms",
+
+            "&:hover": {
+              opacity: "50%",
+              textDecoration: "none"
+            }
           }
         }
       }}
