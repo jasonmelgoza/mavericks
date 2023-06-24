@@ -1,16 +1,12 @@
-import Box from "../Box";
+import * as React from "react";
 
-export default function Heading({ children, className }) {
-  return (
-    <Box
-      as="h1"
-      className={className}
-      css={{
-        marginBottom: "1rem",
-        fontSize: "2rem",
-      }}
-    >
-      {children}
-    </Box>
+export default function Heading({ id = "", level = 1, children, className }) {
+  return React.createElement(
+    `h${level}`,
+    {
+      id,
+      className: ["heading", className].filter(Boolean).join(" ")
+    },
+    children
   );
 }
