@@ -29,6 +29,15 @@ export default function Block({ as, children, className }) {
           }
         },
 
+        "&.lead-block": {
+          marginBottom: "1.5rem",
+
+          "& p": {
+            fontSize: "1.875rem",
+            lineHeight: "1.3"
+          }
+        },
+
         "&.content-block": {
           marginBottom: "3rem",
 
@@ -55,7 +64,17 @@ export default function Block({ as, children, className }) {
             fontWeight: "500",
             lineHeight: "1.2",
             textTransform: "uppercase",
+            marginTop: "1.5rem",
             marginBottom: "0.75rem"
+          },
+
+          "& a": {
+            color: "$hiContrast",
+            textDecoration: "underline",
+
+            "&:hover": {
+              textDecoration: "none"
+            }
           },
 
           "& hr": {
