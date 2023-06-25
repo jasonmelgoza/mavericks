@@ -47,6 +47,14 @@ export default function Block({ as, children, className }) {
             marginBottom: "1rem"
           },
 
+          "& ul": {
+            fontSize: "1rem",
+            lineHeight: "1.5",
+            marginBottom: "1rem",
+            padding: "0 0 0 1rem",
+            listStyleType: "🤘"
+          },
+
           "& h1": {
             fontSize: "2.25rem",
             lineHeight: "1.2",
