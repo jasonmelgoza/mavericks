@@ -52,8 +52,17 @@ export default function Block({ as, children, className }) {
 
           "& h3": {
             fontSize: "1.25rem",
+            fontWeight: "500",
             lineHeight: "1.2",
+            textTransform: "uppercase",
             marginBottom: "0.75rem"
+          },
+
+          "& hr": {
+            height: "1px",
+            marginTop: "2rem",
+            marginBottom: "2rem",
+            borderColor: "rgba(255, 255, 255, .10)"
           }
         },
 
