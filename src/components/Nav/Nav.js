@@ -26,27 +26,38 @@ export default function Header({ className, ...props }) {
           transitionProperty: "all",
           transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
           transitionDuration: "150ms",
+          
+          "& span": {
+            display: "none",
+          },
 
           "&:hover": {
             opacity: "50%",
-            textDecoration: "none"
-          }
+            textDecoration: "none",
+          
+            "& span": {
+              display: "inline-block",
+            }  
+          },
         }
       }}
       {...props}
     >
       <ul>
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/">Home<span >foo</span></Link>
         </li>
         <li>
-          <Link href="/projects">Projects</Link>
+          <Link href="/projects">Projects<span>foo</span></Link>
         </li>
         <li>
-          <Link href="/work">Work</Link>
+          <Link href="/work">Work<span>foo</span></Link>
         </li>
         <li>
-          <Link href="/about">About</Link>
+          <Link href="/about">About<span>foo</span></Link>
+        </li>
+        <li>
+          <Link href="/style-guide">Style<span>foo</span></Link>
         </li>
       </ul>
     </Box>
