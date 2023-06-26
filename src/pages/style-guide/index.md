@@ -47,12 +47,3 @@ Satoshi’s lowercase ‘a’ and ‘g’ are double-storied; however, single-st
 Satoshi was designed by [Deni Anggara](https://www.indiantypefoundry.com/designers/deni-anggara) for the [Indian Type Foundry](https://www.indiantypefoundry.com/).
 
 {% /block %}
-
-{% block className="nav-block" as="nav" %}
-
-- [Home](/)
-- [Projects](/projects)
-- [Work](/work)
-- [About](/about)
-
-{% /block %}

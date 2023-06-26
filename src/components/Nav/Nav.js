@@ -1,13 +1,14 @@
 import Box from "../Box";
 import Link from "next/link";
+import cx from "clsx";
 
 export default function Header({ className, ...props }) {
   return (
     <Box
       as="nav"
-      className={className}
+      className={cx("nav-block", className)}
       css={{
-        marginBottom: "3rem",
+        marginBottom: "1rem",
 
         "& ul": {
           margin: "0px",
