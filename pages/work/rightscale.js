@@ -203,12 +203,12 @@ export default function Page() {
         </Container>
         <Container as="footer">
           <Pagination>
-            <Link href="/work/securedocs">
+            <Link legacyBehavior href="/work/securedocs">
               <a>
                 <Icon aria-label="Previous" name="arrow left" />
               </a>
             </Link>
-            <Link href="#">
+            <Link legacyBehavior href="#">
               <a style={{ opacity: "50%", pointerEvents: "none" }}>
                 <Icon aria-label="Next" name="arrow right" />
               </a>

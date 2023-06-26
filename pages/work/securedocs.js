@@ -161,12 +161,12 @@ export default function Page() {
         </Container>
         <Container as="footer">
           <Pagination>
-            <Link href="#">
+            <Link legacyBehavior href="#">
               <a style={{ opacity: "50%", pointerEvents: "none" }}>
                 <Icon aria-label="Previous" name="arrow left" />
               </a>
             </Link>
-            <Link href="/work/rightscale">
+            <Link legacyBehavior href="/work/rightscale">
               <a>
                 <Icon aria-label="Next" name="arrow right" />
               </a>

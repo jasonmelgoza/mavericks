@@ -1,7 +1,52 @@
-import splitbee from '@splitbee/web';
+import splitbee from "@splitbee/web";
+import localFont from "next/font/local";
 import { globalCss } from "../stitches.config";
 import { Layout } from "../components";
-import "../styles/fonts.css";
+
+const myFont = localFont({
+  src: [
+    {
+      path: "./fonts/Satoshi-Regular.woff2",
+      weight: "400",
+      style: "normal"
+    },
+    {
+      path: "./fonts/Satoshi-Italic.woff2",
+      weight: "400",
+      style: "italic"
+    },
+    {
+      path: "./fonts/Satoshi-Light.woff2",
+      weight: "300",
+      style: "normal"
+    },
+    {
+      path: "./fonts/Satoshi-LightItalic.woff2",
+      weight: "300",
+      style: "italic"
+    },
+    {
+      path: "./fonts/Satoshi-Medium.woff2",
+      weight: "500",
+      style: "normal"
+    },
+    {
+      path: "./fonts/Satoshi-MediumItalic.woff2",
+      weight: "500",
+      style: "italic"
+    },
+    {
+      path: "./fonts/Satoshi-Bold.woff2",
+      weight: "700",
+      style: "normal"
+    },
+    {
+      path: "./fonts/Satoshi-Black.woff2",
+      weight: "900",
+      style: "normal"
+    }
+  ]
+});
 
 const globalStyles = globalCss({
   "*": { margin: 0, padding: 0 },
@@ -26,6 +71,10 @@ const globalStyles = globalCss({
   "img, picture, video, canvas, svg": {
     display: "block",
     maxWidth: "100%"
+  },
+
+  img: {
+    height: "auto"
   },
 
   "input, button, textarea, select": {
@@ -74,7 +123,7 @@ export default function MyApp({ Component, pageProps }) {
   splitbee.init();
   globalStyles();
   return (
-    <Layout>
+    <Layout className={myFont.className}>
       <Component {...pageProps} />
     </Layout>
   );
