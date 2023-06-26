@@ -49,64 +49,58 @@ const List = styled("ul", {
   }
 });
 
-const Copy = styled('div', {
-  marginTop: '$4',
-  fontSize: '$small',
-  fontWeight: '$medium',
-  color: '$gray6',
+const Copy = styled("div", {
+  marginTop: "$4",
+  fontSize: "$small",
+  fontWeight: "$medium",
+  color: "$gray6"
 });
 
-const NavLink = styled('a', {
-  display: 'flex',
+const NavLink = styled("a", {
+  display: "flex",
   height: 32,
   width: 32,
-  alignItems: 'center',
-  justifyContent: 'center',
-  borderRadius: '$2',
-  transition: 'all 0.15s ease',
+  alignItems: "center",
+  justifyContent: "center",
+  borderRadius: "$2",
+  transition: "all 0.15s ease",
 
-  '&:hover': {
-    backgroundColor: '$primary16',
-    color: '$cta',
-  },
+  "&:hover": {
+    backgroundColor: "$primary16",
+    color: "$cta"
+  }
 });
 
 const items = [
   {
     id: 1,
-    name: 'dribbble',
-    link: 'https://dribbble.com/jasonmelgoza',
-    title: 'Jason Melgoza on Dribbble',
+    name: "dribbble",
+    link: "https://dribbble.com/jasonmelgoza",
+    title: "Jason Melgoza on Dribbble"
   },
   {
     id: 2,
-    name: 'linkedin',
-    link: 'https://linkedin.com/in/jasonmelgoza',
-    title: 'Jason Melgoza on Linkedin',
+    name: "linkedin",
+    link: "https://linkedin.com/in/jasonmelgoza",
+    title: "Jason Melgoza on Linkedin"
   },
   {
     id: 3,
-    name: 'github',
-    link: 'https://github.com/jasonmelgoza',
-    title: 'Jason Melgoza on Github',
+    name: "github",
+    link: "https://github.com/jasonmelgoza",
+    title: "Jason Melgoza on Github"
   },
   {
     id: 4,
-    name: 'twitter',
-    link: 'https://twitter.com/jasonmelgoza',
-    title: 'Jason Melgoza on Twitter',
-  },
-  {
-    id: 5,
-    name: 'instagram',
-    link: 'https://www.instagram.com/jmelgoza',
-    title: 'Jason Melgoza on Instagram',
-  },
-]
+    name: "twitter",
+    link: "https://twitter.com/jasonmelgoza",
+    title: "Jason Melgoza on Twitter"
+  }
+];
 
 export default function Footer() {
   const getCurrentYear = () => {
-    return new Date().getFullYear()
+    return new Date().getFullYear();
   };
 
   const listItems = items.map((item) => (
@@ -120,7 +114,7 @@ export default function Footer() {
         <Icon name={item.name} />
       </NavLink>
     </li>
-  ))
+  ));
 
   return (
     <>
