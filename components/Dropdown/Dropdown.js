@@ -62,17 +62,17 @@ export default function Dropdown() {
 
       <StyledContent side="bottom" sideOffset={8}>
         <StyledItem>
-          <Link href="/about">
+          <Link legacyBehavior href="/about">
             <a>Work</a>
           </Link>
         </StyledItem>
         <StyledItem>
-          <Link href="/blog">
+          <Link legacyBehavior href="/blog">
             <a>Blog</a>
           </Link>
         </StyledItem>
         <StyledItem>
-          <Link href="/about">
+          <Link legacyBehavior href="/about">
             <a>Current Projects</a>
           </Link>
         </StyledItem>

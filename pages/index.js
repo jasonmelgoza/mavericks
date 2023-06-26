@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { styled } from "../stitches.config.js";
-import { Container, Divider, Icon } from "../components";
+import { Container, Icon } from "../components";
 
 const Header = styled("h1", {
   marginBottom: "$9",
@@ -109,7 +109,6 @@ const ListItem = styled("div", {
     },
 
     "&:hover": {
-
       "&::before": {
         transition: "all 333ms",
         transform: "scale(1)",
@@ -223,7 +222,7 @@ export default function Home() {
 
         <List>
           <ListItem>
-            <Link href="/work/securedocs">
+            <Link legacyBehavior href="/work/securedocs">
               <a>
                 <ListItemHeading>SecureDocs, Inc.</ListItemHeading>
                 <ListItemContent>
@@ -233,7 +232,7 @@ export default function Home() {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="/work/rightscale">
+            <Link legacyBehavior href="/work/rightscale">
               <a>
                 <ListItemHeading>RightScale</ListItemHeading>
                 <ListItemContent>

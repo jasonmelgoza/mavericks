@@ -62,7 +62,7 @@ export default function Header() {
       <Box>
         <Content>
           <Logo>
-            <Link href="/">
+            <Link legacyBehavior href="/">
               <a title="jmelgoza.com">
                 <Icon name="logo" />
               </a>
