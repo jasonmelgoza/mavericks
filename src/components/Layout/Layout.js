@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Box from "../Box";
+import Nav from "../Nav";
 
 export default function Layout({ children, className }) {
   return (
@@ -32,6 +33,7 @@ export default function Layout({ children, className }) {
         }}
       >
         {children}
+        <Nav />
       </Box>
     </Box>
   );
