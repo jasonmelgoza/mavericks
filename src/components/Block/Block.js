@@ -101,6 +101,11 @@ export default function Block({ as, children, className }) {
             borderBottomWidth: "1px",
             color: "$hiContrast",
             opacity: "0.15"
+          },
+
+          "& img": {
+            marginTop: "2rem",
+            marginBottom: "2rem"
           }
         },
 
