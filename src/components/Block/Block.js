@@ -51,8 +51,14 @@ export default function Block({ as, children, className }) {
             fontSize: "1rem",
             lineHeight: "1.5",
             marginBottom: "1rem",
-            padding: "0 0 0 1rem",
-            listStyleType: "🤘"
+            padding: "0",
+            listStyleType: "none",
+
+            "& li::before": {
+              display: "inline-block",
+              content: "-",
+              marginRight: "0.75rem"
+            }
           },
 
           "& h1": {
@@ -86,10 +92,15 @@ export default function Block({ as, children, className }) {
           },
 
           "& hr": {
-            height: "1px",
+            width: "100%",
             marginTop: "2rem",
             marginBottom: "2rem",
-            borderColor: "rgba(255, 255, 255, .10)"
+            border: "0",
+            borderColor: "inherit",
+            borderStyle: "solid",
+            borderBottomWidth: "1px",
+            color: "$hiContrast",
+            opacity: "0.15"
           }
         },
 
