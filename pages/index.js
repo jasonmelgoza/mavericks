@@ -202,16 +202,9 @@ export default function Home() {
             on React, CSS architecture, and component systems.
           </p>
           <p>
-            Currently, I<span>&#39;</span>m part of the awesome team at{" "}
-            <a
-              href="https://www.securedocs.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              SecureDocs<span>&#44;</span> Inc.
-            </a>{" "}
-            where we<span>&#39;</span>re laser-focused on creating user-friendly
-            browser-based software.
+            Currently, I<span>&#39;</span>m part of the awesome team at
+            SecureDocs<span>&#44;</span> Inc. where we<span>&#39;</span>re
+            laser-focused on creating user-friendly browser-based software.
           </p>
         </Body>
 
