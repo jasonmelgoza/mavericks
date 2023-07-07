@@ -79,7 +79,7 @@ export default function Page() {
           <Geist
             className="hero"
             original="/images/hero-rightscale-1.png"
-            thumbnail="/images/hero-rightscale-1.png"
+            thumbnail="/images/hero-rightscale-1-thumb.png"
             width="1088"
             height="680"
           />
@@ -101,7 +101,7 @@ export default function Page() {
             <Geist
               className="branding"
               original="/images/shot-rightscale-2.png"
-              thumbnail="/images/shot-rightscale-2.png"
+              thumbnail="/images/shot-rightscale-2-thumb.png"
               width="1344"
               height="801"
             />
@@ -116,7 +116,7 @@ export default function Page() {
             <Geist
               className="colors"
               original="/images/shot-rightscale-3.png"
-              thumbnail="/images/shot-rightscale-3.png"
+              thumbnail="/images/shot-rightscale-3-thumb.png"
               width="1344"
               height="801"
             />
@@ -125,7 +125,7 @@ export default function Page() {
             <Geist
               className="colors"
               original="/images/shot-rightscale-4.png"
-              thumbnail="/images/shot-rightscale-4.png"
+              thumbnail="/images/shot-rightscale-4-thumb.png"
               width="1344"
               height="801"
             />
@@ -140,7 +140,7 @@ export default function Page() {
             <Geist
               className="icons"
               original="/images/shot-rightscale-5.png"
-              thumbnail="/images/shot-rightscale-5.png"
+              thumbnail="/images/shot-rightscale-5-thumb.png"
               width="1344"
               height="1022"
             />
