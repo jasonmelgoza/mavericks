@@ -45,24 +45,6 @@ export default function Layout({ children }) {
         />
         <title>Jason Melgoza</title>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="preload"
-          href="/fonts/Satoshi-Regular.ttf"
-          as="font"
-          crossOrigin=""
-        />
-        <link
-          rel="preload"
-          href="/fonts/Satoshi-Medium.ttf"
-          as="font"
-          crossOrigin=""
-        />
-        <link
-          rel="preload"
-          href="/fonts/Satoshi-Black.ttf"
-          as="font"
-          crossOrigin=""
-        />
       </Head>
       <Header />
       <Main>{children}</Main>

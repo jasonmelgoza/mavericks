@@ -9,6 +9,7 @@ import {
   Container,
   Divider,
   Figure,
+  Geist,
   Heading,
   Hero,
   Icon
@@ -82,7 +83,13 @@ export default function Page() {
           </p>
         </Container>
         <Hero caption="Screenshots from the Design Kit Project">
-          <Image src={Hero1} alt="Design Kit Landing Page" placeholder="blur" />
+          <Geist
+            className="hero"
+            original="/images/large.png"
+            thumbnail="/images/large.png"
+            width="1024"
+            height="768"
+          />
         </Hero>
         <Container as="section">
           <Heading as="h2" size="large">
@@ -125,7 +132,10 @@ export default function Page() {
             />
           </Figure>
           <p>
-            Along with a style guide, I designed and built component example pages that contained all the necessary markup and style for a given component. These pages were easy to share and were an excellent reference tool for front-end devs.
+            Along with a style guide, I designed and built component example
+            pages that contained all the necessary markup and style for a given
+            component. These pages were easy to share and were an excellent
+            reference tool for front-end devs.
           </p>
           <Figure caption="Component Snippets">
             <Image
