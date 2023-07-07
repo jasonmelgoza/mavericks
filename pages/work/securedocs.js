@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 
 import { styled } from "../../stitches.config";
@@ -13,13 +12,6 @@ import {
   Hero,
   Icon
 } from "../../components";
-
-import Hero1 from "../../public/images/hero-securedocs-1.png";
-import Image2 from "../../public/images/shot-securedocs-1.gif";
-import Image3 from "../../public/images/shot-securedocs-2.png";
-import Image4 from "../../public/images/shot-securedocs-3.png";
-import Image5 from "../../public/images/shot-securedocs-4.png";
-import Image6 from "../../public/images/shot-securedocs-5.png";
 
 const Pagination = styled("div", {
   display: "flex",
@@ -72,6 +64,7 @@ export default function Page() {
         </Container>
         <Hero caption="Screenshots From My Work at SecureDocs">
           <Geist
+            alt="SecureDocs Filebrowser"
             className="browser"
             original="/images/hero-securedocs-1.png"
             thumbnail="/images/hero-securedocs-1-thumb.png"
@@ -93,6 +86,7 @@ export default function Page() {
           </p>
           <Figure caption="The Filebrowser UI">
             <Geist
+              alt="SecureDocs Filebrowser in motion"
               className="browser-ui"
               original="/images/shot-securedocs-1.gif"
               thumbnail="/images/shot-securedocs-1.gif"
@@ -115,6 +109,7 @@ export default function Page() {
           </p>
           <Figure caption="Themeing displayed across the 'Sidebar' component">
             <Geist
+              alt="SecureDocs Filebrowser Themes"
               className="theming"
               original="/images/shot-securedocs-2.png"
               thumbnail="/images/shot-securedocs-2-thumb.png"
@@ -146,6 +141,7 @@ export default function Page() {
           </p>
           <Figure caption="E-Signature Builder - Adding Documents Step">
             <Geist
+              alt="E-Sign Builder"
               className="documents"
               original="/images/shot-securedocs-3.png"
               thumbnail="/images/shot-securedocs-3-thumb.png"
@@ -155,6 +151,7 @@ export default function Page() {
           </Figure>
           <Figure caption="E-Signature Builder - Adding Fields">
             <Geist
+              alt="E-Sign Document Viewer"
               className="fields"
               original="/images/shot-securedocs-4.png"
               thumbnail="/images/shot-securedocs-4-thumb.png"
@@ -169,6 +166,7 @@ export default function Page() {
           </p>
           <Figure caption="E-Signature Dashboard">
             <Geist
+              alt="E-Sign Dashboard"
               className="dashboard"
               original="/images/shot-securedocs-5.png"
               thumbnail="/images/shot-securedocs-5-thumb.png"

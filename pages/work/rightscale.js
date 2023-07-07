@@ -77,6 +77,7 @@ export default function Page() {
         </Container>
         <Hero caption="Screenshots from the Design Kit Project">
           <Geist
+            alt="RightScale Design Kit"
             className="hero"
             original="/images/hero-rightscale-1.png"
             thumbnail="/images/hero-rightscale-1-thumb.png"
@@ -99,6 +100,7 @@ export default function Page() {
           </p>
           <Figure caption="Branding Assets Page">
             <Geist
+              alt="Design Kit branding page"
               className="branding"
               original="/images/shot-rightscale-2.png"
               thumbnail="/images/shot-rightscale-2-thumb.png"
@@ -114,6 +116,7 @@ export default function Page() {
           </p>
           <Figure caption="Product Color Guidelines">
             <Geist
+              alt="Design Kit colors page"
               className="colors"
               original="/images/shot-rightscale-3.png"
               thumbnail="/images/shot-rightscale-3-thumb.png"
@@ -123,7 +126,8 @@ export default function Page() {
           </Figure>
           <Figure caption="Product Icon Library">
             <Geist
-              className="colors"
+              alt="Design Kit icons page"
+              className="icons"
               original="/images/shot-rightscale-4.png"
               thumbnail="/images/shot-rightscale-4-thumb.png"
               width="1344"
@@ -138,7 +142,8 @@ export default function Page() {
           </p>
           <Figure caption="Component Snippets">
             <Geist
-              className="icons"
+              alt="Design Kit snippet page"
+              className="snippets"
               original="/images/shot-rightscale-5.png"
               thumbnail="/images/shot-rightscale-5-thumb.png"
               width="1344"
