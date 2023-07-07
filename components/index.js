@@ -2,9 +2,9 @@ export { default as Article } from "./Article";
 export { default as Box } from "./Box";
 export { default as Container } from "./Container";
 export { default as Divider } from "./Divider";
-export { default as Dropdown } from "./Dropdown"
 export { default as Figure } from "./Figure";
 export { default as Footer } from "./Footer";
+export { default as Geist } from "./Geist";
 export { default as Header } from "./Header";
 export { default as Heading } from "./Heading";
 export { default as Hero } from "./Hero";

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 
 import { styled } from "../../stitches.config";
@@ -9,16 +8,11 @@ import {
   Container,
   Divider,
   Figure,
+  Geist,
   Heading,
   Hero,
   Icon
 } from "../../components";
-
-import Hero1 from "../../public/images/hero-rightscale-1.png";
-import Image2 from "../../public/images/shot-rightscale-2.png";
-import Image3 from "../../public/images/shot-rightscale-3.png";
-import Image4 from "../../public/images/shot-rightscale-4.png";
-import Image5 from "../../public/images/shot-rightscale-5.png";
 
 const SvgShare = (props) => (
   <svg width={24} height={24} fill="none" {...props}>
@@ -82,7 +76,14 @@ export default function Page() {
           </p>
         </Container>
         <Hero caption="Screenshots from the Design Kit Project">
-          <Image src={Hero1} alt="Design Kit Landing Page" placeholder="blur" />
+          <Geist
+            alt="RightScale Design Kit"
+            className="hero"
+            original="/images/hero-rightscale-1.png"
+            thumbnail="/images/hero-rightscale-1-thumb.png"
+            width="1088"
+            height="680"
+          />
         </Hero>
         <Container as="section">
           <Heading as="h2" size="large">
@@ -98,10 +99,13 @@ export default function Page() {
             product design.
           </p>
           <Figure caption="Branding Assets Page">
-            <Image
-              src={Image2}
-              alt="Design Kit Branding Assets Page"
-              placeholder="blur"
+            <Geist
+              alt="Design Kit branding page"
+              className="branding"
+              original="/images/shot-rightscale-2.png"
+              thumbnail="/images/shot-rightscale-2-thumb.png"
+              width="1344"
+              height="801"
             />
           </Figure>
           <p>
@@ -111,27 +115,39 @@ export default function Page() {
             selected UX patterns.
           </p>
           <Figure caption="Product Color Guidelines">
-            <Image
-              src={Image3}
-              alt="Design Kit Product Color Guidelines"
-              placeholder="blur"
+            <Geist
+              alt="Design Kit colors page"
+              className="colors"
+              original="/images/shot-rightscale-3.png"
+              thumbnail="/images/shot-rightscale-3-thumb.png"
+              width="1344"
+              height="801"
             />
           </Figure>
           <Figure caption="Product Icon Library">
-            <Image
-              src={Image4}
-              alt="Design Kit Product Icon Library"
-              placeholder="blur"
+            <Geist
+              alt="Design Kit icons page"
+              className="icons"
+              original="/images/shot-rightscale-4.png"
+              thumbnail="/images/shot-rightscale-4-thumb.png"
+              width="1344"
+              height="801"
             />
           </Figure>
           <p>
-            Along with a style guide, I designed and built component example pages that contained all the necessary markup and style for a given component. These pages were easy to share and were an excellent reference tool for front-end devs.
+            Along with a style guide, I designed and built component example
+            pages that contained all the necessary markup and style for a given
+            component. These pages were easy to share and were an excellent
+            reference tool for front-end devs.
           </p>
           <Figure caption="Component Snippets">
-            <Image
-              src={Image5}
-              alt="Design Kit Component Snippets"
-              placeholder="blur"
+            <Geist
+              alt="Design Kit snippet page"
+              className="snippets"
+              original="/images/shot-rightscale-5.png"
+              thumbnail="/images/shot-rightscale-5-thumb.png"
+              width="1344"
+              height="1022"
             />
           </Figure>
 
