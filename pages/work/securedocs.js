@@ -8,6 +8,7 @@ import {
   Container,
   Divider,
   Figure,
+  Geist,
   Heading,
   Hero,
   Icon
@@ -70,7 +71,13 @@ export default function Page() {
           </p>
         </Container>
         <Hero caption="Screenshots From My Work at SecureDocs">
-          <Image src={Hero1} alt="SecureDocs Filebrowser" placeholder="blur" />
+          <Geist
+            className="browser"
+            original="/images/hero-securedocs-1.png"
+            thumbnail="/images/hero-securedocs-1-thumb.png"
+            width="1380"
+            height="863"
+          />
         </Hero>
         <Container as="section">
           <Heading as="h2" size="large">
@@ -85,7 +92,13 @@ export default function Page() {
             important milestone for our small cross-functional team.
           </p>
           <Figure caption="The Filebrowser UI">
-            <Image src={Image2} alt="Filebrowser Page" />
+            <Geist
+              className="browser-ui"
+              original="/images/shot-securedocs-1.gif"
+              thumbnail="/images/shot-securedocs-1.gif"
+              width="1420"
+              height="918"
+            />
           </Figure>
           <Heading as="h3" size="medium">
             The Challenge
@@ -101,10 +114,12 @@ export default function Page() {
             a unique look for each SecureDocs product.
           </p>
           <Figure caption="Themeing displayed across the 'Sidebar' component">
-            <Image
-              src={Image3}
-              alt="Example of themeing used across Securedocs"
-              placeholder="blur"
+            <Geist
+              className="theming"
+              original="/images/shot-securedocs-2.png"
+              thumbnail="/images/shot-securedocs-2-thumb.png"
+              width="1225"
+              height="909"
             />
           </Figure>
         </Container>
@@ -130,14 +145,22 @@ export default function Page() {
             can stay focused on what they<span>&#39;</span>re building.
           </p>
           <Figure caption="E-Signature Builder - Adding Documents Step">
-            <Image
-              src={Image4}
-              alt="Adding Documents Step"
-              placeholder="blur"
+            <Geist
+              className="documents"
+              original="/images/shot-securedocs-3.png"
+              thumbnail="/images/shot-securedocs-3-thumb.png"
+              width="1510"
+              height="620"
             />
           </Figure>
           <Figure caption="E-Signature Builder - Adding Fields">
-            <Image src={Image5} alt="Adding Fields" placeholder="blur" />
+            <Geist
+              className="fields"
+              original="/images/shot-securedocs-4.png"
+              thumbnail="/images/shot-securedocs-4-thumb.png"
+              width="1510"
+              height="819"
+            />
           </Figure>
           <p>
             Along with the e-signature builder, the team also updated the
@@ -145,10 +168,12 @@ export default function Page() {
             they send out.
           </p>
           <Figure caption="E-Signature Dashboard">
-            <Image
-              src={Image6}
-              alt="E-Signature Dashboard"
-              placeholder="blur"
+            <Geist
+              className="dashboard"
+              original="/images/shot-securedocs-5.png"
+              thumbnail="/images/shot-securedocs-5-thumb.png"
+              width="1509"
+              height="753"
             />
           </Figure>
         </Container>
