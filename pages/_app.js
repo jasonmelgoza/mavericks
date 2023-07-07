@@ -1,4 +1,3 @@
-import splitbee from "@splitbee/web";
 import localFont from "next/font/local";
 import { globalCss } from "../stitches.config";
 import { Layout } from "../components";
@@ -120,7 +119,6 @@ const globalStyles = globalCss({
 });
 
 export default function MyApp({ Component, pageProps }) {
-  splitbee.init();
   globalStyles();
   return (
     <Layout className={myFont.className}>
