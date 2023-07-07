@@ -15,9 +15,6 @@ export default function Geist({
     <Box
       as="div"
       className={className}
-      css={{
-        margin: "$8 0"
-      }}
     >
       <Gallery>
         <Item

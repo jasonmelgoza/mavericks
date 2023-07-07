@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 
 import { styled } from "../../stitches.config";
@@ -14,12 +13,6 @@ import {
   Hero,
   Icon
 } from "../../components";
-
-import Hero1 from "../../public/images/hero-rightscale-1.png";
-import Image2 from "../../public/images/shot-rightscale-2.png";
-import Image3 from "../../public/images/shot-rightscale-3.png";
-import Image4 from "../../public/images/shot-rightscale-4.png";
-import Image5 from "../../public/images/shot-rightscale-5.png";
 
 const SvgShare = (props) => (
   <svg width={24} height={24} fill="none" {...props}>
@@ -85,10 +78,10 @@ export default function Page() {
         <Hero caption="Screenshots from the Design Kit Project">
           <Geist
             className="hero"
-            original="/images/large.png"
-            thumbnail="/images/large.png"
-            width="1024"
-            height="768"
+            original="/images/hero-rightscale-1.png"
+            thumbnail="/images/hero-rightscale-1.png"
+            width="1088"
+            height="680"
           />
         </Hero>
         <Container as="section">
@@ -105,10 +98,12 @@ export default function Page() {
             product design.
           </p>
           <Figure caption="Branding Assets Page">
-            <Image
-              src={Image2}
-              alt="Design Kit Branding Assets Page"
-              placeholder="blur"
+            <Geist
+              className="branding"
+              original="/images/shot-rightscale-2.png"
+              thumbnail="/images/shot-rightscale-2.png"
+              width="1344"
+              height="801"
             />
           </Figure>
           <p>
@@ -118,17 +113,21 @@ export default function Page() {
             selected UX patterns.
           </p>
           <Figure caption="Product Color Guidelines">
-            <Image
-              src={Image3}
-              alt="Design Kit Product Color Guidelines"
-              placeholder="blur"
+            <Geist
+              className="colors"
+              original="/images/shot-rightscale-3.png"
+              thumbnail="/images/shot-rightscale-3.png"
+              width="1344"
+              height="801"
             />
           </Figure>
           <Figure caption="Product Icon Library">
-            <Image
-              src={Image4}
-              alt="Design Kit Product Icon Library"
-              placeholder="blur"
+            <Geist
+              className="colors"
+              original="/images/shot-rightscale-4.png"
+              thumbnail="/images/shot-rightscale-4.png"
+              width="1344"
+              height="801"
             />
           </Figure>
           <p>
@@ -138,10 +137,12 @@ export default function Page() {
             reference tool for front-end devs.
           </p>
           <Figure caption="Component Snippets">
-            <Image
-              src={Image5}
-              alt="Design Kit Component Snippets"
-              placeholder="blur"
+            <Geist
+              className="icons"
+              original="/images/shot-rightscale-5.png"
+              thumbnail="/images/shot-rightscale-5.png"
+              width="1344"
+              height="1022"
             />
           </Figure>
 
