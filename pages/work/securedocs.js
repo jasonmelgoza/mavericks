@@ -81,8 +81,8 @@ export default function Page() {
           </Heading>
           <p>
             One of the first major projects I worked on was revamping the design
-            of the Filebrowser interface. It was a collaborative effort and an
-            important milestone for our small cross-functional team.
+            of the Filebrowser interface. It was a collaborative effort and a
+            significant achievement for our small, cross-functional team.
           </p>
           <Figure caption="The Filebrowser UI">
             <Geist
@@ -98,14 +98,11 @@ export default function Page() {
             The Challenge
           </Heading>
           <p>
-            Currently, the SecureDocs product supports three different markets,
-            each with its own set of features and branding. A big challenge was
-            to produce a design language that worked in this ecosystem.
-          </p>
-          <p>
-            For this, the team implemented a small color-theming system across a
-            select set of UI elements. This theming system allowed us to provide
-            a unique look for each SecureDocs product.
+            The primary SecureDocs app supports three distinct markets, each
+            with its own features and branding. To ensure a consistent look and
+            feel across this ecosystem, I designed a color-theming system for
+            select UI elements. This system gave each product its own distinct
+            look without compromising maintainability.
           </p>
           <Figure caption="Themeing displayed across the 'Sidebar' component">
             <Geist

@@ -196,10 +196,10 @@ export default function Home() {
             turning complex problems into simple and elegant solutions.
           </p>
           <p>
-            I specialize in product design for the web and thrive in 0{" "}
-            <span>&rarr;</span> 1 work. My focus is on visual design, user
-            experience, and design systems. I also code for the web with a focus
-            on React, CSS architecture, and component systems.
+            I specialize in product design for the web and excel at creating
+            from scratch. My strengths lie in visual design, user experience,
+            and design system development. Additionally, I code for the web,
+            focusing on React, CSS architecture, and component systems.
           </p>
           <p>
             Currently, I<span>&#39;</span>m part of the awesome team at
