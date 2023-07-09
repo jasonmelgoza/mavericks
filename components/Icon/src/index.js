@@ -9,6 +9,7 @@ export { default as Logo } from "./Logo";
 export { default as Menu } from "./Menu";
 export { default as Pin } from "./Pin";
 export { default as Project } from "./Project";
+export { default as ReadCv } from "./ReadCv";
 export { default as Twitter } from "./Twitter";
 export { default as User } from "./User";
 export { default as Work } from "./Work";

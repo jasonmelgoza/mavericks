@@ -86,15 +86,21 @@ const items = [
   },
   {
     id: 3,
-    name: "github",
-    link: "https://github.com/jasonmelgoza",
-    title: "Jason Melgoza on Github"
-  },
-  {
-    id: 4,
     name: "twitter",
     link: "https://twitter.com/jasonmelgoza",
     title: "Jason Melgoza on Twitter"
+  },
+  {
+    id: 4,
+    name: "readcv",
+    link: "https://read.cv/jasonmelgoza",
+    title: "Jason Melgoza on Read.cv"
+  },
+  {
+    id: 5,
+    name: "github",
+    link: "https://github.com/jasonmelgoza",
+    title: "Jason Melgoza on Github"
   }
 ];
 
