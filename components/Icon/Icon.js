@@ -13,6 +13,7 @@ import {
   Menu,
   Pin,
   Project,
+  ReadCv,
   Twitter,
   User,
   Work
@@ -30,9 +31,10 @@ const IconMap = {
   menu: Menu,
   pin: Pin,
   project: Project,
+  readcv: ReadCv,
   twitter: Twitter,
   user: User,
-  work: Work,
+  work: Work
 };
 
 export default function Icon({ className, name, ...props }) {
