@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import localFont from "next/font/local";
 import { globalCss } from "../stitches.config";
 import { Layout } from "../components";
@@ -121,8 +122,11 @@ const globalStyles = globalCss({
 export default function MyApp({ Component, pageProps }) {
   globalStyles();
   return (
-    <Layout className={myFont.className}>
-      <Component {...pageProps} />
-    </Layout>
+    <>
+      <Layout className={myFont.className}>
+        <Component {...pageProps} />
+      </Layout>
+      <Analytics />
+    </>
   );
 }
