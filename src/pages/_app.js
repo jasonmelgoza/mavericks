@@ -1,4 +1,6 @@
 import localFont from "next/font/local";
+import '@/styles/globals.css'
+import { Layout } from "@/components";
 
 const satoshiFont = localFont({
   src: [
@@ -37,8 +39,8 @@ const satoshiFont = localFont({
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={satoshiFont.className}>
+    <Layout className={satoshiFont.className}>
       <Component {...pageProps} />
-    </main>
+    </Layout>
   );
 }
