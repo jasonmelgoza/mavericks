@@ -1,0 +1,12 @@
+.root :global {
+  max-width: 600px;
+  margin: 0 auto;
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  p:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}

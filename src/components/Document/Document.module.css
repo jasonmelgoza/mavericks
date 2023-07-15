@@ -1,8 +1,0 @@
-.root :global {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.root p:not(:last-child) {
-  margin-bottom: 1rem;
-}
