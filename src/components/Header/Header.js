@@ -1,5 +1,5 @@
-import cx from "clsx";
-import styles from "./Header.module.scss";
+import cx from 'clsx'
+import styles from './Header.module.scss'
 
 export default function Layout() {
   return (

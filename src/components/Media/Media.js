@@ -1,6 +1,6 @@
-import cx from "clsx";
-import styles from "./Media.module.scss";
-import 'photoswipe/dist/photoswipe.css';
+import cx from 'clsx'
+import styles from './Media.module.scss'
+import 'photoswipe/dist/photoswipe.css'
 
 import { Gallery, Item } from 'react-photoswipe-gallery'
 

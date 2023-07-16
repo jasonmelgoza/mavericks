@@ -1,12 +1,11 @@
-import Head from "next/head";
-import cx from "clsx";
-import { Header } from "../";
-
-import styles from "./Layout.module.css";
+import Head from 'next/head'
+import cx from 'clsx'
+import { Header } from '../'
+import styles from './Layout.module.css'
 
 export default function Layout({ children, className }) {
   return (
-    <main className={cx(styles.root, {className})}>
+    <main className={cx(styles.root, { className })}>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="author" content="Jason Melgoza" />
