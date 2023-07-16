@@ -1,0 +1,9 @@
+.root :global {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  max-width: 600px;
+  padding: 12rem 0 3rem 0;
+  margin: 0 auto;
+}

@@ -1,5 +1,6 @@
 .root :global {
   padding-right: 1rem;
+  padding-bottom: 4rem;
   padding-left: 1rem;
 
   @media (min-width: 640px) {

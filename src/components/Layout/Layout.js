@@ -1,5 +1,7 @@
 import Head from "next/head";
 import cx from "clsx";
+import { Header } from "../";
+
 import styles from "./Layout.module.css";
 
 export default function Layout({ children, className }) {
@@ -19,6 +21,7 @@ export default function Layout({ children, className }) {
         <title>Jason Melgoza</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header />
       {children}
     </main>
   );
