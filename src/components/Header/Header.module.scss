@@ -34,5 +34,9 @@
     flex-direction: row;
     gap: 8px;
     list-style: none;
+
+    li {
+      font-size: 0.875rem;
+    }
   }
 }
