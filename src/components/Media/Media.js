@@ -1,8 +1,7 @@
 import cx from 'clsx'
-import styles from './Media.module.scss'
-import 'photoswipe/dist/photoswipe.css'
-
 import { Gallery, Item } from 'react-photoswipe-gallery'
+import 'photoswipe/dist/photoswipe.css'
+import styles from './Media.module.scss'
 
 export default function Media({ alt, className, height, original, thumbnail, width }) {
   return (

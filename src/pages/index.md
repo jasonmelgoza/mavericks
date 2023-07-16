@@ -7,5 +7,6 @@ description: Homepage
 Product designer at SecureDocs, Inc. interface tinkerer, icon illustrator, and defender of the universe. 🤘
 {% /block %}
 
-
-[Style guide](/style-guide)
+{% nav className="hero" %}
+bar
+{% /nav %}
