@@ -4,21 +4,22 @@ import cx from 'clsx'
 import styles from './Header.module.scss'
 
 export default function Header() {
+
+  // Using `useRouter` for rendering depending on the page's route.
   const router = useRouter()
-  const path = router?.asPath // URL from router.
+  const path = router?.asPath
 
   if (path === '/') {
     return (
-      <header className={cx(styles.root, 'home')}>
+      <header className={cx(styles.root, styles.home)}>
         <Link className='logo' href='/'>JASON MELGOZA</Link>
-      </header>
-    )
-  } else {
-    return (
-      <header className={cx(styles.root)}>
-        <Link className='logo' href='/'>JASON MELGOZA</Link>
-        <nav>foo</nav>
       </header>
     )
   }
+  return (
+    <header className={cx(styles.root, styles.page)}>
+      <Link className='logo' href='/'>JASON MELGOZA</Link>
+      <nav>foo</nav>
+    </header>
+  )
 }

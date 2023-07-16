@@ -6,7 +6,19 @@
   max-width: 600px;
   padding: 12rem 0 3rem 0;
   margin: 0 auto;
+}
 
+.home :global {
+  .logo {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.245px;
+  }
+}
+
+.page :global {
   .logo {
     font-size: 14px;
     font-style: normal;
