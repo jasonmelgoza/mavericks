@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import cx from 'clsx'
 import { Header } from '../'
-import styles from './Layout.module.css'
+import styles from './Layout.module.scss'
 
 export default function Layout({ children, className }) {
   return (

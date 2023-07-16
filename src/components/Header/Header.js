@@ -25,13 +25,13 @@ export default function Header() {
       <nav className={styles.nav}>
         <ul className='nav-list' >
           <li>
-            <Link href='/about'>About</Link>
-          </li>
-          <li>
             <Link href='/work'>Work</Link>
           </li>
           <li>
             <Link href='/projects'>Projects</Link>
+          </li>
+          <li>
+            <Link href='/about'>About</Link>
           </li>
         </ul>
       </nav>

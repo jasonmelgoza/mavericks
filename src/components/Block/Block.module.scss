@@ -1,0 +1,21 @@
+.root :global {
+  display: flex;
+  flex-direction: column;
+
+  p:not(:last-child) {
+    margin-bottom: 1.25rem;
+  }
+}
+
+.root {
+  &:global(.hero) {
+    margin-bottom: 3rem;
+
+    p {
+      font-size: 1.5rem;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: -0.36px;
+    }
+  }
+}
