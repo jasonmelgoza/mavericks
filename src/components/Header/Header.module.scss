@@ -1,8 +1,8 @@
 .root :global {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
-  align-self: stretch;
+  justify-content: space-between;
   max-width: 600px;
   padding: 12rem 0 3rem 0;
   margin: 0 auto;
@@ -10,11 +10,11 @@
 
 .home :global {
   .logo {
-    font-size: 14px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 1.5;
-    letter-spacing: -0.245px;
+    letter-spacing: -0.42px;
   }
 }
 
