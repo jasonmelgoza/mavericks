@@ -47,5 +47,13 @@
       font-size: 0.875rem;
       line-height: 1.5;
     }
+
+    a {
+      transition: all ease-in-out 200ms;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
   }
 }
