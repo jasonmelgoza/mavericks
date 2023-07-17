@@ -1,15 +1,16 @@
 :root {
   --max-width: 1100px;
   --font-sans: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  --fg-rgb: 26, 26, 26;
-  --bg-rgb: 255, 255, 255;
-  --ease-1: cubic-bezier(0.4, 0, 0.2, 1)
+  --fg-hi-contrast: 26, 26, 26;
+  --fg-low-contrast: 163, 163, 163;
+  --bg: 255, 255, 255;
+  --ease-1: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --fg-rgb: 255, 255, 255;
-    --bg-rgb: 26, 26, 26;;
+    --fg-hi-contrast: 255, 255, 255;
+    --bg: 26, 26, 26;;
   }
 }
 
@@ -28,8 +29,8 @@ html {
 body {
   font-family: var(--font-sans);
   line-height: 1.5;
-  color: rgb(var(--fg-rgb));
-  background-color: var(--bg-rgb);
+  color: rgb(var(--fg-hi-contrast));
+  background-color: var(--bg);
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
