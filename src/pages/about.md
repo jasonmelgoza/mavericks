@@ -1,22 +1,22 @@
 ---
-title: About
-description: How to get started with Markdoc
+title: Hello, I'm Jason
 ---
 
 # {% $markdoc.frontmatter.title %}
-## {% $markdoc.frontmatter.description %}
 
-{% media
-  alt="test"
-  className="foo"
-  original="/images/test-full.png"
-  thumbnail="/images/test-thumb.png"
-  width="1200"
-  height="900"
-/%}
+Ever since I was a kid, I've been fascinated by art, design, and the latest technology. I pursued my passion by earning a degree in Art and Graphic Design at Fresno State.
 
-Get started with Markdoc Satoshi is a modernist sans serif typeface. Its design combines typically grotesk-style letterforms, with some characters that are quite geometrically-designed. In terms of its appearance, Satoshi was inspired by Modernism and Industrial-Era graphic and typographic design. The family has tem weights on offer, ranging from Light to Black with complimentary italics. It is an excellent choice for use in branding, editorial, and poster design.
+Since then, I have built up my skill set as a UI/UX designer and front end developer. I have worked on a variety of projects, from small websites to large-scale digital products. I am constantly learning and pushing myself to create innovative and user-friendly designs.
 
-Satoshi’s lowercase ‘a’ and ‘g’ are double-storied; however, single-storied alternates are available, through an OpenType feature. The fonts’ other OpenType features include 10 ligatures per font, as well as alternate versions of the ‘G’ and ’t’. The default numeral style in each of the fonts is proportional lining figures; three other styles of numbers are included, too. There are tabular lining figures, as well as numerators and denominators for typesetting fractions. The fonts’ lining figures have the same height as the uppercase letters. The lowercase’s ascenders are drawn to be slightly taller than the common height of the capital letters and numerals. Each Satoshi font contains ten directional-arrow glyphs, as well as six glyphs of circles, squares, and triangles. There is also a peace sign in the character set, a smiling-face emoji, a check mark, and two versions of the numbers one through nine, each enclosed inside of differently-filled circles.
+Currently, I'm working at SecureDocs, Inc with an incredible cross-functional team, centering on building easy-to-use browser-based software.
 
-Satoshi was designed by Deni Anggara for the Indian Type Foundry.
+In my free time, I love spending time with my wife and our two wonderful kids. We enjoy traveling, trying new restaurants, watching the latest Marvel movie, and spending time with our dogs.
+
+Overall, I am a passionate and dedicated creative professional who loves building new digital products and solving complex problems.
+
+## Links
+
+- Read.cv
+- Dribbble
+- Linkdin
+- Twitter
