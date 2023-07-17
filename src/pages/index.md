@@ -8,7 +8,7 @@ Product designer at SecureDocs, Inc. interface tinkerer, icon illustrator, and d
 {% /block %}
 
 {% block className="nav" %}
-- [Work](/style-guide)
-- [Projects](/style-guide)
-- [About](/style-guide)
+- [Work](/work)
+- [Projects](/projects)
+- [About](/about)
 {% /block %}
