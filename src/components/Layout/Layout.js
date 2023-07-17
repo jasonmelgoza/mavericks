@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import cx from 'clsx'
-import { Header } from "@/components";
+import { Header } from '@/components'
 import styles from './Layout.module.scss'
 
 export default function Layout({ children, className }) {

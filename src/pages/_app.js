@@ -1,6 +1,6 @@
-import localFont from "next/font/local";
+import localFont from 'next/font/local'
+import { Layout } from '@/components'
 import '@/styles/globals.css'
-import { Layout } from "@/components";
 
 const satoshiFont = localFont({
   src: [

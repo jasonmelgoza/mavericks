@@ -33,6 +33,15 @@
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: -0.245px;
+    transition: opacity .25s var(--ease-1);
+
+    &:hover {
+      opacity: 0.5;
+
+      &::after {
+        width: 100%;
+      }
+    }
   }
 }
 
@@ -40,8 +49,9 @@
   .nav-list {
     display: flex;
     flex-direction: row;
-    gap: 8px;
     list-style: none;
+
+    gap: 8px;
 
     li {
       font-size: 0.875rem;
@@ -49,10 +59,27 @@
     }
 
     a {
-      transition: all ease-in-out 200ms;
+      position: relative;
+      transition: opacity .25s var(--ease-1);
 
       &:hover {
         opacity: 0.5;
+
+        &::after {
+          width: 100%;
+        }
+      }
+
+      &::after {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 0;
+        height: 1.15862px;
+        min-height: 1px;
+        content: '';
+        background-color: rgb(var(--fg-rgb));
+        transition: width .25s var(--ease-1);
       }
     }
   }
