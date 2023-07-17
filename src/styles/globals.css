@@ -21,6 +21,10 @@
   margin: 0;
 }
 
+html {
+  height: stretch;
+}
+
 body {
   font-family: var(--font-sans);
   line-height: 1.5;
