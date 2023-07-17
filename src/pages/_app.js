@@ -1,4 +1,5 @@
 import localFont from 'next/font/local'
+import { useRouter } from 'next/router'
 import { Layout } from '@/components'
 import '@/styles/globals.css'
 
@@ -38,6 +39,11 @@ const satoshiFont = localFont({
 });
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter()
+
+  if (router.pathname == '/404') {
+    return <Component {...pageProps} />
+  }
   return (
     <Layout className={satoshiFont.className}>
       <Component {...pageProps} />
