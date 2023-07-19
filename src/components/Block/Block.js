@@ -1,12 +1,14 @@
 import cx from 'clsx'
+import { Box } from '@/components'
 import styles from './Block.module.scss'
 
-export default function Block({ children, className }) {
+export default function Block({ children, className, ...props }) {
   return (
-    <div
+    <Box
       className={cx(styles.root, 'block', className)}
+      {...props}
     >
       {children}
-    </div>
+    </Box>
   );
 }

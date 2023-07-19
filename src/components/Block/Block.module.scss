@@ -1,6 +1,13 @@
 .root :global {
-  display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+
+  -webkit-tap-highlight-color: transparent;
 
   p:not(:last-child) {
     margin-bottom: 1.25rem;
@@ -9,9 +16,6 @@
 
 .root {
   &:global(.hero) {
-    display: flex;
-    flex-direction: column;
-
     p {
       font-size: 1.5rem;
       font-weight: 500;

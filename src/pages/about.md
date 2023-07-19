@@ -14,9 +14,13 @@ In my free time, I love spending time with my wife and our two wonderful kids. W
 
 Overall, I am a passionate and dedicated creative professional who loves building new digital products and solving complex problems.
 
-## Links
+## Linkage
 
-- Read.cv
-- Dribbble
+- [Read.cv](https://read.cv)
+- [Dribbble](https://dribbble.com)
 - Linkdin
 - Twitter
+
+## About this site
+
+I've been thinking about this project for a while and restarting it multiple times. Personal websites like this should be places to learn and develop. This particular version is built with React and the great Next.js framework.
