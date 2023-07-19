@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+import { Box } from '@/components'
 import styles from './Document.module.scss'
 
 export default function Document({ children }) {
@@ -10,8 +11,8 @@ export default function Document({ children }) {
   if (path === '/') {
     return (
       <>
-        <article className={styles.root}>{children}</article>
-        <nav className={styles.nav}>
+        <Box as='article' className={styles.root}>{children}</Box>
+        <Box as='nav' className={styles.nav}>
           <ul className='nav-list' >
             <li>
               <Link href='/work'>Work</Link>
@@ -23,9 +24,9 @@ export default function Document({ children }) {
               <Link href='/about'>About</Link>
             </li>
           </ul>
-        </nav>
+        </Box>
       </>
     )
   }
-  return <article className={styles.root}>{children}</article>
+  return <Box as='article' className={styles.root}>{children}</Box>
 }

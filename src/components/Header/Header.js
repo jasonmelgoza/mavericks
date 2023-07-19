@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import cx from 'clsx'
+import { Box } from '@/components'
 import styles from './Header.module.scss'
 
 export default function Header() {
@@ -10,15 +11,15 @@ export default function Header() {
 
   if (path === '/') {
     return (
-      <header className={cx(styles.root, styles.home)}>
+      <Box as='header' className={cx(styles.root, styles.home)}>
         <Link className='logo' href='/'>
           JASON MELGOZA
         </Link>
-      </header>
+      </Box>
     )
   }
   return (
-    <header className={cx(styles.root, styles.page)}>
+    <Box as='header' className={cx(styles.root, styles.page)}>
       <Link className='logo' href='/'>
         JASON MELGOZA
       </Link>
@@ -35,6 +36,6 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-    </header>
+    </Box>
   )
 }
