@@ -7,12 +7,12 @@ title: Work
 ## Recent Designs
 
 {% media
-  alt="shots"
-  className="shots"
-  original="/images/test-full.png"
-  thumbnail="/images/test-thumb.png"
+  alt="test"
+  className="foo"
+  original="/images/report-details-full.png"
+  thumbnail="/images/report-details-thumb.png"
   width="1200"
-  height="900"
+  height="850"
 /%}
 
 ## Experience

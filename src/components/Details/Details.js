@@ -8,14 +8,20 @@ export default function Details({ children, className, heading, subheading, meta
       className={cx(styles.root, 'details', className)}
       {...props}
     >
-      <div className='details-heading'>
-        <span>{heading}</span>
-      </div>
-      <div className='details-subheading'>
-        <span>{subheading}</span>
-      </div>
-      <div className='details-meta'>
-        <span>{meta}</span>
+      <div className='details-wrapper'>
+        <div className='details-heading'>
+          <span>{heading}</span>
+        </div>
+        {subheading ? (
+          <div className='details-subheading'>
+            <span>{subheading}</span>
+          </div>
+        ) : (
+          null
+        )}
+        <div className='details-meta'>
+          <span>{meta}</span>
+        </div>
       </div>
     </Box>
   );

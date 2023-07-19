@@ -1,21 +1,26 @@
 .root :global {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 1.25rem;
 
   .details {
+    &-wrapper {
+      display: inline-flex;
+      flex-direction: column;
+    }
     &-heading {
+      align-self: flex-start;
       font-size: 1rem;
       font-style: normal;
       font-weight: 700;
       line-height: 1.5;
     }
     &-subheading {
+      align-self: flex-start;
       font-size: 1rem;
       font-weight: 400;
       line-height: 1.5;
     }
     &-meta {
+      align-self: flex-start;
       font-size: 0.875rem;
       font-weight: 400;
       line-height: 1.5;

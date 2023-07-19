@@ -1,11 +1,12 @@
 import cx from 'clsx'
 import { Gallery, Item } from 'react-photoswipe-gallery'
+import { Box } from '@/components'
 import 'photoswipe/dist/photoswipe.css'
 import styles from './Media.module.scss'
 
 export default function Media({ alt, className, height, original, thumbnail, width }) {
   return (
-    <div className={cx(styles.root, className)}>
+    <Box className={cx(styles.root, className)}>
       <Gallery>
         <Item
           alt={alt}
@@ -19,6 +20,6 @@ export default function Media({ alt, className, height, original, thumbnail, wid
           )}
         </Item>
       </Gallery>
-    </div>
+    </Box>
   );
 }
