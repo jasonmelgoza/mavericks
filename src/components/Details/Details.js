@@ -1,4 +1,5 @@
 import cx from 'clsx'
+import { ArrowTopRightIcon } from '@radix-ui/react-icons'
 import { Box } from '@/components'
 import styles from './Details.module.scss'
 
@@ -11,6 +12,9 @@ export default function Details({ children, className, heading, subheading, meta
       <div className='details-wrapper'>
         <div className='details-heading'>
           <span>{heading}</span>
+          <span>
+            <ArrowTopRightIcon />
+          </span>
         </div>
         {subheading ? (
           <div className='details-subheading'>
