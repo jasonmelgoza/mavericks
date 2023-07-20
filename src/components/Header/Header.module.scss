@@ -60,10 +60,10 @@
 
     a {
       position: relative;
-      transition: opacity .25s var(--ease-1);
+      transition: color .25s var(--ease-1);
 
       &:hover {
-        opacity: 0.5;
+        color: var(--colors-loContrast);
 
         &::after {
           width: 100%;
@@ -78,7 +78,7 @@
         height: 1.15862px;
         min-height: 1px;
         content: '';
-        background-color: rgb(var(--colors-hiContrast));
+        background-color: var(--colors-loContrast);
         transition: width .25s var(--ease-1);
       }
     }

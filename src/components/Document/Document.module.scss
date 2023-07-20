@@ -67,10 +67,10 @@
 
   a {
     position: relative;
-    transition: opacity .25s ease;
+    transition: color .25s ease;
 
     &:hover {
-      opacity: 0.5;
+      color: var(--colors-loContrast);
 
       &::after {
         width: 100%;
@@ -79,13 +79,13 @@
 
     &::after {
       position: absolute;
-      bottom: 0px;
+      bottom: 0;
       left: 0;
       width: 0;
       height: 1.15862px;
       min-height: 1px;
       content: '';
-      background-color: rgb(var(--colors-hiContrast));
+      background-color: var(--colors-loContrast);
       transition: width .25s var(--ease-1);
     }
   }

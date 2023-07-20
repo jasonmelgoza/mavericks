@@ -19,8 +19,8 @@
   &:global(.block-callout) {
     padding: 1.25rem;
     margin: 0 0 1.25rem 0;
-    background-color: rgba(var(--colors-panel), 0.0375);
-    border: 1px solid rgba(var(--colors-hiContrast), 0.1);
+    background-color: var(--colors-panel);
+    border: 1px solid var(--colors-border);
     border-radius: var(--radii-2);
     h3 {
       margin: 0 0 1.25rem 0;
