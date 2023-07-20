@@ -5,7 +5,8 @@ export default {
   attributes: {
     className: { type: String },
     heading: { type: String },
-    subheading: { type: String },
-    meta: { type: String }
+    link: { type: String },
+    meta: { type: String },
+    subheading: { type: String }
   }
 }

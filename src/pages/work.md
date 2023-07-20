@@ -31,4 +31,4 @@ title: Work
 
 ## Continuing Education
 
-{% details heading="Learning React and Next.js" subheading="2020 - Present" meta="So far so good..." /%}
+{% details heading="Learning React, Next.js, Storybook" subheading="2018 - Present" meta="So far so good..." /%}
