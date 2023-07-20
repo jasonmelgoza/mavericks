@@ -9,10 +9,10 @@ title: Work
 {% media
   alt="test"
   className="foo"
-  original="/images/report-details-full.png"
-  thumbnail="/images/report-details-thumb.png"
-  width="1200"
-  height="850"
+  original="/images/dashboard-full.png"
+  thumbnail="/images/dashboard-thumb.png"
+  width="1415"
+  height="919"
 /%}
 
 ## Experience
@@ -31,4 +31,4 @@ title: Work
 
 ## Continuing Education
 
-{% details heading="Learning React, Next.js, Storybook" subheading="2018 - Present" meta="So far so good..." /%}
+{% details heading="Learning React, Next.js and Storybook" subheading="2018 - Present" meta="So far so good..." /%}
