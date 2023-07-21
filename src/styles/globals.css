@@ -8,7 +8,9 @@
   --colors-panel: hsla(300, 99.5%, 7.7%, 0.051);
   --colors-border: hsla(270, 90.5%, 6.1%, 0.071);
 
-  --shadow-media: inset 0 0 0 1px hsla(300, 89.3%, 18.3%, 0.06);
+  --colors-shadowMedia: hsla(300, 89.3%, 18.3%, 0.06);
+  --colors-shadowLight: hsl(206 22% 7% / 35%);
+  --colors-shadowDark: hsl(206 22% 7% / 20%);
 
   --radii-1: 4px;
   --radii-2: 6px;
@@ -25,7 +27,7 @@
     --colors-canvas: #161618;
     --colors-panel: hsla(240, 76.7%, 91.2%, 0.031);
     --colors-border: hsla(240, 86.0%, 95.8%, 0.061);
-    --shadow-media: inset 0 0 0 1px hsla(240, 93.9%, 99.6%, 0.25);
+    --colors-shadowMedia: hsla(240, 93.9%, 99.6%, 0.25);
   }
 }
 

@@ -16,10 +16,13 @@ Overall, I am a passionate and dedicated creative professional who loves buildin
 
 ## Linkage
 
-- [Read.cv](https://read.cv)
-- [Dribbble](https://dribbble.com)
-- Linkdin
-- Twitter
+{% details heading="Linkdin" meta="@jasonmelgoza" link="https://google.com" /%}
+
+{% details heading="Dribbble" meta="@jasonmelgoza" link="https://google.com" /%}
+
+{% details heading="Github" meta="@jasonmelgoza" link="https://google.com" /%}
+
+{% details heading="Twitter" meta="@jasonmelgoza" link="https://google.com" /%}
 
 ## About this site
 

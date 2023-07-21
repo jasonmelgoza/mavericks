@@ -7,7 +7,7 @@ description: How to get started with Markdoc
 
 {% media
   alt="test"
-  className="foo"
+  className="custom-class"
   original="/images/dashboard-full.png"
   thumbnail="/images/dashboard-thumb.png"
   width="1415"
@@ -42,3 +42,5 @@ Product designer at SecureDocs, interface tinkerer, icon illustrator, and defend
 {% /block %}
 
 Satoshi was designed by Deni Anggara for the Indian Type Foundry.
+
+### Link
