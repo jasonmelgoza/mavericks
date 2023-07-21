@@ -16,7 +16,7 @@ Overall, I am a passionate and dedicated creative professional who loves buildin
 
 ## Linkage
 
-{% details heading="Linkdin" meta="@jasonmelgoza" link="https://google.com" /%}
+{% details heading="Linkedin" meta="linkedin.com/in/jasonmelgoza" link="google.com" /%}
 
 {% details heading="Dribbble" meta="@jasonmelgoza" link="https://google.com" /%}
 
@@ -27,3 +27,8 @@ Overall, I am a passionate and dedicated creative professional who loves buildin
 ## About this site
 
 I've been thinking about this project for a while and restarting it multiple times. Personal websites like this should be places to learn and develop. This particular version is built with React and the great Next.js framework.
+
+{% block as="div" className="block-callout" %}
+### Callout Block
+Website source code.
+{% /block %}
