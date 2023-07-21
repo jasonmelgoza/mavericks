@@ -2,8 +2,6 @@
 title: Design Kit
 ---
 
-[Back](/projects)
-
 # {% $markdoc.frontmatter.title %}
 
 {% media

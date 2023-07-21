@@ -2,8 +2,6 @@
 title: Mavericks
 ---
 
-[Back](/projects)
-
 # {% $markdoc.frontmatter.title %}
 
 {% media

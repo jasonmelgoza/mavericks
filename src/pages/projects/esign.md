@@ -1,8 +1,6 @@
 ---
-title: File-Browser
+title: E-Signature Wizard
 ---
-
-[Back](/projects)
 
 # {% $markdoc.frontmatter.title %}
 

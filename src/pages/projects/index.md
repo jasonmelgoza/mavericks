@@ -29,17 +29,17 @@ title: Projects
 {% details
   heading="FileBrowser App"
   meta="Interface design and development"
-  link="/case-studies/file-browser" 
+  link="/projects/file-browser" 
 /%}
 
 {% details 
   heading="E-Signture Wizard"
   meta="Interface design and development"
-  link="/case-studies/esign" 
+  link="/projects/esign" 
 /%}
 
 {% details
   heading="DesignKit"
   meta="Design system for RightScale"
-  link="/case-studies/design-kit" 
+  link="/projects/design-kit" 
 /%}

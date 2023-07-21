@@ -6,7 +6,7 @@ import styles from './Layout.module.scss'
 
 export default function Layout({ children, className }) {
   return (
-    <Box as='main' className={cx(styles.root, { className })}>
+    <Box as='main' className={cx(styles.root, className)}>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="author" content="Jason Melgoza" />

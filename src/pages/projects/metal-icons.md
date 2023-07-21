@@ -2,8 +2,6 @@
 title: Metal Icons
 ---
 
-[Back](/projects)
-
 # {% $markdoc.frontmatter.title %}
 
 {% media

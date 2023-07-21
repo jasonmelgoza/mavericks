@@ -6,47 +6,50 @@ import '@/styles/globals.css'
 const satoshiFont = localFont({
   src: [
     {
-      path: "./fonts/Satoshi-Regular.woff2",
-      weight: "400",
-      style: "normal"
+      path: './fonts/Satoshi-Regular.woff2',
+      weight: '400',
+      style: 'normal'
     },
     {
-      path: "./fonts/Satoshi-Italic.woff2",
-      weight: "400",
-      style: "italic"
+      path: './fonts/Satoshi-Italic.woff2',
+      weight: '400',
+      style: 'italic'
     },
     {
-      path: "./fonts/Satoshi-Medium.woff2",
-      weight: "500",
-      style: "normal"
+      path: './fonts/Satoshi-Medium.woff2',
+      weight: '500',
+      style: 'normal'
     },
     {
-      path: "./fonts/Satoshi-MediumItalic.woff2",
-      weight: "500",
-      style: "italic"
+      path: './fonts/Satoshi-MediumItalic.woff2',
+      weight: '500',
+      style: 'italic'
     },
     {
-      path: "./fonts/Satoshi-Bold.woff2",
-      weight: "700",
-      style: "normal"
+      path: './fonts/Satoshi-Bold.woff2',
+      weight: '700',
+      style: 'normal'
     },
     {
-      path: "./fonts/Satoshi-Black.woff2",
-      weight: "900",
-      style: "normal"
+      path: './fonts/Satoshi-Black.woff2',
+      weight: '900',
+      style: 'normal'
     }
   ]
-});
+})
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps, ...props }) {
   const router = useRouter()
 
   if (router.pathname == '/404') {
     return <Component {...pageProps} />
   }
   return (
-    <Layout className={satoshiFont.className}>
+    <Layout
+      className={satoshiFont.className}
+      frontmatter={pageProps.markdoc.frontmatter}
+    >
       <Component {...pageProps} />
     </Layout>
-  );
+  )
 }

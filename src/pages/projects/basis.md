@@ -2,8 +2,6 @@
 title: Basis
 ---
 
-[Back](/projects)
-
 # {% $markdoc.frontmatter.title %}
 
 {% media
