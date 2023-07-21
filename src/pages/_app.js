@@ -47,7 +47,6 @@ export default function App({ Component, pageProps, ...props }) {
   return (
     <Layout
       className={satoshiFont.className}
-      frontmatter={pageProps.markdoc.frontmatter}
     >
       <Component {...pageProps} />
     </Layout>
