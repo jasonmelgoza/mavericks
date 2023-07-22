@@ -36,11 +36,16 @@ Product designer at SecureDocs, interface tinkerer, icon illustrator, and defend
 
 ### Callout Block
 
-{% block as="div" className="block-callout" %}
+{% block as="div" className="block-callout" icon="dribbble" %}
 ### Callout Block
 Product designer at SecureDocs, interface tinkerer, icon illustrator, and defender of the universe. 🤘
 {% /block %}
 
-Satoshi was designed by Deni Anggara for the Indian Type Foundry.
+### Details
 
-### Link
+{% details
+  heading="Learning React, Next.js and Storybook"
+  subheading="2018 - Present"
+  meta="So far so good..."
+  icon="dribbble"
+/%}
