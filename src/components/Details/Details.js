@@ -42,9 +42,11 @@ export default function Details({
               <span>{subheading}</span>
             </div>
           ) : null}
-          <div className='details-meta'>
-            <span>{meta}</span>
-          </div>
+          {meta ? (
+            <div className='details-meta'>
+              <span>{meta}</span>
+            </div>
+          ) : null}
         </div>
       </div>
     </Box>

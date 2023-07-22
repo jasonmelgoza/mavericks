@@ -20,30 +20,9 @@ I've been thinking about this project for a while and restarting it multiple tim
 
 ## Linkage
 
-{% details
-  icon="foo"
-  heading="Linkedin"
-  meta="linkedin.com/in/jasonmelgoza"
-  link="google.com" 
-/%}
-
-{% details
-  icon="foo"
-  heading="Dribbble"
-  meta="@jasonmelgoza"
-  link="https://google.com" 
-/%}
-
-{% details
-  icon="foo"
-  heading="Github"
-  meta="@jasonmelgoza"
-  link="https://google.com" 
-/%}
-
-{% details
-  icon="foo"
-  heading="Twitter"
-  meta="@jasonmelgoza"
-  link="https://google.com" 
-/%}
+- [Linkedin](http://google.com)
+- [Dribbble](http://google.com)
+- [Github](http://google.com)
+- [Twitter](http://google.com)
+- [CodeSandbox](http://google.com)
+- [Read.cv](http://google.com)
