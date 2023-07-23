@@ -44,8 +44,52 @@ Product designer at SecureDocs, interface tinkerer, icon illustrator, and defend
 ### Details
 
 {% details
-  heading="Learning React, Next.js and Storybook"
+  heading="Github"
+  subheading="2018 - Present"
+  meta="So far so good..."
+  icon="github"
+/%}
+
+{% details
+  heading="Dribble"
   subheading="2018 - Present"
   meta="So far so good..."
   icon="dribbble"
+/%}
+
+{% details
+  heading="Linkedin"
+  subheading="2018 - Present"
+  meta="So far so good..."
+  icon="linkedin"
+/%}
+
+### Social
+
+{% social
+  className="dribbble"
+  icon="dribbble"
+  name="Dribbble"
+  url="https://dribbble.com/jasonmelgoza"
+/%}
+
+{% social
+  className="linkedin"
+  icon="linkedin"
+  name="Linkedin"
+  url="http://www.linkedin.com/in/jasonmelgoza"
+/%}
+
+{% social
+  className="twitter"
+  icon="twitter"
+  name="Twitter"
+  url="https://twitter.com/jasonmelgoza"
+/%}
+
+{% social
+  className="github"
+  icon="github"
+  name="Github"
+  url="https://github.com/jasonmelgoza"
 /%}

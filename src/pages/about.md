@@ -20,9 +20,31 @@ I've been thinking about this project for a while and restarting it multiple tim
 
 ## Linkage
 
-- [Linkedin](http://google.com)
-- [Dribbble](http://google.com)
-- [Github](http://google.com)
-- [Twitter](http://google.com)
-- [CodeSandbox](http://google.com)
-- [Read.cv](http://google.com)
+{% social
+  className="dribbble"
+  icon="dribbble"
+  name="Dribbble"
+  url="https://dribbble.com/jasonmelgoza"
+/%}
+
+{% social
+  className="linkedin"
+  icon="linkedin"
+  name="Linkedin"
+  url="http://www.linkedin.com/in/jasonmelgoza"
+/%}
+
+{% social
+  className="twitter"
+  icon="twitter"
+  name="Twitter"
+  url="https://twitter.com/jasonmelgoza"
+/%}
+
+{% social
+  className="github"
+  icon="github"
+  name="Github"
+  url="https://github.com/jasonmelgoza"
+/%}
+

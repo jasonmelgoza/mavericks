@@ -1,0 +1,23 @@
+.root {
+  &:global {
+    position: relative;
+    &:not(:last-child) {
+      margin-bottom: 0.25rem;
+    }
+  }
+}
+
+.root :global {
+  .social-wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    transition: color .25s var(--ease-1);
+
+    gap: 8px;
+
+    &:hover {
+      color: var(--colors-loContrast);
+    }
+  } 
+}

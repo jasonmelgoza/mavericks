@@ -1,6 +1,6 @@
 import cx from 'clsx'
 import Link from 'next/link'
-import { ArrowTopRightIcon, Link2Icon } from '@radix-ui/react-icons'
+import { ArrowTopRightIcon } from '@radix-ui/react-icons'
 import { Box } from '@/components'
 import { Icon } from '@/components'
 import styles from './Details.module.scss'
@@ -20,7 +20,7 @@ export default function Details({
       <div className='details-wrapper'>
         {icon ? (
           <div className='details-icon'>
-            <Icon name='dribbble' className='test' />
+            <Icon name={icon} className='details icon' />
           </div>
         ) : null}
         <div className='details-stack'>

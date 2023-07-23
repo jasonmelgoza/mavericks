@@ -1,11 +1,11 @@
 .root {
   &:global {
-  position: relative;
-  margin-bottom: 2rem;
-  overflow: hidden;
-  cursor: pointer;
-  border-radius: var(--radii-1);
-  box-shadow: 0 1px 2px var(--colors-shadowDark);
+    position: relative;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: var(--radii-1);
+    box-shadow: 0 1px 2px var(--colors-shadowDark);
 
     &::after {
       position: absolute;
