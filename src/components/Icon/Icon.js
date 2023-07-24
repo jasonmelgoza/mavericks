@@ -3,11 +3,10 @@ import {
   ArrowLeftIcon,
   ArrowTopRightIcon,
   LinkedInLogoIcon,
-  TwitterLogoIcon,
   GitHubLogoIcon,
 } from '@radix-ui/react-icons'
 
-import { Dribbble, Github } from './src'
+import { Dribbble, Mastodon } from './src'
 
 const IconMap = {
   'arrow-left': ArrowLeftIcon,
@@ -15,7 +14,7 @@ const IconMap = {
   dribbble: Dribbble,
   github: GitHubLogoIcon,
   linkedin: LinkedInLogoIcon,
-  twitter: TwitterLogoIcon
+  mastodon: Mastodon
 }
 
 export default function Icon({ className, name, ...props }) {

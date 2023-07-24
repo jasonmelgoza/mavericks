@@ -27,3 +27,13 @@
     }
   }
 }
+
+.root {
+  &:global(.block-lead) {
+    p {
+      margin-bottom: 1.25rem;
+      font-size: 1.75rem;
+      line-height: 1.3;
+    }
+  }
+}
