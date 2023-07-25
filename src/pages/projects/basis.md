@@ -13,7 +13,7 @@ title: Basis
   height="1200"
 /%}
 
-When I joined SecureDocs in 2018 one of the very first things we started talking about was a designsystem.
+When I joined SecureDocs in 2018, one of the first topics we discussed was the design system.
 
 ## The Figma lib
 
