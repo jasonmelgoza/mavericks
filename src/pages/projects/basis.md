@@ -13,11 +13,15 @@ title: Basis
   height="1200"
 /%}
 
-When I joined SecureDocs in 2018, one of the first topics we discussed was the design system.
+When I joined SecureDocs in 2018, we discussed the design system early on. The SecureDocs development team was about to transition major features to React, providing an ideal opportunity to create a shared component library that aligned with components designed in Figma. Eventually, we named this system "Basis."
 
-## The Figma lib
+## The Figma Library
 
-Satoshi’s lowercase ‘a’ and ‘g’ are double-storied; however, single-storied alternates are available, through an OpenType feature. The fonts’ other OpenType features include 10 ligatures per font, as well as alternate versions of the ‘G’ and ’t’. The default numeral style in each of the fonts is proportional lining figures; three other styles of numbers are included, too. There are tabular lining figures, as well as numerators and denominators for typesetting fractions. The fonts’ lining figures have the same height as the uppercase letters. The lowercase’s ascenders are drawn to be slightly taller than the common height of the capital letters and numerals. Each Satoshi font contains ten directional-arrow glyphs, as well as six glyphs of circles, squares, and triangles. There is also a peace sign in the character set, a smiling-face emoji, a check mark, and two versions of the numbers one through nine, each enclosed inside of differently-filled circles.
+As we were building the core components, Figma introduced their shared library feature. This feature not only let us associate specific elements with each component but also made it easier to share changes and updates across different designs, which was a huge breakthrough at that time.
 
-## Storybook
+## Storybook & React
+
+While building out our Figma component library, another tool gaining popularity was the open-source component documentation tool called "Storybook."
+
+## Building a Playground
 
