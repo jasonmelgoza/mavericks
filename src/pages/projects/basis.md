@@ -19,9 +19,8 @@ When I joined SecureDocs in 2018, we discussed the design system early on. The S
 
 As we were building the core components, Figma introduced their shared library feature. This feature not only let us associate specific elements with each component but also made it easier to share changes and updates across different designs, which was a huge breakthrough at that time.
 
-## Storybook & React
+## Building a Design Playground
 
-While building out our Figma component library, another tool gaining popularity was the open-source component documentation tool called "Storybook."
+While building out our Figma component library, another tool gaining popularity was the open-source component documentation tool called "Storybook." Storybook simplifies component documentation and maintenance, making the process less burdensome. Since at the time I was the only designer on the team, Storybook was a huge help.
 
-## Building a Playground
-
+Another tool that has been immensely helpful is "Playground." It enables me to iterate and share designs using actual code. Playground allows me to quickly create mock-ups and easily share them with the team, along with sample code for replicating the design. It was a big game changer in my process.
