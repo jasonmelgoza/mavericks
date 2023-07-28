@@ -48,6 +48,32 @@
     font-size: 0.875rem;
   }
 
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  hr {
+    box-sizing: content-box;
+    height: 1px;
+    padding: 0;
+    margin: 2rem 0;
+    overflow: hidden;
+    background: 0 0;
+    background-color: var(--colors-border);
+    border: 0;
+    border-bottom: 1px solid var(--colors-canvas);
+
+    & + h1,
+    & + h2,
+    & + h3 {
+      margin-top: 0.25rem;
+    }
+  }
+
   .pagination {
     margin-bottom: 1.25rem;
     font-size: 0.875rem;
