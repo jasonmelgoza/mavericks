@@ -8,6 +8,7 @@ export default {
   render: Media,
   attributes: {
     alt: { type: String },
+    caption: { type: String },
     className: { type: String },
     height: { type: String },
     original: { type: String },

@@ -8,6 +8,7 @@ grammerly: https://app.grammarly.com/ddocs/2127168663
 
 {% media
   alt="Basis components"
+  caption="thing thing"
   className="basis-thumbnail"
   original="/images/basis-full.png"
   thumbnail="/images/basis-thumb.png"
