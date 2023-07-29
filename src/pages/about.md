@@ -22,6 +22,8 @@ Overall, I'm a passionate and dedicated creative professional who simply loves w
 
 I've been thinking about this project for a while, restarting it several times but gaining some skills in the process. Personal websites like this should be places to learn and develop. This version is built with React and the fantastic Next.js framework - the project's source code is available on my [Github profile](https://github.com/jasonmelgoza/mavericks).
 
+---
+
 ## Linkage
 
 {% social
