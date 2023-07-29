@@ -60,7 +60,7 @@
     box-sizing: content-box;
     height: 1px;
     padding: 0;
-    margin: 2rem 0;
+    margin: 3.5rem 0;
     overflow: hidden;
     background: 0 0;
     background-color: var(--colors-border);
@@ -70,7 +70,7 @@
     & + h1,
     & + h2,
     & + h3 {
-      margin-top: 0.25rem;
+      margin-top: 0;
     }
   }
 
