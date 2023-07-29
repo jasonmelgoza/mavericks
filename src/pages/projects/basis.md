@@ -31,10 +31,10 @@ Another valuable tool included in Basis is called "Playroom," an open-source pro
 {% media
   alt="test"
   className="custom-class"
-  original="/images/basis-full.png"
-  thumbnail="/images/basis-thumb.png"
+  original="/images/playroom-full.png"
+  thumbnail="/images/playroom-thumb.png"
   width="1600"
-  height="1200"
+  height="1051"
 /%}
 
 An essential element in the development of Basis is the component library called "Semantic React UI." Initially, we had limited options for finding a primitive component library to get started, but "Semantic" fulfilled all the requirements by providing fundamental elements such as buttons, inputs, menus, and more.
