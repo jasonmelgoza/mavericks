@@ -7,8 +7,8 @@ grammerly: https://app.grammarly.com/ddocs/2127168663
 # {% $markdoc.frontmatter.title %}
 
 {% media
-  alt="test"
-  className="custom-class"
+  alt="Basis components"
+  className="basis-thumbnail"
   original="/images/basis-full.png"
   thumbnail="/images/basis-thumb.png"
   width="1600"
@@ -29,12 +29,12 @@ Another valuable tool included in Basis is called "Playroom," an open-source pro
 
 
 {% media
-  alt="test"
-  className="custom-class"
+  alt="Playroom"
+  className="thumbnail-playroom"
   original="/images/playroom-full.png"
   thumbnail="/images/playroom-thumb.png"
   width="1600"
-  height="1051"
+  height="1050"
 /%}
 
 An essential element in the development of Basis is the component library called "Semantic React UI." Initially, we had limited options for finding a primitive component library to get started, but "Semantic" fulfilled all the requirements by providing fundamental elements such as buttons, inputs, menus, and more.

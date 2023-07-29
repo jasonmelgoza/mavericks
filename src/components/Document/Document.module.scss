@@ -73,6 +73,7 @@
     & + h2,
     & + h3 {
       margin-top: 0;
+
     }
   }
 
@@ -83,6 +84,7 @@
     > a {
       display: inline-flex;
       align-items: center;
+      text-decoration: none;
       transition: color .25s ease;
 
       gap: 4px;
