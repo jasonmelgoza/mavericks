@@ -30,9 +30,11 @@ export default function Media({
           </Item>
         </Gallery>
       </Box>
-      <Box as='p' className={cx(styles.caption, 'media-caption')}>
-        <small>{caption}</small>
-      </Box>
+      {caption ? (
+        <Box as='p' className={cx(styles.caption, 'media-caption')}>
+          <small>{caption}</small>
+        </Box>
+      ) : null}
     </Box>
   )
 }
