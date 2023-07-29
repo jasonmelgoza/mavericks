@@ -19,7 +19,7 @@ grammerly: https://app.grammarly.com/ddocs/2127168663
 
 ## The Figma Library
 
-As we started building with Basis, Figma made a breakthrough by introducing the shared library feature. This feature allowed effortless updates across multiple designs, adding significant value to the product.
+As we started building with Basis, Figma introduced it's shared library feature, a huge breakthrough at the time. This feature made it easy to update multiple designs, improving my efficiency and saving time.
 
 ## Building a Sandbox
 
@@ -27,7 +27,17 @@ While I was designing our Figma component library, the dev team adopted a popula
 
 Another valuable tool included in Basis is called "Playroom," an open-source project by Seek. It allows me to quickly create mock-ups and easily share them with the team, along with sample code to reproduce the design. It has significantly improved my workflow.
 
-Another essential element in the development of Basis is the component library called "Semantic React UI." During that time, we had limited options for finding a primitive component library to get the ball rolling. "Semantic" fulfilled all the requirements by offering fundamental elements like buttons, inputs, menus, and more.
+
+{% media
+  alt="test"
+  className="custom-class"
+  original="/images/basis-full.png"
+  thumbnail="/images/basis-thumb.png"
+  width="1600"
+  height="1200"
+/%}
+
+An essential element in the development of Basis is the component library called "Semantic React UI." Initially, we had limited options for finding a primitive component library to get started, but "Semantic" fulfilled all the requirements by providing fundamental elements such as buttons, inputs, menus, and more.
 
 Like any design system, Basis will never be truly "finished." I am always learning and seeking ways to enhance it. In early 2022, SecureDocs Inc. was acquired, giving me another opportunity to share this experience and knowledge with teams in our new, larger company.
 
