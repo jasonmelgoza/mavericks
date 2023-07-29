@@ -13,33 +13,15 @@ title: Design Kit
   height="919"
 /%}
 
-Get started with Markdoc Satoshi is a modernist sans serif typeface. Its design combines typically grotesk-style letterforms, with some characters that are quite geometrically-designed. In terms of its appearance, Satoshi was inspired by Modernism and Industrial-Era graphic and typographic design. The family has tem weights on offer, ranging from Light to Black with complimentary italics. It is an excellent choice for use in branding, editorial, and poster design.
+By 2013 RightScale was growing fast. Different teams were working on projects in isolation. As a design team, we saw the need to consolidate our processes and provide a single source of truth for product design.
 
-## Typography Styles
+What started as a shared color palette in a Sketch file ultimately grew into a design system we called “Design Kit.” It included branding assets, color guidelines, an icon library, and a few selected UX patterns.
 
-Satoshi’s lowercase ‘a’ and ‘g’ are double-storied; however, single-storied alternates are available, through an OpenType feature. The fonts’ other OpenType features include 10 ligatures per font, as well as alternate versions of the ‘G’ and ’t’. The default numeral style in each of the fonts is proportional lining figures; three other styles of numbers are included, too. There are tabular lining figures, as well as numerators and denominators for typesetting fractions. The fonts’ lining figures have the same height as the uppercase letters. The lowercase’s ascenders are drawn to be slightly taller than the common height of the capital letters and numerals. Each Satoshi font contains ten directional-arrow glyphs, as well as six glyphs of circles, squares, and triangles. There is also a peace sign in the character set, a smiling-face emoji, a check mark, and two versions of the numbers one through nine, each enclosed inside of differently-filled circles.
+Along with a style guide, I designed and built component example pages that contained all the necessary markup and style for a given component. These pages were easy to share and were an excellent reference tool for front-end devs.
 
-## List Styles
+Building this system and sharing this knowledge was a priceless learning experience that would eventually direct me to my next role. In 2019 RightScale was acquired, which marked the end of my adventure there.
 
-- Jimmy G
-- Brock P
-- Tray L
-
-## Blocks
-
-### Hero Block
-
-{% block as="section" className="block-hero" %}
-Product designer at SecureDocs, interface tinkerer, icon illustrator, and defender of the universe. 🤘
-{% /block %}
-
-### Callout Block
-
-{% block as="div" className="block-callout" %}
+{% block as="div" className="block-callout" icon="dribbble" %}
 ### Callout Block
 Product designer at SecureDocs, interface tinkerer, icon illustrator, and defender of the universe. 🤘
 {% /block %}
-
-Satoshi was designed by Deni Anggara for the Indian Type Foundry.
-
-### Link
