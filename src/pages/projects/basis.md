@@ -8,7 +8,7 @@ grammerly: https://app.grammarly.com/ddocs/2127168663
 
 {% media
   alt="Basis components"
-  caption="thing thing"
+  caption="A look at some of the components included in Basis."
   className="basis-thumbnail"
   original="/images/basis-full.png"
   thumbnail="/images/basis-thumb.png"
@@ -31,6 +31,7 @@ Another valuable tool included in Basis is called "Playroom," an open-source pro
 
 {% media
   alt="Playroom"
+  caption="Playroom tool in action to create a setting page."
   className="thumbnail-playroom"
   original="/images/playroom-full.png"
   thumbnail="/images/playroom-thumb.png"
