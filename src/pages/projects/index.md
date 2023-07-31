@@ -39,7 +39,7 @@ title: Projects
 /%}
 
 {% details
-  heading="DesignKit"
+  heading="Design Kit"
   meta="Design system for RightScale"
   link="/projects/design-kit" 
 /%}

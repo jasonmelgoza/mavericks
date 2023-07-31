@@ -1,27 +1,41 @@
 ---
 title: Design Kit
+grammeryly: https://app.grammarly.com/ddocs/2130160931
 ---
 
 # {% $markdoc.frontmatter.title %}
 
 {% media
-  alt="test"
-  className="custom-class"
-  original="/images/dashboard-full.png"
-  thumbnail="/images/dashboard-thumb.png"
-  width="1415"
-  height="919"
+  alt="Design Kit landing page"
+  caption="The Design Kit landing page."
+  className="designkit-landing"
+  original="/images/designkit-full.png"
+  thumbnail="/images/designkit-thumb.png"
+  width="1774"
+  height="1087"
 /%}
 
-By 2013 RightScale was growing fast. Different teams were working on projects in isolation. As a design team, we saw the need to consolidate our processes and provide a single source of truth for product design.
+While working at RightScale, a rapidly-growing cloud computing company, we realized the importance of optimizing our processes and establishing a centralized resource for product design. This was necessary due to the independent project work being carried out by numerous teams.
 
-What started as a shared color palette in a Sketch file ultimately grew into a design system we called “Design Kit.” It included branding assets, color guidelines, an icon library, and a few selected UX patterns.
+What initially began as a shared color palette in a Sketch file evolved into a comprehensive design system known as "Design Kit." This system encompassed branding assets, color guidelines, an extensive library of icons, and a selection of UX patterns.
 
-Along with a style guide, I designed and built component example pages that contained all the necessary markup and style for a given component. These pages were easy to share and were an excellent reference tool for front-end devs.
+Alongside the style guide, I designed and developed component-specific markup and styling documentation, an early version of Storybook. These easily shared pages became invaluable reference tools for front-end developers.
 
-Building this system and sharing this knowledge was a priceless learning experience that would eventually direct me to my next role. In 2019 RightScale was acquired, which marked the end of my adventure there.
+{% media
+  alt="Design Kit color page"
+  caption="The Design Kit color scales page."
+  className="designkit-colors"
+  original="/images/designkit-colors-full.png"
+  thumbnail="/images/designkit-colors-thumb.png"
+  width="1752"
+  height="1023"
+/%}
 
-{% block as="div" className="block-callout" icon="dribbble" %}
-### Callout Block
-Product designer at SecureDocs, interface tinkerer, icon illustrator, and defender of the universe. 🤘
+The process of creating and disseminating this design system was a valuable learning opportunity for me, and it ultimately paved the way for my future endeavors. In 2019, RightScale was acquired, bringing my adventure at the company to a close.
+
+{% block as="div" className="block-callout" %}
+
+### [DESIGN KIT DEMO](https://unequaled-garden.surge.sh/)
+
+This project is no longer in use but I've tucked away an [archived version](https://unequaled-garden.surge.sh/) of the site for demo purposes.
 {% /block %}
