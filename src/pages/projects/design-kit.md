@@ -35,7 +35,8 @@ The process of creating and disseminating this design system was a valuable lear
 
 {% block as="div" className="block-callout" %}
 
-### [DESIGN KIT DEMO](https://unequaled-garden.surge.sh/)
+### [Design Kit Demo](https://unequaled-garden.surge.sh/)
 
-This project is no longer in use but I've tucked away an [archived version](https://unequaled-garden.surge.sh/) of the site for demo purposes.
+I have [archived a version](https://unequaled-garden.surge.sh/) of the site for demo purposes as this project is no longer in use.
+
 {% /block %}

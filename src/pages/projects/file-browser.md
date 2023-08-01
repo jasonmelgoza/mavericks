@@ -1,45 +1,42 @@
 ---
-title: File-Browser
+title: Designing a File-Browser
+grammerly: https://app.grammarly.com/ddocs/2131289809
 ---
 
 # {% $markdoc.frontmatter.title %}
 
 {% media
-  alt="test"
-  className="custom-class"
+  alt="The SecureDocs filebrowser app"
+  className="media-filebrowser"
+  caption="The file-browser application with the folder explorer sidebar."
   original="/images/filebrowser-full.png"
   thumbnail="/images/filebrowser-thumb.png"
   width="1600"
   height="1200"
 /%}
 
-Get started with Markdoc Satoshi is a modernist sans serif typeface. Its design combines typically grotesk-style letterforms, with some characters that are quite geometrically-designed. In terms of its appearance, Satoshi was inspired by Modernism and Industrial-Era graphic and typographic design. The family has tem weights on offer, ranging from Light to Black with complimentary italics. It is an excellent choice for use in branding, editorial, and poster design.
+In 2018, I became SecureDocs' first UI Designer and worked closely with the engineering team. My primary objective was to establish a simple but effective design process for our expanding cross-functional team. It included developing prototypes for product development and constructing a comprehensive component library to support engineers in implementing new features.
 
-## Typography Styles
+One of my early projects where I utilized this process was redesigning SecureDocs's file-browser interface, an essential tool for our customers. It was a collaborative effort and a notable achievement for our small, cross-functional team.
 
-Satoshi’s lowercase ‘a’ and ‘g’ are double-storied; however, single-storied alternates are available, through an OpenType feature. The fonts’ other OpenType features include 10 ligatures per font, as well as alternate versions of the ‘G’ and ’t’. The default numeral style in each of the fonts is proportional lining figures; three other styles of numbers are included, too. There are tabular lining figures, as well as numerators and denominators for typesetting fractions. The fonts’ lining figures have the same height as the uppercase letters. The lowercase’s ascenders are drawn to be slightly taller than the common height of the capital letters and numerals. Each Satoshi font contains ten directional-arrow glyphs, as well as six glyphs of circles, squares, and triangles. There is also a peace sign in the character set, a smiling-face emoji, a check mark, and two versions of the numbers one through nine, each enclosed inside of differently-filled circles.
+Describle the main function and the different parts of the browser.
 
-## List Styles
+## Themeing
 
-- Jimmy G
-- Brock P
-- Tray L
+The SecureDocs application serves three markets, each with unique features and branding. To assist in marketing with the ability to promote three products without compromising the user experience, I developed a color-theming system for specific UI elements. This system allowed each product to have its distinct appearance while ensuring ease of maintenance.
 
-## Blocks
+{% media
+  alt="Themeing across the file-browser"
+  className="media-filebrowser-themes"
+  caption="Themeing displayed across the 'Sidebar' component."
+  original="/images/filebrowser-theme-full.png"
+  thumbnail="/images/filebrowser-theme-thumb.png"
+  width="1600"
+  height="1200"
+/%}
 
-### Hero Block
+## Developing Details
 
-{% block as="section" className="block-hero" %}
-Product designer at SecureDocs, interface tinkerer, icon illustrator, and defender of the universe. 🤘
-{% /block %}
+a few graphs on the little details included to benifet the user.
 
-### Callout Block
-
-{% block as="div" className="block-callout" %}
-### Callout Block
-Product designer at SecureDocs, interface tinkerer, icon illustrator, and defender of the universe. 🤘
-{% /block %}
-
-Satoshi was designed by Deni Anggara for the Indian Type Foundry.
-
-### Link
+Wrap up.

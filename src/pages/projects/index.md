@@ -27,7 +27,7 @@ title: Projects
 ## Case Studies
 
 {% details
-  heading="FileBrowser App"
+  heading="Designing a File-Browser"
   meta="Interface design and development"
   link="/projects/file-browser" 
 /%}
