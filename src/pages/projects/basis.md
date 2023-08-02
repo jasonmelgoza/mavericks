@@ -1,5 +1,6 @@
 ---
 title: Basis Design System
+description: This is basis
 category: projects
 grammerly: https://app.grammarly.com/ddocs/2127168663
 ---
@@ -16,7 +17,7 @@ grammerly: https://app.grammarly.com/ddocs/2127168663
   height="1200"
 /%}
 
-"Basis" is our internal component library and design system at SecureDocs. We use it for designing and building new applications or features. When I first joined the development team in 2018, one of the first projects was to start a component library - something simple to start building out new features. At the time, the development team was transitioning major features to React. The opportunity to collaborate on a component library presented itself. We named this system "Basis."
+"Basis" is our internal component library and design system at SecureDocs. We use it for designing and building new applications or features. When I first joined the development team in 2018, one of the first projects was to start a component library - something simple to begin building new features. At the time, the development team was transitioning major features to React. The opportunity to collaborate on a component library presented itself, and we named this system "Basis."
 
 ## The Figma Library
 
