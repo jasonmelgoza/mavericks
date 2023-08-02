@@ -32,12 +32,6 @@ title: Projects
   link="/projects/file-browser" 
 /%}
 
-{% details 
-  heading="E-Signture Wizard"
-  meta="Interface design and development"
-  link="/projects/esign" 
-/%}
-
 {% details
   heading="Design Kit"
   meta="Design system for RightScale"
