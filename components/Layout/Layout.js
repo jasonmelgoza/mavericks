@@ -45,6 +45,7 @@ export default function Layout({ children }) {
         />
         <title>Jason Melgoza</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="me" href="https://mas.to/@jasonmelgoza" />
       </Head>
       <Header />
       <Main>{children}</Main>
