@@ -77,6 +77,10 @@
     }
   }
 
+  .heading:first-child {
+    margin-top: 0;
+  }
+
   .pagination {
     margin-bottom: 1.25rem;
     font-size: 0.875rem;
