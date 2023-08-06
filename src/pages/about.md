@@ -24,6 +24,9 @@ I've been thinking about this project for a while, restarting it several times b
 
 ---
 
+{% block className="block-row" %}
+{% block className="block-column block-social" %}
+
 ## Linkage
 
 {% social
@@ -53,3 +56,18 @@ I've been thinking about this project for a while, restarting it several times b
   name="Github"
   url="https://github.com/jasonmelgoza"
 /%}
+
+{% /block %}
+
+{% block className="block-column" %}
+{% block className="block-callout" %}
+
+### Contact
+
+Do you have a project or want to talk shop? Let's chat.
+
+[jasonmelgoza@gmail.com](mailto:jasonmelgoza@gmail.com)
+
+{% /block %}
+{% /block %}
+{% /block %}
