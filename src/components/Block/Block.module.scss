@@ -46,29 +46,3 @@
     }
   }
 }
-
-.root {
-  &:global(.block-row) {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-
-    gap: 1rem;
-  }
-}
-
-.root {
-  &:global(.block-column) {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
-    gap: 0.5rem;
-  }
-}
-
-.root {
-  &:global(.block-social) {
-    width: 50%;
-  }
-}
