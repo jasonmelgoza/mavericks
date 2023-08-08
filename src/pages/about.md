@@ -1,26 +1,24 @@
----
-title: Hello, I'm Jason
----
-
-# {% $markdoc.frontmatter.title %}
+#  Hello, I'm Jason
 
 {% block className="block-lead" %}
-As far back as I can remember, I always wanted to be a **designer**.
+I have always loved *design* & *technology* for as long as I can remember.
 {% /block %}
 
-From a young age, I've been captivated by art, design, and cutting-edge technology. Following my passion, I earned a degree in Art and Graphic Design from Fresno State.
+In my teens I had a constant companion: my sketchpad. It was during those years I was consumed by comic books, captivated by the stories, layouts, and, most importantly, the art. The incredible works of illustrators like Jim Lee and Todd McFarlane intensified my enthusiasm for the craft. I would spend hours recreating their styles, using only the resources a teen in the 90s would have. Fueled by that enthusiasm, I enrolled in every available art class and eventually earned a degree in Art and Graphic Design from Fresno State.
 
-Over the past 10+ years, I've built up my skills as a UI/UX designer and front-end developer. I've worked on all sorts of projects, from small websites to large-scale digital products. I'm constantly learning and pushing myself to create innovative and user-friendly designs.
+It wasn't until I read "Designing with Web Standards" by Jeffrey Zeldman, a book recommended by one of my professors, that I truly began my journey. After completing the book over a weekend, I dove head-first into learning HTML, CSS, and JavaScript. Later, I set a personal challenge to build a website from scratch.
 
-Currently, I am part of an outstanding cross-functional team at SecureDocs, Inc., where we're laser focused on creating intuitive browser-based software.
+After a decade of successful projects, I have developed a skill set that combines my design skills with a passion for technology.
 
-Beyond work, I love spending time with my wife and our two wonderful ~~kids~~ teenagers. We enjoy traveling, trying new restaurants, watching the latest Marvel movie, and spending time with our dogs.
+Currently, I am part of a cross-functional team at SecureDocs, Inc., where we are laser-focused on creating intuitive browser-based software.
 
-Overall, I'm a passionate and dedicated creative professional who simply loves what he's doing for a living.
+Outside of work, I enjoy spending time with my wife and our two ~~kids~~ teenagers. We love traveling, trying new restaurants, watching the latest Marvel movie, and spending time with our dogs.
+
+Overall, I am a passionate and dedicated creative professional who loves what he does for a living.
 
 ## About this site
 
-I've been thinking about this project for a while, restarting it several times but gaining some skills in the process. The current version is developed using React and the excellent Next.js framework. For those who are curious, the project's source code can be found on my [Github profile](https://github.com/jasonmelgoza/mavericks).
+I have been contemplating this project for some time, restarting it multiple times while acquiring skills along the way. The current iteration is developed using React and the excellent Next.js framework. For those who are curious, the project's source code can be found on my [GitHub profile](https://github.com/jasonmelgoza/mavericks).
 
 ---
 
