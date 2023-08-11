@@ -12,11 +12,11 @@ Over the past decade, I have developed a strong skill set that combines my desig
 
 Outside of work, I enjoy spending quality time with my wife and our two teenage children. We love traveling, trying new restaurants, watching the latest Marvel movies, and cherishing moments with our dogs. Overall, I am a passionate and dedicated creative professional who genuinely loves his work.
 
+{% block as="div" className="block-callout" %}
 ## About this site
 
 I have been contemplating this project for some time, restarting it multiple times while acquiring skills along the way. The current iteration is developed using React and the excellent Next.js framework. For those who are curious, the project's source code can be found on my [GitHub profile](https://github.com/jasonmelgoza/mavericks).
-
----
+{% /block %}
 
 ## Linkage
 
