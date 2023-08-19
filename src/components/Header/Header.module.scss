@@ -51,10 +51,11 @@
     flex-direction: row;
     list-style: none;
 
-    gap: 8px;
+    gap: 0.5rem;
 
     li {
       font-size: 1rem;
+      font-weight: 500;
       line-height: 1.5;
     }
 
