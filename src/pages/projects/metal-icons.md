@@ -25,35 +25,23 @@ I believe that for a product to appear unique and mature while maintaining a coh
 
 To ensure that my icons feel consistent and follow a unified style, I have drafted a set of rules and guidelines. These attributes serve as a foundation for designing the entire set. The rules cover various aspects including type, size, spacing, shapes, strokes, and corner radii.
 
-### Type
+### Type and Stroke
 
-Metal (for now) has two primary variations, `filled` and `outlined`.
+Metal (for now) has two main variations: `filled` and `outlined`. The stroke width for the outlined variant is set to 1.5px for lighter appearance and a weight similar to 16px text.
 
-![Icon types](/images/metal-icons-sizes.png)
+![Icon types](/images/metal-icons-types.png)
 
-### Size
+### Grid Size
 
-Each icon has two sizes: large (24px) and small (16px). These sizes enable the use of icons in various design scenarios or components, such as buttons or avatars.
+Each icon has two sizes: large `24px` and small `16px`. These sizes enable the use of icons in various scenarios or components, such as buttons or avatars.
 
 ![Icon sizes](/images/metal-icons-sizes.png)
 
-### Spacing
+### Icon Keylines
 
-For space around
+My keyline templates keep me honest. They represent the set's rules visually, allowing me to design an icon quickly and keep it consistent with the rest of the set.
 
-![Icon types](/images/metal-icons-sizes.png)
-
-### Shapes
-
-Thing thing thing
-
-![Icon types](/images/metal-icons-sizes.png)
-
-### ****Strokes****
-
-The primary icon stroke is `1.5px`
-
-![Icon types](/images/metal-icons-sizes.png)
+![Icon types](/images/metal-icons-keylines.png)
 
 ### Corners
 
