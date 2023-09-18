@@ -43,12 +43,6 @@ My keyline templates keep me honest. They represent the set's rules visually, al
 
 ![Icon types](/images/metal-icons-keylines.png)
 
-### Corners
-
-The primary corner radius is `1.75px`
-
-![Icon types](/images/metal-icons-sizes.png)
-
 ## Component Library
 
-Thing thing component thing thing.
+While designing and growing this icon collection, I have also been building the component library for React. That way, any developer using React can utilize this set.
