@@ -1,4 +1,4 @@
-import { Document } from "../../src/components";
+import { Document } from '../../src/components'
 
 export default {
   render: Document,
@@ -8,4 +8,4 @@ export default {
       type: String
     }
   }
-};
+}
