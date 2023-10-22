@@ -1,6 +1,7 @@
 ---
 title: Design Kit
-grammeryly: https://app.grammarly.com/ddocs/2130160931
+description: This is basis
+category: projects
 ---
 
 # {% $markdoc.frontmatter.title %}

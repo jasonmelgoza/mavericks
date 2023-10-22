@@ -2,7 +2,6 @@
 title: Basis Design System
 description: This is basis
 category: projects
-grammerly: https://app.grammarly.com/ddocs/2127168663
 ---
 
 # {% $markdoc.frontmatter.title %}
