@@ -15,6 +15,33 @@ title: Work
   height="919"
 /%}
 
+{% block as="div" className="block-thumbnails" %}
+{% media
+  alt="An image displaying some of the icons from the Metal collection."
+  className="media-thumbnail"
+  original="https://placehold.co/1220x900"
+  thumbnail="https://placehold.co/110x100"
+  width="1200"
+  height="900"
+/%}
+{% media
+  alt="An image displaying some of the icons from the Metal collection."
+  className="media-thumbnail"
+  original="https://placehold.co/1220x900"
+  thumbnail="https://placehold.co/110x100"
+  width="1200"
+  height="900"
+/%}
+{% media
+  alt="An image displaying some of the icons from the Metal collection."
+  className="media-thumbnail"
+  original="https://placehold.co/1220x900"
+  thumbnail="https://placehold.co/110x100"
+  width="1200"
+  height="900"
+/%}
+{% /block %}
+
 ## Experience
 
 {% details heading="Senior Product Designer" subheading="SecureDocs, Inc." meta="Aug 2018 - Present · 5 yrs" /%}

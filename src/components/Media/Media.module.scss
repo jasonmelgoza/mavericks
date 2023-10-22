@@ -8,7 +8,7 @@
     cursor: pointer;
     border-radius: var(--radii-1);
     box-shadow: 0 1px 2px var(--colors-shadowDark);
-  
+
     &::after {
       position: absolute;
       top: 0;
@@ -24,5 +24,15 @@
   .media-caption {
     margin-top: 0.5rem;
     color: var(--colors-loContrast);
+  }
+}
+
+.root {
+  &:global(.media-thumbnail) {
+    background-color: red;
+    margin: 0;
+    div.media-container {
+      margin: 0;
+    }
   }
 }

@@ -23,7 +23,6 @@
     border: 1px solid var(--colors-border);
     border-radius: var(--radii-2);
 
-
     &:first-child {
       margin-top: 0;
     }
@@ -50,5 +49,14 @@
         letter-spacing: -0.5px;
       }
     }
+  }
+}
+
+.root {
+  &:global(.block-thumbnails) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
   }
 }
