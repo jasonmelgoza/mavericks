@@ -1,6 +1,6 @@
 ---
 title: Design Kit
-description: This is basis
+description: Design Kit is a design system I contributed to during my time at RightScale.
 category: projects
 ---
 

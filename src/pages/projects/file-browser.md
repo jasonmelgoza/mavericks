@@ -1,7 +1,7 @@
 ---
 title: Designing a File Browser
-description: A case study outlining my experience designing the SecureDocs file browser.
-grammerly: https://app.grammarly.com/ddocs/2131289809
+description: A case study outlining my experience designing the SecureDocs filebrowser application
+category: projects
 ---
 
 # {% $markdoc.frontmatter.title %}

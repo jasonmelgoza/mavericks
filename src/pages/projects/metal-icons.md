@@ -1,6 +1,7 @@
 ---
 title: Metal Icons
-notion: https://www.notion.so/jmelgoza/Metal-Icons-055626edf1e94806be095aea8072dfea?pvs=4
+description: Icons from the Metal collection.
+category: projects
 ---
 
 # {% $markdoc.frontmatter.title %}

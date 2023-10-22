@@ -1,5 +1,6 @@
 ---
 title: Mavericks
+category: projects
 ---
 
 # {% $markdoc.frontmatter.title %}

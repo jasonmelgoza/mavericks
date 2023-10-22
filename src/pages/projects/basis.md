@@ -1,6 +1,6 @@
 ---
 title: Basis Design System
-description: This is basis
+description: A glimpse into the Basis design system, developed for SecureDocs.
 category: projects
 ---
 
