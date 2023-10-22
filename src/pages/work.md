@@ -20,7 +20,7 @@ title: Work
   alt="An image displaying some of the icons from the Metal collection."
   className="media-thumbnail"
   original="https://placehold.co/1220x900"
-  thumbnail="https://placehold.co/110x100"
+  thumbnail="https://cdn.dribbble.com/userupload/7406285/file/original-93a5252c13a2eb3c5aefca3dcb72e16f.png?resize=110x100&vertical=center"
   width="1200"
   height="900"
 /%}
@@ -28,7 +28,7 @@ title: Work
   alt="An image displaying some of the icons from the Metal collection."
   className="media-thumbnail"
   original="https://placehold.co/1220x900"
-  thumbnail="https://placehold.co/110x100"
+  thumbnail="https://cdn.dribbble.com/userupload/4085497/file/original-07a42a7d4749ed9ae63ef399bf1942d8.png?resize=110x100&vertical=center"
   width="1200"
   height="900"
 /%}
