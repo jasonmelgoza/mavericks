@@ -28,8 +28,15 @@
 }
 
 .root {
+  &:global(.media-gallery) {
+    margin-bottom: 1.75rem;
+  }
+
   &:global(.media-thumbnail) {
-    background-color: red;
+    margin: 0;
+  }
+
+  &:global(.media-thumbnail .media-container) {
     margin: 0;
   }
 }

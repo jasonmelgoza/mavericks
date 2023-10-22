@@ -8,7 +8,7 @@ title: Work
 
 {% media
   alt="test"
-  className="foo"
+  className="media-gallery"
   original="/images/dashboard-full.png"
   thumbnail="/images/dashboard-thumb.png"
   width="1415"
