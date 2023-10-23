@@ -38,5 +38,9 @@
 
   &:global(.media-thumbnail .media-container) {
     margin: 0;
+
+    > img {
+      width: 110px;
+    }
   }
 }
