@@ -9,13 +9,13 @@ I have always loved *design* & *technology* for as long as I can remember.
 {% /block %}
 
 {% media
-  alt="An image displaying some of the icons from the Metal collection."
+  alt="Just a photo of me after a fresh hair-cut."
   className="media-filebrowser-themes"
-  caption="Icons from the Metal collection."
-  original="/images/batman.png"
-  thumbnail="/images/batman-thumb.png"
+  caption="Just a photo of me after a fresh hair-cut."
+  original="/images/profile-full.png"
+  thumbnail="/images/profile-thumb.png"
   width="1600"
-  height="800"
+  height="1632"
 /%}
 
 In my teens I had a constant companion: my sketchpad. It was during those years I was consumed by comic books, captivated by the stories, layouts, and, most importantly, the art. The incredible works of illustrators like Jim Lee and Todd McFarlane intensified my enthusiasm for the craft. I would spend hours recreating their styles, using only the resources a teen in the 90s would have. Fueled by that enthusiasm, I enrolled in every available art class and eventually earned a degree in Art and Graphic Design from Fresno State.
