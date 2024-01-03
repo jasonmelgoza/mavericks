@@ -2,18 +2,26 @@
 notion: https://www.notion.so/jmelgoza/About-page-ba99ba2254db4361aded3059f3ead78f?pvs=4
 ---
 
-#  Hello, I'm Jason
+#  👋 Hello, I'm Jason
 
 {% block className="block-lead" %}
 I have always loved *design* & *technology* for as long as I can remember.
 {% /block %}
 
 {% media
+<<<<<<< HEAD
   alt="Just a photo of me after a fresh hair-cut."
   className="media-filebrowser-themes"
   caption="Just a photo of me after a fresh hair-cut."
   original="/images/profile-full.png"
   thumbnail="/images/profile-thumb.png"
+=======
+  alt="Just a photo of me next to some guy's car."
+  className="media-filebrowser-themes"
+  caption="Just a photo of me next to some guy's car."
+  original="/images/batman.png"
+  thumbnail="/images/batman-thumb.png"
+>>>>>>> 8ecd22865848640f8fe6e846e44112910ee98109
   width="1600"
   height="1632"
 /%}
