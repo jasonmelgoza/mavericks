@@ -57,7 +57,7 @@ My goal with this project is not only to fulfill the need for a comprehensive ic
 
 {% block as="div" className="block-callout" %}
 
-### Project Progress
+## Project progress
 
 Track the project's progress on [GitHub](https://github.com/jasonmelgoza/metal-icons). I've stored all 150 icons in outline and solid variations there. Additionally, you can find a [Figma community file](https://www.figma.com/community/file/1275692756020345515/metal-icons) with all icons as components, ready to use in your next Figma project.
 
