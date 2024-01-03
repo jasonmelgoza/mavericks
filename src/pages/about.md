@@ -12,8 +12,8 @@ I have always loved *design* & *technology* for as long as I can remember.
   alt="An image displaying some of the icons from the Metal collection."
   className="media-filebrowser-themes"
   caption="Icons from the Metal collection."
-  original="https://placehold.co/1600x800"
-  thumbnail="https://placehold.co/800x400"
+  original="/images/batman.png"
+  thumbnail="/images/batman-thumbnail.png"
   width="1600"
   height="800"
 /%}
