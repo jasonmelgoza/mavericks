@@ -9,9 +9,9 @@ I have always loved *design* & *technology* for as long as I can remember.
 {% /block %}
 
 {% media
-  alt="An image displaying some of the icons from the Metal collection."
+  alt="Just a photo of me next to some guy's car."
   className="media-filebrowser-themes"
-  caption="Icons from the Metal collection."
+  caption="Just a photo of me next to some guy's car."
   original="/images/batman.png"
   thumbnail="/images/batman-thumb.png"
   width="1600"
