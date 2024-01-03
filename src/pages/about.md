@@ -2,7 +2,7 @@
 notion: https://www.notion.so/jmelgoza/About-page-ba99ba2254db4361aded3059f3ead78f?pvs=4
 ---
 
-#  Hello, I'm Jason
+#  👋 Hello, I'm Jason
 
 {% block className="block-lead" %}
 I have always loved *design* & *technology* for as long as I can remember.
