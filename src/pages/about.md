@@ -13,7 +13,7 @@ I have always loved *design* & *technology* for as long as I can remember.
   className="media-filebrowser-themes"
   caption="Icons from the Metal collection."
   original="/images/batman.png"
-  thumbnail="/images/batman-thumbnail.png"
+  thumbnail="/images/batman-thumb.png"
   width="1600"
   height="800"
 /%}
