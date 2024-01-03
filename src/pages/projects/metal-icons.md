@@ -48,9 +48,8 @@ My keyline templates keep me honest. They represent the set's rules visually, al
 
 While designing and growing this icon collection, I have also been building the component library for React. That way, any developer using React can utilize this set.
 
-{% codesandbox
-  title="interesting-hooks-87l4t8"
-  src="https://codesandbox.io/embed/interesting-hooks-87l4t8?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.js&theme=light"
+{% sandpack
+  className="metal-icons-project"
 /%}
 
 My goal with this project is not only to fulfill the need for a comprehensive icon collection that I have *full* control over but also to expand this process into a larger UI project in the future 🤘.
