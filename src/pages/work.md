@@ -35,8 +35,8 @@ title: Work
 {% media
   alt="An image displaying some of the icons from the Metal collection."
   className="media-thumbnail"
-  original="https://placehold.co/2048x1536"
-  thumbnail="https://placehold.co/256x192"
+  original="/images/browser-copilot-full.png"
+  thumbnail="/images/browser-copilot-thumb.png"
   width="1024"
   height="768"
 /%}
