@@ -19,8 +19,8 @@ title: Work
 {% media
   alt="An image displaying some of the icons from the Metal collection."
   className="media-thumbnail"
-  original="https://cdn.dribbble.com/userupload/4298481/file/original-5af1cf8df1f46b2d8029ed88bca06f73.png?resize=2048x1536"
-  thumbnail="https://cdn.dribbble.com/userupload/4298480/file/original-2a3580d48a4344911c25269d48142093.png?resize=840x630"
+  original="/images/report-filter-full.png"
+  thumbnail="/images/report-filter-thumb.png"
   width="1024"
   height="768"
 /%}
