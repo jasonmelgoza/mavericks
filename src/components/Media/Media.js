@@ -16,9 +16,10 @@ export default function Media({
   return (
     <Box className={cx(styles.root, 'media', className)}>
       <Box className='media-container'>
-        <Gallery>
+        <Gallery withCaption>
           <Item
             alt={alt}
+            caption={caption}
             height={height}
             original={original}
             thumbnail={thumbnail}
