@@ -10,8 +10,8 @@ category: projects
   alt="An image displaying some of the icons from the Metal collection."
   className="media-filebrowser-themes"
   caption="Icons from the Metal collection."
-  original="/images/metal-icons-full-2.png"
-  thumbnail="/images/metal-icons-thumb-2.png"
+  original="/images/metal-icons-full.png"
+  thumbnail="/images/metal-icons-thumb.png"
   width="1600"
   height="1200"
 /%}

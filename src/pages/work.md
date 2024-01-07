@@ -19,8 +19,8 @@ title: Work
 {% media
   alt="A new filtering component allowing users to view records from one or more directories."
   className="media-thumbnail"
-  original="/images/report-filter-full.png"
-  thumbnail="/images/report-filter-thumb.png"
+  original="/images/folder-filter-full.png"
+  thumbnail="/images/folder-filter-thumb.png"
   width="1024"
   height="768"
 /%}
@@ -43,8 +43,8 @@ title: Work
 {% media
   alt="A new project with a new team to streamline how customers approve or reject incoming 'Timekeepers.'"
   className="media-thumbnail"
-  original="https://placehold.co/2048x1536"
-  thumbnail="https://placehold.co/256x192"
+  original="/images/timekeeper-full.png"
+  thumbnail="/images/timekeeper-full.png"
   width="1024"
   height="768"
 /%}

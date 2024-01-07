@@ -18,12 +18,6 @@ title: Projects
   link="/projects/metal-icons"
 /%}
 
-{% details
-  heading="Mavricks"
-  meta="Personal site"
-  link="/projects/mavericks"
-/%}
-
 ## Case Studies
 
 {% details

@@ -20,7 +20,7 @@ While working at RightScale, a rapidly-growing cloud computing company, we reali
 
 What initially began as a shared color palette in a Sketch file evolved into a comprehensive design system known as "Design Kit." This system encompassed branding assets, color guidelines, an extensive library of icons, and a selection of UX patterns.
 
-Alongside the style guide, I designed and developed component-specific markup and styling documentation, an early version of Storybook. These easily shared pages became invaluable reference tools for front-end developers.
+Alongside the style guide, I designed and developed component-specific markup and styling documentation, similar to [Storybook](https://storybook.js.org/). These easily shared pages became invaluable reference tools for front-end developers.
 
 {% media
   alt="Design Kit color page"
