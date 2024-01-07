@@ -32,10 +32,10 @@ The primary function of the sidebar was to allow users to explore their folder s
   alt="The expand action in the sidebar"
   className="media-filebrowser-themes"
   caption="A look at some of the sidebar functionality."
-  original="https://placehold.co/1600x1200"
-  thumbnail="https://placehold.co/800x600"
-  width="1600"
-  height="1200"
+  original="/images/filebrowser-ui.gif"
+  thumbnail="/images/filebrowser-ui.gif"
+  width="1713"
+  height="1014"
 /%}
 
 ## Themeing
