@@ -44,6 +44,13 @@ The site utilizes the [Satoshi](https://www.fontshare.com/fonts/satoshi) typefac
 /%}
 
 {% social
+  className="github"
+  icon="github"
+  name="Github"
+  url="https://github.com/jasonmelgoza"
+/%}
+
+{% social
   className="linkedin"
   icon="linkedin"
   name="Linkedin"
@@ -55,11 +62,4 @@ The site utilizes the [Satoshi](https://www.fontshare.com/fonts/satoshi) typefac
   icon="mastodon"
   name="Mastodon"
   url="https://mas.to/@jasonmelgoza"
-/%}
-
-{% social
-  className="github"
-  icon="github"
-  name="Github"
-  url="https://github.com/jasonmelgoza"
 /%}

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import localFont from 'next/font/local'
 import { useRouter } from 'next/router'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Layout } from '@/components'
 import '@/styles/globals.css'
 
@@ -86,6 +87,7 @@ export default function App({ Component, pageProps, ...props }) {
       <Layout className={satoshiFont.className}>
         <Component {...pageProps} />
       </Layout>
+      <SpeedInsights />
     </>
   )
 }
