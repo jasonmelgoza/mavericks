@@ -72,16 +72,31 @@ export default function App({ Component, pageProps, ...props }) {
   return (
     <>
       <Head>
+        {/* HTML Meta Tags */}
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         <meta name='author' content='Jason Melgoza' />
         <meta name='title' content={title} />
         <meta name='description' content={description} />
         <meta name='keywords' content={keywords} />
+
+        {/* OG Meta Tags */}
+        <meta property='og:url' content='https://jasonmelgoza.com/' />
+        <meta property='og:type' content='website' />
+        <meta property='og:title' content={TITLE} />
+        <meta property='og:description' content={description} />
+        <meta property='og:image' content='/og-image.png' />
+        <meta property='og:image:type' content='image/png' />
+        <meta property='og:image:width' content='400' />
+        <meta property='og:image:height' content='200' />
+
+        {/* HTML Title */}
         {isLanding ? (
           <title>{TITLE}</title>
         ) : (
           <title>{`${TITLE} | ${title}`}</title>
         )}
+
+        {/* Favicons */}
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Layout className={satoshiFont.className}>
