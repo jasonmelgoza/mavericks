@@ -1,6 +1,6 @@
 ---
 title: Metal Icons
-description: Icons from the Metal collection.
+description: Icons from the Metal collection
 category: projects
 ---
 
