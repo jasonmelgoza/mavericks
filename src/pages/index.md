@@ -1,6 +1,6 @@
 ---
 title: Jason Melgoza
-description: Homepage
+description: Product designer and creator
 ---
 
 {% block as="section" className="block-hero" %}

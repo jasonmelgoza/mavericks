@@ -1,6 +1,6 @@
 ---
 title: Design Kit
-description: Design Kit is a design system I contributed to during my time at RightScale.
+description: Design system developed for RightScale
 category: projects
 ---
 
