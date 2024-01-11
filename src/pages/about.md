@@ -32,7 +32,7 @@ Outside of work, I enjoy spending quality time with my wife and our two teenage 
 
 I've worked on this project for a while, refining it multiple times until I achieved the right balance of simplicity and abstraction. The current version is built using React and the excellent [Next.js](https://nextjs.org/) framework. If you're curious, you can find the project's source code on my [Github profile](https://github.com/jasonmelgoza/mavericks).
 
-The site utilizes the [Satoshi](https://www.fontshare.com/fonts/satoshi) typeface, designed by [Deni Anggara](https://www.indiantypefoundry.com/designers/deni-anggara), and draws inspiration from the work of designers [Dan Cederholm](https://simplebits.com/), [Rauno Freiberg](https://read.cv/rauno), and [Nicolás Garro](https://evilrabb.it/) (also known as Evil Rabbit).
+The site utilizes the [Satoshi](https://www.fontshare.com/fonts/satoshi) typeface, designed by [Deni Anggara](https://www.indiantypefoundry.com/designers/deni-anggara), and draws inspiration from the work of designers [Dan Cederholm](https://simplebits.com/), [Rauno Freiberg](https://rauno.me/), and [Nicolás Garro](https://evilrabb.it/) (also known as Evil Rabbit).
 {% /block %}
 
 ## Linkage
