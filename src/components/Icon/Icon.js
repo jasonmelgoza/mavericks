@@ -4,6 +4,7 @@ import {
   ArrowTopRightIcon,
   LinkedInLogoIcon,
   GitHubLogoIcon,
+  FileTextIcon
 } from '@radix-ui/react-icons'
 
 import { Dribbble, Mastodon } from './src'
@@ -11,6 +12,7 @@ import { Dribbble, Mastodon } from './src'
 const IconMap = {
   'arrow-left': ArrowLeftIcon,
   'arrow-top-right': ArrowTopRightIcon,
+  document: FileTextIcon,
   dribbble: Dribbble,
   github: GitHubLogoIcon,
   linkedin: LinkedInLogoIcon,

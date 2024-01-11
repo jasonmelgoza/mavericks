@@ -1,5 +1,6 @@
 ---
 title: Work
+description: Design samples and experience
 ---
 
 # {% $markdoc.frontmatter.title %}
@@ -67,3 +68,10 @@ title: Work
 ## Continuing Education
 
 {% details heading="Learning React, Next.js and Storybook" subheading="2018 - Present" meta="So far so good..." /%}
+
+{% social
+  className="resume"
+  icon="document"
+  name="View Resume"
+  url="/assets/resume-jason-melgoza-2024.pdf"
+/%}

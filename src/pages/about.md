@@ -1,5 +1,6 @@
 ---
-notion: https://www.notion.so/jmelgoza/About-page-ba99ba2254db4361aded3059f3ead78f?pvs=4
+title: About me
+description: Product designer and creator
 ---
 
 #  👋 Hello, I'm Jason

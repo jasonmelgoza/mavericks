@@ -8,8 +8,8 @@ description: How to get started with Markdoc
 {% media
   alt="test"
   className="custom-class"
-  original="/images/dashboard-full.png"
-  thumbnail="/images/dashboard-thumb.png"
+  original="/images/basis-full.png"
+  thumbnail="/images/basis-thumb.png"
   width="1415"
   height="919"
 /%}
@@ -81,10 +81,10 @@ Product designer at SecureDocs, interface tinkerer, icon illustrator, and defend
 /%}
 
 {% social
-  className="twitter"
-  icon="twitter"
-  name="Twitter"
-  url="https://twitter.com/jasonmelgoza"
+  className="Mastodon"
+  icon="mastodon"
+  name="Mastodon"
+  url="https://mas.to/@jasonmelgoza"
 /%}
 
 {% social
