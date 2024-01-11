@@ -6,5 +6,5 @@ Source code to my personal website [jmelgoza.com](https://www.jmelgoza.com/).
 
 - [React.js](https://react.dev/)
 - [Next.js](https://nextjs.org/)
-- [Markdocs](https://markdoc.dev/)
+- [Markdoc](https://markdoc.dev/)
 - [PhotoSwipe](https://photoswipe.com/)
