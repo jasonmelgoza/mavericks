@@ -95,10 +95,10 @@ Product designer at SecureDocs, interface tinkerer, icon illustrator, and defend
 /%}
 
 
-{% gallery className="hero-galler-custom" %}
+{% gallery className="hero-galler-custom" caption="Test gallery" %}
 {% galleryItem
   className="foo 1"
-  alt="test"
+  alt="test one"
   original="/images/basis-full.png"
   thumbnail="/images/basis-thumb.png"
   width="1600"
@@ -106,7 +106,7 @@ Product designer at SecureDocs, interface tinkerer, icon illustrator, and defend
 /%}
 {% galleryItem
   className="foo 2"
-  alt="test"
+  alt="test two"
   original="/images/basis-full.png"
   thumbnail="/images/basis-thumb.png"
   width="1600"
