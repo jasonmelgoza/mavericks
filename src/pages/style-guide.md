@@ -97,6 +97,7 @@ Product designer at SecureDocs, interface tinkerer, icon illustrator, and defend
 
 {% gallery className="hero-galler-custom" %}
 {% galleryItem
+  className="foo 1"
   alt="test"
   original="/images/basis-full.png"
   thumbnail="/images/basis-thumb.png"
@@ -104,6 +105,7 @@ Product designer at SecureDocs, interface tinkerer, icon illustrator, and defend
   height="1200"
 /%}
 {% galleryItem
+  className="foo 2"
   alt="test"
   original="/images/basis-full.png"
   thumbnail="/images/basis-thumb.png"

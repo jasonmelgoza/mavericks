@@ -7,6 +7,7 @@ import { Item } from 'react-photoswipe-gallery'
 export const HeroGalleryItem = ({
   alt,
   caption,
+  className,
   height,
   original,
   thumbnail,
@@ -23,6 +24,7 @@ export const HeroGalleryItem = ({
     >
       {({ ref, open }) => (
         <img
+          className={className}
           ref={ref}
           onClick={open}
           src={original}
