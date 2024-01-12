@@ -5,6 +5,7 @@ import { Item } from 'react-photoswipe-gallery'
  * This component uses react-photoswipe-gallery for image functionality.
  */
 export const HeroGalleryItem = ({
+  alt,
   caption,
   height,
   original,
@@ -13,11 +14,12 @@ export const HeroGalleryItem = ({
 }) => {
   return (
     <Item
+      alt={alt}
+      caption={caption}
+      height={height}
       original={original}
       thumbnail={thumbnail}
       width={width}
-      height={height}
-      caption={caption}
     >
       {({ ref, open }) => (
         <img

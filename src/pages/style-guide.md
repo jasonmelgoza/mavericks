@@ -93,3 +93,21 @@ Product designer at SecureDocs, interface tinkerer, icon illustrator, and defend
   name="Github"
   url="https://github.com/jasonmelgoza"
 /%}
+
+
+{% gallery className="hero-galler-custom" %}
+{% galleryItem
+  alt="test"
+  original="/images/basis-full.png"
+  thumbnail="/images/basis-thumb.png"
+  width="1600"
+  height="1200"
+/%}
+{% galleryItem
+  alt="test"
+  original="/images/basis-full.png"
+  thumbnail="/images/basis-thumb.png"
+  width="1600"
+  height="1200"
+/%}
+{% /gallery %}
