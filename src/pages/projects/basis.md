@@ -43,6 +43,14 @@ An essential element in the development of Basis is the component library called
 
 Like any design system, Basis will never be truly "finished." I am always learning and seeking ways to enhance it. In early 2022, SecureDocs Inc. was acquired, giving me another opportunity to share this experience and knowledge with teams in our new, larger company.
 
+{% block as="div" className="block-callout" %}
+
+### [Basis Playroom](https://basis-iota.vercel.app/playroom/#?code=N4Igxg9gJgpiBcIA8AhCAPABABwIZSgEsA7AcwF4AdEAJgCcYBbagPkuM01Q3c86IDO2ADa4AnlRAAzYTHTVefGXIAihBmAAuhCMUl0IAdwUc%2BAKwCuA7VLEBhXZpjFNkobjAwAtACMYmwxhnEz5MXGFCUmIASSdGAUlPFxg6EMw2U05UC01NXQA6AHEDC2ww3I8ACxgoDNCslBy8jkhkl0kHbDFqTEJW8mAkaNbMYlxGGEkoUoiwXCcegHoWAF9MZcVQ7NzdTFanduoAUSJNHr7dAaGRsYnJGsJNMOEzkHXV982uRcad4iKStg6t80OgMkgfhgMiAADQgQyEKCaSoCBAAbQA7AA2AAcAF0VkA)
+
+I used the fantastic tool Playroom by Seek to create a [sandbox](https://basis-iota.vercel.app/playroom/#?code=N4Igxg9gJgpiBcIA8AhCAPABABwIZSgEsA7AcwF4AdEAJgCcYBbagPkuM01Q3c86IDO2ADa4AnlRAAzYTHTVefGXIAihBmAAuhCMUl0IAdwUc%2BAKwCuA7VLEBhXZpjFNkobjAwAtACMYmwxhnEz5MXGFCUmIASSdGAUlPFxg6EMw2U05UC01NXQA6AHEDC2ww3I8ACxgoDNCslBy8jkhkl0kHbDFqTEJW8mAkaNbMYlxGGEkoUoiwXCcegHoWAF9MZcVQ7NzdTFanduoAUSJNHr7dAaGRsYnJGsJNMOEzkHXV982uRcad4iKStg6t80OgMkgfhgMiAADQgQyEKCaSoCBAAbQA7AA2AAcAF0VkA) with a forked version of the Basis components. This tool is excellent for reviewing designs with developers using actual code.
+
+{% /block %}
+
 ---
 
 ## Links
