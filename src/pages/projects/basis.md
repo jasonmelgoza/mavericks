@@ -20,14 +20,23 @@ category: projects
 
 ## The Figma Library
 
-As we started building with Basis, Figma introduced it's shared library feature, a huge breakthrough at the time. This feature made it easy to update multiple designs, improving my efficiency and saving time.
+When we began using Basis, Figma introduced its shared library feature, which was a huge breakthrough at the time. This feature simplified the process of updating multiple designs, enhancing my efficiency and saving time.
+
+{% media
+  alt="Basis in Figma"
+  caption="Playroom tool in action to create a setting page."
+  className="thumbnail-basis-figma"
+  original="/images/basis-figma.png"
+  thumbnail="/images/basis-figma.png"
+  width="1616"
+  height="1400"
+/%}
 
 ## Building a Sandbox
 
 While I was designing our Figma component library, the dev team adopted a popular open-source tool called "Storybook" for component documentation. Storybook streamlines the documentation and maintenance of components, reducing the overall workload. As the sole designer on the team at that time, Storybook proved to be immensely beneficial.
 
 Another valuable tool included in Basis is called "Playroom," an open-source project by Seek. It allows me to quickly create mock-ups and easily share them with the team, along with sample code to reproduce the design. It has significantly improved my workflow.
-
 
 {% media
   alt="Playroom"
