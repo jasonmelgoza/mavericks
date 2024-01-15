@@ -24,10 +24,10 @@ When we began using Basis, Figma introduced its shared library feature, which wa
 
 {% media
   alt="Basis in Figma"
-  caption="Playroom tool in action to create a setting page."
+  caption="Basis Components in Figma."
   className="thumbnail-basis-figma"
-  original="/images/basis-figma.png"
-  thumbnail="/images/basis-figma.png"
+  original="/images/basis-figma-full.png"
+  thumbnail="/images/basis-figma-thumb.png"
   width="1616"
   height="1400"
 /%}
@@ -51,6 +51,16 @@ Another valuable tool included in Basis is called "Playroom," an open-source pro
 An essential element in the development of Basis is the component library called "Semantic React UI." Initially, we had limited options for finding a primitive component library to get started, but "Semantic" fulfilled all the requirements by providing fundamental elements such as buttons, inputs, menus, and more.
 
 Like any design system, Basis will never be truly "finished." I am always learning and seeking ways to enhance it. In early 2022, SecureDocs Inc. was acquired, giving me another opportunity to share this experience and knowledge with teams in our new, larger company.
+
+{% media
+  alt="Basis in action"
+  caption="Basis Components in action."
+  className="thumbnail-basis-slideout"
+  original="/images/basis-slideout-full.png"
+  thumbnail="/images/basis-slideout-thumb.png"
+  width="1625"
+  height="949"
+/%}
 
 {% block as="div" className="block-callout" %}
 
