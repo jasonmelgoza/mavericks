@@ -20,14 +20,23 @@ category: projects
 
 ## The Figma Library
 
-As we started building with Basis, Figma introduced it's shared library feature, a huge breakthrough at the time. This feature made it easy to update multiple designs, improving my efficiency and saving time.
+When we began using Basis, Figma introduced its shared library feature, which was a huge breakthrough at the time. This feature simplified the process of updating multiple designs, enhancing my efficiency and saving time.
+
+{% media
+  alt="Basis in Figma"
+  caption="Basis Components in Figma."
+  className="thumbnail-basis-figma"
+  original="/images/basis-figma-full.png"
+  thumbnail="/images/basis-figma-thumb.png"
+  width="1616"
+  height="1400"
+/%}
 
 ## Building a Sandbox
 
 While I was designing our Figma component library, the dev team adopted a popular open-source tool called "Storybook" for component documentation. Storybook streamlines the documentation and maintenance of components, reducing the overall workload. As the sole designer on the team at that time, Storybook proved to be immensely beneficial.
 
 Another valuable tool included in Basis is called "Playroom," an open-source project by Seek. It allows me to quickly create mock-ups and easily share them with the team, along with sample code to reproduce the design. It has significantly improved my workflow.
-
 
 {% media
   alt="Playroom"
@@ -42,6 +51,16 @@ Another valuable tool included in Basis is called "Playroom," an open-source pro
 An essential element in the development of Basis is the component library called "Semantic React UI." Initially, we had limited options for finding a primitive component library to get started, but "Semantic" fulfilled all the requirements by providing fundamental elements such as buttons, inputs, menus, and more.
 
 Like any design system, Basis will never be truly "finished." I am always learning and seeking ways to enhance it. In early 2022, SecureDocs Inc. was acquired, giving me another opportunity to share this experience and knowledge with teams in our new, larger company.
+
+{% media
+  alt="Basis in action"
+  caption="Basis Components in action."
+  className="thumbnail-basis-slideout"
+  original="/images/basis-slideout-full.png"
+  thumbnail="/images/basis-slideout-thumb.png"
+  width="1625"
+  height="949"
+/%}
 
 {% block as="div" className="block-callout" %}
 
