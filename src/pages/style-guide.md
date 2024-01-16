@@ -5,6 +5,25 @@ description: How to get started with Markdoc
 
 # {% $markdoc.frontmatter.title %}
 
+{% gallery className="hero-galler-custom" caption="Test gallery" %}
+{% galleryItem
+  className="foo 1"
+  alt="test one"
+  original="https://placehold.co/1600x1200/red/white"
+  thumbnail="https://placehold.co/800x600/red/white"
+  width="1600"
+  height="1200"
+/%}
+{% galleryItem
+  className="foo 2"
+  alt="test two"
+  original="https://placehold.co/1600x1200/blue/white"
+  thumbnail="https://placehold.co/800x600/blue/white"
+  width="1600"
+  height="1200"
+/%}
+{% /gallery %}
+
 {% media
   alt="test"
   className="custom-class"
