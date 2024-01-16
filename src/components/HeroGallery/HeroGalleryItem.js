@@ -27,7 +27,7 @@ export const HeroGalleryItem = ({
           className={className}
           ref={ref}
           onClick={open}
-          src={original}
+          src={thumbnail}
           style={{ cursor: 'pointer' }}
         />
       )}

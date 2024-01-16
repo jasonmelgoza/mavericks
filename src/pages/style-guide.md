@@ -9,16 +9,16 @@ description: How to get started with Markdoc
 {% galleryItem
   className="foo 1"
   alt="test one"
-  original="https://placehold.co/1600x1200/red/white"
-  thumbnail="https://placehold.co/800x600/red/white"
+  original="https://placehold.co/1600x1200/gray/white?text=Original+Image"
+  thumbnail="https://placehold.co/800x600/gray/white?text=Thumbnail"
   width="1600"
   height="1200"
 /%}
 {% galleryItem
   className="foo 2"
   alt="test two"
-  original="https://placehold.co/1600x1200/blue/white"
-  thumbnail="https://placehold.co/800x600/blue/white"
+  original="https://placehold.co/1600x1200/blue/white?text=Original+Image"
+  thumbnail="https://placehold.co/800x600/blue/white?text=Thumbnail"
   width="1600"
   height="1200"
 /%}
