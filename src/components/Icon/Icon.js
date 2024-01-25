@@ -2,9 +2,10 @@ import cx from 'clsx'
 import {
   ArrowLeftIcon,
   ArrowTopRightIcon,
-  LinkedInLogoIcon,
+  DownloadIcon,
+  FileTextIcon,
   GitHubLogoIcon,
-  FileTextIcon
+  LinkedInLogoIcon
 } from '@radix-ui/react-icons'
 
 import { Dribbble, Mastodon } from './src'
@@ -14,6 +15,7 @@ const IconMap = {
   'arrow-top-right': ArrowTopRightIcon,
   document: FileTextIcon,
   dribbble: Dribbble,
+  download: DownloadIcon,
   github: GitHubLogoIcon,
   linkedin: LinkedInLogoIcon,
   mastodon: Mastodon
