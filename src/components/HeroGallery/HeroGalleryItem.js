@@ -15,23 +15,25 @@ export const HeroGalleryItem = ({
   width
 }) => {
   return (
-    <Item
-      alt={alt}
-      caption={caption}
-      height={height}
-      original={original}
-      thumbnail={thumbnail}
-      width={width}
-    >
-      {({ ref, open }) => (
-        <img
-          className={cx('gallery-item', className)}
-          ref={ref}
-          onClick={open}
-          src={thumbnail}
-          style={{ cursor: 'pointer' }}
-        />
-      )}
-    </Item>
+    <div className={cx('gallery-item-container', className)}>
+      <Item
+        alt={alt}
+        caption={caption}
+        height={height}
+        original={original}
+        thumbnail={thumbnail}
+        width={width}
+      >
+        {({ ref, open }) => (
+          <img
+            className='gallery-item'
+            ref={ref}
+            onClick={open}
+            src={thumbnail}
+            style={{ cursor: 'pointer' }}
+          />
+        )}
+      </Item>
+    </div>
   )
 }

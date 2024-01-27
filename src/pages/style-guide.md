@@ -9,24 +9,32 @@ description: How to get started with Markdoc
 {% galleryItem
   className="foo-1"
   alt="test one"
-  original="https://placehold.co/1600x1200/gray/white?text=Original+Image"
-  thumbnail="https://placehold.co/800x600/gray/white?text=Thumbnail"
+  original="https://placehold.co/1600x1200/3E63DD/white?text=Original+Image"
+  thumbnail="https://placehold.co/800x600/3E63DD/white?text=Thumbnail"
   width="1600"
   height="1200"
 /%}
 {% galleryItem
   className="foo-2"
   alt="test two"
-  original="https://placehold.co/1600x1200/blue/white?text=Original+Image"
-  thumbnail="https://placehold.co/800x600/blue/white?text=Thumbnail"
+  original="https://placehold.co/1600x1200/E5484D/white?text=Original+Image"
+  thumbnail="https://placehold.co/800x600/E5484D/white?text=Thumbnail"
   width="1600"
   height="1200"
 /%}
 {% galleryItem
   className="foo-3"
   alt="test two"
-  original="https://placehold.co/1600x1200/red/white?text=Original+Image"
-  thumbnail="https://placehold.co/800x600/red/white?text=Thumbnail"
+  original="https://placehold.co/1600x1200/AB4ABA/white?text=Original+Image"
+  thumbnail="https://placehold.co/800x600/AB4ABA/white?text=Thumbnail"
+  width="1600"
+  height="1200"
+/%}
+{% galleryItem
+  className="foo-4"
+  alt="test two"
+  original="https://placehold.co/1600x1200/29A383/white?text=Original+Image"
+  thumbnail="https://placehold.co/800x600/29A383/white?text=Thumbnail"
   width="1600"
   height="1200"
 /%}
