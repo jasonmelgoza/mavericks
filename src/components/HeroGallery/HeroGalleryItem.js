@@ -1,4 +1,5 @@
 import { Item } from 'react-photoswipe-gallery'
+import cx from 'clsx'
 
 /**
  * Renders a gallery item for the hero section.
@@ -24,7 +25,7 @@ export const HeroGalleryItem = ({
     >
       {({ ref, open }) => (
         <img
-          className={className}
+          className={cx('gallery-item', className)}
           ref={ref}
           onClick={open}
           src={thumbnail}
