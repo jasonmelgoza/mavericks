@@ -69,9 +69,11 @@ description: Design samples and experience
 
 {% details heading="Learning React, Next.js and Storybook" subheading="2018 - Present" meta="So far so good..." /%}
 
+{% block as="div" className="block-callout" icon="dribbble" %}
 {% social
   className="resume"
-  icon="document"
-  name="View Resume"
+  icon="download"
+  name="Download resume (PDF)"
   url="/assets/resume-jason-melgoza-2024.pdf"
 /%}
+{% /block %}
