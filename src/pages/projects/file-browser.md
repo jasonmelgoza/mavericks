@@ -6,7 +6,10 @@ category: projects
 
 # {% $markdoc.frontmatter.title %}
 
-{% media
+{% gallery 
+  className="hero-galler-custom"
+  caption="The file-browser application with the folder explorer sidebar." %}
+{% galleryItem
   alt="The SecureDocs file browser app"
   className="media-filebrowser"
   caption="The file-browser application with the folder explorer sidebar."
@@ -15,6 +18,7 @@ category: projects
   width="1600"
   height="1200"
 /%}
+{% /gallery %}
 
 In 2018, I became SecureDocs' first UI Designer and worked closely with the engineering team. My primary objective was to establish a simple but effective design process for our expanding cross-functional team. It included developing prototypes for product development and constructing a comprehensive component library to support engineers in implementing new features.
 
@@ -28,7 +32,10 @@ Designing and developing for "effortlessness" is a major challenge in product de
 
 The primary function of the sidebar was to allow users to explore their folder structure, while the main section focused on the currently selected folder. In the sidebar, users can expand elements, nest folders, drag documents into folders, and perform additional actions. What was challenging for me was to provide a clean and intuitive design that supplied that functionality.
 
-{% media
+{% gallery 
+  className="hero-galler-custom"
+  caption="A look at some of the sidebar functionality." %}
+{% galleryItem
   alt="The expand action in the sidebar"
   className="media-filebrowser-themes"
   caption="A look at some of the sidebar functionality."
@@ -37,12 +44,16 @@ The primary function of the sidebar was to allow users to explore their folder s
   width="1713"
   height="1014"
 /%}
+{% /gallery %}
 
 ## Themeing
 
 The SecureDocs application serves three markets, each with unique features and branding. To assist in marketing with the ability to promote three products without compromising the user experience, I developed a color-theming system for specific UI elements. This system allowed each product to have its distinct appearance while ensuring ease of maintenance.
 
-{% media
+{% gallery 
+  className="hero-galler-custom" 
+  caption="Themeing displayed across the 'Sidebar' component." %}
+{% galleryItem
   alt="Themeing across the file browser"
   className="media-filebrowser-themes"
   caption="Themeing displayed across the 'Sidebar' component."
@@ -51,5 +62,6 @@ The SecureDocs application serves three markets, each with unique features and b
   width="1600"
   height="1200"
 /%}
+{% /gallery %}
 
 Overall, this project provided me with a ton of valuable lessons. We established an efficient design process and closely collaborated with the engineering team to create a seamless user experience. We prioritized key elements such as the sidebar for easy navigation and action performance. The color-theming system demonstrated the importance of balancing branding and user experience. The most rewarding aspect was seeing how positively customers responded to the design, despite changes to familiar functionality. The feedback was overwhelmingly positive.
