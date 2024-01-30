@@ -1,4 +1,4 @@
-import { HeroGalleryItem as GalleryItem } from '@/components/HeroGallery/HeroGalleryItem'
+import { MediaGalleryItem as GalleryItem } from '@/components/MediaGallery/MediaGalleryItem'
 
 export default {
   render: GalleryItem,

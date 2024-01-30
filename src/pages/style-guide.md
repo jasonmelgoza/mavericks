@@ -40,15 +40,6 @@ description: How to get started with Markdoc
 /%}
 {% /gallery %}
 
-{% media
-  alt="test"
-  className="custom-class"
-  original="/images/basis-full.png"
-  thumbnail="/images/basis-thumb.png"
-  width="1415"
-  height="919"
-/%}
-
 Get started with Markdoc Satoshi is a modernist sans serif typeface. Its design combines typically grotesk-style letterforms, with some characters that are quite geometrically-designed. In terms of its appearance, Satoshi was inspired by Modernism and Industrial-Era graphic and typographic design. The family has tem weights on offer, ranging from Light to Black with complimentary italics. It is an excellent choice for use in branding, editorial, and poster design.
 
 ## Typography Styles
@@ -128,23 +119,3 @@ Product designer at SecureDocs, interface tinkerer, icon illustrator, and defend
   name="Github"
   url="https://github.com/jasonmelgoza"
 /%}
-
-
-{% gallery className="hero-galler-custom" caption="Test gallery" %}
-{% galleryItem
-  className="foo 1"
-  alt="test one"
-  original="/images/basis-full.png"
-  thumbnail="/images/basis-thumb.png"
-  width="1600"
-  height="1200"
-/%}
-{% galleryItem
-  className="foo 2"
-  alt="test two"
-  original="/images/basis-full.png"
-  thumbnail="/images/basis-thumb.png"
-  width="1600"
-  height="1200"
-/%}
-{% /gallery %}
