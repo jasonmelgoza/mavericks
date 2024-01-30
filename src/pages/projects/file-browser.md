@@ -59,8 +59,8 @@ The SecureDocs application serves three markets, each with unique features and b
   caption="Themeing displayed across the 'Sidebar' component."
   original="/images/filebrowser-theme-full.png"
   thumbnail="/images/filebrowser-theme-thumb.png"
-  width="1600"
-  height="1200"
+  width="1501"
+  height="1113"
 /%}
 {% /gallery %}
 
