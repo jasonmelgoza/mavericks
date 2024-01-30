@@ -1,3 +1,8 @@
+//
+// Media Gallery
+// Gallery component styles, including gallery item styles and caption styles.
+//
+
 .root :global {
   margin-bottom: 3rem;
 
@@ -5,21 +10,6 @@
     position: relative;
     margin-top: 3rem;
     overflow: hidden;
-  }
-  .gallery-caption {
-    margin-top: 0.5rem;
-    color: var(--colors-loContrast);
-  }
-}
-
-.root {
-  &:global(.media-gallery) {
-    margin-bottom: 1.75rem;
-  }
-}
-
-.root :global {
-  .gallery-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 16px;
@@ -29,7 +19,13 @@
       position: relative;
       overflow: hidden;
       border-radius: var(--radii-1);
+      background-color: var(--colors-thumb-bg);
       box-shadow: 0 1px 2px var(--colors-shadowDark);
+
+      &:first-child {
+        grid-column: 1 / 6;
+        grid-row: 1;
+      }
 
       &::after {
         position: absolute;
@@ -43,10 +39,10 @@
         box-shadow: inset 0 0 0 1px var(--colors-shadowMedia);
       }
     }
+  }
 
-    > .gallery-item-container:first-child {
-      grid-column: 1 / 6;
-      grid-row: 1;
-    }
+  .gallery-caption {
+    margin-top: 0.5rem;
+    color: var(--colors-loContrast);
   }
 }
