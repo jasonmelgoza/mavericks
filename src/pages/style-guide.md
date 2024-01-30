@@ -5,14 +5,40 @@ description: How to get started with Markdoc
 
 # {% $markdoc.frontmatter.title %}
 
-{% media
-  alt="test"
-  className="custom-class"
-  original="/images/basis-full.png"
-  thumbnail="/images/basis-thumb.png"
-  width="1415"
-  height="919"
+{% gallery className="hero-galler-custom" caption="Test gallery" %}
+{% galleryItem
+  className="foo-1"
+  alt="test one"
+  original="https://placehold.co/1600x1200/3E63DD/white?text=Original+Image"
+  thumbnail="https://placehold.co/800x600/3E63DD/white?text=Thumbnail"
+  width="1600"
+  height="1200"
 /%}
+{% galleryItem
+  className="foo-2"
+  alt="test two"
+  original="https://placehold.co/1600x1200/E5484D/white?text=Original+Image"
+  thumbnail="https://placehold.co/800x600/E5484D/white?text=Thumbnail"
+  width="1600"
+  height="1200"
+/%}
+{% galleryItem
+  className="foo-3"
+  alt="test two"
+  original="https://placehold.co/1600x1200/AB4ABA/white?text=Original+Image"
+  thumbnail="https://placehold.co/800x600/AB4ABA/white?text=Thumbnail"
+  width="1600"
+  height="1200"
+/%}
+{% galleryItem
+  className="foo-4"
+  alt="test two"
+  original="https://placehold.co/1600x1200/29A383/white?text=Original+Image"
+  thumbnail="https://placehold.co/800x600/29A383/white?text=Thumbnail"
+  width="1600"
+  height="1200"
+/%}
+{% /gallery %}
 
 Get started with Markdoc Satoshi is a modernist sans serif typeface. Its design combines typically grotesk-style letterforms, with some characters that are quite geometrically-designed. In terms of its appearance, Satoshi was inspired by Modernism and Industrial-Era graphic and typographic design. The family has tem weights on offer, ranging from Light to Black with complimentary italics. It is an excellent choice for use in branding, editorial, and poster design.
 

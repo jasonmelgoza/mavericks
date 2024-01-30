@@ -6,7 +6,9 @@ category: projects
 
 # {% $markdoc.frontmatter.title %}
 
-{% media
+{% gallery className="hero-galler-custom" 
+  caption="The Design Kit landing page." %}
+{% galleryItem
   alt="Design Kit landing page"
   caption="The Design Kit landing page."
   className="designkit-landing"
@@ -15,6 +17,7 @@ category: projects
   width="1774"
   height="1087"
 /%}
+{% /gallery %}
 
 While working at RightScale, a rapidly-growing cloud computing company, we realized the importance of optimizing our processes and establishing a centralized resource for product design. This was necessary due to the independent project work being carried out by numerous teams.
 
@@ -22,7 +25,9 @@ What initially began as a shared color palette in a Sketch file evolved into a c
 
 Alongside the style guide, I designed and developed component-specific markup and styling documentation, similar to [Storybook](https://storybook.js.org/). These easily shared pages became invaluable reference tools for front-end developers.
 
-{% media
+{% gallery className="hero-galler-custom"
+  caption="The Design Kit color scales page." %}
+{% galleryItem
   alt="Design Kit color page"
   caption="The Design Kit color scales page."
   className="designkit-colors"
@@ -31,6 +36,7 @@ Alongside the style guide, I designed and developed component-specific markup an
   width="1752"
   height="1023"
 /%}
+{% /gallery %}
 
 The process of creating and disseminating this design system was a valuable learning opportunity for me, and it ultimately paved the way for my future endeavors. In 2019, RightScale was acquired, bringing my adventure at the company to a close.
 

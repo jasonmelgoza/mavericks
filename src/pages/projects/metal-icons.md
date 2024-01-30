@@ -6,15 +6,19 @@ category: projects
 
 # {% $markdoc.frontmatter.title %}
 
-{% media
+{% gallery
+  className="hero-galler-custom"
+  caption="Icons from the Metal collection." %}
+{% galleryItem
   alt="An image displaying some of the icons from the Metal collection."
-  className="media-filebrowser-themes"
   caption="Icons from the Metal collection."
+  className="media-filebrowser-themes"
   original="/images/metal-icons-full.png"
   thumbnail="/images/metal-icons-thumb.png"
   width="1600"
   height="1200"
 /%}
+{% /gallery %}
 
 Over the years, I have tried all sorts of icon families and sets available online, but I consistently face the same issue: it's challenging, if not impossible, to find a comprehensive icon set that meets all my project requirements.
 

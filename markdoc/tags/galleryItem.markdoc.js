@@ -1,11 +1,7 @@
-import dynamic from 'next/dynamic'
-
-// Removes the useLayoutEffect warning
-// https://github.com/dromru/react-photoswipe-gallery/issues/1163
-const Media = dynamic(() => import('@/components/Media'), { ssr: false });
+import { MediaGalleryItem as GalleryItem } from '@/components/MediaGallery/MediaGalleryItem'
 
 export default {
-  render: Media,
+  render: GalleryItem,
   attributes: {
     alt: { type: String },
     caption: { type: String },
