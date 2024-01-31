@@ -1,3 +1,8 @@
+//
+// Document Styles
+// Base document and article styles.
+//
+
 .root :global {
   max-width: 600px;
   margin: 0 auto;
@@ -8,6 +13,10 @@
 
     &:not(:last-child) {
       margin-bottom: 1.25rem;
+    }
+
+    > img {
+      border-radius: var(--radii-1);
     }
   }
 
@@ -23,7 +32,9 @@
     }
   }
 
-  h2, h3, h4 {
+  h2,
+  h3,
+  h4 {
     margin-top: 3rem;
     margin-bottom: 1.25rem;
   }
@@ -42,7 +53,8 @@
     text-transform: uppercase;
   }
 
-  ul, ol {
+  ul,
+  ol {
     padding-left: 1rem;
     margin-bottom: 1.25rem;
     font-size: 1rem;
@@ -50,7 +62,7 @@
 
   a {
     text-decoration: underline;
-    transition: color .25s ease;
+    transition: color 0.25s ease;
 
     &:hover {
       color: var(--colors-loContrast);
@@ -73,7 +85,6 @@
     & + h2,
     & + h3 {
       margin-top: 0;
-
     }
   }
 
@@ -98,7 +109,7 @@
       display: inline-flex;
       align-items: center;
       text-decoration: none;
-      transition: color .25s ease;
+      transition: color 0.25s ease;
 
       gap: 4px;
 
@@ -130,7 +141,7 @@
 
   a {
     position: relative;
-    transition: color .25s ease;
+    transition: color 0.25s ease;
 
     &:hover {
       color: var(--colors-loContrast);
@@ -149,7 +160,7 @@
       min-height: 1px;
       content: '';
       background-color: var(--colors-loContrast);
-      transition: width .25s var(--ease-1);
+      transition: width 0.25s var(--ease-1);
     }
   }
 }
