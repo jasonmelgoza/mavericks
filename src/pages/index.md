@@ -4,5 +4,5 @@ description: Product designer and creator
 ---
 
 {% block as="section" className="block-hero" %}
-Product designer, interface tinkerer, icon illustrator, always aiming to make rectangles more intuitive. 🤘
+Product designer, interface enthusiast, icon illustrator—always keeping an eye out for the next wave in design. 🤘
 {% /block %}
