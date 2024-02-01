@@ -1,9 +1,15 @@
+//
+// Block
+// Styles for the Block component.
+//
+
 .root :global {
   p:not(:last-child) {
     margin-bottom: 1.25rem;
   }
 }
 
+// Hero block
 .root {
   &:global(.block-hero) {
     p {
@@ -15,6 +21,7 @@
   }
 }
 
+// Callout block
 .root {
   &:global(.block-callout) {
     padding: 2rem;
@@ -36,6 +43,7 @@
   }
 }
 
+// Lead block
 .root {
   &:global(.block-lead) {
     p {
@@ -52,6 +60,7 @@
   }
 }
 
+// Thumbnails block
 .root {
   &:global(.block-thumbnails) {
     display: flex;
