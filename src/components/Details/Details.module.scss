@@ -1,3 +1,9 @@
+//
+// Details
+// Styles for the Details component.
+//
+
+// Main styles
 .root :global {
   .details {
     &-wrapper {
@@ -59,6 +65,7 @@
   }
 }
 
+// Only child
 .root {
   &:global {
     &:not(:only-child) {

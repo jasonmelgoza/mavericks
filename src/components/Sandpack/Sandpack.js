@@ -1,19 +1,20 @@
 import { Sandpack } from '@codesandbox/sandpack-react'
+import cx from 'clsx'
+import { Box } from '@/components'
 import styles from './Sandpack.module.scss'
 
 export default function App({ className }) {
   return (
-    <Sandpack
-      style={{ marginBottom: '2.25rem'}}
-      className={className}
-      template='react'
-      customSetup={{
-        dependencies: {
-          'metal-icons': 'latest'
-        }
-      }}
-      files={{
-        '/App.js': `import { Folder, Document, Bookmark, Heart } from 'metal-icons' 
+    <Box className={cx(styles.root, className)}>
+      <Sandpack
+        template='react'
+        customSetup={{
+          dependencies: {
+            'metal-icons': 'latest'
+          }
+        }}
+        files={{
+          '/App.js': `import { Folder, Document, Bookmark, Heart } from 'metal-icons' 
 
 export default function App() {
   return (
@@ -25,7 +26,8 @@ export default function App() {
     </div>
   )
 }`
-      }}
-    />
+        }}
+      />
+    </Box>
   )
 }

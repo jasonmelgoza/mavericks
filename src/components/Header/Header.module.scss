@@ -1,3 +1,9 @@
+//
+// Header
+// Styles for the Header component.
+//
+
+// Main styles
 .root :global {
   display: flex;
   flex-direction: row;
@@ -16,6 +22,7 @@
   }
 }
 
+// Homepage logo styles
 .home :global {
   .logo {
     font-size: 1.5rem;
@@ -26,6 +33,7 @@
   }
 }
 
+// Logo styles
 .page :global {
   .logo {
     font-size: 1rem;
@@ -45,6 +53,7 @@
   }
 }
 
+// Nav styles
 .nav :global {
   .nav-list {
     display: flex;
