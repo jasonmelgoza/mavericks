@@ -9,8 +9,8 @@ description: Design samples and experience
 
 {% gallery className="hero-galler-custom" %}
 {% galleryItem
-  alt="The ContractWorks CLM dashboard provides users with an overview of their contracts."
-  caption="<div class='hidden-caption-content'>The ContractWorks CLM dashboard provides users with an overview of their contracts. <a href='/projects/basis'>View Project &rarr;</a></div>"
+  alt="The ContractWorks CLM dashboard"
+  caption="<div class='hidden-caption-content'>The New ContractWorks CLM dashboard.</div>"
   original="/images/clm-dashboard-full.png"
   thumbnail="/images/clm-dashboard-thumb.png"
   width="1840"
