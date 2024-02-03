@@ -5,11 +5,12 @@ description: Design samples and experience
 
 # {% $markdoc.frontmatter.title %}
 
-## Recent Designs
+## Recent Designs & Projects
 
 {% gallery className="hero-galler-custom" %}
 {% galleryItem
   alt="The ContractWorks CLM dashboard provides users with an overview of their contracts."
+  caption="<div class='hidden-caption-content'>The ContractWorks CLM dashboard provides users with an overview of their contracts. <a href='/projects/basis'>View Project &rarr;</a></div>"
   original="/images/clm-dashboard-full.png"
   thumbnail="/images/clm-dashboard-thumb.png"
   width="1840"
