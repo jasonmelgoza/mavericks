@@ -112,19 +112,3 @@ a {
     color-scheme: dark;
   }
 }
-
-/* pswp styleling  */
-
-.pswp__default-caption {
-  left: 50% !important;
-  width: calc(100% - 32px);
-  max-width: 400px;
-  padding: 0.25rem 0.75em !important;
-  background: rgba(0, 0, 0, 0.75);
-  border-radius: 0.75rem;
-  transform: translateX(-50%);
-}
-.pswp__default-caption a {
-  color: #fff;
-  text-decoration: underline;
-}

@@ -4,6 +4,7 @@ import { useRouter } from 'next/router'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Layout } from '@/components'
 import '@/styles/globals.css'
+import '@/styles/pswp.css'
 
 const TITLE = 'Jason Melgoza'
 const DESCRIPTION =
