@@ -1,0 +1,25 @@
+//
+// Pagination
+// Styles for the Pagination component.
+//
+
+.root :global {
+  display: flex;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+  }
+
+  .pagination-lead {
+    display: inline-flex;
+    align-items: center;
+
+    gap: 4px;
+  }
+
+  .pagination-description {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}

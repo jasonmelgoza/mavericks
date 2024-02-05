@@ -59,13 +59,3 @@
     }
   }
 }
-
-// Thumbnails block
-.root {
-  &:global(.block-thumbnails) {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-  }
-}

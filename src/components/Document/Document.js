@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import { ArrowLeftIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
-import { Box } from '@/components'
+import { Box, Pagination } from '@/components'
 import styles from './Document.module.scss'
 
 export default function Document({ children }) {
@@ -44,6 +44,7 @@ export default function Document({ children }) {
           </Box>
         ) : null}
         {children}
+        <Pagination>Basis Design System</Pagination>
       </Box>
     </>
   )
