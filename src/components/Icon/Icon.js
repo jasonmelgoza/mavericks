@@ -1,6 +1,7 @@
 import cx from 'clsx'
 import {
   ArrowLeftIcon,
+  ArrowRightIcon,
   ArrowTopRightIcon,
   DownloadIcon,
   FileTextIcon,
@@ -12,10 +13,11 @@ import { Dribbble, Mastodon } from './src'
 
 const IconMap = {
   'arrow-left': ArrowLeftIcon,
+  'arrow-right': ArrowRightIcon,
   'arrow-top-right': ArrowTopRightIcon,
   document: FileTextIcon,
-  dribbble: Dribbble,
   download: DownloadIcon,
+  dribbble: Dribbble,
   github: GitHubLogoIcon,
   linkedin: LinkedInLogoIcon,
   mastodon: Mastodon
