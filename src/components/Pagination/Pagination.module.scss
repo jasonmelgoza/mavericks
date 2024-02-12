@@ -5,10 +5,21 @@
 
 .root :global {
   display: flex;
+  justify-content: space-between;
   width: 100%;
 
   a {
     text-decoration: none;
+  }
+
+  .pagination-prev,
+  .pagination-next {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pagination-next .pagination-lead {
+    justify-content: flex-end;
   }
 
   .pagination-lead {
