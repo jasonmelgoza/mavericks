@@ -47,3 +47,11 @@ The process of creating and disseminating this design system was a valuable lear
 I have [archived a version](https://unequaled-garden.surge.sh/) of the site for demo purposes as this project is no longer in use.
 
 {% /block %}
+
+{% pagination 
+  prevName="Designing a File-Browser"
+  prevHref="/projects/file-browser" 
+  nextName="Basis Design System"
+  nextHref="/projects/basis" 
+/%}
+
