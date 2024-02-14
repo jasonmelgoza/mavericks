@@ -12,20 +12,24 @@ export default function Pagination({
 }) {
   return (
     <Box className={cx(styles.root, className)}>
-      <Link href={prevHref} className='pagination-prev'>
-        <div className='pagination-lead'>
-          <Icon name='arrow-left' />
-          <span>Previous</span>
-        </div>
-        <div className='pagination-description'>{prevName}</div>
-      </Link>
-      <Link href={nextHref} className='pagination-next'>
-        <div className='pagination-lead'>
-          <span>Next</span>
-          <Icon name='arrow-right' />
-        </div>
-        <div className='pagination-description'>{nextName}</div>
-      </Link>
+      {prevName && (
+        <Link href={prevHref} className='pagination-prev'>
+          <div className='pagination-lead'>
+            <Icon name='arrow-left' />
+            <span>Previous</span>
+          </div>
+          <div className='pagination-description'>{prevName}</div>
+        </Link>
+      )}
+      {nextName && (
+        <Link href={nextHref} className='pagination-next'>
+          <div className='pagination-lead'>
+            <span>Next</span>
+            <Icon name='arrow-right' />
+          </div>
+          <div className='pagination-description'>{nextName}</div>
+        </Link>
+      )}
     </Box>
   )
 }

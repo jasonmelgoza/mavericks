@@ -113,8 +113,6 @@ Here's a peek of Basis loaded with Playroom, a useful tool for reviewing designs
 {% /block %}
 
 {% pagination 
-  prevName="Design Kit"
-  prevHref="/projects/design-kit" 
   nextName="Metal Icons"
   nextHref="/projects/metal-icons" 
 /%}
