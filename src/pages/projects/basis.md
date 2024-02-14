@@ -111,3 +111,10 @@ Like any design system, Basis will never be truly "finished." I am always learni
 Here's a peek of Basis loaded with Playroom, a useful tool for reviewing designs with developers using actual front-end code. I especially like using this tool with junior developers or new team-mates who are unfamiliar with our design system.
 
 {% /block %}
+
+{% pagination 
+  prevName="Design Kit"
+  prevHref="/projects/design-kit" 
+  nextName="Metal Icons"
+  nextHref="/projects/metal-icons" 
+/%}

@@ -65,3 +65,10 @@ The SecureDocs application serves three markets, each with unique features and b
 {% /gallery %}
 
 Overall, this project provided me with a ton of valuable lessons. We established an efficient design process and closely collaborated with the engineering team to create a seamless user experience. We prioritized key elements such as the sidebar for easy navigation and action performance. The color-theming system demonstrated the importance of balancing branding and user experience. The most rewarding aspect was seeing how positively customers responded to the design, despite changes to familiar functionality. The feedback was overwhelmingly positive.
+
+{% pagination 
+  prevName="Metal Icons"
+  prevHref="/projects/metal-icons" 
+  nextName="Design Kit"
+  nextHref="/projects/design-kit" 
+/%}

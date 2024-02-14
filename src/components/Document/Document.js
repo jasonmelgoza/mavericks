@@ -44,7 +44,6 @@ export default function Document({ children }) {
           </Box>
         ) : null}
         {children}
-        <Pagination>Basis Design System</Pagination>
       </Box>
     </>
   )
