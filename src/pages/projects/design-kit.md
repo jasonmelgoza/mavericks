@@ -50,8 +50,6 @@ I have [archived a version](https://unequaled-garden.surge.sh/) of the site for 
 
 {% pagination 
   prevName="Designing a File-Browser"
-  prevHref="/projects/file-browser" 
-  nextName="Basis Design System"
-  nextHref="/projects/basis" 
+  prevHref="/projects/file-browser"
 /%}
 

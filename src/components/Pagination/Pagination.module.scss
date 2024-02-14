@@ -17,10 +17,19 @@
   .pagination-next {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
-  .pagination-next .pagination-lead {
-    justify-content: flex-end;
+  .pagination-next {
+    .pagination-lead,
+    .pagination-description {
+      justify-content: flex-end;
+    }
+  }
+
+  .pagination-description {
+    display: inline-flex;
+    align-items: center;
   }
 
   .pagination-lead {
