@@ -11,7 +11,13 @@ export default function Pagination({
   className
 }) {
   return (
-    <Box className={cx(styles.root, className)}>
+    <Box
+      className={cx(
+        styles.root,
+        prevName ? '' : 'pagination-no-prev',
+        className
+      )}
+    >
       {prevName && (
         <Link href={prevHref} className='pagination-prev'>
           <div className='pagination-lead'>
