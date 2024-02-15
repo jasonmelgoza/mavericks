@@ -3,6 +3,7 @@
 // Styles for the Pagination component.
 //
 
+// Base styles
 .root :global {
   display: flex;
   justify-content: space-between;
@@ -15,9 +16,8 @@
 
   .pagination-prev,
   .pagination-next {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    width: 100%;
   }
 
   .pagination-next {
@@ -42,5 +42,12 @@
   .pagination-description {
     font-size: 1rem;
     font-weight: 500;
+  }
+}
+
+// Conditonal styles
+.root {
+  &:global(.pagination-no-prev) {
+    justify-content: flex-end;
   }
 }
