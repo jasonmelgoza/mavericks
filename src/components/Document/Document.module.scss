@@ -137,6 +137,10 @@
       font-size: 1.25rem;
       line-height: 1.5;
     }
+
+    @media (max-width: 640px) {
+      gap: 0.5rem;
+    }
   }
 
   a {
@@ -162,6 +166,10 @@
       content: '';
       background-color: var(--colors-loContrast);
       transition: width 0.25s var(--ease-1);
+    }
+
+    @media (max-width: 640px) {
+      font-size: 1rem;
     }
   }
 }
