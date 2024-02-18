@@ -51,3 +51,12 @@
     justify-content: flex-end;
   }
 }
+
+// Media queries
+@media (max-width: 640px) {
+  .root :global {
+    .pagination-description {
+      display: none;
+    }
+  }
+}
