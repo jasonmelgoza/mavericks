@@ -60,6 +60,13 @@ The site utilizes the [Satoshi](https://www.fontshare.com/fonts/satoshi) typefac
 /%}
 
 {% social
+  className="Twitter"
+  icon="twitter"
+  name="Twitter"
+  url="https://twitter.com/jasonmelgoza"
+/%}
+
+{% social
   className="Mastodon"
   icon="mastodon"
   name="Mastodon"
