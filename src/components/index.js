@@ -1,6 +1,7 @@
 export { default as Block } from './Block'
 export { default as Box } from './Box'
 export { default as CodeSandbox } from './CodeSandbox'
+export { default as DescriptionList } from './DescriptionList'
 export { default as Details } from './Details'
 export { default as Document } from './Document'
 export { default as Header } from './Header'
