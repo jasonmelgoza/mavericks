@@ -3,7 +3,7 @@ title: Designing a File Browser
 description: A case study outlining my experience designing the SecureDocs filebrowser application
 category: projects
 type: Work
-organization: RightScale
+organization: SecureDocs
 roles: Visual Design, UX Design, Front-End Development
 ---
 
