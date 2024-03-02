@@ -3,7 +3,7 @@ title: Metal Icons
 description: Icons from the Metal collection
 category: projects
 type: Personal Project
-roles: Visual Design, UX Design, Development
+roles: Visual Design, UX Design, Illustration, Front-end Development
 ---
 
 # {% $markdoc.frontmatter.title %}

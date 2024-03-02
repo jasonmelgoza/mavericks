@@ -4,7 +4,7 @@ description: Design system developed for RightScale
 category: projects
 type: Work
 organization: RightScale
-roles: Visual Design, UX Design, Development
+roles: Visual Design, UX Design, Font-end Development
 ---
 
 # {% $markdoc.frontmatter.title %}
