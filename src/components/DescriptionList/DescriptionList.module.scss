@@ -10,14 +10,23 @@
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   list-style: none;
+  font-size: 0.875rem;
 
   .term {
     grid-column: span 2;
     color: var(--colors-loContrast);
+
+    @media (max-width: 768px) {
+      grid-column: span 8;
+    }
   }
 
   .detail {
     grid-column: span 6;
+
+    @media (max-width: 768px) {
+      grid-column: span 8;
+    }
   }
 }
 
