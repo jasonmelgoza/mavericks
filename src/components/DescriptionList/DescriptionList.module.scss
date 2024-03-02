@@ -5,9 +5,23 @@
 
 // Main styles
 .root :global {
-  display: flex;
-  flex-direction: row;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.5rem 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
   list-style: none;
+
+  .term {
+    grid-column: span 2;
+    color: var(--colors-loContrast);
+  }
+
+  .detail {
+    grid-column: span 6;
+  }
+}
+
+// Adjustment styles
+.root:last-of-type :global {
+  margin-bottom: 3rem;
 }
