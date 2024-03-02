@@ -2,6 +2,9 @@
 title: Design Kit
 description: Design system developed for RightScale
 category: projects
+type: Work
+organization: RightScale
+roles: Visual Design, UX Design, Development
 ---
 
 # {% $markdoc.frontmatter.title %}
@@ -18,6 +21,9 @@ category: projects
   height="1087"
 /%}
 {% /gallery %}
+
+{% descriptionList term="Organization" detail=$markdoc.frontmatter.organization /%}
+{% descriptionList term="Roles" detail=$markdoc.frontmatter.roles /%}
 
 While working at RightScale, a rapidly-growing cloud computing company, we realized the importance of optimizing our processes and establishing a centralized resource for product design. This was necessary due to the independent project work being carried out by numerous teams.
 

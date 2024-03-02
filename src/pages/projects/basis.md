@@ -2,6 +2,9 @@
 title: Basis Design System
 description: Design system developed for SecureDocs
 category: projects
+type: Work
+organization: Securedocs
+roles: Visual Design, UX Design, Development
 ---
 
 # {% $markdoc.frontmatter.title %}
@@ -17,6 +20,11 @@ category: projects
   height="1200"
 /%}
 {% /gallery %}
+
+{% descriptionList term="Organization" detail=$markdoc.frontmatter.organization /%}
+{% descriptionList term="Roles" detail=$markdoc.frontmatter.roles /%}
+
+## Introduction
 
 "Basis" is our internal component library and design system at SecureDocs. We use it for designing and building new applications or features. When I first joined the development team in 2018, one of the first projects was to start a component library - something simple to begin building new features. At the time, the development team was transitioning major features to React. The opportunity to collaborate on a component library presented itself, and we named this system "Basis."
 

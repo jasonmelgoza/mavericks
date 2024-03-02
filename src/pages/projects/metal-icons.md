@@ -2,6 +2,8 @@
 title: Metal Icons
 description: Icons from the Metal collection
 category: projects
+type: Personal Project
+roles: Visual Design, UX Design, Development
 ---
 
 # {% $markdoc.frontmatter.title %}
@@ -19,6 +21,9 @@ category: projects
   height="1200"
 /%}
 {% /gallery %}
+
+{% descriptionList term="Type" detail=$markdoc.frontmatter.type /%}
+{% descriptionList term="Roles" detail=$markdoc.frontmatter.roles /%}
 
 Over the years, I have tried all sorts of icon families and sets available online, but I consistently face the same issue: it's challenging, if not impossible, to find a comprehensive icon set that meets all my project requirements.
 

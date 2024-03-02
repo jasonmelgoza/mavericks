@@ -2,6 +2,9 @@
 title: Designing a File Browser
 description: A case study outlining my experience designing the SecureDocs filebrowser application
 category: projects
+type: Work
+organization: RightScale
+roles: Visual Design, UX Design, Front-End Development
 ---
 
 # {% $markdoc.frontmatter.title %}
@@ -19,6 +22,9 @@ category: projects
   height="1200"
 /%}
 {% /gallery %}
+
+{% descriptionList term="Organization" detail=$markdoc.frontmatter.organization /%}
+{% descriptionList term="Roles" detail=$markdoc.frontmatter.roles /%}
 
 In 2018, I became SecureDocs' first UI Designer and worked closely with the engineering team. My primary objective was to establish a simple but effective design process for our expanding cross-functional team. It included developing prototypes for product development and constructing a comprehensive component library to support engineers in implementing new features.
 
