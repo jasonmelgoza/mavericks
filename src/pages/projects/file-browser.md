@@ -52,7 +52,7 @@ The primary function of the sidebar was to allow users to explore their folder s
 /%}
 {% /gallery %}
 
-## Themeing
+## Theming
 
 The SecureDocs application serves three markets, each with unique features and branding. To assist in marketing with the ability to promote three products without compromising the user experience, I developed a color-theming system for specific UI elements. This system allowed each product to have its distinct appearance while ensuring ease of maintenance.
 
@@ -62,7 +62,7 @@ The SecureDocs application serves three markets, each with unique features and b
 {% galleryItem
   alt="Themeing across the file browser"
   className="media-filebrowser-themes"
-  caption="Themeing displayed across the 'Sidebar' component."
+  caption="Theming displayed across the 'Sidebar' component."
   original="/images/filebrowser-theme-full.png"
   thumbnail="/images/filebrowser-theme-thumb.png"
   width="1501"
