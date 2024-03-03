@@ -107,7 +107,7 @@ Like any design system, Basis will never be truly "finished." I am always learni
 
 ## Tools & Libraries Used
 
-- [Figma Libary](https://help.figma.com/hc/en-us/articles/360041051154-Guide-to-libraries-in-Figma)
+- [Figma Library](https://help.figma.com/hc/en-us/articles/360041051154-Guide-to-libraries-in-Figma)
 - [Storybook](https://storybook.js.org/)
 - [Playroom](https://github.com/seek-oss/playroom)
 - [Semantic React UI](https://react.semantic-ui.com/)
