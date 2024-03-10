@@ -9,7 +9,7 @@ description: Product designer and creator
 I have always loved *design* & *technology* for as long as I can remember.
 {% /block %}
 
-{% gallery className="hero-galler-custom" caption="Just a photo of me after a fresh hair-cut." %}
+{% gallery className="hero-gallery-custom" caption="Just a photo of me after a fresh hair-cut." %}
 {% galleryItem
   alt="Just a photo of me after a fresh hair-cut."
   className="media-filebrowser-themes"
