@@ -74,7 +74,7 @@ Overall, this project provided me with a ton of valuable lessons. We established
 
 {% pagination 
   prevName="Metal Icons"
-  prevHref="/projects/metal-icons" 
-  nextName="Design Kit"
-  nextHref="/projects/design-kit" 
+  prevHref="/projects/metal-icons"
+  nextName="Esign Wizard"
+  nextHref="/projects/esign-wizard" 
 /%}

@@ -54,8 +54,8 @@ I have [archived a version](https://unequaled-garden.surge.sh/) of the site for 
 
 {% /block %}
 
-{% pagination 
-  prevName="Designing a File-Browser"
-  prevHref="/projects/file-browser"
+{% pagination
+  prevName="Esign Wizard"
+  prevHref="/projects/esign-wizard" 
 /%}
 
