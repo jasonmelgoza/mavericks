@@ -4,7 +4,7 @@ description: A case study outlining my experience designing the SecureDocs fileb
 category: projects
 type: Work
 organization: SecureDocs
-roles: Visual Design, UX Design, Front-End Development
+roles: Prototyping, UX Design, Visual Design, Front-End Development
 ---
 
 # {% $markdoc.frontmatter.title %}
