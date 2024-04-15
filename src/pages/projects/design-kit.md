@@ -4,7 +4,7 @@ description: Design system developed for RightScale
 category: projects
 type: Work
 organization: RightScale
-roles: Visual Design, UX Design, Font-end Development
+roles: Visual Design, UX Design, Front-end Development
 ---
 
 # {% $markdoc.frontmatter.title %}
@@ -54,8 +54,8 @@ I have [archived a version](https://unequaled-garden.surge.sh/) of the site for 
 
 {% /block %}
 
-{% pagination 
-  prevName="Designing a File-Browser"
-  prevHref="/projects/file-browser"
+{% pagination
+  prevName="Esign Wizard"
+  prevHref="/projects/esign-wizard" 
 /%}
 

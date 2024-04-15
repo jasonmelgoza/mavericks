@@ -12,7 +12,7 @@ I have always loved *design* & *technology* for as long as I can remember.
 {% gallery className="hero-galler-custom" caption="Just a photo of me after a fresh hair-cut." %}
 {% galleryItem
   alt="Just a photo of me after a fresh hair-cut."
-  className="media-filebrowser-themes"
+  className="media-headshot"
   original="/images/profile-full.png"
   thumbnail="/images/profile-thumb.png"
   width="1600"

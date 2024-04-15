@@ -27,6 +27,12 @@ title: Projects
 /%}
 
 {% details
+  heading="Designing a E-signature Wizard"
+  meta="Utilizing the design sprint process to build"
+  link="/projects/esign-wizard" 
+/%}
+
+{% details
   heading="Design Kit"
   meta="Design system for RightScale"
   link="/projects/design-kit" 

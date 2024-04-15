@@ -4,7 +4,7 @@ description: Design system developed for SecureDocs
 category: projects
 type: Work
 organization: Securedocs
-roles: Visual Design, Front-end Development
+roles: Visual Design, Front-end Research, Front-end Development
 ---
 
 # {% $markdoc.frontmatter.title %}
