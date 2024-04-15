@@ -1,10 +1,10 @@
 ---
-title: Designing an eSignature Wizard
+title: Designing a eSignature Wizard
 description: Creating an electronic signature flow from scratch.
 category: projects
 type: Work
 organization: SecureDocs
-roles: Visual Design, UX Design, UX Research, Font-end Development
+roles: Visual Design, UX Design, UX Research, Front-end Development
 ---
 
 # {% $markdoc.frontmatter.title %}
@@ -24,13 +24,13 @@ roles: Visual Design, UX Design, UX Research, Font-end Development
 {% descriptionList term="Organization" detail=$markdoc.frontmatter.organization /%}
 {% descriptionList term="Roles" detail=$markdoc.frontmatter.roles /%}
 
-After joining the SecureDocs team in 2018, we began gaining momentum and expanding the team. Within a short year, a small cross-functional team was established with a mission to enhance and mature the product. To identify where in the product we wanted to invest our time, we utilized a design sprint. At the time, we thought it was not only a fantastic method for focusing on improvements but also a great team-building exercise.
+After joining SecureDocs in 2018, we quickly gained momentum. We formed a small cross-functional team to enhance the product and set our priorities. To kick things off, we used a design sprint, which helped us focus on improvements and build team unity.
 
-The [design sprint](https://www.thesprintbook.com/the-design-sprint) is a five-day process where product and development teams collaborate to solve design problems and address key business questions. In the first two days after hearing from some subject matter experts and mapping out the customer journey, it became clear that we needed to focus on and create a better interface for our e-Signature use cases.
+The [design sprint](https://www.thesprintbook.com/the-design-sprint) is a five-day process where product and development teams collaborate to solve design problems and address key business questions. In the first two days after hearing from subject matter experts and mapping out the customer journey, it became clear that we needed to focus on and create a better interface for our e-signature use cases.
 
 ## The Problem
 
-We found that customers struggled to send contracts or business documents for signature easily. They had to navigate different parts of the product. After identifying this issue, we realized the need to create a simpler process with clear instructions at each step. The team and I agreed that a wizard pattern would be our saving grace.
+We discovered that customers had difficulty sending contracts and other business documents through our product. They described it as a complex and cumbersome process, requiring navigating through various parts of the product to acomplish this task. After identifying this issue, we realized the need to create a simpler process with clear instructions at each step. The team and I agreed that a wizard pattern would be our saving grace.
 
 For obvious reasons, the sketching and design phases of the process were my favorite. As the team's designer, I was responsible for visualizing ideas and introducing Figma to my teammates as our main tool for prototyping and collaboration. Once we settled on a solution, we all participated in building out a messy but efficient prototype that we used for research. We brought back our subject matter experts and a few customers from earlier in the week, tested our solution and answered a ton of questions.
 
@@ -63,8 +63,6 @@ For obvious reasons, the sketching and design phases of the process were my favo
 {% /gallery %}
 
 ## The Solution
-
-The idea was simple: at any point in the product, once a customer wanted to send out documents for signature, we would guide them through a four-step wizard. They would choose the documents they want to send, identify signing parties, select where they needed to fill in information and sign on the document, and finally provide an outgoing message to the signing parties. Now, this solution sounds easy and straightforward but I have to admit it too work to arrive it. This solution had to flexible and handle different use cases and ways of interaction. For example a user may not have any documents in mind and only the signing parties or a user may want to pre-select a set of documents they’re currently looking at in a folder in our file-browser. 
 
 The concept was simple: whenever a customer reached the point of needing to dispatch documents for signature within our product, a streamlined four-step wizard would come to their aid. First, customers select the documents they wish to send. Next, they pinpoint their signing parties. Then, they designate areas for information entry and signatures on the document. Finally, they craft a message to accompany the documents to the signing parties. While this process may seem intuitive, it required significant effort to lock down. We designed this solution to be flexible, capable of accommodating a variety of use cases and interaction methods. For instance, a user might start without specific documents in mind, focusing solely on the signing parties. Alternatively, they might wish to start the process by pre-selecting documents from a folder they are currently browsing in our file browser.
 
