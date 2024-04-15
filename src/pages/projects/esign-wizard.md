@@ -1,6 +1,6 @@
 ---
-title: Designing a eSignature Wizard
-description: Creating an electronic signature flow from scratch.
+title: Designing a E-signature Wizard
+description: Creating an electronic signature flow and using the design sprint process to develop it.
 category: projects
 type: Work
 organization: SecureDocs
@@ -24,9 +24,9 @@ roles: Visual Design, UX Design, UX Research, Front-end Development
 {% descriptionList term="Organization" detail=$markdoc.frontmatter.organization /%}
 {% descriptionList term="Roles" detail=$markdoc.frontmatter.roles /%}
 
-After joining SecureDocs in 2018, we quickly gained momentum. We formed a small cross-functional team to enhance the product and set our priorities. To kick things off, we used a design sprint, which helped us focus on improvements and build team unity.
+After joining SecureDocs in 2018, we quickly gained momentum. We formed a small cross-functional team to enhance the product and set our priorities. To kick things off, we used a design sprint to help us focus on improvements and build team unity.
 
-The [design sprint](https://www.thesprintbook.com/the-design-sprint) is a five-day process where product and development teams collaborate to solve design problems and address key business questions. In the first two days after hearing from subject matter experts and mapping out the customer journey, it became clear that we needed to focus on and create a better interface for our e-signature use cases.
+A [design sprint](https://www.thesprintbook.com/the-design-sprint) is a five-day process where product and development teams collaborate to solve design problems and address key business questions. During our sprint, after two days of hearing from subject matter experts and mapping our customers' journey, it became apparent that we needed to prioritize and develop a more intuitive user interface for our electronic signature offering.
 
 ## The Problem
 

@@ -27,7 +27,7 @@ title: Projects
 /%}
 
 {% details
-  heading="Designing a eSignature Wizard"
+  heading="Designing a E-signature Wizard"
   meta="Utilizing the design sprint process to build"
   link="/projects/esign-wizard" 
 /%}
