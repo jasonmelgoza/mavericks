@@ -10,12 +10,32 @@ roles: Visual Design, UX Design, UX Research, Front-end Development
 # {% $markdoc.frontmatter.title %}
 
 {% gallery className="hero-gallery-custom" 
-  caption="A look at SecureDocs's E-signature wizard." %}
+  caption="A look at SecureDocs's electronic signature wizard." %}
 {% galleryItem
   alt="The signature preparation step in the e-signature wizard."
-  caption="The signature preparation step in the e-signature wizard."
   original="/images/esign-builder-full.png"
   thumbnail="/images/esign-builder-thumb.png"
+  width="1600"
+  height="1200"
+/%}
+{% galleryItem
+  alt="The selected documents step in the e-signature wizard."
+  original="/images/esign-builder-2-full.png"
+  thumbnail="/images/esign-builder-2-thumb.png"
+  width="1600"
+  height="1200"
+/%}
+{% galleryItem
+  alt="The signer selection step in the e-signature wizard."
+  original="/images/esign-builder-3-full.png"
+  thumbnail="/images/esign-builder-3-thumb.png"
+  width="1600"
+  height="1200"
+/%}
+{% galleryItem
+  alt="The final message step in the e-signature wizard."
+  original="/images/esign-builder-4-full.png"
+  thumbnail="/images/esign-builder-4-thumb.png"
   width="1600"
   height="1200"
 /%}
@@ -35,7 +55,7 @@ We discovered that customers had difficulty sending contracts and other business
 For obvious reasons, the sketching and design phases of the process were my favorite. As the team's designer, I was responsible for visualizing ideas and introducing Figma to my teammates as our main tool for prototyping and collaboration. Once we settled on a solution, we all participated in building out a messy but efficient prototype that we used for research. We brought back our subject matter experts and a few customers from earlier in the week, tested our solution and answered a ton of questions.
 
 {% gallery 
-  caption="A look at our first prototype and a glimpse of the conference room where we started building it." %}
+  caption="Our first prototype and a glimpse of the conference room where we started building it." %}
 {% galleryItem
   alt="A screenshot from our eSignature Wizard prototype."
   caption="A screenshot from our eSignature Wizard prototype."
