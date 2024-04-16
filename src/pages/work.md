@@ -7,7 +7,7 @@ description: Design samples and experience
 
 ## Recent Designs & Projects
 
-{% gallery className="hero-galler-custom" %}
+{% gallery className="hero-gallery-custom" %}
 {% galleryItem
   alt="The ContractWorks CLM dashboard"
   caption="<div class='hidden-caption-content'>The New ContractWorks CLM dashboard.</div>"
@@ -24,6 +24,13 @@ description: Design samples and experience
   height="768"
 /%}
 {% galleryItem
+  alt="A concept for a new filter allowing users to choose folders to filter on.'"
+  original="/images/folder-filter-full.png"
+  thumbnail="/images/folder-filter-thumb.png"
+  width="1024"
+  height="768"
+/%}
+{% galleryItem
   alt="An AI Copilot concept that streamlines directory organization using plain English. It's part of a recent year-end project."
   original="/images/browser-copilot-full.png"
   thumbnail="/images/browser-copilot-thumb.png"
@@ -33,7 +40,7 @@ description: Design samples and experience
 {% galleryItem
   alt="A new project with a new team to streamline how customers approve or reject incoming 'Timekeepers.'"
   original="/images/timekeeper-full.png"
-  thumbnail="/images/timekeeper-full.png"
+  thumbnail="/images/timekeeper-thumb.png"
   width="1024"
   height="768"
 /%}
