@@ -13,20 +13,20 @@ roles: Visual Design, UX Design, UX Research, Front-end Development
   caption="A look at SecureDocs's electronic signature wizard." %}
 {% galleryItem
   alt="The signature preparation step in the e-signature wizard."
-  original="/images/esign-builder-full.png"
-  thumbnail="/images/esign-builder-thumb.png"
+  original="/images/esign-builder-cover-full.png"
+  thumbnail="/images/esign-builder-cover-thumb.png"
   width="1600"
   height="1200"
 /%}
 {% galleryItem
-  alt="The selected documents step in the e-signature wizard."
+  alt="Users can select documents from their repository or use pre-set templates to initiate the signing process."
   original="/images/esign-builder-2-full.png"
   thumbnail="/images/esign-builder-2-thumb.png"
   width="1600"
   height="1200"
 /%}
 {% galleryItem
-  alt="The signer selection step in the e-signature wizard."
+  alt="Here, users can assign and manage signers for their packet."
   original="/images/esign-builder-3-full.png"
   thumbnail="/images/esign-builder-3-thumb.png"
   width="1600"
