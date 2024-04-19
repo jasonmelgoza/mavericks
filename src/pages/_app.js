@@ -2,16 +2,19 @@ import Head from 'next/head'
 import localFont from 'next/font/local'
 import { useRouter } from 'next/router'
 import { SpeedInsights } from '@vercel/speed-insights/react'
+import { Analytics } from '@vercel/analytics/react'
 import { Layout } from '@/components'
 import '@/styles/globals.css'
 import '@/styles/pswp.css'
 
+// Constants for meta tags
 const TITLE = 'Jason Melgoza'
 const DESCRIPTION =
   "I'm product designer focusing on visual design, design systems, and iconography"
 const KEYWORDS =
   'product designer, designer, interface, ui design, ux design, design systems, minimal, jasonmelgoza, jason melgoza'
 
+// Loading local font
 const satoshiFont = localFont({
   src: [
     {
@@ -47,6 +50,7 @@ const satoshiFont = localFont({
   ]
 })
 
+// Main App component
 export default function App({ Component, pageProps, ...props }) {
   const router = useRouter()
 
@@ -104,6 +108,7 @@ export default function App({ Component, pageProps, ...props }) {
         <Component {...pageProps} />
       </Layout>
       <SpeedInsights />
+      <Analytics />
     </>
   )
 }
