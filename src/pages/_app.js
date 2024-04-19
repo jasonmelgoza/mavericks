@@ -106,9 +106,9 @@ export default function App({ Component, pageProps, ...props }) {
       </Head>
       <Layout className={satoshiFont.className}>
         <Component {...pageProps} />
+        <Analytics />
       </Layout>
       <SpeedInsights />
-      <Analytics />
     </>
   )
 }
