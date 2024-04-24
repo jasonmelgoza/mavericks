@@ -60,14 +60,21 @@ The site utilizes the [Satoshi](https://www.fontshare.com/fonts/satoshi) typefac
 /%}
 
 {% social
-  className="Twitter"
+  className="read-cv"
+  icon="read-cv"
+  name="Read.cv"
+  url="https://read.cv/jasonmelgoza"
+/%}
+
+{% social
+  className="twitter"
   icon="twitter"
   name="Twitter"
   url="https://twitter.com/jasonmelgoza"
 /%}
 
 {% social
-  className="Mastodon"
+  className="mastodon"
   icon="mastodon"
   name="Mastodon"
   url="https://mas.to/@jasonmelgoza"
