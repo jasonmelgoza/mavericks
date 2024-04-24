@@ -24,5 +24,9 @@
     &:hover {
       color: var(--colors-loContrast);
     }
-  } 
+
+    .social-icon .icon.read-cv {
+      transform: rotate(16deg);
+    }
+  }
 }
