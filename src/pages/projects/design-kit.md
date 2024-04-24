@@ -9,7 +9,7 @@ roles: Visual Design, UX Design, Front-end Development
 
 # {% $markdoc.frontmatter.title %}
 
-{% gallery className="hero-galler-custom" 
+{% gallery className="hero-gallery" 
   caption="The Design Kit landing page." %}
 {% galleryItem
   alt="Design Kit landing page"
@@ -25,13 +25,13 @@ roles: Visual Design, UX Design, Front-end Development
 {% descriptionList term="Organization" detail=$markdoc.frontmatter.organization /%}
 {% descriptionList term="Roles" detail=$markdoc.frontmatter.roles /%}
 
-While working at RightScale, a rapidly-growing cloud computing company, we realized the importance of optimizing our processes and establishing a centralized resource for product design. This was necessary due to the independent project work being carried out by numerous teams.
+While working at RightScale, a rapidly-growing cloud management company, we realized the importance of optimizing our processes and establishing a centralized resource for product design. This was necessary due to the independent project work being carried out by numerous teams.
 
 What initially began as a shared color palette in a Sketch file evolved into a comprehensive design system known as "Design Kit." This system encompassed branding assets, color guidelines, an extensive library of icons, and a selection of UX patterns.
 
 Alongside the style guide, I designed and developed component-specific markup and styling documentation, similar to [Storybook](https://storybook.js.org/). These easily shared pages became invaluable reference tools for front-end developers.
 
-{% gallery className="hero-galler-custom"
+{% gallery
   caption="The Design Kit color scales page." %}
 {% galleryItem
   alt="Design Kit color page"
@@ -44,7 +44,7 @@ Alongside the style guide, I designed and developed component-specific markup an
 /%}
 {% /gallery %}
 
-The process of creating and disseminating this design system was a valuable learning opportunity for me, and it ultimately paved the way for my future endeavors. In 2019, RightScale was acquired, bringing my adventure at the company to a close.
+The process of creating and sharing this design system was a valuable learning experience for me, and it ultimately paved the way for my future endeavors. In 2019, RightScale was acquired, bringing my adventure at the company to a close.
 
 {% block as="div" className="block-callout" %}
 
