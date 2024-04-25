@@ -44,6 +44,17 @@
     h3 {
       margin: 0 0 1.25rem 0;
     }
+
+    &.block-callout--tight {
+      padding: 1rem 0.75rem;
+    }
+  }
+}
+
+// Callout spacing options
+.root {
+  &:global(.block-callout--tight) {
+    padding: 1.25rem 1.25rem;
   }
 }
 
