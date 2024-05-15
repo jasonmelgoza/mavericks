@@ -64,7 +64,7 @@ description: Design samples and experience
 
 {% details heading="Learning React, Next.js and Storybook" subheading="2018 - Present" meta="So far so good..." /%}
 
-{% block as="div" className="block-callout block-callout--tight" icon="dribbble" %}
+{% block as="div" className="block-callout block-callout--tight" %}
 {% download
   className="resume"
   name="Download My Resume"

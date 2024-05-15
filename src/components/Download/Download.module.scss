@@ -45,7 +45,14 @@
     line-height: 1.5;
     color: var(--colors-loContrast);
   }
-  .file-type-icon {
-    color: var(--colors-loContrast);
+  .download-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 9999px;
+    color: var(--colors-hiContrast);
+    background-color: rgba(#fff, 0.1);
+    border: 1px solid rgba(#fff, 0.085);
   }
 }
