@@ -5,13 +5,13 @@ category: projects
 type: Work
 organization: SecureDocs
 roles: Prototyping, UX Design, Visual Design, Front-End Development
-impact: Document uploads surged from nearly 1.7M in 2019 to over 4.9M in 2023, representing an impressive growth of nearly 190%
+impact: Document uploads surged from 1.7M in 2019 to over 4.9M in 2023, an increase of nearly 190%.
 ---
 
 # {% $markdoc.frontmatter.title %}
 
 {% gallery 
-  className="hero-galler-custom"
+  className="hero-gallery"
   caption="The file-browser application with the folder explorer sidebar." %}
 {% galleryItem
   alt="The SecureDocs file browser app"
@@ -51,12 +51,10 @@ While working on a new redesign, I concentrated on creating an "effortless" user
 
 The sidebar's primary function was to enable users to navigate their folder structure, with the main section displaying the contents of the selected folder. In the sidebar, users can expand elements, nest folders, drag documents, and perform additional actions. The challenge was to deliver a clean, intuitive design that encompassed all these functionalities.
 
-{% gallery 
-  className="hero-galler-custom"
+{% gallery
   caption="A look at some of the sidebar functionality." %}
 {% galleryItem
   alt="The expand action in the sidebar"
-  className="media-filebrowser-themes"
   caption="A look at some of the sidebar functionality."
   original="/images/filebrowser-ui.gif"
   thumbnail="/images/filebrowser-ui.gif"
@@ -69,8 +67,7 @@ The sidebar's primary function was to enable users to navigate their folder stru
 
 To ensure the design remained adaptable for accommodating multiple brands and aiding marketing efforts by promoting three products without sacrificing user experience, I devised a color-theming system for specific UI elements. This system allowed each product to have its distinct appearance while ensuring ease of maintenance.
 
-{% gallery 
-  className="hero-galler-custom" 
+{% gallery
   caption="Themeing displayed across the 'Sidebar' component." %}
 {% galleryItem
   alt="Themeing across the file browser"
