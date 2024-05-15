@@ -9,7 +9,7 @@ description: Design samples and experience
 
 {% gallery className="hero-gallery-custom" %}
 {% galleryItem
-  alt="A concept built to explore a few visual design ideas around a new document-editor component."
+  alt="A concept built in Figma to explore a few visual design ideas around a new document-editor component."
   original="/images/doc-editor.gif"
   thumbnail="/images/doc-editor.gif"
   width="1581"
