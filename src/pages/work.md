@@ -9,12 +9,11 @@ description: Design samples and experience
 
 {% gallery className="hero-gallery-custom" %}
 {% galleryItem
-  alt="The ContractWorks CLM dashboard"
-  caption="<div class='hidden-caption-content'>The New ContractWorks CLM dashboard.</div>"
-  original="/images/clm-dashboard-full.png"
-  thumbnail="/images/clm-dashboard-thumb.png"
-  width="1840"
-  height="975"
+  alt="A concept built to explore a few visual design ideas around a new document-editor component."
+  original="/images/doc-editor.gif"
+  thumbnail="/images/doc-editor.gif"
+  width="1581"
+  height="990"
 /%}
 {% galleryItem
   alt="A new drawer component that enables users to view document details. This component is an integral part of our refreshed reporting project."
