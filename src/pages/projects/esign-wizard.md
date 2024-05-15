@@ -5,6 +5,7 @@ category: projects
 type: Work
 organization: SecureDocs
 roles: Visual Design, UX Design, UX Research, Front-end Development
+impact: The number of e-sign packets sent reached 664K, up over 552% since 2020
 ---
 
 # {% $markdoc.frontmatter.title %}
@@ -43,6 +44,7 @@ roles: Visual Design, UX Design, UX Research, Front-end Development
 
 {% descriptionList term="Organization" detail=$markdoc.frontmatter.organization /%}
 {% descriptionList term="Roles" detail=$markdoc.frontmatter.roles /%}
+{% descriptionList term="Impact" detail=$markdoc.frontmatter.impact /%}
 
 After joining SecureDocs in 2018, we quickly gained momentum. We formed a small cross-functional team to enhance the product and set our priorities. To kick things off, we used a design sprint to help us focus on improvements and build team unity.
 
@@ -82,11 +84,9 @@ For obvious reasons, the sketching and design phases of the process were my favo
 /%}
 {% /gallery %}
 
-## The Solution
+## Our Solution
 
 The concept was simple: whenever a customer reached the point of needing to dispatch documents for signature within our product, a streamlined four-step wizard would come to their aid. First, customers select the documents they wish to send. Next, they pinpoint their signing parties. Then, they designate areas for information entry and signatures on the document. Finally, they craft a message to accompany the documents to the signing parties. While this process may seem intuitive, it required significant effort to lock down. We designed this solution to be flexible, capable of accommodating a variety of use cases and interaction methods. For instance, a user might start without specific documents in mind, focusing solely on the signing parties. Alternatively, they might wish to start the process by pre-selecting documents from a folder they are currently browsing in our file browser.
-
-## The Outcome
 
 After completing the sprint and in the subsequent weeks, the team developed a low-fidelity, well-thought-out, and technically feasible prototype. Once an MVP plan was ready, I started creating visual design mocks. Using our new [file browser's](../projects/file-browser) visual language and our design system, [Basis](../projects/basis), as a foundation.
 
@@ -101,7 +101,9 @@ After completing the sprint and in the subsequent weeks, the team developed a lo
 /%}
 {% /gallery %}
 
-We named our tool the Packet Builder, a user-friendly tool for creating packets (similar to digital envelopes) with necessary documents for signing parties. The tool was highly successful, streamlining a complex process and providing an excellent demo tool for our sales team. Its positive business impact revealed a new market opportunity to our leadership. The next year, we introduced a spinoff brand called "[ReadySign](https://www.readysign.com/)," focusing on a specific segment of the e-signature software market, looking for a simple and affordable solution.
+## Impact
+
+We named our tool the Packet Builder, a user-friendly tool for creating packets (similar to digital envelopes) with necessary documents for signing parties. The tool was highly successful, streamlining a complex process and providing an excellent demo tool for our sales team. In 2023, the number of packets sent surpassed 664,000, marking an increase of over 552% since 2020. This positive business impact revealed a new market opportunity to our leadership. After its release, we introduced a spinoff brand called "[ReadySign](https://www.readysign.com/)," focusing on a specific segment of the e-signature software market and offering a simple and affordable solution.
 
 As a designer, this was an amazing learning experience that would guide me in my future projects at SecureDocs. Shout-out to my wonderful teammates (You know who you are 🙌) for their invaluable support in planning, designing, and building this amazing project.
 
