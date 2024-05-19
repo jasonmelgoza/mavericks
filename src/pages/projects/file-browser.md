@@ -12,11 +12,11 @@ impact: Document uploads surged from 1.7M in 2019 to over 4.9M in 2023, an incre
 
 {% gallery 
   className="hero-gallery"
-  caption="The file-browser application with the folder explorer sidebar." %}
+  caption="A look at SecureDocs' file browser app." %}
 {% galleryItem
   alt="The SecureDocs file browser app"
   className="media-filebrowser"
-  caption="The file-browser application with the folder explorer sidebar."
+  caption="A look at SecureDocs' file browser application."
   original="/images/filebrowser-full.png"
   thumbnail="/images/filebrowser-thumb.png"
   width="1600"
