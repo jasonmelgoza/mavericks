@@ -89,23 +89,17 @@
 
 .root:global(.hero) h1 {
   margin: 0;
-  font-size: 3.5rem;
-  font-style: normal;
-  font-weight: 675;
-  line-height: 0.75;
+  font-size: 42px;
+  font-stretch: condensed;
+  font-weight: 600;
+  line-height: 1;
   color: var(--fg);
-  letter-spacing: -1.5px;
-
-  font-variation-settings: "ital" 0, "wdth" 78;
 }
 
 @media (min-width: 1025px) {
   .root:global(.hero) h1 {
-    font-size: 5rem;
-    font-weight: 900;
-  letter-spacing: -1.25px;
-
-    font-variation-settings: "ital" 0, "wdth" 78;
+    font-size: 80px;
+    font-weight: 800;
   }
 }
 
