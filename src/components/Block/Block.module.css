@@ -89,12 +89,12 @@
 
 .root:global(.hero) h1 {
   margin: 0;
-  font-size: 3.75rem;
+  font-size: 3.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: 0.75;
   color: var(--fg);
-  letter-spacing: -1px;
+  letter-spacing: -1.25px;
 
   font-variation-settings: "ital" 0, "wdth" 78;
 }
@@ -111,9 +111,9 @@
 .root:global(.hero) p {
   font-weight: 500;
   color: var(--fg);
-  letter-spacing: -0.16px;
+  letter-spacing: -0.25px;
 
-  font-variation-settings: "ital" 0, "wdth" 100;
+  font-variation-settings: "ital" 0, "wdth" 98;
 }
 
 .root:global(.hero) p {
