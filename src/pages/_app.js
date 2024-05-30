@@ -6,13 +6,13 @@ import { Layout, EmptyLayout } from '@/components'
 import '@/styles/reset.css'
 import '@/styles/globals.css'
 
-const mona = localFont({ src: './fonts/Mona-Sans.woff2' })
+const mona = localFont({ src: './fonts/Mona-Sans.woff2', weight: 'variable' })
 
 const TITLE = 'Jason Melgoza'
 const DESCRIPTION =
   "I'm product designer focusing on visual design, design systems, and iconography"
 const KEYWORDS =
-  "product designer, designer, interface, ui design, ux design, design systems, minimal, jasonmelgoza, jason melgoza"
+  'product designer, designer, interface, ui design, ux design, design systems, minimal, jasonmelgoza, jason melgoza'
 
 export default function App({ Component, pageProps, ...props }) {
   const router = useRouter()
