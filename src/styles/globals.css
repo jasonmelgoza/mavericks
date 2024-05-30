@@ -160,11 +160,13 @@ body {
 }
 
 html {
+  font-family: 'Mona Sans';
+  font-weight: 400;
+
 	scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Mona Sans';
   color: var(--fg);
   background-color: var(--bg);
 }

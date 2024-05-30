@@ -76,17 +76,22 @@
 .root:global(.hero) .inner {
   display: flex;
   flex-direction: column;
-  padding: 5rem 3rem;
+  padding: 3rem;
 
   gap: 2rem;
 }
 
+@media (min-width: 1025px) {
+  .root:global(.hero) .inner {
+    padding: 5rem 3rem;
+  }
+}
+
 .root:global(.hero) h1 {
   margin: 0;
-  font-size: 4rem;
+  font-size: 3.75rem;
   font-style: normal;
-  font-weight: 900;
-  font-stretch: 78%;
+  font-weight: 800;
   line-height: 0.75;
   color: var(--fg);
   letter-spacing: -1px;
@@ -97,32 +102,56 @@
 @media (min-width: 1025px) {
   .root:global(.hero) h1 {
     font-size: 5rem;
+    font-weight: 900;
+
+    font-variation-settings: "ital" 0, "wdth" 78;
   }
 }
 
 
 .root:global(.hero) p {
-  font-size: 32.3516px;
   font-weight: 500;
-  font-stretch: 100%;
-  line-height: 1.5;
-  line-height: 47px;
   color: var(--fg);
   letter-spacing: -0.16px;
 
   font-variation-settings: "ital" 0, "wdth" 100;
 }
 
+.root:global(.hero) p {
+  font-size: 23.3196px;
+  line-height: 29px;
+}
+
 .root:global(.hero) p::before {
-  display: table;
-  margin-bottom: -0.3573em;
   content: "";
+  margin-bottom: -0.2578em;
+  display: table;
 }
 
 .root:global(.hero) p::after {
-  display: table;
-  margin-top: -0.3846em;
   content: "";
+  margin-top: -0.2568em;
+  display: table;
+}
+
+
+@media (min-width: 1025px) {
+  .root:global(.hero) p {
+    font-size: 31.5501px;
+    line-height: 39px;
+  }
+  
+  .root:global(.hero) p::before {
+    content: "";
+    margin-bottom: -0.2541em;
+    display: table;
+  }
+  
+  .root:global(.hero) p::after {
+    content: "";
+    margin-top: -0.2531em;
+    display: table;
+  }
 }
 
 .root:global(.secondary) .inner {
