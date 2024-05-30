@@ -1,0 +1,165 @@
+.root {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+.root {
+  display: block;
+  width: 100%;
+  padding: 3rem 0 4rem 0;
+  color: var(--gray-1);
+  background-color: rgba(32, 32, 32, 0.98);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+
+  gap: 3rem;
+}
+
+.contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  justify-content: center;
+  padding: 48px;
+  overflow: hidden;
+  background: linear-gradient(60deg, rgba(242, 242, 242, 0.06) 13.4%, rgba(242, 242, 242, 0.09) 86.6%);
+  border: 1px solid;
+  border-top-color: rgba(255,255,255,0.175);
+  border-right-color: rgba(255,255,255,0.090);
+  border-bottom-color: rgba(255,255,255,0.070);
+  border-left-color: rgba(255,255,255,0.090);
+  border-radius: 0.625rem;
+
+  gap: 3rem;
+}
+
+.contact :global(.contact-header) {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.5rem;
+
+}
+
+.contact :global(.contact-header) h2 {
+  z-index: 1;
+  font-size: 48.011px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: -0.24px;
+}
+
+.contact :global(.contact-header) h2::before {
+  display: table;
+  margin-bottom: -0.2504em;
+  content: "";
+}
+
+.contact :global(.contact-header) h2::after {
+  display: table;
+  margin-top: -0.2494em;
+  content: "";
+}
+
+.contact :global(.contact-header) p {
+  z-index: 1;
+  font-size: 23.3196px;
+  line-height: 41px;
+}
+
+.contact :global(.contact-header) p::before {
+  display: table;
+  margin-bottom: -0.5151em;
+  content: "";
+}
+
+.contact :global(.contact-header) p::after {
+  display: table;
+  margin-top: -0.5141em;
+  content: "";
+}
+
+.contact :global(.contact-button) {
+  z-index: 1;
+}
+
+.contact :global(.contact-background) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background: url('/wave.gif') 50% / cover no-repeat;
+  opacity: 0.2;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bottom :global(.bottom-group) {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.5rem;
+
+}
+
+.bottom :global(.bottom-social) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.3;
+  list-style: none;
+
+  gap: 1rem;
+}
+
+.bottom :global(.bottom-social) a {
+  position: relative;
+}
+
+.bottom :global(.bottom-social) a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1.75px;
+  min-height: 1px;
+  content: "";
+  background-color: var(--gray-1);
+  transition: width .25s var(--ease-1);
+}
+
+.bottom :global(.bottom-social) a:hover::after {
+  width: 100%;
+}
+
+.bottom :global(.bottom-copyright) {
+  font-size: 0.875rem;
+  font-style: normal;
+  line-height: 1.5;
+}

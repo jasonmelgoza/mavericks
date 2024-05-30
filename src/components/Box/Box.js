@@ -1,10 +1,11 @@
-import cx from 'clsx';
-import styles from './Box.module.scss'
+import cx from 'clsx'
 
-export default function Box({ as: Component = 'div', children, className, ...rest }) {
+import styles from './Box.module.css'
+
+export default function Box({ className, children }) {
   return (
-    <Component className={cx(styles.root, className)} {...rest}>
+    <div className={cx(styles.root, className)}>
       {children}
-    </Component>
-  );
+    </div>
+  )
 }

@@ -1,14 +1,11 @@
 import cx from 'clsx'
-import { Box } from '@/components'
-import styles from './Block.module.scss'
 
-export default function Block({ children, className, ...props }) {
+import styles from './Block.module.css'
+
+export default function Block({ className, children, id }) {
   return (
-    <Box
-      className={cx(styles.root, 'block', className)}
-      {...props}
-    >
-      {children}
-    </Box>
-  );
+    <div id={id} className={cx(styles.root, className)}>
+      <div className={styles.inner}>{children}</div>
+    </div>
+  )
 }

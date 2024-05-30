@@ -1,0 +1,35 @@
+.root {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+}
+
+.root :global(.gallery-container) {
+  position: relative;
+  display: grid;
+  margin-top: 3rem;
+  overflow: hidden;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  grid-auto-rows: minmax(1fr, auto);
+}
+
+.root :global(.gallery-item-container) {
+  position: relative;
+  overflow: hidden;
+}
+
+.root :global(.gallery-item-container:first-child) {
+  grid-column: 1 / 6;
+  grid-row: 1;
+}
+
+.root :global(.gallery-caption) {
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  color: var(--gray-10);
+}

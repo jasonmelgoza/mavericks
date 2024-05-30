@@ -1,0 +1,59 @@
+.root {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+.root {
+  width: 100%;
+}
+
+.root p {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.root p:first-child {
+  margin-top: 0;
+}
+
+.root p:last-child {
+  margin-bottom: 0;
+}
+
+.root h1+p,
+.root h2+p,
+.root h3+p,
+.root h4+p {
+  margin-top: 0;;
+}
+
+.root ul,
+.root ol {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  margin-left: 1rem;
+}
+
+.root ul:first-child,
+.root ol:first-child {
+  margin-top: 0;
+}
+
+.root ul li,
+.root ol li {
+  font-size: 1.125rem;
+}
+
+.root ul li:not(:last-child),
+.root ol li:not(:last-child) {
+  margin-bottom: 1em;
+}
