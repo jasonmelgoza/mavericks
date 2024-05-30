@@ -58,6 +58,7 @@
 .inner nav {
   display: flex;
   align-items: center;
+  font-family: 'Mona Sans';
 }
 
 .inner nav a {

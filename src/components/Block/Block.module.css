@@ -41,32 +41,36 @@
   padding: 3rem;
 }
 
-.inner::before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 1px;
-  height: 100%;
-  content: "";
-  background-image: linear-gradient(to bottom, #CECECE 40%, rgba(255, 255, 255, 0) 0%);
-  background-repeat: repeat-y;
-  background-position: left;
-  background-size: 1px 10px;
+@media (min-width: 1025px) {
+  .inner::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    content: "";
+    background-image: linear-gradient(to bottom, #CECECE 40%, rgba(255, 255, 255, 0) 0%);
+    background-repeat: repeat-y;
+    background-position: left;
+    background-size: 1px 10px;
+  }
 }
 
-.inner::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 1px;
-  height: 100%;
-  content: "";
-  background-image: linear-gradient(to bottom, #CECECE 40%, rgba(255, 255, 255, 0) 0%);
-  background-repeat: repeat-y;
-  background-position: right;
-  background-size: 1px 10px;
+@media (min-width: 1025px) {
+  .inner::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    content: "";
+    background-image: linear-gradient(to bottom, #CECECE 40%, rgba(255, 255, 255, 0) 0%);
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 1px 10px;
+  }
 }
 
 .root:global(.hero) .inner {
@@ -79,7 +83,7 @@
 
 .root:global(.hero) h1 {
   margin: 0;
-  font-size: 5rem;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 900;
   font-stretch: 78%;
@@ -90,21 +94,23 @@
   font-variation-settings: "ital" 0, "wdth" 78;
 }
 
+@media (min-width: 1025px) {
+  .root:global(.hero) h1 {
+    font-size: 5rem;
+  }
+}
+
+
 .root:global(.hero) p {
-  font-size: 2rem;
-  font-style: normal;
+  font-size: 32.3516px;
   font-weight: 500;
   font-stretch: 100%;
   line-height: 1.5;
+  line-height: 47px;
   color: var(--fg);
   letter-spacing: -0.16px;
 
   font-variation-settings: "ital" 0, "wdth" 100;
-}
-
-.root:global(.hero) p {
-  font-size: 32.3516px;
-  line-height: 47px;
 }
 
 .root:global(.hero) p::before {
