@@ -1,3 +1,4 @@
+import { useGlitch } from 'react-powerglitch'
 import Link from 'next/link'
 import styles from './Header.module.css'
 
@@ -17,11 +18,15 @@ const SvgLogo = (props) => (
 )
 
 export default function Header({ layout }) {
+  const glitch = useGlitch({ 
+    playMode: 'hover'
+  });
+
   return (
     <header className={styles.root}>
       <div className={styles.inner}>
         <div>
-          <Link href='/'>
+          <Link className={styles.logo} href='/' ref={glitch.ref}>
             <SvgLogo />
           </Link>
         </div>
@@ -35,16 +40,16 @@ export default function Header({ layout }) {
             <nav>
               <ul>
                 <li>
-                  <a href='/#work'>Work</a>
+                  <a href='/#work' ref={glitch.ref}>Work</a>
                 </li>
                 <li>
-                  <a href='/#projects'>Projects</a>
+                  <a href='/#projects' ref={glitch.ref}>Projects</a>
                 </li>
                 <li>
-                  <a href='/#about'>About</a>
+                  <a href='/#about' ref={glitch.ref}>About</a>
                 </li>
                 <li>
-                  <a href='/resources'>Resources</a>
+                  <a href='/resources' ref={glitch.ref}>Resources</a>
                 </li>
               </ul>
             </nav>

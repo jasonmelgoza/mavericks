@@ -1453,6 +1453,11 @@ postcss@8.4.31:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
+powerglitch@^2.3.2:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/powerglitch/-/powerglitch-2.3.3.tgz#ce573060da25dfcf5bd2d6316b0f18b610f2de68"
+  integrity sha512-S4XmfeZl0cnD70iZ6cxfU9O3QBWjn09gmHReJW0nQWLcfZQB8a3B9CxmuYZCyvDCXD4o75d9y/qiC+WZtN1IyA==
+
 prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
@@ -1484,6 +1489,13 @@ react-photoswipe-gallery@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/react-photoswipe-gallery/-/react-photoswipe-gallery-3.0.1.tgz#15efa188da8f3ce0e8b3b456d25d89dda4929fde"
   integrity sha512-5RS/72iPNMieDneAxhTB9uT39Gp9E1JAgv83FUZJzFOnZRcJezneiRuXcU+0Wi7VJ7hRU7A+R5ocZpMVacUrYA==
+
+react-powerglitch@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-powerglitch/-/react-powerglitch-1.0.3.tgz#19acd8572b28a6d515be76118c34cb68156fda8a"
+  integrity sha512-jYIcvZJQoRWKckOWfgc59Bju6tLiBl2sRkWIr8X8/8RYXd/e07H7k+jJXinlemM/IGGrcG0Iq0HmJbAP13FrVg==
+  dependencies:
+    powerglitch "^2.3.2"
 
 react@^18.3.1:
   version "18.3.1"
