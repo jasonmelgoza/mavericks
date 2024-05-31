@@ -24,6 +24,12 @@
   flex-direction: row;
 }
 
+@media (max-width: 1025px) {
+  .root:global(.flex-row){
+    flex-direction: column;
+  }
+}
+
 .root:global(.flex-col) {
   flex-direction: column;
 }

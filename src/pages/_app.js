@@ -6,7 +6,7 @@ import { Layout, EmptyLayout } from '@/components'
 import '@/styles/reset.css'
 import '@/styles/globals.css'
 
-const mona = localFont({ src: './fonts/Mona-Sans.woff2', weight: 'variable' })
+const mona = localFont({ src: './fonts/Mona-Sans.woff2', weight: '200 900', fontStretch: '50% 100%' })
 
 const TITLE = 'Jason Melgoza'
 const DESCRIPTION =

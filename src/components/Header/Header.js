@@ -26,39 +26,53 @@ export default function Header({ layout }) {
           </Link>
         </div>
         {layout !== 'home' ? (
-          <nav>
-            <ul>
-              <li>
-                <a href='/#work'>Work</a>
-              </li>
-              <li>
-                <a href='/#projects'>Projects</a>
-              </li>
-              <li>
-                <a href='/#about'>About</a>
-              </li>
-              <li>
-                <a href='/resources'>Resources</a>
-              </li>
-            </ul>
-          </nav>
+          <>
+            <button className={styles.burger}>
+              <span />
+              <span />
+              <span />
+            </button>
+            <nav>
+              <ul>
+                <li>
+                  <a href='/#work'>Work</a>
+                </li>
+                <li>
+                  <a href='/#projects'>Projects</a>
+                </li>
+                <li>
+                  <a href='/#about'>About</a>
+                </li>
+                <li>
+                  <a href='/resources'>Resources</a>
+                </li>
+              </ul>
+            </nav>
+          </>
         ) : (
-          <nav>
-            <ul>
-              <li>
-                <a href='#work'>Work</a>
-              </li>
-              <li>
-                <a href='#projects'>Projects</a>
-              </li>
-              <li>
-                <a href='#about'>About</a>
-              </li>
-              <li>
-                <a href='/resources'>Resources</a>
-              </li>
-            </ul>
-          </nav>
+          <>
+            <button className={styles.burger}>
+              <span />
+              <span />
+              <span />
+            </button>
+            <nav>
+              <ul>
+                <li>
+                  <a href='#work'>Work</a>
+                </li>
+                <li>
+                  <a href='#projects'>Projects</a>
+                </li>
+                <li>
+                  <a href='#about'>About</a>
+                </li>
+                <li>
+                  <a href='/resources'>Resources</a>
+                </li>
+              </ul>
+            </nav>
+          </>
         )}
       </div>
     </header>
