@@ -101,7 +101,7 @@
   width: 20px;
   padding: var(--burger-padding);
   margin: 0;
-  margin-left: calc(-1* 6px);
+  margin-right: calc(-1* var(--burger-padding));
   cursor: pointer;
   background: none;
   border: none;
