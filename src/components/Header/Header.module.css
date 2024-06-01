@@ -14,10 +14,9 @@
   margin: 0 auto;
 }
 
-
 @media (min-width: 1025px) {
   .inner {
-    padding: 2rem 3rem 0;
+    padding: 3.5rem 3rem 0;
   }
 }
 
@@ -74,29 +73,12 @@
 }
 
 .inner nav a {
-  position: relative;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.09px;
 }
-
-/* .inner nav a::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 1.75px;
-  min-height: 1px;
-  content: "";
-  background-color: var(--gray-12);
-  transition: width .25s var(--ease-1);
-} */
-
-/* .inner nav a:hover::after {
-  width: 100%;
-} */
 
 .inner nav a:hover {
   color: var(--red-9);

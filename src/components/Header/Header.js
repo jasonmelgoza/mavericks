@@ -18,9 +18,9 @@ const SvgLogo = (props) => (
 )
 
 export default function Header({ layout }) {
-  const glitch = useGlitch({ 
+  const glitch = useGlitch({
     playMode: 'hover'
-  });
+  })
 
   return (
     <header className={styles.root}>
@@ -40,16 +40,24 @@ export default function Header({ layout }) {
             <nav>
               <ul>
                 <li>
-                  <a href='/#work' ref={glitch.ref}>Work</a>
+                  <a href='/#work' ref={glitch.ref}>
+                    Work
+                  </a>
                 </li>
                 <li>
-                  <a href='/#projects' ref={glitch.ref}>Projects</a>
+                  <a href='/#projects' ref={glitch.ref}>
+                    Projects
+                  </a>
                 </li>
                 <li>
-                  <a href='/#about' ref={glitch.ref}>About</a>
+                  <a href='/#about' ref={glitch.ref}>
+                    About
+                  </a>
                 </li>
                 <li>
-                  <a href='/resources' ref={glitch.ref}>Resources</a>
+                  <a href='/resources' ref={glitch.ref}>
+                    Resources
+                  </a>
                 </li>
               </ul>
             </nav>

@@ -7,7 +7,7 @@
 }
 
 .root:last-child .inner {
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
 }
 
 .root:not(:last-child)::after {
@@ -31,7 +31,7 @@
 
 @media (min-width: 1025px) {
   .inner {
-    padding: 3rem;
+    padding: 4rem 3rem;
   }
   .inner::before {
     position: absolute;
@@ -69,7 +69,7 @@
 
 @media (min-width: 1025px) {
   .root:global(.hero) .inner {
-    padding: 6rem 3rem;
+    padding: 4rem 3rem;
   }
 }
 
@@ -106,7 +106,7 @@
 
 @media (min-width: 1025px) {
   .root:global(.secondary) .inner {
-    padding: 6rem 3rem;
+    padding: 4rem 3rem;
   }
 }
 

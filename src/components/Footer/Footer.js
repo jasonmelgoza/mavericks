@@ -1,4 +1,5 @@
 import React from 'react'
+import { useGlitch } from 'react-powerglitch'
 import Box from '../Box/Box'
 import Button from '../Button/Button'
 import styles from './Footer.module.css'
@@ -21,6 +22,10 @@ const SvgLogo = (props) => (
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
+  const glitch = useGlitch({
+    playMode: 'hover'
+  })
+
   return (
     <footer className={styles.root}>
       <div className={styles.inner}>
@@ -30,10 +35,7 @@ export default function Footer() {
             <p>I want to hear from you to get an awesome project started!</p>
           </div>
           <Box className='contact-button'>
-            <Button
-              text={"Let's Chat"}
-              email='jasonmelgoza@gmail.com'
-            />
+            <Button text={"Let's Chat"} email='jasonmelgoza@gmail.com' />
           </Box>
           <div className='contact-background' />
         </div>
@@ -42,6 +44,7 @@ export default function Footer() {
             <ul className='bottom-social'>
               <li>
                 <a
+                  ref={glitch.ref}
                   href='https://www.linkedin.com/in/jasonmelgoza/'
                   target='_blank'
                 >
@@ -49,12 +52,20 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href='https://www.dribbble.com/jasonmelgoza' target='_blank'>
+                <a
+                  ref={glitch.ref}
+                  href='https://www.dribbble.com/jasonmelgoza'
+                  target='_blank'
+                >
                   Dribbble
                 </a>
               </li>
               <li>
-                <a href='https://www.github.com/jasonmelgoza' target='_blank'>
+                <a
+                  ref={glitch.ref}
+                  href='https://www.github.com/jasonmelgoza'
+                  target='_blank'
+                >
                   Github
                 </a>
               </li>
@@ -63,7 +74,9 @@ export default function Footer() {
               &copy; {currentYear} Jason Melgoza
             </div>
           </div>
-          <SvgLogo className='bottom-logo' />
+          <div ref={glitch.ref}>
+            <SvgLogo className='bottom-logo' />
+          </div>
         </div>
       </div>
     </footer>

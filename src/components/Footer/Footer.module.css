@@ -124,26 +124,6 @@
   gap: 1rem;
 }
 
-.bottom :global(.bottom-social) a {
-  position: relative;
-}
-
-.bottom :global(.bottom-social) a::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 1.75px;
-  min-height: 1px;
-  content: "";
-  background-color: var(--gray-1);
-  transition: width .25s var(--ease-1);
-}
-
-.bottom :global(.bottom-social) a:hover::after {
-  width: 100%;
-}
-
 .bottom :global(.bottom-copyright) {
   font-size: 0.875rem;
   font-style: normal;
