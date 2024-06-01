@@ -8,12 +8,12 @@ title: Building a Design System
 
 {% gallery className="hero-gallery" caption="The Design Kit landing page." %}
 {% galleryItem
-  className="foo-1"
-  alt="test one"
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
-  width="1600"
-  height="1200"
+  alt="Design Kit landing page"
+  caption="The Design Kit landing page."
+  original="/images/designkit-full.png"
+  thumbnail="/images/designkit-thumb.png"
+  width="1774"
+  height="1087"
 /%}
 {% /gallery %}
 
@@ -27,14 +27,16 @@ Alongside the style guide, I designed and developed component-specific markup an
 
 {% block %}
 
-{% gallery className="hero-gallery" caption="The Design Kit color scales page." %}
+{% gallery
+  caption="The Design Kit color scales page." %}
 {% galleryItem
-  className="foo-1"
-  alt="test one"
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
-  width="1600"
-  height="1200"
+  alt="Design Kit color page"
+  caption="The Design Kit color scales page."
+  className="designkit-colors"
+  original="/images/designkit-colors-full.png"
+  thumbnail="/images/designkit-colors-thumb.png"
+  width="1752"
+  height="1023"
 /%}
 {% /gallery %}
 

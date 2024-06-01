@@ -9,8 +9,8 @@ title: Designing a Document Browser
 {% gallery className="hero-gallery" caption="A look at SecureDocs' file browser app." %}
 {% galleryItem
   alt="A look at SecureDocs' file browser app."
-  original="/images/document-browser-full.png"
-  thumbnail="/images/document-browser-full.png"
+  original="/images/document-browser-sd-full.png"
+  thumbnail="/images/document-browser-sd-full.png"
   width="1600"
   height="1200"
 /%}

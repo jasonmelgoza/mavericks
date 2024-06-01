@@ -8,34 +8,30 @@ title: Designing a E-signature Wizard
 
 {% gallery className="hero-gallery" caption="A look at SecureDocs's electronic signature wizard." %}
 {% galleryItem
-  className="foo-1"
-  alt="test one"
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
+  alt="The signature preparation step in the e-signature wizard."
+  original="/images/esign-builder-cover-full.png"
+  thumbnail="/images/esign-builder-cover-thumb.png"
   width="1600"
   height="1200"
 /%}
 {% galleryItem
-  className="foo-2"
-  alt="test two"
-  original="https://placehold.co/1600x1200/E5484D/white?text=Original+Image"
-  thumbnail="https://placehold.co/800x600/E5484D/white?text=Thumbnail"
+  alt="Users can select documents from their repository or use pre-set templates to initiate the signing process."
+  original="/images/esign-builder-2-full.png"
+  thumbnail="/images/esign-builder-2-thumb.png"
   width="1600"
   height="1200"
 /%}
 {% galleryItem
-  className="foo-3"
-  alt="test two"
-  original="https://placehold.co/1600x1200/AB4ABA/white?text=Original+Image"
-  thumbnail="https://placehold.co/800x600/AB4ABA/white?text=Thumbnail"
+  alt="Here, users can assign and manage signers for their packet."
+  original="/images/esign-builder-3-full.png"
+  thumbnail="/images/esign-builder-3-thumb.png"
   width="1600"
   height="1200"
 /%}
 {% galleryItem
-  className="foo-4"
-  alt="test two"
-  original="https://placehold.co/1600x1200/29A383/white?text=Original+Image"
-  thumbnail="https://placehold.co/800x600/29A383/white?text=Thumbnail"
+  alt="The final message step in the e-signature wizard."
+  original="/images/esign-builder-4-full.png"
+  thumbnail="/images/esign-builder-4-thumb.png"
   width="1600"
   height="1200"
 /%}
@@ -55,30 +51,29 @@ We discovered that customers had difficulty sending contracts and other business
 
 For obvious reasons, the sketching and design phases of the process were my favorite. As the team's designer, I was responsible for visualizing ideas and introducing Figma to my teammates as our main tool for prototyping and collaboration. Once we settled on a solution, we all participated in building out a messy but efficient prototype that we used for research. We brought back our subject matter experts and a few customers from earlier in the week, tested our solution and answered a ton of questions.
 
-{% gallery className="hero-gallery" caption="Our first prototype and a glimpse of the conference room where we started building it." %}
+{% gallery caption="Our first prototype and a glimpse of the conference room where we started building it." %}
 {% galleryItem
-  className="foo-1"
   alt="test one"
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
-  width="1600"
-  height="1200"
+  original="/images/esign-prototype-full.png"
+  thumbnail="/images/esign-prototype-thumb.png"
+  width="1608"
+  height="1208"
 /%}
 {% galleryItem
-  className="foo-2"
-  alt="test two"
-  original="https://placehold.co/1600x1200/E5484D/white?text=Original+Image"
-  thumbnail="https://placehold.co/800x600/E5484D/white?text=Thumbnail"
+  alt="Planning board"
+  caption="Locking down use cases."
+  original="/images/esign-plan-full.png"
+  thumbnail="/images/esign-plan-thumb.png"
   width="1600"
-  height="1200"
+  height="1600"
 /%}
 {% galleryItem
-  className="foo-3"
-  alt="test two"
-  original="https://placehold.co/1600x1200/AB4ABA/white?text=Original+Image"
-  thumbnail="https://placehold.co/800x600/AB4ABA/white?text=Thumbnail"
+  alt="Basic wireframes"
+  caption="Basic wireframe work."
+  original="/images/esign-room-full.png"
+  thumbnail="/images/esign-room-thumb.png"
   width="1600"
-  height="1200"
+  height="1600"
 /%}
 {% /gallery %}
 
@@ -92,14 +87,13 @@ The concept was simple: whenever a customer reached the point of needing to disp
 
 After completing the sprint and in the subsequent weeks, the team developed a low-fidelity, well-thought-out, and technically feasible prototype. Once an MVP plan was ready, I started creating visual design mocks. Using our new file browser's visual language and our design system, Basis, as a foundation.
 
-{% gallery className="hero-gallery" caption="The project's final outcome." %}
+{% gallery caption="The project's final outcome." %}
 {% galleryItem
-  className="foo-1"
-  alt="test one"
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
-  width="1600"
-  height="1200"
+  alt="The e-signature wizard."
+  original="/images/esign-builder.gif"
+  thumbnail="/images/esign-builder.gif"
+  width="1713"
+  height="1014"
 /%}
 {% /gallery %}
 
@@ -109,7 +103,7 @@ After completing the sprint and in the subsequent weeks, the team developed a lo
 
 ## Impact
 
-We named our tool the Packet Builder, a user-friendly tool for creating packets (similar to digital envelopes) with necessary documents for signing parties. The tool was highly successful, streamlining a complex process and providing an excellent demo tool for our sales team. In 2023, the number of packets sent surpassed 664,000, marking an increase of over 552% since 2020. This positive business impact revealed a new market opportunity to our leadership. After its release, we introduced a spinoff brand called "ReadySign," focusing on a specific segment of the e-signature software market and offering a simple and affordable solution.
+We named our tool the Packet Builder, a user-friendly tool for creating packets (similar to digital envelopes) with necessary documents for signing parties. The tool was highly successful, streamlining a complex process and providing an excellent demo tool for our sales team. In 2023, the number of packets sent surpassed 664,000, marking an increase of over 552% since 2020. This positive business impact revealed a new market opportunity to our leadership. After its release, we introduced a spinoff brand called "[ReadySign](https://www.readysign.com/)," focusing on a specific segment of the e-signature software market and offering a simple and affordable solution.
 
 As a designer, this was an amazing learning experience that would guide me in my future projects at SecureDocs. Shout-out to my wonderful teammates (You know who you are 🙌) for their invaluable support in planning, designing, and building this amazing project.
 
