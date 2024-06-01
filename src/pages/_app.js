@@ -6,7 +6,11 @@ import { Layout, EmptyLayout } from '@/components'
 import '@/styles/reset.css'
 import '@/styles/globals.css'
 
-const mona = localFont({ src: './fonts/Mona-Sans.woff2', weight: '200 900', fontStretch: '50% 100%' })
+const mona = localFont({
+  src: './fonts/Mona-Sans.woff2',
+  weight: '200 900',
+  fontStretch: '50% 100%'
+})
 
 const TITLE = 'Jason Melgoza'
 const DESCRIPTION =
@@ -34,9 +38,8 @@ export default function App({ Component, pageProps, ...props }) {
 
   const isLanding = props.router.pathname === '/'
 
-  if (router.pathname == '/404') {
-    return (
-      <EmptyLayout>
+if (router.pathname == '/404' || router.pathname == '/500') {    return (
+      <EmptyLayout className={mona.className}>
         <Head>
           <meta
             name='viewport'

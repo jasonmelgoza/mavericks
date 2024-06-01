@@ -24,7 +24,7 @@
 .root {
   background: linear-gradient(210deg, #FF6363 13.4%, #E54045 86.6%);
   border-radius: 3px;
-  box-shadow: var(--shadow-el-md)
+  box-shadow: var(--shadow-el-md);
 }
 
 .root:hover {
