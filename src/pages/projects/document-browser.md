@@ -8,10 +8,9 @@ title: Designing a Document Browser
 
 {% gallery className="hero-gallery" caption="A look at SecureDocs' file browser app." %}
 {% galleryItem
-  className="foo-1"
   alt="A look at SecureDocs' file browser app."
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
+  original="/images/document-browser-full.png"
+  thumbnail="/images/document-browser-full.png"
   width="1600"
   height="1200"
 /%}
@@ -52,14 +51,13 @@ While working on a new redesign, I concentrated on creating an "effortless" user
 
 The sidebar's primary function was to enable users to navigate their folder structure, with the main section displaying the contents of the selected folder. In the sidebar, users can expand elements, nest folders, drag documents, and perform additional actions. The challenge was to deliver a clean, intuitive design that encompassed all these functionalities.
 
-{% gallery className="hero-gallery" caption="A look at SecureDocs' file browser app." %}
+{% gallery caption="A look at SecureDocs' file browser app." %}
 {% galleryItem
-  className="foo-1"
   alt="A look at SecureDocs' file browser app."
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
-  width="1600"
-  height="1200"
+  original="/images/document-browser-ui.gif"
+  thumbnail="/images/document-browser-ui.gif"
+  width="1713"
+  height="1014"
 /%}
 {% /gallery %}
 
@@ -67,14 +65,13 @@ The sidebar's primary function was to enable users to navigate their folder stru
 
 To ensure the design remained adaptable for accommodating multiple brands and aiding marketing efforts by promoting three products without sacrificing user experience, I devised a color-theming system for specific UI elements. This system allowed each product to have its distinct appearance while ensuring ease of maintenance.
 
-{% gallery className="hero-gallery" caption="A look at SecureDocs' file browser app." %}
+{% gallery caption="Themeing displayed across the 'Sidebar' component." %}
 {% galleryItem
-  className="foo-1"
   alt="A look at SecureDocs' file browser app."
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
-  width="1600"
-  height="1200"
+  original="/images/document-browser-theme-full.png"
+  thumbnail="/images/document-browser-theme-thumb.png"
+  width="1501"
+  height="1113"
 /%}
 {% /gallery %}
 

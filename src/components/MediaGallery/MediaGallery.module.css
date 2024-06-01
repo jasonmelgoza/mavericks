@@ -16,6 +16,11 @@
   overflow: hidden;
 }
 
+.root :global(.gallery-item) {
+  border: 1px solid var(--gray-a3);
+  box-shadow: var(--shadow-el-md);
+}
+
 .root :global(.gallery-item-container:first-child) {
   grid-column: 1 / 6;
   grid-row: 1;

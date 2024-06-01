@@ -8,10 +8,10 @@
 
 .root :global(.empty-message h1) {
   margin: 0;
-  font-size: 8rem;
-  font-weight: 850;
+  font-size: 5rem;
+  font-weight: 900;
   font-stretch: 75%;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.065em;
 }
 
 .root a {
