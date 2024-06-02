@@ -6,12 +6,12 @@ title: Metal Icons
 
 {% articleHeader subheading="Ongoing Project" title="Metal Icons" /%}
 
-{% gallery className="hero-gallery" caption="A look at SecureDocs' file browser app." %}
+{% gallery className="hero-gallery" caption="Icons from the Metal collection." %}
 {% galleryItem
-  className="foo-1"
-  alt="A look at SecureDocs' file browser app."
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
+  alt="An image displaying some of the icons from the Metal collection."
+  caption="Icons from the Metal collection."
+  original="/images/metal-icons-full.png"
+  thumbnail="/images/metal-icons-thumb.png"
   width="1600"
   height="1200"
 /%}
@@ -33,48 +33,21 @@ To ensure that my icons feel consistent and follow a unified style, I have draft
 
 ### Type and Stroke
 
-Metal (for now) has two main variations: filled and outlined. The stroke width for the outlined variant is set to 1.5px for lighter appearance and a weight similar to 16px text.
+Metal (for now) has two main variations: `filled` and `outlined`. The stroke width for the outlined variant is set to 1.5px for lighter appearance and a weight similar to 16px text.
 
-{% gallery className="hero-gallery" %}
-{% galleryItem
-  className="foo-1"
-  alt="A look at SecureDocs' file browser app."
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
-  width="1600"
-  height="1200"
-/%}
-{% /gallery %}
+![Icon types](/images/metal-icons-types.png)
 
 ### Grid Size
 
-Each icon has two sizes: large 24px and small 16px. These sizes enable the use of icons in various scenarios or components, such as buttons or avatars.
+Each icon has two sizes: large `24px` and small `16px`. These sizes enable the use of icons in various scenarios or components, such as buttons or avatars.
 
-{% gallery className="hero-gallery" caption="A look at SecureDocs' file browser app." %}
-{% galleryItem
-  className="foo-1"
-  alt="A look at SecureDocs' file browser app."
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
-  width="1600"
-  height="1200"
-/%}
-{% /gallery %}
+![Icon sizes](/images/metal-icons-sizes.png)
 
 ### Icon Keylines
 
 My keyline templates keep me honest. They represent the set's rules visually, allowing me to design an icon quickly and keep it consistent with the rest of the set.
 
-{% gallery className="hero-gallery" %}
-{% galleryItem
-  className="foo-1"
-  alt="A look at SecureDocs' file browser app."
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
-  width="1600"
-  height="1200"
-/%}
-{% /gallery %}
+![Icon types](/images/metal-icons-keylines.png)
 
 {% /block %}
 
@@ -84,16 +57,7 @@ My keyline templates keep me honest. They represent the set's rules visually, al
 
 While designing and growing this icon collection, I have also been building the component library for React. That way, any developer using React can utilize this set.
 
-{% gallery className="hero-gallery" %}
-{% galleryItem
-  className="foo-1"
-  alt="A look at SecureDocs' file browser app."
-  original="https://placehold.co/1732x1200/3E63DD/white?text=Original+Image"
-  thumbnail="https://placehold.co/866x600/3E63DD/white?text=Thumbnail"
-  width="1600"
-  height="1200"
-/%}
-{% /gallery %}
+![Icon types](https://placehold.co/866x600/3E63DD/white?text=Code)
 
 {% /block %}
 
