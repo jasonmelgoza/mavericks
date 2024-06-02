@@ -10,6 +10,11 @@
   margin-bottom: 1.5rem;
 }
 
+.root :global(.item-column) {
+  display: flex;
+  flex-direction: column;
+}
+
 .root :global(.item-number) {
   font-family: monospace;
   font-size: 1rem;
