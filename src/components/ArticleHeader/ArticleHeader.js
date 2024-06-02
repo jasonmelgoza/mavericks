@@ -1,3 +1,4 @@
+import { useGlitch } from 'react-powerglitch'
 import Link from 'next/link'
 
 import styles from './ArticleHeader.module.css'
@@ -18,9 +19,13 @@ const SvgArrow = (props) => (
 )
 
 export default function ArticleHeader({ subheading, title}) {
+  const glitch = useGlitch({
+    playMode: 'hover'
+  })
+
   return (
     <header className={styles.root}>
-      <Link className='article-pagination' href="/#projects">
+      <Link className='article-pagination' href="/#projects" ref={glitch.ref}>
         <SvgArrow />
         <span>Back</span>
         </Link>
