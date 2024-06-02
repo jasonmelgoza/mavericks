@@ -1,6 +1,7 @@
 import cx from 'clsx'
 import { Sandpack } from '@codesandbox/sandpack-react'
 import styles from './Sandpack.module.css'
+import metalIcons from './packs/metalIcons'
 
 export default function App({ className }) {
   return (
@@ -13,18 +14,7 @@ export default function App({ className }) {
           }
         }}
         files={{
-          '/App.js': `import { FolderIcon, DocumentIcon, BookmarkIcon, HeartIcon } from 'metal-icons/16/solid' 
-
-export default function App() {
-  return (
-    <div style={{ width: '100%', height: '96vh', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem'}}>
-      <FolderIcon />
-      <DocumentIcon />
-      <BookmarkIcon />
-      <HeartIcon />
-    </div>
-  )
-}`
+          '/App.js': metalIcons
         }}
       />
     </div>

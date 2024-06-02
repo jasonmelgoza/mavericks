@@ -63,7 +63,7 @@ While designing and growing this icon collection, I have also been building the 
 
 {% block %}
 
-My goal with this project is not only to fulfill the need for a comprehensive icon collection that I have full control over but also to expand this process into a larger UI project in the future 🤘.
+My goal with this project is not only to fulfill the need for a comprehensive icon collection that I have *full* control over but also to expand this process into a larger UI project in the future 🤘.
 
 ### MetalIcons.com
 
