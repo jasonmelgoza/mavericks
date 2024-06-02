@@ -45,3 +45,7 @@
 .root ol li:not(:last-child) {
   margin-bottom: 1em;
 }
+
+.root :global(img:not(.gallery-item)) {
+  border: 1px solid var(--gray-a3);
+}

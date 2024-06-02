@@ -57,7 +57,7 @@ My keyline templates keep me honest. They represent the set's rules visually, al
 
 While designing and growing this icon collection, I have also been building the component library for React. That way, any developer using React can utilize this set.
 
-![Icon types](https://placehold.co/866x600/3E63DD/white?text=Code)
+{% sandpack className="metal-icons-project" /%}
 
 {% /block %}
 
