@@ -3,10 +3,9 @@
 }
 
 .root p {
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
-  font-size: 1.125rem;
-  line-height: 1.5;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  letter-spacing: -0.05px;
 }
 
 .root p:first-child {
@@ -38,7 +37,7 @@
 
 .root ul li,
 .root ol li {
-  font-size: 1.125rem;
+  letter-spacing: -0.05px;
 }
 
 .root ul li:not(:last-child),
@@ -48,4 +47,14 @@
 
 .root :global(img:not(.gallery-item)) {
   border: 1px solid var(--gray-a3);
+}
+
+.root a {
+  font-weight: 500;
+  color: var(--fg);
+  text-decoration: underline;
+}
+
+.root a:hover {
+  color: var(--red-9)
 }

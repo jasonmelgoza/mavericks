@@ -65,8 +65,12 @@ While designing and growing this icon collection, I have also been building the 
 
 My goal with this project is not only to fulfill the need for a comprehensive icon collection that I have *full* control over but also to expand this process into a larger UI project in the future 🤘.
 
-### MetalIcons.com
+{% callout %}
 
-I have launched a new site for the project, and you can track its progress on GitHub. There, I have stored all 150 icons in both outline and solid variations there. You can also find a Figma community file with all icons as components, ready to be used in your next Figma project.
+### [MetalIcons.com](https://metalicons.com)
+
+I have launched a [new site](https://metalicons.com) for the project, and you can track its progress on [GitHub](https://github.com/jasonmelgoza/metal-icons). There, I have stored all 150 icons in both outline and solid variations there. You can also find a [Figma community file](https://www.figma.com/community/file/1275692756020345515/metal-icons) with all icons as components, ready to be used in your next Figma project.
+
+{% /callout %}
 
 {% /block %}

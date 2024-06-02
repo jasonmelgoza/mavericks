@@ -1,0 +1,12 @@
+.root {
+  display: block;
+  padding: 2rem;
+  margin-top: 2.25rem;
+  background: var(--gray-3);
+  border: 1px solid var(--gray-5);
+  border-radius: 0.25rem;
+}
+
+.root:not(:last-child) {
+  margin-bottom: 2.25rem;
+}

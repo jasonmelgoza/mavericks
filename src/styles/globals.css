@@ -167,6 +167,9 @@ html {
 }
 
 body {
+  font-size: 1.25rem;
+  font-stretch: 98%;
+  line-height: 1.6;
   color: var(--fg);
   background-color: var(--bg);
 }

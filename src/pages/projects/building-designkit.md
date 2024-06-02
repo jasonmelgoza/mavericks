@@ -42,12 +42,12 @@ Alongside the style guide, I designed and developed component-specific markup an
 
 The process of creating and sharing this design system was a valuable learning experience for me, and it ultimately paved the way for my future endeavors. In 2019, RightScale was acquired, bringing my adventure at the company to a close.
 
-{% /block %}
+{% callout %}
 
-{% block %}
+### [Design kit demo](https://unequaled-garden.surge.sh/)
 
-## Design Kit Demo
+I have [archived a version](https://unequaled-garden.surge.sh/) of the site for demo purposes as this project is no longer in use.
 
-I have archived a version of the site for demo purposes as this project is no longer in use.
+{% /callout %}
 
 {% /block %}
