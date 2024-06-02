@@ -1,16 +1,4 @@
 .root {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-  border: 0;
-
-  -webkit-tap-highlight-color: transparent;
-}
-
-.root {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -19,7 +7,7 @@
 }
 
 .root:not(:last-child) {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .root :global(.item-number) {

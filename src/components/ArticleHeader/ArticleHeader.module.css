@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   font: inherit;
-  font-size: 100%;
   vertical-align: baseline;
   border: 0;
 
@@ -44,9 +43,17 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  padding: 8px 12px;
   text-decoration: none;
+  background-color: var(--gray-4);
+  border-radius: 0.1875rem;
 
   gap: 0.5rem;
+}
+
+.root :global(.article-pagination):hover {
+  color: var(--gray-1);
+  background-color: var(--red-9);
 }
 
 .root :global(.article-pagination) span {

@@ -17,7 +17,6 @@ title: Designing a Document Browser
 {% /gallery %}
 
 {% /block %}
-
 {% block %}
 
 In 2018, I became SecureDocs' first UI Designer and worked closely with the engineering team. My primary objective was to establish a simple but effective design process for our expanding cross-functional team. It included developing prototypes for product development and constructing a comprehensive component library to support engineers in implementing new features.
@@ -27,7 +26,6 @@ One of my early projects where I utilized this process was redesigning SecureDoc
 The main purpose of the file browser app is to serve as a centralized hub for customers to manage business documents, including contracts. We aimed to create a user-friendly interface similar to Microsoft's "File Explore" or Apple's "Finder," allowing users to effortlessly interact with their documents with patterns such as drag-and-drop or contextual menus where they'd expect them.
 
 {% /block %}
-
 {% block %}
 
 ## Problems
@@ -38,7 +36,6 @@ The two primary problems (or opportunities) that needed to be addressed were:
 2. Ensuring the design was flexible enough to handle multiple brands. The core application's specific features are grouped and branded for different markets. The SecureDocs brand targets businesses seeking a temporary solution for sharing business documents during mergers or acquisitions, while the ContractWorks brand is aimed at finance teams looking to organize and tag their contracts.
 
 {% /block %}
-
 {% block %}
 
 ## Solutions
@@ -76,11 +73,12 @@ To ensure the design remained adaptable for accommodating multiple brands and ai
 {% /gallery %}
 
 {% /block %}
-
 {% block %}
+
 ## Impact
 
-The project yielded remarkable results, with annual document uploads skyrocketing from nearly 1.7 million in 2019 to over 4.9 million in 2023, marking an impressive growth of nearly 194%. Moreover, the visual design language developed during this endeavor laid the foundation for our design system, "Basis," proving invaluable to myself, my colleagues, and future team members throughout my time on the SecureDocs product team.
+The project yielded remarkable results, with annual document uploads skyrocketing from nearly 1.7 million in 2019 to over 4.9 million in 2023, marking an impressive growth of nearly 194%. Moreover, the visual design language developed during this endeavor laid the foundation for our design system, "[Basis](/projects/basis)," proving invaluable to myself, my colleagues, and future team members throughout my time on the SecureDocs product team.
 
 Overall, this project provided numerous valuable lessons. We honed an efficient design process, fostering close collaboration with the engineering team to craft a seamless user experience. Key features, such as the sidebar for intuitive navigation and drag-and-drop interactions, were meticulously prioritized. The implementation of a color-theming system underscored the delicate balance between branding and user experience. The most rewarding aspect was witnessing the positive customer response to the design, despite changes to familiar functionality. The feedback was overwhelmingly positive, and usage surged.
+
 {% /block %}
