@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import localFont from 'next/font/local'
 import { useRouter } from 'next/router'
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/react'
 import { Layout, EmptyLayout } from '@/components'
 
 import '@/styles/reset.css'
