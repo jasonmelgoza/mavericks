@@ -27,7 +27,12 @@
 }
 
 .root :global(.gallery-caption) {
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
   margin-bottom: 0;
+  line-height: 1.125;
   color: var(--gray-10);
+}
+
+.root :global(.gallery-caption) small {
+  font-size: 1rem;
 }
