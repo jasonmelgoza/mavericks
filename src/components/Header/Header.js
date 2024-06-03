@@ -26,8 +26,8 @@ export default function Header({ layout }) {
   return (
     <header className={styles.root}>
       <div className={styles.inner}>
-        <div>
-          <Link className={styles.logo} href='/' ref={glitch.ref} aria-label="Back to home">
+        <div ref={glitch.ref}>
+          <Link className={styles.logo} href='/' aria-label="Back to home">
             <SvgLogo />
           </Link>
         </div>

@@ -38,7 +38,13 @@
   content: "";
 }
 
-.root :global(.article-pagination) {
+.root :global(.article-back) {
+  display: inline-block;
+  width: auto;
+  flex: 0;
+}
+
+.root :global(.article-back) a {
   display: inline-flex;
   flex-direction: row;
   align-items: center;
@@ -51,23 +57,23 @@
   gap: 0.5rem;
 }
 
-.root :global(.article-pagination):hover {
+.root :global(.article-back) a:hover {
   color: var(--gray-1);
   background-color: var(--red-9);
 }
 
-.root :global(.article-pagination) span {
+.root :global(.article-back) span {
   font-size: 16.4609px;
   line-height: 12px;
 }
 
-.root :global(.article-pagination) span::before {
+.root :global(.article-back) span::before {
   display: table;
   margin-bottom: -0.0005em;
   content: "";
 }
 
-.root :global(.article-pagination) span::after {
+.root :global(.article-back) span::after {
   display: table;
   margin-top: 0.0005em;
   content: "";
