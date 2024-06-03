@@ -51,11 +51,6 @@ export default function Header({ layout }) {
                       <span>About</span>
                     </a>
                   </li>
-                  <li>
-                    <a href='/resources'>
-                      <span>Resources</span>
-                    </a>
-                  </li>
                 </ul>
               </nav>
             </CollapsibleMenu>
@@ -76,11 +71,6 @@ export default function Header({ layout }) {
                     <span ref={glitch.ref}>About</span>
                   </a>
                 </li>
-                <li>
-                  <a href='/resources'>
-                    <span ref={glitch.ref}>Resources</span>
-                  </a>
-                </li>
               </ul>
             </nav>
           </>
@@ -97,9 +87,6 @@ export default function Header({ layout }) {
                   </li>
                   <li>
                     <a href='#about'>About</a>
-                  </li>
-                  <li>
-                    <a href='/resources'>Resources</a>
                   </li>
                 </ul>
               </nav>
@@ -119,11 +106,6 @@ export default function Header({ layout }) {
                 <li>
                   <a href='#about'>
                     <span ref={glitch.ref}>About</span>
-                  </a>
-                </li>
-                <li>
-                  <a href='/resources'>
-                    <span ref={glitch.ref}>Resources</span>
                   </a>
                 </li>
               </ul>

@@ -124,6 +124,12 @@
   gap: 1rem;
 }
 
+@media (max-width: 1025px) {
+  .bottom :global(.bottom-social) {
+    font-size: 1rem;
+  }
+}
+
 .bottom :global(.bottom-copyright) {
   font-size: 0.875rem;
   font-style: normal;
