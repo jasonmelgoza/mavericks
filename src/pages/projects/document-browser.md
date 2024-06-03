@@ -23,7 +23,7 @@ In 2018, I became SecureDocs' first UI Designer and worked closely with the engi
 
 One of my early projects where I utilized this process was redesigning SecureDocs's file browser interface, an essential tool for our customers. It was a collaborative effort and a notable achievement for our small, cross-functional team.
 
-The main purpose of the file browser app is to serve as a centralized hub for customers to manage business documents, including contracts. We aimed to create a user-friendly interface similar to Microsoft's "File Explore" or Apple's "Finder," allowing users to effortlessly interact with their documents with patterns such as drag-and-drop or contextual menus where they'd expect them.
+The main purpose of the file browser app is to serve as a centralized hub for customers to manage business documents, including contracts. We aimed to create a user-friendly interface similar to Microsoft's "[File Explore](https://en.wikipedia.org/wiki/File_Explorer)" or  Apple's "[Finder](https://en.wikipedia.org/wiki/Finder_(software))," allowing users to effortlessly interact with their documents with patterns such as drag-and-drop or contextual menus where they'd expect them.
 
 {% /block %}
 {% block %}
