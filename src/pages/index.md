@@ -25,28 +25,28 @@ Recently at SecureDocs Inc. as a member of a cross-functional team dedicated to 
 
 {% gallery className="hero-gallery" caption="A few screens showcasing some recent projects." %}
 {% galleryItem
-  alt="Select components and styles from the Basis Design System."
+  alt="Select components and styles from the Basis Design System. This system serves as our primary component library across SecureDocs."
   original="/images/basis-components-full.png"
   thumbnail="/images/basis-components-thumb.png"
   width="1608"
   height="1258"
 /%}
 {% galleryItem
-  alt="test two"
+  alt="The ContractWorks document browser serves as the central hub for customers to upload and manage their business documents."
   original="/images/document-browser-full.png"
   thumbnail="/images/document-browser-thumb.png"
   width="1600"
   height="1200"
 /%}
 {% galleryItem
-  alt="The document detail panel displays various information about the document."
+  alt="The document detail panel displays various information about the document. The goal of this design was to easily display some of the data collected."
   original="/images/report-detail-full.png"
   thumbnail="/images/report-detail-thumb.png"
   width="2048"
   height="1536"
 /%}
 {% galleryItem
-  className="A concept of a folder filter interface, allowing the user to view and select folders."
+  className="A concept of a folder filter interface, allowing the user to view and select folders, quickly."
   alt="test two"
   original="/images/folder-filter-full.png"
   thumbnail="/images/folder-filter-thumb.png"
@@ -54,7 +54,7 @@ Recently at SecureDocs Inc. as a member of a cross-functional team dedicated to 
   height="1200"
 /%}
 {% galleryItem
-  alt="test two"
+  alt="This concept introduces a new document-editing feature that we are currently exploring."
   original="/images/document-editor-full.png"
   thumbnail="/images/document-editor-thumb.png"
   width="1600"
