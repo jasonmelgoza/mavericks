@@ -58,3 +58,13 @@
 .root a:hover {
   color: var(--red-9)
 }
+
+.root code {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  color: var(--fg);
+  border-radius: 6px;
+  white-space: break-spaces;
+  background-color: var(--gray-a3);
+}
