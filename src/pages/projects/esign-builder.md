@@ -49,7 +49,7 @@ A design sprint is a five-day process where product and development teams collab
 
 We discovered that customers had difficulty sending contracts and other business documents through our product. They described it as a complex and cumbersome process, requiring navigating through various parts of the product to acomplish this task. After identifying this issue, we realized the need to create a simpler process with clear instructions at each step. The team and I agreed that a wizard pattern would be our saving grace.
 
-For obvious reasons, the sketching and design phases of the process were my favorite. As the team's designer, I was responsible for visualizing ideas and introducing Figma to my teammates as our main tool for prototyping and collaboration. Once we settled on a solution, we all participated in building out a messy but efficient prototype that we used for research. We brought back our subject matter experts and a few customers from earlier in the week, tested our solution and answered a ton of questions.
+For obvious reasons, the sketching and design phases of the process were my favorite. As the team's designer, I was responsible for visualizing ideas and introducing Figma to my teammates as our main tool for prototyping and collaboration. Once we settled on a solution, we all participated in building out a rough but efficient prototype that we used for research. We brought back our subject matter experts and a few customers from earlier in the week, tested our solution and answered a ton of questions.
 
 {% gallery caption="Our first prototype and a glimpse of the conference room where we started building it." %}
 {% galleryItem
