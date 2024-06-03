@@ -27,7 +27,7 @@ export default function Header({ layout }) {
     <header className={styles.root}>
       <div className={styles.inner}>
         <div>
-          <Link className={styles.logo} href='/' ref={glitch.ref}>
+          <Link className={styles.logo} href='/' ref={glitch.ref} aria-label="Back to home">
             <SvgLogo />
           </Link>
         </div>
@@ -37,16 +37,24 @@ export default function Header({ layout }) {
               <nav role='navigation' className='nav-mobile'>
                 <ul>
                   <li>
-                    <a href='/#work'>Work</a>
+                    <a href='/#work'>
+                      <span>Work</span>
+                    </a>
                   </li>
                   <li>
-                    <a href='/#projects'>Projects</a>
+                    <a href='/#projects'>
+                      <span>Projects</span>
+                    </a>
                   </li>
                   <li>
-                    <a href='/#about'>About</a>
+                    <a href='/#about'>
+                      <span>About</span>
+                    </a>
                   </li>
                   <li>
-                    <a href='/resources'>Resources</a>
+                    <a href='/resources'>
+                      <span>Resources</span>
+                    </a>
                   </li>
                 </ul>
               </nav>
@@ -54,23 +62,23 @@ export default function Header({ layout }) {
             <nav role='navigation' className='nav-desktop'>
               <ul>
                 <li>
-                  <a href='/#work' ref={glitch.ref}>
-                    Work
+                  <a href='/#work'>
+                    <span ref={glitch.ref}>Work</span>
                   </a>
                 </li>
                 <li>
-                  <a href='/#projects' ref={glitch.ref}>
-                    Projects
+                  <a href='/#projects'>
+                    <span ref={glitch.ref}>Projects</span>
                   </a>
                 </li>
                 <li>
-                  <a href='/#about' ref={glitch.ref}>
-                    About
+                  <a href='/#about'>
+                    <span ref={glitch.ref}>About</span>
                   </a>
                 </li>
                 <li>
-                  <a href='/resources' ref={glitch.ref}>
-                    Resources
+                  <a href='/resources'>
+                    <span ref={glitch.ref}>Resources</span>
                   </a>
                 </li>
               </ul>
@@ -99,23 +107,23 @@ export default function Header({ layout }) {
             <nav role='navigation' className='nav-desktop'>
               <ul>
                 <li>
-                  <a href='#work' ref={glitch.ref}>
-                    Work
+                  <a href='#work'>
+                    <span ref={glitch.ref}>Work</span>
                   </a>
                 </li>
                 <li>
-                  <a href='#projects' ref={glitch.ref}>
-                    Projects
+                  <a href='#projects'>
+                    <span ref={glitch.ref}>Projects</span>
                   </a>
                 </li>
                 <li>
-                  <a href='#about' ref={glitch.ref}>
-                    About
+                  <a href='#about'>
+                    <span ref={glitch.ref}>About</span>
                   </a>
                 </li>
                 <li>
-                  <a href='/resources' ref={glitch.ref}>
-                    Resources
+                  <a href='/resources'>
+                    <span ref={glitch.ref}>Resources</span>
                   </a>
                 </li>
               </ul>

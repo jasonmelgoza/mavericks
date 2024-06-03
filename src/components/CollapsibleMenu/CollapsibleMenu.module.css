@@ -17,8 +17,9 @@
   left: 0px;
   z-index: 1;
   width: 100%;
-  padding: 1rem 0 2rem 0;
+  padding: 1rem 0 1.5rem 0;
   background: #fff;
+  border-bottom: 1px solid var(--gray-4);
 }
 
 .burger {
@@ -46,7 +47,7 @@
   opacity: 1;
   transition: 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
   transform: translate3d(0, 0, 0);
-  transform-origin: 0% 50%;
+  transform-origin: 100% 50%;
 }
 
 .burger>*:nth-child(3) {
@@ -57,11 +58,11 @@
   opacity: 0;
 }
 .burger:global(.burger-open)>*:nth-child(1) {
-  transform: rotate(45deg) translate3d(0, 0, 0);
+  transform: rotate(-45deg) translate3d(0, 0, 0);
 }
 .burger:global(.burger-open)>*:nth-child(3) {
   width: 100%;
-  transform: rotate(-45deg) translate3d(0, 0, 0);
+  transform: rotate(45deg) translate3d(0, 0, 0);
 }
 
 @media (max-width: 1025px) {

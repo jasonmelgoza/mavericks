@@ -44,29 +44,26 @@ export default function Footer() {
             <ul className='bottom-social'>
               <li>
                 <a
-                  ref={glitch.ref}
                   href='https://www.linkedin.com/in/jasonmelgoza/'
                   target='_blank'
                 >
-                  Linkedin
+                  <span ref={glitch.ref}>LinkedIn</span>
                 </a>
               </li>
               <li>
                 <a
-                  ref={glitch.ref}
                   href='https://www.dribbble.com/jasonmelgoza'
                   target='_blank'
                 >
-                  Dribbble
+                  <span ref={glitch.ref}>Dribbble</span>
                 </a>
               </li>
               <li>
                 <a
-                  ref={glitch.ref}
                   href='https://www.github.com/jasonmelgoza'
                   target='_blank'
                 >
-                  Github
+                  <span ref={glitch.ref}>GitHub</span>
                 </a>
               </li>
             </ul>

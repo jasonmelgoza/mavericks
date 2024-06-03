@@ -6,7 +6,7 @@
 .inner {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   width: 100%;
   max-width: 900px;
@@ -93,9 +93,13 @@
 }
 
 .inner :global(.nav-mobile) a {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1;
   letter-spacing: -0.09px;
+}
+
+.inner :global(.nav-mobile) a:hover {
+  color: var(--red-9);
 }
