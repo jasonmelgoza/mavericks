@@ -77,7 +77,7 @@ To ensure the design remained adaptable for accommodating multiple brands and ai
 
 ## Impact
 
-The project yielded remarkable results, with annual document uploads skyrocketing from nearly 1.7 million in 2019 to over 4.9 million in 2023, marking an impressive growth of nearly 194%. Moreover, the visual design language developed during this endeavor laid the foundation for our design system, "[Basis](/projects/basis)," proving invaluable to myself, my colleagues, and future team members throughout my time on the SecureDocs product team.
+The project yielded remarkable results, with annual document uploads skyrocketing from nearly 1.7 million in 2019 to over 4.9 million in 2023, marking an impressive growth of nearly 194%. Moreover, the visual design language developed during this endeavor laid the foundation for our design system, "[Basis](/projects/basis-design-system)," proving invaluable to myself, my colleagues, and future team members throughout my time on the SecureDocs product team.
 
 Overall, this project provided numerous valuable lessons. We honed an efficient design process, fostering close collaboration with the engineering team to craft a seamless user experience. Key features, such as the sidebar for intuitive navigation and drag-and-drop interactions, were meticulously prioritized. The implementation of a color-theming system underscored the delicate balance between branding and user experience. The most rewarding aspect was witnessing the positive customer response to the design, despite changes to familiar functionality. The feedback was overwhelmingly positive, and usage surged.
 
