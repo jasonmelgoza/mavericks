@@ -46,8 +46,7 @@ Recently at SecureDocs Inc. as a member of a cross-functional team dedicated to 
   height="1536"
 /%}
 {% galleryItem
-  className="A concept of a folder filter interface, allowing the user to view and select folders, quickly."
-  alt="test two"
+  alt="The new folder-filter interface concept design. The goal here was to enable users to efficiently view and select folders to filter on."
   original="/images/folder-filter-full.png"
   thumbnail="/images/folder-filter-thumb.png"
   width="1600"
