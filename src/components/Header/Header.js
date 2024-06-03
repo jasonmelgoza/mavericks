@@ -37,24 +37,16 @@ export default function Header({ layout }) {
               <nav role='navigation' className='nav-mobile'>
                 <ul>
                   <li>
-                    <a href='/#work' ref={glitch.ref}>
-                      Work
-                    </a>
+                    <a href='/#work'>Work</a>
                   </li>
                   <li>
-                    <a href='/#projects' ref={glitch.ref}>
-                      Projects
-                    </a>
+                    <a href='/#projects'>Projects</a>
                   </li>
                   <li>
-                    <a href='/#about' ref={glitch.ref}>
-                      About
-                    </a>
+                    <a href='/#about'>About</a>
                   </li>
                   <li>
-                    <a href='/resources' ref={glitch.ref}>
-                      Resources
-                    </a>
+                    <a href='/resources'>Resources</a>
                   </li>
                 </ul>
               </nav>
@@ -86,37 +78,45 @@ export default function Header({ layout }) {
           </>
         ) : (
           <>
-          <CollapsibleMenu>
-            <nav role='navigation' className='nav-mobile'>
-              <ul>
-                <li>
-                  <a href='#work'>Work</a>
-                </li>
-                <li>
-                  <a href='#projects'>Projects</a>
-                </li>
-                <li>
-                  <a href='#about'>About</a>
-                </li>
-                <li>
-                  <a href='/resources'>Resources</a>
-                </li>
-              </ul>
-            </nav>
-          </CollapsibleMenu>
+            <CollapsibleMenu>
+              <nav role='navigation' className='nav-mobile'>
+                <ul>
+                  <li>
+                    <a href='#work'>Work</a>
+                  </li>
+                  <li>
+                    <a href='#projects'>Projects</a>
+                  </li>
+                  <li>
+                    <a href='#about'>About</a>
+                  </li>
+                  <li>
+                    <a href='/resources'>Resources</a>
+                  </li>
+                </ul>
+              </nav>
+            </CollapsibleMenu>
             <nav role='navigation' className='nav-desktop'>
               <ul>
                 <li>
-                  <a href='#work'>Work</a>
+                  <a href='#work' ref={glitch.ref}>
+                    Work
+                  </a>
                 </li>
                 <li>
-                  <a href='#projects'>Projects</a>
+                  <a href='#projects' ref={glitch.ref}>
+                    Projects
+                  </a>
                 </li>
                 <li>
-                  <a href='#about'>About</a>
+                  <a href='#about' ref={glitch.ref}>
+                    About
+                  </a>
                 </li>
                 <li>
-                  <a href='/resources'>Resources</a>
+                  <a href='/resources' ref={glitch.ref}>
+                    Resources
+                  </a>
                 </li>
               </ul>
             </nav>
