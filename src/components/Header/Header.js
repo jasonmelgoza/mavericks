@@ -1,5 +1,6 @@
-import { useGlitch } from 'react-powerglitch'
 import Link from 'next/link'
+import { useGlitch } from 'react-powerglitch'
+import CollapsibleMenu from '../CollapsibleMenu'
 import styles from './Header.module.css'
 
 const SvgLogo = (props) => (
@@ -32,12 +33,33 @@ export default function Header({ layout }) {
         </div>
         {layout !== 'home' ? (
           <>
-            <button className={styles.burger}>
-              <span />
-              <span />
-              <span />
-            </button>
-            <nav>
+            <CollapsibleMenu>
+              <nav role='navigation' className='nav-mobile'>
+                <ul>
+                  <li>
+                    <a href='/#work' ref={glitch.ref}>
+                      Work
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/#projects' ref={glitch.ref}>
+                      Projects
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/#about' ref={glitch.ref}>
+                      About
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/resources' ref={glitch.ref}>
+                      Resources
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </CollapsibleMenu>
+            <nav role='navigation' className='nav-desktop'>
               <ul>
                 <li>
                   <a href='/#work' ref={glitch.ref}>
@@ -64,12 +86,25 @@ export default function Header({ layout }) {
           </>
         ) : (
           <>
-            <button className={styles.burger}>
-              <span />
-              <span />
-              <span />
-            </button>
-            <nav>
+          <CollapsibleMenu>
+            <nav role='navigation' className='nav-mobile'>
+              <ul>
+                <li>
+                  <a href='#work'>Work</a>
+                </li>
+                <li>
+                  <a href='#projects'>Projects</a>
+                </li>
+                <li>
+                  <a href='#about'>About</a>
+                </li>
+                <li>
+                  <a href='/resources'>Resources</a>
+                </li>
+              </ul>
+            </nav>
+          </CollapsibleMenu>
+            <nav role='navigation' className='nav-desktop'>
               <ul>
                 <li>
                   <a href='#work'>Work</a>
