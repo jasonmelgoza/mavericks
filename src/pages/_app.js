@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import localFont from 'next/font/local'
 import { useRouter } from 'next/router'
+import { Analytics } from '@vercel/analytics/react';
 import { Layout, EmptyLayout } from '@/components'
 
 import '@/styles/reset.css'
@@ -38,7 +39,8 @@ export default function App({ Component, pageProps, ...props }) {
 
   const isLanding = props.router.pathname === '/'
 
-if (router.pathname == '/404' || router.pathname == '/500') {    return (
+  if (router.pathname == '/404' || router.pathname == '/500') {
+    return (
       <EmptyLayout className={mona.className}>
         <Head>
           <meta
@@ -61,6 +63,7 @@ if (router.pathname == '/404' || router.pathname == '/500') {    return (
           <link rel='icon' href='/favicon.ico' />
         </Head>
         <Component {...pageProps} />
+        <Analytics />
       </EmptyLayout>
     )
   }
@@ -92,6 +95,7 @@ if (router.pathname == '/404' || router.pathname == '/500') {    return (
         frontmatter={pageProps.markdoc.frontmatter}
       >
         <Component {...pageProps} />
+        <Analytics />
       </Layout>
     </>
   )
