@@ -15,7 +15,7 @@ const mona = localFont({
 
 const TITLE = 'Jason Melgoza'
 const DESCRIPTION =
-  "I'm product designer focusing on visual design, design systems, and iconography"
+  "I'm a product designer focusing on visual design, design systems, and front-end development."
 const KEYWORDS =
   'product designer, designer, interface, ui design, ux design, design systems, minimal, jasonmelgoza, jason melgoza'
 
