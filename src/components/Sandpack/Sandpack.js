@@ -1,11 +1,11 @@
-import { Sandpack } from '@codesandbox/sandpack-react'
 import cx from 'clsx'
-import { Box } from '@/components'
-import styles from './Sandpack.module.scss'
+import { Sandpack } from '@codesandbox/sandpack-react'
+import styles from './Sandpack.module.css'
+import metalIcons from './packs/metalIcons'
 
-export default function App({ className }) {
+export default function SandpackComponent({ className }) {
   return (
-    <Box className={cx(styles.root, className)}>
+    <div className={cx(styles.root, className)}>
       <Sandpack
         template='react'
         customSetup={{
@@ -14,20 +14,9 @@ export default function App({ className }) {
           }
         }}
         files={{
-'/App.js': `import { FolderIcon, DocumentIcon, BookmarkIcon, HeartIcon } from 'metal-icons/16/solid' 
-
-export default function App() {
-  return (
-    <div style={{ width: '100%', height: '96vh', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem'}}>
-      <FolderIcon />
-      <DocumentIcon />
-      <BookmarkIcon />
-      <HeartIcon />
-    </div>
-  )
-}`
+          '/App.js': metalIcons
         }}
       />
-    </Box>
+    </div>
   )
 }

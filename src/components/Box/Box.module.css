@@ -1,0 +1,43 @@
+.root {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+.root {
+  display: block;
+  width: 100%;
+}
+
+.root:global(.flex) {
+  display: flex;
+  width: 100%;
+}
+
+.root:global(.flex-row) {
+  flex-direction: row;
+}
+
+@media (max-width: 1025px) {
+  .root:global(.flex-row){
+    flex-direction: column;
+  }
+}
+
+.root:global(.flex-col) {
+  flex-direction: column;
+}
+
+.root:global(.flex-gap-md) {
+  gap: 2rem;
+}
+
+.root:global(.flex-gap-lg) {
+  gap: 3rem;
+}

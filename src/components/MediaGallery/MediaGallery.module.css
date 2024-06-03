@@ -1,0 +1,38 @@
+.root {
+  margin-top: 2rem;
+}
+
+.root :global(.gallery-container) {
+  position: relative;
+  display: grid;
+  overflow: hidden;
+
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  grid-auto-rows: minmax(1fr, auto);
+}
+
+.root :global(.gallery-item-container) {
+  position: relative;
+  overflow: hidden;
+}
+
+.root :global(.gallery-item) {
+  border: 1px solid var(--gray-a3);
+}
+
+.root :global(.gallery-item-container:first-child) {
+  grid-column: 1 / 6;
+  grid-row: 1;
+}
+
+.root :global(.gallery-caption) {
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+  line-height: 1.125;
+  color: var(--gray-10);
+}
+
+.root :global(.gallery-caption) small {
+  font-size: 1rem;
+}

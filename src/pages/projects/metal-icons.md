@@ -1,20 +1,15 @@
 ---
 title: Metal Icons
-description: Icons from the Metal collection
-category: projects
-type: Personal Project
-roles: Visual Design, UX Design, Illustration, Front-end Development
 ---
 
-# {% $markdoc.frontmatter.title %}
+{% block %}
 
-{% gallery
-  className="hero-galler-custom"
-  caption="Icons from the Metal collection." %}
+{% articleHeader subheading="Ongoing Project" title="Metal Icons" /%}
+
+{% gallery className="hero-gallery" caption="Icons from the Metal collection." %}
 {% galleryItem
   alt="An image displaying some of the icons from the Metal collection."
   caption="Icons from the Metal collection."
-  className="media-filebrowser-themes"
   original="/images/metal-icons-full.png"
   thumbnail="/images/metal-icons-thumb.png"
   width="1600"
@@ -22,14 +17,15 @@ roles: Visual Design, UX Design, Illustration, Front-end Development
 /%}
 {% /gallery %}
 
-{% descriptionList term="Type" detail=$markdoc.frontmatter.type /%}
-{% descriptionList term="Roles" detail=$markdoc.frontmatter.roles /%}
-
 Over the years, I have tried all sorts of icon families and sets available online, but I consistently face the same issue: it's challenging, if not impossible, to find a comprehensive icon set that meets all my project requirements.
 
 Sometimes you come across a fantastic icon set, only to discover that it's lacking a few essential illustrations. I've also had situations where I require an outlined version of a set or a different size. In all these situations it was another designer or design team applying rules and requirements taken from their project, their product or company brand.
 
 I believe that for a product to appear unique and mature while maintaining a cohesive feel, it is important to have its own custom iconography. So, I've set out to start building my own icon set—one that I can independently grow and utilize on projects I'm currently working on, and also rely on when I need to move quickly on an idea.
+
+{% /block %}
+
+{% block %}
 
 ## The Design System
 
@@ -53,30 +49,28 @@ My keyline templates keep me honest. They represent the set's rules visually, al
 
 ![Icon types](/images/metal-icons-keylines.png)
 
+{% /block %}
+
+{% block %}
+
 ## Component Library
 
 While designing and growing this icon collection, I have also been building the component library for React. That way, any developer using React can utilize this set.
 
-{% sandpack
-  className="metal-icons-project"
-/%}
-
-My goal with this project is not only to fulfill the need for a comprehensive icon collection that I have *full* control over but also to expand this process into a larger UI project in the future 🤘.
-
-{% block as="div" className="block-callout" %}
-
-{% details
-  heading="MetalIcons.com"
-  link="https://metalicons.com"
-/%}
-
-I have launched a [new site](https://metalicons.com) for the project, and you can track its progress on [GitHub](https://github.com/jasonmelgoza/metal-icons). There, I have stored all 150 icons in both outline and solid variations there. You can also find a [Figma community file](https://www.figma.com/community/file/1275692756020345515/metal-icons) with all icons as components, ready to be used in your next Figma project.
+{% sandpack className="metal-icons-project" /%}
 
 {% /block %}
 
-{% pagination 
-  prevName="Basis Design System"
-  prevHref="/projects/basis" 
-  nextName="Designing a File-Browser"
-  nextHref="/projects/file-browser" 
-/%}
+{% block %}
+
+My goal with this project is not only to fulfill the need for a comprehensive icon collection that I have full control over but also to expand this process into a larger UI project in the future 🤘.
+
+{% callout %}
+
+### [MetalIcons.com](https://metalicons.com)
+
+I have launched a [new site](https://metalicons.com) for the project, and you can track its progress on [GitHub](https://github.com/jasonmelgoza/metal-icons). There, I have stored all 150 icons in both outline and solid variations there. You can also find a [Figma community file](https://www.figma.com/community/file/1275692756020345515/metal-icons) with all icons as components, ready to be used in your next Figma project.
+
+{% /callout %}
+
+{% /block %}

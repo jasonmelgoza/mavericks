@@ -1,0 +1,70 @@
+.root {
+  width: 100%;
+}
+
+.root p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  letter-spacing: -0.05px;
+}
+
+.root p:first-child {
+  margin-top: 0;
+}
+
+.root p:last-child {
+  margin-bottom: 0;
+}
+
+.root h1+p,
+.root h2+p,
+.root h3+p,
+.root h4+p {
+  margin-top: 0;;
+}
+
+.root ul,
+.root ol {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  margin-left: 1rem;
+}
+
+.root ul:first-child,
+.root ol:first-child {
+  margin-top: 0;
+}
+
+.root ul li,
+.root ol li {
+  letter-spacing: -0.05px;
+}
+
+.root ul li:not(:last-child),
+.root ol li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.root :global(img:not(.gallery-item)) {
+  border: 1px solid var(--gray-a3);
+}
+
+.root a {
+  font-weight: 550;
+  color: var(--fg);
+  text-decoration: underline;
+}
+
+.root a:hover {
+  color: var(--red-9)
+}
+
+.root code {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  color: var(--fg);
+  border-radius: 6px;
+  white-space: break-spaces;
+  background-color: var(--gray-a3);
+}

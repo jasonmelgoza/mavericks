@@ -1,12 +1,14 @@
-import cx from 'clsx'
-import { Header } from '@/components'
-import styles from './Layout.module.scss'
+import Footer from '../Footer'
+import Header from '../Header'
+
+import styles from './Layout.module.css'
 
 export default function Layout({ children, className }) {
   return (
-    <main className={cx(styles.root, className)}>
+    <div className={className}>
       <Header />
-      {children}
-    </main>
-  );
+      <main className={styles.root}>{children}</main>
+      <Footer />
+    </div>
+  )
 }

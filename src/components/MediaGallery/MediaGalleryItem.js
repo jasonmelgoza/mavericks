@@ -1,10 +1,6 @@
 import { Item } from 'react-photoswipe-gallery'
 import cx from 'clsx'
 
-/**
- * Renders a gallery item for the hero section.
- * This component uses react-photoswipe-gallery for image functionality.
- */
 export const MediaGalleryItem = ({
   alt,
   caption,
