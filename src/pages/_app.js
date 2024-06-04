@@ -59,7 +59,8 @@ export default function App({ Component, pageProps, ...props }) {
           <meta property='og:image:type' content='image/png' />
           <meta property='og:image:width' content='400' />
           <meta property='og:image:height' content='200' />
-          <meta property="twitter:image" content='/og-image.png' />
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta name="twitter:creator" content="@jasonmelgoza" />
           <title>{title}</title>
           <link rel='icon' href='/favicon.ico' />
         </Head>
@@ -84,7 +85,8 @@ export default function App({ Component, pageProps, ...props }) {
         <meta property='og:image:type' content='image/png' />
         <meta property='og:image:width' content='400' />
         <meta property='og:image:height' content='200' />
-        <meta property="twitter:image" content='/og-image.png' />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@jasonmelgoza" />
         {isLanding ? (
           <title>{TITLE}</title>
         ) : (
