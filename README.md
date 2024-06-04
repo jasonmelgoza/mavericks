@@ -1,11 +1,10 @@
-# California
+# Mavericks
 
-## Getting Started
+Source code to my personal website [jmelgoza.com](https://www.jmelgoza.com/).
 
-First, run the development server:
+## Stack
 
-```bash
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [React.js](https://react.dev/)
+- [Next.js](https://nextjs.org/)
+- [Markdoc](https://markdoc.dev/)
+- [PhotoSwipe](https://photoswipe.com/)
