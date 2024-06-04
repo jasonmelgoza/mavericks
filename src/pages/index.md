@@ -112,7 +112,7 @@ Recently at SecureDocs Inc. as a member of a cross-functional team dedicated to 
 
 {% box className="flex flex-row flex-gap-md" %}
   {% box className="flex flex-col" %}
-    ![Jason Melgoza](./headshot.png)
+    ![Jason Melgoza](./images/headshot.jpg)
   {% /box %}
 
   {% box %}
