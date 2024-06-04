@@ -53,7 +53,7 @@ Recently at SecureDocs Inc. as a member of a cross-functional team dedicated to 
   height="1200"
 /%}
 {% galleryItem
-  alt="This concept introduces a new document-editing feature that we are currently exploring."
+  alt="This concept introduces a new document-editing feature that we explored."
   original="/images/document-editor-full.png"
   thumbnail="/images/document-editor-thumb.png"
   width="1600"
