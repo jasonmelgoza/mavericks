@@ -1,7 +1,3 @@
----
-layout: home
----
-
 {% block className="hero" id="hero" %}
 
 # JASON MELGOZA
