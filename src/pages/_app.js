@@ -51,7 +51,7 @@ export default function App({ Component, pageProps, ...props }) {
           <meta name='title' content={title} />
           <meta name='description' content={description} />
           <meta name='keywords' content={keywords} />
-          <meta property='og:url' content='https://jasonmelgoza.com/' />
+          <meta property='og:url' content='https://www.jmelgoza.com/' />
           <meta property='og:type' content='website' />
           <meta property='og:title' content={title} />
           <meta property='og:description' content={description} />
@@ -77,7 +77,7 @@ export default function App({ Component, pageProps, ...props }) {
         <meta name='title' content={title} />
         <meta name='description' content={description} />
         <meta name='keywords' content={keywords} />
-        <meta property='og:url' content='https://jasonmelgoza.com/' />
+        <meta property='og:url' content='https://www.jmelgoza.com/' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content={TITLE} />
         <meta property='og:description' content={description} />
