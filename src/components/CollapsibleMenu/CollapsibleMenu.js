@@ -3,34 +3,27 @@ import * as Collapsible from '@radix-ui/react-collapsible'
 import cx from 'clsx'
 import styles from './CollapsibleMenu.module.css'
 
-const CollapsibleMenu = ({children}) => {
+const CollapsibleMenu = ({ children }) => {
   const [open, setOpen] = React.useState(false)
   return (
     <Collapsible.Root
-      className={cx(open ? styles.open : styles.closed, 'CollapsibleRoot')}
+      className={cx(styles.root)}
       open={open}
       onOpenChange={setOpen}
     >
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between'
-        }}
+      <Collapsible.Trigger asChild>
+        <button
+          aria-label='Toggle mobile menu'
+          className={cx(styles.trigger, open ? 'TriggerOpen' : 'TriggerClosed')}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+      </Collapsible.Trigger>
+      <Collapsible.Content
+        className={cx(styles.content, open ? 'ContentOpen' : 'ContentClosed')}
       >
-        <Collapsible.Trigger asChild>
-          <button
-            aria-label="Toggle mobile menu"
-            className={cx(styles.burger, open ? 'burger-open' : 'burger-closed')}
-          >
-            <span />
-            <span />
-            <span />
-          </button>
-        </Collapsible.Trigger>
-      </div>
-
-      <Collapsible.Content className={open ? styles.navOpen : styles.navClosed}>
         {children}
       </Collapsible.Content>
     </Collapsible.Root>
