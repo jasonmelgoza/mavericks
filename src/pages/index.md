@@ -78,7 +78,7 @@ Recently at SecureDocs Inc. as a member of a cross-functional team dedicated to 
       description="How we boosted our E-Sign adoption by 552%"
     /%}
     {% item
-      heading="Building a Design System"
+      heading="Developing a Design System"
       href="projects/building-designkit"
       description="How I helped improve velocity and efficiency"
     /%}
