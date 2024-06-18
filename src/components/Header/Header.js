@@ -37,19 +37,19 @@ export default function Header({ layout }) {
               <nav role='navigation' className='nav-mobile'>
                 <ul>
                   <li>
-                    <a href='/#work'>
+                    <Link href='/#work'>
                       <span>Work</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='/#projects'>
+                    <Link href='/#projects'>
                       <span>Projects</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='/#about'>
+                    <Link href='/#about'>
                       <span>About</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </nav>
