@@ -16,6 +16,9 @@
   box-shadow: var(--shadow-1);
   transform-origin: 100% 0;
 }
+.content nav ul {
+  list-style: none;
+}
 .content:global(.ContentOpen) {
   animation: slideDown 250ms var(--ease-1);
 }
