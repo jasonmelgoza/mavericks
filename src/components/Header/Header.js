@@ -57,19 +57,24 @@ export default function Header({ layout }) {
             <nav role='navigation' className='nav-desktop'>
               <ul>
                 <li>
-                  <a href='/#work'>
+                  <Link href='/#work'>
                     <span ref={glitch.ref}>Work</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href='/#projects'>
+                  <Link href='/#projects'>
                     <span ref={glitch.ref}>Projects</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href='/#about'>
+                  <Link href='/#about'>
                     <span ref={glitch.ref}>About</span>
-                  </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/resources'>
+                    <span ref={glitch.ref}>Resources</span>
+                  </Link>
                 </li>
               </ul>
             </nav>
