@@ -21,7 +21,7 @@ description: A few of my favorite design resources, frameworks, and tools I'm cu
       external="true"
       heading="Storybook"
       href="https://storybook.js.org/"
-      description="A tool for building components and pages in isolation."
+      description="A UI development and documentation tool."
     /%}
     {% item
       external="true"
