@@ -5,6 +5,7 @@ export default {
   attributes: {
     className: { type: String },
     description: { type: String },
+    external: { type: Boolean },
     heading: { type: String },
     href: { type: String },
     number: { type: Number },
