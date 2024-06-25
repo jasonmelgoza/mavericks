@@ -6,6 +6,7 @@ import styles from './Item.module.css'
 export default function Item({
   className,
   description,
+  external,
   heading,
   href,
   number,
@@ -21,7 +22,13 @@ export default function Item({
       <div className='item-column'>
         {href ? (
           <div className='item-heading'>
-            <Link href={href}>{heading}</Link>
+            {external ? (
+              <a href={href} target='_blank' rel='noopener noreferrer'>
+                {heading}
+              </a>
+            ) : (
+              <Link href={href}>{heading}</Link>
+            )}
           </div>
         ) : (
           <div className='item-heading'>{heading}</div>

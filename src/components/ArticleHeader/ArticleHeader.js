@@ -31,7 +31,9 @@ export default function ArticleHeader({ subheading, title }) {
           <span>Back</span>
         </Link>
       </div>
-      <p className='article-subheading'>{subheading}</p>
+      {subheading && (
+        <p className='article-subheading'>{subheading}</p>
+      )}
       <h2 className='article-title'>{title}</h2>
     </header>
   )
