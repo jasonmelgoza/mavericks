@@ -286,12 +286,6 @@ description: A few of my favorite design resources, frameworks, and tools I'm cu
       href="https://fixel.macpaw.com/"
       description="An open-source typeface from MacPaw."
     /%}
-    {% item
-      external="true"
-      heading="SN Pro"
-      href="https://supernotes.app/blog/posts/sn-pro-font-family/"
-      description="A custom font family from the Supernotes team."
-    /%}
   {% /box %}
 
 {% /box %}
@@ -305,42 +299,60 @@ description: A few of my favorite design resources, frameworks, and tools I'm cu
   {% box %}
     {% item
       external="true"
-      heading="Raycast"
-      href="https://www.raycast.com/"
-      description="A powerful application launcher and productivity tool."
+      heading="Noise & Texture"
+      href="https://www.figma.com/community/plugin/1138854718618193875/noise-texture"
+      description="A tool to generate tiled noise, textures and patterns."
     /%}
     {% item
       external="true"
-      heading="Arc Browser"
-      href="https://arc.net/" 
-      description="A modern web browser built on Chrome."
+      heading="Beautiful Shadows"
+      href="https://www.figma.com/community/plugin/1068595505353552645/beautiful-shadows" 
+      description="Easily create beautiful shadows."
     /%}
     {% item
       external="true"
-      heading="Figma"
-      href="https://www.tldraw.com/"
-      description="The best design app, hands down."
+      heading="Supa Gradient"
+      href="https://www.figma.com/community/plugin/1097681662687985794/supa-gradient"
+      description="Create, edit and manage beautiful gradients."
+    /%}
+    {% item
+      external="true"
+      heading="Sparkliner"
+      href="https://www.figma.com/community/plugin/1104468340333278614/sparkliner"
+      description="A tool for creating data visualizations within Figma."
+    /%}
+    {% item
+      external="true"
+      heading="BlendingMe"
+      href="https://www.figma.com/community/plugin/887243243437608411/blendingme"
+      description="A tool to blend two objects like lines or rectangles."
     /%}
   {% /box %}
 
   {% box %}
     {% item
       external="true"
-      heading="Notion"
-      href="https://www.notion.so/"
-      description="A note-taking, task management, project planning app."
+      heading="Charts Modifier"
+      href="https://www.figma.com/community/plugin/1184749025425536284/charts-modifier"
+      description="A powerful chart creation and editing tool."
     /%}
     {% item
       external="true"
-      heading="Things"
-      href="https://culturedcode.com/things/"
-      description="A personal task and project manager."
+      heading="Propstar"
+      href="https://www.figma.com/community/plugin/1116018586739867857/propstar"
+      description="Generate all possible instances for your components."
     /%}
     {% item
       external="true"
-      heading="Visual Studio Code"
-      href="https://code.visualstudio.com/"
-      description="My code editor of choice."
+      heading="LilGrid"
+      href="https://www.figma.com/community/plugin/795397421598343178/lilgrid"
+      description="Automatically arranges elements into a grid."
+    /%}
+    {% item
+      external="true"
+      heading="Typescales"
+      href="https://www.figma.com/community/plugin/739825414752646970/typescales"
+      description="Craft appealing typographic hierarchies using modular scales."
     /%}
   {% /box %}
 
