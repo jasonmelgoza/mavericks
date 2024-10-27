@@ -26,7 +26,13 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
 
       <main className={`${styles.main} ${geistSans.variable} ${geistMono.variable}`}>
+        <header>
+          <h1>Jason Melgoza</h1>
+        </header>
         <Component {...pageProps} />
+        <footer>
+          <p>&copy; Jason Melgoza</p>
+        </footer>
       </main>
     </>
   );

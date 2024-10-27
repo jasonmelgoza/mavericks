@@ -2,8 +2,48 @@
   display: flex;
   flex-direction: column;
   font-family: var(--font-geist-sans);
+
   gap: 32px;
   grid-row-start: 2;
+}
+
+.main header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 720px;
+  padding-top: min(6vw, 48px);
+  padding-right: min(6vw, 48px);
+  padding-left: min(6vw, 48px);
+  margin: 0 auto;
+}
+
+.main footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 720px;
+  padding: min(6vw, 48px);
+  margin: 0 auto;
+}
+
+.main article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 720px;
+  padding-right: min(6vw, 48px);
+  padding-bottom: min(6vw, 48px);
+  padding-left: min(6vw, 48px);
+  margin: 0 auto;
+
+  row-gap: min(6vw, 24px);
+}
+
+.main article p {
+  font-size: min(6vw, 24px);
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 @media (prefers-color-scheme: dark) {
