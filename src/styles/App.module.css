@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-geist-sans);
+  gap: 32px;
+  grid-row-start: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo {
+    filter: invert();
+  }
+}
