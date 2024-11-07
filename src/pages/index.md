@@ -5,7 +5,7 @@ intro: Hi, I'm Jason Melgoza. Building things at Bill.
 
 # {% $markdoc.frontmatter.intro %}
 
-I'm interested in design systems, CSS, and icon design. Currently, I am a senior product designer on a cross-functional design system team at [Bill](https://www.bill.com/)
+I'm interested in design systems, CSS, and icon design. Currently, I am a senior product designer on a cross-functional design system team at [Bill](https://www.bill.com/).
 
 [Say Hi](https://google.com)
 
@@ -28,7 +28,7 @@ I'm interested in design systems, CSS, and icon design. Currently, I am a senior
 
 - Email
 - Linkedin
-- Dribbble
+- Bluesky
+- Layers
 - Github
-- Twitter
 - Resume
