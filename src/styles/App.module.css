@@ -28,7 +28,6 @@
 }
 
 .main footer p {
-  font-size: 1rem;
   font-weight: 400;
   opacity: 0.5;
 }
@@ -43,13 +42,7 @@
   padding-left: min(6vw, 48px);
   margin: 0 auto;
 
-  row-gap: min(6vw, 24px);
-}
-
-.main article p {
-  font-size: min(6vw, 24px);
-  font-weight: 400;
-  line-height: 1.6;
+  row-gap: min(6vw, 32px);
 }
 
 .main article ul {
