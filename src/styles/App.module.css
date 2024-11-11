@@ -3,7 +3,7 @@
   flex-direction: column;
   font-family: var(--font-geist-sans);
 
-  gap: 32px;
+  gap: 48px;
   grid-row-start: 2;
 }
 

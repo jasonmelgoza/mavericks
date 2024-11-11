@@ -362,12 +362,24 @@ postcss@8.4.31:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
+powerglitch@^2.3.2:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/powerglitch/-/powerglitch-2.3.4.tgz#b8fa0e7fe570168dc102ded98024803ae05cf179"
+  integrity sha512-QVCs/scRcI9caxykt95civDyZ0L0TahFSP2BU/Mn/db4WweKcT8rUwVdp/O+pr9nF744mVMFoYsMh9Zx7nW3vQ==
+
 react-dom@19.0.0-rc-69d4b800-20241021:
   version "19.0.0-rc-69d4b800-20241021"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.0.0-rc-69d4b800-20241021.tgz#e27b4f2c962236e9ece496a0ea1c9c7161608ea0"
   integrity sha512-ZXBsP/kTDLI9QopUaUgYJhmmAhO8aKz7DCv2Ui2rA9boCfJ/dRRh6BlVidsyb2dPzG01rItdRFQqwbP+x9s5Rg==
   dependencies:
     scheduler "0.25.0-rc-69d4b800-20241021"
+
+react-powerglitch@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-powerglitch/-/react-powerglitch-1.0.3.tgz#19acd8572b28a6d515be76118c34cb68156fda8a"
+  integrity sha512-jYIcvZJQoRWKckOWfgc59Bju6tLiBl2sRkWIr8X8/8RYXd/e07H7k+jJXinlemM/IGGrcG0Iq0HmJbAP13FrVg==
+  dependencies:
+    powerglitch "^2.3.2"
 
 react@19.0.0-rc-69d4b800-20241021:
   version "19.0.0-rc-69d4b800-20241021"
