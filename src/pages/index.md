@@ -8,9 +8,9 @@ Product & web designer based on California’s Central Coast, always looking for
 
 {% block className="secondary" id="secondary" %}
 
-A UX/UI designer with over 10 years of experience in SaaS product development. Available for remote-friendly work.
+A design systems specialist with over 10 years of experience in SaaS product development.
 
-Recently at SecureDocs Inc. as a member of a cross-functional team dedicated to crafting user-friendly, web-based software.
+Currenly working at [Bill](https://www.bill.com/) on a cross-functional design systems team dedicated to creating user-friendly, web-based software.
 
 {% button text="Contact" email="jasonmelgoza@gmail.com" className="contact" /%}
 
