@@ -44,6 +44,14 @@ export default function Footer() {
             <ul className='bottom-social'>
               <li>
                 <a
+                  href='https://bsky.app/profile/jmelgoza.com'
+                  target='_blank'
+                >
+                  <span ref={glitch.ref}>Bluesky</span>
+                </a>
+              </li>
+              <li>
+                <a
                   href='https://www.linkedin.com/in/jasonmelgoza/'
                   target='_blank'
                 >
