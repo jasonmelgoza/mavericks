@@ -37,6 +37,9 @@ const Layout: React.FC<LayoutProps> = ({
         </div>
       )}
       {children}
+      <footer>
+        <p>&copy; Jason Melgoza</p>
+      </footer>
     </main>
   );
 };
