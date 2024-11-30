@@ -1,18 +1,16 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import Link from "next/link";
-import localFont from "next/font/local";
 import Layout from "@/components/Layout";
-import SvgLogo from "@/components/Symbol";
+import LocalFont from "next/font/local";
 import "@/styles/globals.css";
-import styles from "@/styles/App.module.css";
 
-const geistSans = localFont({
+const geistSans = LocalFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
-const geistMono = localFont({
+
+const geistMono = LocalFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
@@ -46,21 +44,12 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main
-        className={`${styles.main} ${geistSans.variable} ${geistMono.variable}`}
+      <Layout
+        frontmatter={pageProps.markdoc.frontmatter}
+        className={`${geistSans.variable} ${geistMono.variable}`}
       >
-        <header>
-          <Link href="/">
-            <SvgLogo />
-          </Link>
-        </header>
-        <Layout frontmatter={pageProps.markdoc.frontmatter}>
-          <Component {...pageProps} />
-        </Layout>
-        <footer>
-          <p>&copy; Jason Melgoza</p>
-        </footer>
-      </main>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }

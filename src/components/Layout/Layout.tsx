@@ -1,29 +1,43 @@
 import React from "react";
 import Link from "next/link";
+import SvgLogo from "@/components/Symbol";
+import Styles from "@/styles/App.module.css";
 
 interface LayoutProps {
   children: React.ReactNode;
+  className?: string;
   frontmatter: {
-    layout?: string;
+    layout?: "page" | "default"; // Add explicit type for layout
     title?: string;
   };
 }
 
-const Layout: React.FC<LayoutProps> = ({ children, frontmatter }) => {
+const Layout: React.FC<LayoutProps> = ({
+  children,
+  className = "", // Add default value
+  frontmatter,
+}) => {
   const isPageLayout = frontmatter.layout === "page";
 
   return (
-    <div className="container">
+    <main className={`${Styles.main} ${className}`.trim()} role="main">
+      <header role="banner">
+        <Link href="/" aria-label="Home">
+          <SvgLogo />
+        </Link>
+      </header>
       {isPageLayout && (
-        <header>
-          <Link href="/">
+        <div className={Styles.pageHeader}>
+          {frontmatter.title && (
+            <h1 className={Styles.pageTitle}>{frontmatter.title}</h1>
+          )}
+          <Link href="/" className={Styles.backLink} aria-label="Back to home">
             Back
           </Link>
-          {frontmatter.title && <h1>{frontmatter.title}</h1>}
-        </header>
+        </div>
       )}
-      <main>{children}</main>
-    </div>
+      {children}
+    </main>
   );
 };
 
