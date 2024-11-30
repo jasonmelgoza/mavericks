@@ -1,9 +1,8 @@
 ---
 title: Markdoc
 description: How to get started with Markdoc
+layout: page
 ---
-
-# {% $markdoc.frontmatter.title %}
 
 ## Get started with Markdoc
 

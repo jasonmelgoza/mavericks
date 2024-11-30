@@ -2,6 +2,7 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 import Link from "next/link";
 import localFont from "next/font/local";
+import Layout from "@/components/Layout";
 import SvgLogo from "@/components/Symbol";
 import "@/styles/globals.css";
 import styles from "@/styles/App.module.css";
@@ -53,7 +54,9 @@ export default function App({ Component, pageProps }: AppProps) {
             <SvgLogo />
           </Link>
         </header>
-        <Component {...pageProps} />
+        <Layout frontmatter={pageProps.markdoc.frontmatter}>
+          <Component {...pageProps} />
+        </Layout>
         <footer>
           <p>&copy; Jason Melgoza</p>
         </footer>

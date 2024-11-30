@@ -9,6 +9,8 @@ I'm interested in design systems, CSS, and icon design. Currently, I am a senior
 
 [Say Hi](https://google.com)
 
+[About](/about)
+
 #### Work
 
 - Bill
