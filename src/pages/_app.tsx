@@ -4,6 +4,13 @@ import Layout from "@/components/Layout";
 import LocalFont from "next/font/local";
 import "@/styles/globals.css";
 
+// Add proper typing
+interface MarkdocProps {
+  markdoc?: {
+    frontmatter?: Record<string, any>;
+  };
+}
+
 const geistSans = LocalFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -20,7 +27,7 @@ const TITLE = "Jason Melgoza";
 const DESCRIPTION =
   "I'm a product designer focusing on visual design, design systems, and front-end development.";
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }: AppProps & MarkdocProps) {
   const { markdoc } = pageProps;
 
   let title = TITLE;
@@ -45,7 +52,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout
-        frontmatter={pageProps.markdoc.frontmatter}
+        frontmatter={pageProps?.markdoc?.frontmatter || {}}
         className={`${geistSans.variable} ${geistMono.variable}`}
       >
         <Component {...pageProps} />

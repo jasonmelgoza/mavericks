@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 720px;
+  padding-right: min(6vw, 48px);
+  padding-bottom: min(6vw, 48px);
+  padding-left: min(6vw, 48px);
+  margin: 0 auto;
+
+  row-gap: min(6vw, 32px);
+}
+
+.root ul {
+  margin-left: 1rem;
+}
