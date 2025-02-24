@@ -10,7 +10,7 @@ Product & web designer based on California’s Central Coast, always looking for
 
 A design systems specialist with over 10 years of experience in SaaS product development.
 
-Currenly working at [Bill](https://www.bill.com/) on a cross-functional design systems team dedicated to creating user-friendly, web-based software.
+Currently, I am working at [Bill](https://www.bill.com/) on a cross-functional design systems team that focuses on creating user-friendly, web-based software.
 
 {% button text="Contact" email="jasonmelgoza@gmail.com" className="contact" /%}
 
@@ -63,9 +63,9 @@ Currenly working at [Bill](https://www.bill.com/) on a cross-functional design s
 ## Projects
 
 {% box className="flex flex-row flex-gap-md" %}
-  {% box %}
+{% box %}
 
-  ### Case Studies
+### Case Studies
 
     {% item
       heading="Designing a Document Browser"
@@ -82,11 +82,12 @@ Currenly working at [Bill](https://www.bill.com/) on a cross-functional design s
       href="projects/building-designkit"
       description="How I helped improve velocity and efficiency"
     /%}
-  {% /box %}
 
-  {% box %}
+{% /box %}
 
-  ### Ongoing
+{% box %}
+
+### Ongoing
 
     {% item
       heading="Basis Design System"
@@ -98,7 +99,8 @@ Currenly working at [Bill](https://www.bill.com/) on a cross-functional design s
       href="projects/metal-icons"
       description="Exploring React and deploying a library"
     /%}
-  {% /box %}
+
+{% /box %}
 {% /box %}
 {% /block %}
 
@@ -107,17 +109,18 @@ Currenly working at [Bill](https://www.bill.com/) on a cross-functional design s
 ## About Me
 
 {% box className="flex flex-row flex-gap-md" %}
-  {% box className="flex flex-col" %}
-    ![Jason Melgoza](./images/headshot.jpg)
-  {% /box %}
+{% box className="flex flex-col" %}
+![Jason Melgoza](./images/headshot.jpg)
+{% /box %}
 
-  {% box %}
-    In my teens, my sketchpad was my constant companion. Immersed in comic books, I was captivated by the art of illustrators like Jim Lee and Todd McFarlane. This passion led me to earn a degree in Art and Graphic Design from Fresno State.
+{% box %}
+In my teens, my sketchpad was my constant companion. Immersed in comic books, I was captivated by the art of illustrators like Jim Lee and Todd McFarlane. This passion led me to earn a degree in Art and Graphic Design from Fresno State.
 
     In college, my interest in technology flourished. Discovering Jeffrey Zeldman's "Designing with Web Standards" ignited my curiosity in HTML, CSS, and JavaScript, leading me to build my first website.
 
     Today, I create intuitive, visually appealing products, blending creativity and technical skills to craft solutions that meet both aesthetic and functional goals.
-  {% /box %}
+
+{% /box %}
 {% /box %}
 {% /block %}
 
@@ -126,31 +129,31 @@ Currenly working at [Bill](https://www.bill.com/) on a cross-functional design s
 ### Experience
 
 {% box className="flex flex-row flex-gap-md" %}
-  {% box %}
-    {% item
+{% box %}
+{% item
       heading="SecureDocs, Inc."
       subHeading="Senior product designer"
       description="Aug 2018 - Present · 5 yrs 10 mos"
     /%}
-    {% item
+{% item
       heading="RightScale"
       subHeading="Senior user interface designer "
       description="Aug 2012 - Aug 2018 · 6 yrs 1 mo"
     /%}
-  {% /box %}
+{% /box %}
 
-  {% box %}
-    {% item
+{% box %}
+{% item
       heading="University of California, Merced"
       subHeading="Web designer"
       description="Dec 2010 - Aug 2012 · 1 yr 9 mos"
     /%}
-    {% item
+{% item
       heading="The Fresno Bee"
       subHeading="Web designer"
       description="Apr 2007 - Dec 2010 · 3 yrs 9 mos"
     /%}
-  {% /box %}
+{% /box %}
 {% /box %}
 
 {% /block %}
@@ -160,40 +163,40 @@ Currenly working at [Bill](https://www.bill.com/) on a cross-functional design s
 ### Skills
 
 {% box className="flex flex-row flex-gap-md" %}
-  {% box %}
-    {% item 
+{% box %}
+{% item
       number="1."
       heading="Zero to One Product Design"
       description="Helping you tackle all design related aspects from research and strategy, to hands-on design."
     /%}
-    {% item 
+{% item
       number="2."
       heading="UX/UI Expertise"
       description="Crafting seamless, user-centric interfaces that enhance user experience and satisfaction."
     /%}
-    {% item 
+{% item
       number="3."
       heading="Design Strategy"
       description="Developing strategic design plans to align your product with user needs and business goals."
     /%}
-  {% /box %}
+{% /box %}
 
-  {% box %}
-    {% item 
+{% box %}
+{% item
       number="4."
       heading="User Research"
       description="Conducting in-depth user research to uncover insights that drive informed design decisions."
     /%}
-    {% item 
+{% item
       number="5."
       heading="Design Systems"
       description="Creating scalable design systems that maintain consistency across all platforms and products."
     /%}
-    {% item 
+{% item
       number="6."
       heading="Prototyping"
       description="Building interactive prototypes to test and refine ideas before full-scale development."
     /%}
-  {% /box %}
+{% /box %}
 {% /box %}
 {% /block %}
