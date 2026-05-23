@@ -198,7 +198,7 @@ Today, I create intuitive, visually appealing products, blending creativity and 
 {% item
       number="6."
       heading="AI-Augmented Design"
-      description="Researching emerging AI tools and facilitating workshops to explore how they fit into design system workflows."
+      description="Researching emerging AI tools and facilitating workshops to explore how they fit into design team workflows."
     /%}
 {% /box %}
 {% /box %}
