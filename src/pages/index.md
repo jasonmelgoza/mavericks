@@ -114,9 +114,9 @@ A design systems specialist with over 10 years of experience in product design �
 {% box %}
 In my teens, my sketchpad was my constant companion. Immersed in comic books, I was captivated by the art of illustrators like Jim Lee and Todd McFarlane. This passion led me to earn a degree in Art and Graphic Design from Fresno State.
 
-    In college, my interest in technology flourished. Discovering Jeffrey Zeldman's "Designing with Web Standards" ignited my curiosity in HTML, CSS, and JavaScript, leading me to build my first website.
+In college, my interest in technology flourished. Discovering Jeffrey Zeldman's "Designing with Web Standards" ignited my curiosity in HTML, CSS, and JavaScript, leading me to build my first website.
 
-    Today, I create intuitive, visually appealing products, blending creativity and technical skills to craft solutions that meet both aesthetic and functional goals.
+Today, I create intuitive, visually appealing products, blending creativity and technical skills to craft solutions that meet both aesthetic and functional goals.
 
 {% /box %}
 {% /box %}
@@ -129,13 +129,18 @@ In my teens, my sketchpad was my constant companion. Immersed in comic books, I 
 {% box className="flex flex-row flex-gap-md" %}
 {% box %}
 {% item
+      heading="Bill"
+      subHeading="Senior Product Designer, Design Systems"
+      startDate="2024-10-01"
+    /%}
+{% item
       heading="SecureDocs, Inc."
-      subHeading="Senior product designer"
-      description="Aug 2018 - Present · 5 yrs 10 mos"
+      subHeading="Senior Product Designer"
+      description="Aug 2018 - Aug 2024 · 6 yrs 1 mo"
     /%}
 {% item
       heading="RightScale"
-      subHeading="Senior user interface designer "
+      subHeading="Senior User Interface Designer"
       description="Aug 2012 - Aug 2018 · 6 yrs 1 mo"
     /%}
 {% /box %}
@@ -143,12 +148,12 @@ In my teens, my sketchpad was my constant companion. Immersed in comic books, I 
 {% box %}
 {% item
       heading="University of California, Merced"
-      subHeading="Web designer"
+      subHeading="Web Designer"
       description="Dec 2010 - Aug 2012 · 1 yr 9 mos"
     /%}
 {% item
       heading="The Fresno Bee"
-      subHeading="Web designer"
+      subHeading="Web Designer"
       description="Apr 2007 - Dec 2010 · 3 yrs 9 mos"
     /%}
 {% /box %}
@@ -164,8 +169,8 @@ In my teens, my sketchpad was my constant companion. Immersed in comic books, I 
 {% box %}
 {% item
       number="1."
-      heading="Zero to One Product Design"
-      description="Helping you tackle all design related aspects from research and strategy, to hands-on design."
+      heading="Design Systems"
+      description="Creating scalable design systems that maintain consistency across all platforms and products."
     /%}
 {% item
       number="2."
@@ -187,8 +192,8 @@ In my teens, my sketchpad was my constant companion. Immersed in comic books, I 
     /%}
 {% item
       number="5."
-      heading="Design Systems"
-      description="Creating scalable design systems that maintain consistency across all platforms and products."
+      heading="Zero to One Product Design"
+      description="Helping you tackle all design related aspects from research and strategy, to hands-on design."
     /%}
 {% item
       number="6."
