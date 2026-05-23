@@ -170,35 +170,35 @@ Today, I create intuitive, visually appealing products, blending creativity and 
 {% item
       number="1."
       heading="Design Systems"
-      description="Creating scalable design systems that maintain consistency across all platforms and products."
+      description="Creating scalable, governed design systems with the token architecture, documentation, and tooling that keep them alive."
     /%}
 {% item
       number="2."
-      heading="UX/UI Expertise"
-      description="Crafting seamless, user-centric interfaces that enhance user experience and satisfaction."
+      heading="Design System Strategy & Governance"
+      description="Evolving the operational layer of a design system — intake, decision-making, and cross-team alignment — so it scales with the organization."
     /%}
 {% item
       number="3."
-      heading="Design Strategy"
-      description="Developing strategic design plans to align your product with user needs and business goals."
+      heading="UX/UI Expertise"
+      description="Crafting seamless, user-centric interfaces grounded in systems thinking and a coherent design language."
     /%}
 {% /box %}
 
 {% box %}
 {% item
       number="4."
-      heading="User Research"
-      description="Conducting in-depth user research to uncover insights that drive informed design decisions."
+      heading="Design Strategy"
+      description="Developing strategic design plans that align your product with user needs, business goals, and scalable design decisions."
     /%}
 {% item
       number="5."
-      heading="Zero to One Product Design"
-      description="Helping you tackle all design related aspects from research and strategy, to hands-on design."
+      heading="Prototyping"
+      description="Building interactive prototypes to test and refine ideas, from early concepts to high-fidelity system components."
     /%}
 {% item
       number="6."
-      heading="Prototyping"
-      description="Building interactive prototypes to test and refine ideas before full-scale development."
+      heading="AI-Augmented Design"
+      description="Researching emerging AI tools and facilitating workshops to explore how they fit into design team workflows."
     /%}
 {% /box %}
 {% /box %}
