@@ -9,6 +9,7 @@ export default {
     heading: { type: String },
     href: { type: String },
     number: { type: Number },
+    startDate: { type: String },
     subHeading: { type: String },
   }
 }
