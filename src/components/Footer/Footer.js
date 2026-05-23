@@ -3,6 +3,7 @@ import { useGlitch } from 'react-powerglitch'
 import Box from '../Box/Box'
 import Button from '../Button/Button'
 import styles from './Footer.module.css'
+import { AsciiNoiseEffect } from './AsciiNoiseEffect'
 
 const SvgLogo = (props) => (
   <svg
@@ -37,7 +38,7 @@ export default function Footer() {
           <Box className='contact-button'>
             <Button text={"Let's Chat"} email='jasonmelgoza@gmail.com' />
           </Box>
-          <div className='contact-background' />
+          <AsciiNoiseEffect className='contact-background' />
         </div>
         <div className={styles.bottom}>
           <div className='bottom-group'>

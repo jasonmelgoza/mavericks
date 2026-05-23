@@ -36,9 +36,9 @@
   background: linear-gradient(60deg, rgba(242, 242, 242, 0.06) 13.4%, rgba(242, 242, 242, 0.09) 86.6%);
   border: 1px solid;
   border-top-color: rgba(255,255,255,0.175);
-  border-right-color: rgba(255,255,255,0.090);
-  border-bottom-color: rgba(255,255,255,0.070);
-  border-left-color: rgba(255,255,255,0.090);
+  border-right-color: rgba(255,255,255,0.015);
+  border-bottom-color: rgba(255,255,255,0.010);
+  border-left-color: rgba(255,255,255,0.015);
   border-radius: 0.625rem;
 
   gap: 3rem;
@@ -92,7 +92,6 @@
   bottom: 0;
   left: 0;
   z-index: 0;
-  background: url('/wave.gif') 50% / cover no-repeat;
   opacity: 0.2;
 }
 

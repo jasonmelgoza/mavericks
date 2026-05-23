@@ -88,14 +88,14 @@ A design systems specialist with over 10 years of experience in product design â
 ### Ongoing
 
     {% item
-      heading="Basis Design System"
-      href="projects/basis-design-system"
-      description="A small system built with Figma and Storybook"
-    /%}
-    {% item
       heading="Metal Icons"
       href="projects/metal-icons"
       description="Exploring React and deploying a library"
+    /%}
+    {% item
+      heading="Basis Design System"
+      href="projects/basis-design-system"
+      description="A small system built with Figma and Storybook"
     /%}
 
 {% /box %}
