@@ -32,7 +32,7 @@ export default function Footer() {
         <div className={styles.contact}>
           <div className='contact-header'>
             <h2>Let’s get started.</h2>
-            <p>I want to hear from you to get an awesome project started!</p>
+            <p>Have a project in mind? I'd love to hear about it.</p>
           </div>
           <Box className='contact-button'>
             <Button text={"Let's Chat"} email='jasonmelgoza@gmail.com' />

@@ -2,15 +2,13 @@
 
 # JASON MELGOZA
 
-Product & web designer based on California’s Central Coast, always looking for the next wave in design.
+Product designer based in California, crafting interfaces and chasing the next wave in design.
 
 {% /block %}
 
 {% block className="secondary" id="secondary" %}
 
-A design systems specialist with over 10 years of experience in SaaS product development.
-
-Currently, I am working at [Bill](https://www.bill.com/) on a cross-functional design systems team that focuses on creating user-friendly, web-based software.
+A design systems specialist with over 10 years of experience in product design — currently at [Bill](https://www.bill.com/), helping build the foundation that keeps product teams moving forward.
 
 {% button text="Contact" email="jasonmelgoza@gmail.com" className="contact" /%}
 
