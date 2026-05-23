@@ -12,7 +12,7 @@ A design systems specialist with over 10 years of experience in SaaS product dev
 
 Currently, I am working at [Bill](https://www.bill.com/) on a cross-functional design systems team that focuses on creating user-friendly, web-based software.
 
-{% button text="Contact" email="jasonmelgoza@gmail.com" className="contact" /%}
+{% button text="Let's Talk" email="jasonmelgoza@gmail.com" className="contact" /%}
 
 {% /block %}
 {% block className="work" id="work" %}
