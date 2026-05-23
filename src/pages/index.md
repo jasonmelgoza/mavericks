@@ -2,7 +2,7 @@
 
 # JASON MELGOZA
 
-Product designer based in California, crafting interfaces and chasing the next wave.
+Product designer based in California, crafting interfaces and chasing the next wave in design.
 
 {% /block %}
 
