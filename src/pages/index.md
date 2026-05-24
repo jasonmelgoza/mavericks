@@ -10,7 +10,7 @@ Product designer based in California, crafting interfaces and chasing the next w
 
 A design systems specialist with over 10 years of experience in product design — currently at [Bill](https://www.bill.com/), helping build the foundation that keeps product teams moving forward.
 
-{% button text="Let's Talk" email="jasonmelgoza@gmail.com" className="contact" /%}
+{% button text="Let's Talk" href="https://cal.com/jason-melgoza/30min" className="contact" /%}
 
 {% /block %}
 {% block className="work" id="work" %}
