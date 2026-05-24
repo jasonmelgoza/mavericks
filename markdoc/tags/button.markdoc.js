@@ -4,7 +4,7 @@ export default {
   render: Button,
   attributes: {
     className: { type: String },
-    email: { type: String },
+    href: { type: String },
     text: { type: String }
   }
 }

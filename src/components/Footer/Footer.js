@@ -36,7 +36,7 @@ export default function Footer() {
             <p>Have a project in mind? I'd love to hear about it.</p>
           </div>
           <Box className='contact-button'>
-            <Button text={"Let's Chat"} email='jasonmelgoza@gmail.com' />
+            <Button text={"Let's Chat"} href='https://cal.com/jason-melgoza/30min' />
           </Box>
           <AsciiNoiseEffect className='contact-background' />
         </div>
