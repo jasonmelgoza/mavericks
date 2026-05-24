@@ -45,18 +45,18 @@ export default function Footer() {
             <ul className='bottom-social'>
               <li>
                 <a
-                  href='https://bsky.app/profile/jmelgoza.com'
-                  target='_blank'
-                >
-                  <span ref={glitch.ref}>Bluesky</span>
-                </a>
-              </li>
-              <li>
-                <a
                   href='https://www.linkedin.com/in/jasonmelgoza/'
                   target='_blank'
                 >
                   <span ref={glitch.ref}>LinkedIn</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href='https://www.github.com/jasonmelgoza'
+                  target='_blank'
+                >
+                  <span ref={glitch.ref}>GitHub</span>
                 </a>
               </li>
               <li>
@@ -69,10 +69,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href='https://www.github.com/jasonmelgoza'
+                  href='https://bsky.app/profile/jmelgoza.com'
                   target='_blank'
                 >
-                  <span ref={glitch.ref}>GitHub</span>
+                  <span ref={glitch.ref}>Bluesky</span>
                 </a>
               </li>
             </ul>
