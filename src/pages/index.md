@@ -112,12 +112,11 @@ A design systems specialist with over 10 years of experience in product design �
 {% /box %}
 
 {% box %}
-In my teens, my sketchpad was my constant companion. Immersed in comic books, I was captivated by the art of illustrators like Jim Lee and Todd McFarlane. This passion led me to earn a degree in Art and Graphic Design from Fresno State.
+Growing up, I spent most of my time drawing — sketchpad in hand, endlessly inspired by the comic books stacked at my desk. I was drawn to the work of illustrators like Jim Lee and Todd McFarlane — artists who understood that great visuals and great storytelling go hand in hand. That passion led me to earn a degree in Art and Design from Fresno State.
 
-In college, my interest in technology flourished. Discovering Jeffrey Zeldman's "Designing with Web Standards" ignited my curiosity in HTML, CSS, and JavaScript, leading me to build my first website.
+During my time there, my curiosity shifted toward technology. I discovered authors like Jeffrey Zeldman and Dan Cederholm whose books and websites opened a new door — one that led me to HTML, CSS, JavaScript, and eventually my first website.
 
-Today, I create intuitive, visually appealing products, blending creativity and technical skills to craft solutions that meet both aesthetic and functional goals.
-
+Today, I bring that same intersection of craft and curiosity to product design — building intuitive interfaces and the design systems that power them.
 {% /box %}
 {% /box %}
 {% /block %}
