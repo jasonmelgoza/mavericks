@@ -49,13 +49,15 @@
   border: 1px solid var(--gray-a3);
 }
 
-.root a {
+.root p a,
+.root li a {
   font-weight: 550;
   color: var(--fg);
   text-decoration: underline;
 }
 
-.root a:hover {
+.root p a:hover,
+.root li a:hover {
   color: var(--red-9)
 }
 
